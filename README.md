@@ -48,7 +48,7 @@ Secrets : `DISCORD_WEBHOOK_URL` (obligatoire), `APEX_WEBHOOK_URL`, `ROLLOUT_WEBH
 
 Secret optionnel : `ALERT_WEBHOOK_URL` (salon d'alertes quand un workflow échoue).
 
-Variables d'environnement utiles : `WEBHOOK_MAX_ATTEMPTS` (5), `WEBHOOK_TIMEOUT_MS` (20000), `ARCHIVE_KEEP_BUILDS` (8), `COMMIT_MAX_ATTEMPTS` (8).
+Variables d'environnement utiles : `WEBHOOK_MAX_ATTEMPTS` (5), `WEBHOOK_TIMEOUT_MS` (20000), `ARCHIVE_KEEP_BUILDS` (8), `COMMIT_MAX_ATTEMPTS` (8), `MAX_CHUNK_SCAN_BYTES` (16 Mo), `USER_ROLLOUT_NOISE_Z` (2, seuil de bruit statistique ; 0 = désactivé).
 
 Variable optionnelle : `ORBIT_AVATAR_URL`. Par défaut, l'avatar est `media/datamining-avatar.png` servi par jsDelivr, ce qui ne fonctionne que si le dépôt est public. Sur un dépôt privé, définir `ORBIT_AVATAR_URL` vers une image PNG/JPG publique (Discord n'accepte pas le SVG).
 
@@ -92,3 +92,10 @@ python3 scripts/trigger_host.py
   - workflow d'alertes ;
   - Dependabot.
 - **CI** : couverture de code sous Node 22 et 72 tests (51 → 72), dont un test d'intégration git de `commit-state.sh` et des tests d'extraction sur un extrait réel du bundle Discord.
+
+### v2.4.1 (corrections issues des premiers runs réels)
+
+- **User rollouts** : les pourcentages estimés sur 150 tirages oscillaient (10 % → 12 % → 10 %), et chaque oscillation partait sur Discord. Un changement n'est plus annoncé que s'il dépasse la marge de bruit statistique (≈ 7 points pour 10 % sur 150 tirages).
+- **User rollouts** : le snapshot du token réessaie après un 429. Avant, il était perdu à chaque fois après l'échantillonnage.
+- **Shop** : `/shop/search` renvoie 400 (`ENUM_TYPE_COERCE`, types refusés par Discord). Le script s'arrête au premier 400 et logge la raison. Le catalogue (1688 items) reste complet.
+- **Scrape** : la limite de scan passe de 6 à 16 Mo, car un chunk de 6,15 Mo n'était jamais analysé. Les IDs Discord numériques ne sont plus pris pour des chunks (404 en moins).

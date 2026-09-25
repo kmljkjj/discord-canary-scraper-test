@@ -111,6 +111,22 @@ function estimateFromPoints(points, totalOk, scale = DEFAULT_SCALE) {
   };
 }
 
+/**
+ * Marge de bruit (en points de %) pour la différence entre deux estimations
+ * indépendantes faites chacune sur `samples` tirages.
+ * z * sqrt(2 · p(1-p) / n) · 100  (z = 2 ≈ 95 %).
+ * Ex. p = 10 %, n = 150 → ≈ 6,9 pts : un passage 10 % → 12 % est du bruit.
+ */
+function noiseMargin(pct, samples, z = 2) {
+  const n = Number(samples);
+  const p = Number(pct) / 100;
+  if (!Number.isFinite(n) || n <= 0 || !Number.isFinite(p) || z <= 0) return 0;
+  const q = Math.min(1, Math.max(0, p));
+  // plancher à 1/n pour ne pas annuler la marge aux extrêmes (0 % / 100 %)
+  const v = Math.max(q * (1 - q), 1 / n);
+  return Math.round(z * Math.sqrt((2 * v) / n) * 10000) / 100;
+}
+
 /** Classify old→new percentage (null-safe). minDelta in percent points. */
 function classifyChange(oldPct, newPct, minDelta = 1) {
   const o = oldPct == null || !Number.isFinite(Number(oldPct)) ? null : Number(oldPct);
@@ -144,6 +160,7 @@ function normalizeRanges(ranges) {
 }
 
 module.exports = {
+  noiseMargin,
   DEFAULT_SCALE,
   mergeIntervals,
   intervalsCoverage,

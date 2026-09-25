@@ -120,3 +120,22 @@ if (process.exitCode) {
 } else {
   console.log('All rollout_math tests passed');
 }
+
+// --- noiseMargin (node:test) ---
+{
+  const nodeTest = require('node:test');
+  const a = require('node:assert/strict');
+  const { noiseMargin, classifyChange: cc } = require('../src/lib/rollout_math');
+  nodeTest('noiseMargin : 10 % sur 150 tirages ≈ 6,9 pts → 10→12 ignoré', () => {
+    const m = noiseMargin(12, 150);
+    a.ok(m > 6 && m < 8, String(m));
+    a.equal(cc(10, 12, Math.max(1, m)).changeType, null);
+    a.equal(cc(10, 25, Math.max(1, m)).changeType, 'ROLLOUT_INCREASED');
+  });
+  nodeTest('noiseMargin : plus de tirages → marge plus petite, z=0 → désactivé', () => {
+    a.ok(noiseMargin(10, 1000) < noiseMargin(10, 150));
+    a.equal(noiseMargin(10, 150, 0), 0);
+    a.equal(noiseMargin(10, 0), 0);
+    a.ok(noiseMargin(0, 150) > 0, 'plancher aux extrêmes');
+  });
+}

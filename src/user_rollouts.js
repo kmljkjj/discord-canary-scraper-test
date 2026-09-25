@@ -30,6 +30,7 @@ const {
   mergeIntervals,
   estimateFromPoints,
   classifyChange,
+  noiseMargin,
   stableChangeFingerprint,
   DEFAULT_SCALE,
 } = require('./lib/rollout_math');
@@ -70,6 +71,8 @@ const DELAY_MS = Math.max(80, Math.min(5000, Number(process.env.USER_ROLLOUT_DEL
 const MIN_DELTA = Number(process.env.APEX_MIN_PCT_DELTA || 1);
 const MIN_OK = Math.max(10, Number(process.env.USER_ROLLOUT_MIN_OK || 25));
 const NOTIFY_HASH = String(process.env.USER_ROLLOUT_NOTIFY_HASH || '0') === '1';
+// z du seuil de bruit statistique (0 = désactivé). Évite les annonces 10 % → 12 % → 10 %.
+const NOISE_Z = Math.max(0, Number(process.env.USER_ROLLOUT_NOISE_Z ?? 2));
 const BOT = process.env.ORBIT_BOT_NAME || 'Datamining';
 const AVATAR =
   process.env.ORBIT_AVATAR_URL ||
@@ -550,7 +553,10 @@ async function main() {
         if (!oldT || !oldT.pctKnown || oldT.pct == null) continue;
         const from = Number(oldT.pct);
         const to = Number(t.pct);
-        const { changeType, change } = classifyChange(from, to, MIN_DELTA);
+        // Estimation par échantillonnage : ignorer les écarts sous la marge de bruit
+        const n = Math.min(Number(t.sampleCount || t.samples || 0), Number(oldT.sampleCount || oldT.samples || 0)) || Number(t.sampleCount || 0);
+        const margin = t.status === 'estimated' ? noiseMargin(Math.max(from, to), n, NOISE_Z) : 0;
+        const { changeType, change } = classifyChange(from, to, Math.max(MIN_DELTA, margin));
         if (!changeType || changeType === 'ROLLOUT_DATA_DEGRADED') continue;
         deltas.push({
           label: t.label,
