@@ -1,0 +1,39 @@
+name: Fix Blog with_components
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble and write blog_tracker.js
+        run: |
+          set -euo pipefail
+          python3 << 'EOF'
+          import base64, zlib, pathlib
+          parts = []
+          for i in range(4):
+              parts.append(pathlib.Path(f".github/payloads/blog_wc_{i}.b64").read_text().strip())
+          raw = base64.b64decode("".join(parts))
+          data = zlib.decompress(raw)
+          path = pathlib.Path("src/blog_tracker.js")
+          path.write_bytes(data)
+          text = data.decode()
+          assert "webhookUrlWithComponents" in text
+          assert "with_components" in text
+          print("wrote", path, "bytes", len(data))
+          EOF
+          node --check src/blog_tracker.js
+      - name: Commit
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/blog_tracker.js
+          git commit -m "fix(blog): require ?with_components=true for Components V2 webhooks" || echo "nothing"
+          git push
