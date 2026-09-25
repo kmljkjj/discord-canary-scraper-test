@@ -344,19 +344,8 @@ async function fetchTokenSnapshot(hashMap) {
   const out = [];
   for (const token of TOKENS.slice(0, 5)) {
     try {
-      const res = await fetch('https://canary.discord.com/api/v10/experiments', {
-        headers: {
-          'User-Agent': UA,
-          Authorization: token,
-          Accept: '*/*',
-        },
-        timeout: 25000,
-      });
-      if (!res.ok) {
-        console.warn('Token snapshot', res.status);
-        continue;
-      }
-      const data = await res.json();
+      // fetchAssignments gère les 429 (Retry-After) — avant : 1 seul essai, perdu après l'échantillonnage
+      const data = await fetchAssignments({ Authorization: token });
       for (const a of data.assignments || []) {
         if (!Array.isArray(a) || a.length < 3) continue;
         const hash = Number(a[0]);

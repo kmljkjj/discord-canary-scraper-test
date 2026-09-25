@@ -107,3 +107,10 @@ test('extractLocaleStrings : JSON.parse(...) + filtre des clés', () => {
   assert.equal(out['5UxMLx'], 'Buy Nitro');
   assert.equal(out.abcdef, undefined);
 });
+
+test('resolveAllChunkUrls ignore les IDs Discord numériques (évite les 404)', () => {
+  const urls = resolveAllChunkUrls(
+    '{1:"521847234246082599"} "521846918637420545.js" "0123456789abcdef01.js"',
+  );
+  assert.deepEqual(urls, ['https://canary.discord.com/assets/0123456789abcdef01.js']);
+});

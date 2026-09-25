@@ -23,7 +23,8 @@ const {
 // Priority path still starts with web.*; full chunks after unless disabled
 const FULL_CHUNKS = process.env.SCRAPE_FULL_CHUNKS !== '0';
 const DOWNLOAD_CSS = process.env.SCRAPE_CSS === '1';
-const MAX_CHUNK_SCAN_BYTES = Number(process.env.MAX_CHUNK_SCAN_BYTES || 6_000_000);
+// 16 Mo : un chunk de 6,15 Mo était ignoré avec l'ancienne limite (6 Mo)
+const MAX_CHUNK_SCAN_BYTES = Number(process.env.MAX_CHUNK_SCAN_BYTES || 16_000_000);
 const ASSET_BASE = 'https://canary.discord.com/assets/';
 
 function matchEnd(m) {
@@ -256,6 +257,7 @@ function resolveAllChunkUrls(webContent) {
   const re1 = /(\d{1,7}):["']([a-f0-9]{16,22})["']/g;
   let m;
   while ((m = re1.exec(webContent)) !== null) {
+    if (/^\d+$/.test(m[2])) continue;
     hashById.set(m[1], m[2]);
   }
   const reSci = /(\d+e\d+):["']([a-f0-9]{16,22})["']/gi;
@@ -265,7 +267,11 @@ function resolveAllChunkUrls(webContent) {
   }
   const reFile = /["']([a-f0-9]{16,22})\.js["']/g;
   const looseHashes = new Set();
-  while ((m = reFile.exec(webContent)) !== null) looseHashes.add(m[1]);
+  while ((m = reFile.exec(webContent)) !== null) {
+    // 100 % chiffres = ID Discord (snowflake), pas un hash de chunk → 404 garanti
+    if (/^\d+$/.test(m[1])) continue;
+    looseHashes.add(m[1]);
+  }
   const urls = [];
   const seen = new Set();
   for (const hash of hashById.values()) {

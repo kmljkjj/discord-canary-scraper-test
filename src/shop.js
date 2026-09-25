@@ -200,7 +200,10 @@ async function apiGet(pathAndQuery) {
         continue;
       }
       if (!res.ok) {
-        lastErr = 'HTTP ' + res.status;
+        const body = await res.text().catch(() => '');
+        lastErr = 'HTTP ' + res.status + (body ? ' ' + body.slice(0, 160) : '');
+        // 4xx = requête refusée : inutile d'essayer les autres hôtes
+        if (res.status >= 400 && res.status < 500) break;
         continue;
       }
       return await res.json();
@@ -338,6 +341,11 @@ async function fetchShopCatalog() {
       await sleep(250);
     } catch (e) {
       console.warn('shop/search type', itype, redact(e.message));
+      // endpoint refusé (400) → les autres types échoueront pareil
+      if (/HTTP 400/.test(String(e.message))) {
+        console.warn('shop/search désactivé pour ce run (HTTP 400)');
+        break;
+      }
     }
   }
 
