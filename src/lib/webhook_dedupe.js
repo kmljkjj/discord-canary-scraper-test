@@ -9,7 +9,11 @@
 const fs = require('fs-extra');
 const path = require('path');
 const crypto = require('crypto');
-const DEDUPE_FILE = path.join(__dirname, '..', '..', 'data', 'notify_dedupe.json');
+// NOTIFY_DEDUPE_FILE permet aux tests d'utiliser un fichier temporaire
+// (sinon ils écrasaient le vrai data/notify_dedupe.json → doubles notifications).
+const DEDUPE_FILE =
+  process.env.NOTIFY_DEDUPE_FILE ||
+  path.join(__dirname, '..', '..', 'data', 'notify_dedupe.json');
 const WINDOW_MS = 24 * 3600 * 1000;
 const CLAIM_STALE_MS = 5 * 60 * 1000;
 

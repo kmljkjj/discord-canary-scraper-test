@@ -6,7 +6,6 @@ const {
   intervalsCoverage,
   estimateFromPoints,
   classifyChange,
-  DEFAULT_SCALE,
 } = require('../src/lib/rollout_math');
 
 function test(name, fn) {

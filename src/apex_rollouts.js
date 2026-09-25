@@ -25,7 +25,7 @@ const WEBHOOK =
 const BOT = process.env.ORBIT_BOT_NAME || 'Datamining';
 const AVATAR =
   process.env.ORBIT_AVATAR_URL ||
-  'https://cdn.jsdelivr.net/gh/kmljkjj/discord-canary-scraper@main/assets/datamining-avatar.jpg';
+  'https://cdn.jsdelivr.net/gh/kmljkjj/discord-canary-scraper@main/media/datamining-avatar.png';
 const MIN_DELTA = Number(process.env.APEX_MIN_PCT_DELTA || '1');
 const YEAR_MIN = Number(process.env.APEX_RECENT_YEAR || '2024');
 const SCALE = 10000;

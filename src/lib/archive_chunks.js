@@ -11,7 +11,6 @@
  */
 const fs = require('fs-extra');
 const path = require('path');
-const crypto = require('crypto');
 
 const ENABLED = process.env.ARCHIVE_CHUNKS !== '0';
 const KEEP = Math.max(2, Number(process.env.ARCHIVE_KEEP_BUILDS || 8));

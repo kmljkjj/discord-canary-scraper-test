@@ -3,6 +3,13 @@ name: Deploy GitHub Pages
 on:
   push:
     branches: [main]
+    paths:
+      - 'docs/**'
+      - 'data/experiments.json'
+      - 'data/findings.json'
+      - 'data/routes.json'
+      - 'data/build.json'
+      - '.github/workflows/pages.yml'
   workflow_dispatch:
 
 permissions:
@@ -17,8 +24,12 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      enabled: ${{ steps.pages.outcome == 'success' }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
 
       - name: Sync experiments into docs
         run: |
@@ -36,8 +47,9 @@ jobs:
             cp docs/data/experiments.json docs/data/findings.json
             echo "Placeholder experiments.json"
           fi
-          [ -f data/routes.json ] && cp data/routes.json docs/data/routes.json || true
-          [ -f data/build.json ] && cp data/build.json docs/data/build.json || true
+          for f in routes build; do
+            if [ -f "data/$f.json" ]; then cp "data/$f.json" "docs/data/$f.json"; fi
+          done
 
       - name: Configure Pages
         id: pages
@@ -58,12 +70,11 @@ jobs:
 
   deploy:
     needs: build
-    if: needs.build.result == 'success'
+    if: needs.build.result == 'success' && needs.build.outputs.enabled == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        continue-on-error: true
         uses: actions/deploy-pages@v4

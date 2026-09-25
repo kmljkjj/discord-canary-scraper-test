@@ -3,11 +3,10 @@
  */
 const fs = require('fs-extra');
 const path = require('path');
-const fetch = require('node-fetch');
 const crypto = require('crypto');
 const { fetchBuild } = require('./lib/canary');
 const { analyzeAssets } = require('./lib/extract');
-const { loadState, saveState, makeRunId } = require('./lib/state');
+const { loadState, makeRunId } = require('./lib/state');
 const { notifyUrgent, notifyNormal } = require('./lib/notify');
 const { archiveBuildChunks, writeZipHint } = require('./lib/archive_chunks');
 const { writeJsonAtomic } = require('./lib/atomic');
@@ -35,11 +34,6 @@ const MIN_STRINGS_FOR_DIFF = 200;
 const MIN_ROUTES_FOR_DIFF = 50;
 const MIN_EXP_FOR_DIFF = 80;
 
-const BOT = process.env.ORBIT_BOT_NAME || 'Datamining';
-const AVATAR =
-  process.env.ORBIT_AVATAR_URL ||
-  'https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/72x72/1f50d.png';
-
 async function loadKnownIds(file, fromAlready) {
   const set = new Set();
   if (fromAlready) for (const id of ALREADY_NOTIFIED) set.add(String(id));
@@ -50,16 +44,6 @@ async function loadKnownIds(file, fromAlready) {
     }
   } catch {}
   return set;
-}
-
-async function saveKnownIds(file, set, maxKeep) {
-  let ids = [...set].filter((id) => id && !String(id).startsWith('hash:')).sort();
-  if (maxKeep && ids.length > maxKeep) ids = ids.slice(-maxKeep);
-  await writeJsonAtomic(file, {
-    updatedAt: new Date().toISOString(),
-    count: ids.length,
-    ids,
-  });
 }
 
 async function loadLastMap(file) {
@@ -81,15 +65,6 @@ async function loadLastMap(file) {
     console.warn('loadLastMap fail', file, e.message);
     return {};
   }
-}
-
-async function saveLastMap(file, data, buildNumber) {
-  await writeJsonAtomic(file, {
-    buildNumber: String(buildNumber),
-    updatedAt: new Date().toISOString(),
-    count: Object.keys(data || {}).length,
-    data,
-  });
 }
 
 function stableObject(value) {
@@ -145,42 +120,6 @@ function buildGap(prevBuild, remoteBuild) {
   return Math.max(0, b - a);
 }
 
-function variationKeySet(obj) {
-  if (!obj) return '';
-  if (obj.variations && typeof obj.variations === 'object')
-    return Object.keys(obj.variations)
-      .map(String)
-      .sort((a, b) => Number(a) - Number(b))
-      .join(',');
-  const n = obj.variationCount || 0;
-  if (n > 0) return Array.from({ length: n }, (_, i) => String(i)).join(',');
-  return '';
-}
-
-function isMeaningfulExpMod(prev, next) {
-  if (!prev || !next) return false;
-  const prevFp = prev.fp || prev.fingerprint;
-  const nextFp = next.fp || next.fingerprint || expFingerprint(next);
-  if (prevFp && nextFp && prevFp !== nextFp) {
-    const prevKeys = variationKeySet(prev);
-    const nextKeys = variationKeySet(next);
-    if (!prevKeys && !nextKeys) return false;
-    return true;
-  }
-  const prevKeys = variationKeySet(prev);
-  const nextKeys = variationKeySet(next);
-  const prevN = prevKeys ? prevKeys.split(',').filter(Boolean).length : 0;
-  const nextN = nextKeys ? nextKeys.split(',').filter(Boolean).length : 0;
-  if (prevN === 0 || nextN === 0) return false;
-  if (prevKeys !== nextKeys) return true;
-  const prevLabel = (prev.label || '').trim();
-  const nextLabel = (next.label || '').trim();
-  if (prevLabel && nextLabel && prevLabel !== nextLabel) return true;
-  const pk = (prev.kind || prev.type || '').toLowerCase();
-  const nk = (next.kind || next.type || '').toLowerCase();
-  if (pk && nk && pk !== nk) return true;
-  return false;
-}
 
 function computeExpDiff(findingsExps, lastExp, knownExp, opts) {
   // Build next snapshots for last_extract persistence
@@ -252,7 +191,6 @@ function computeExpDiff(findingsExps, lastExp, knownExp, opts) {
   const expDiff = experimentState.toNotifyExpDiff(rawDiff);
   return { expDiff, nextExpSnap, coverage, rawDiff };
 }
-
 
 async function main() {
   const t0 = Date.now();
@@ -343,7 +281,6 @@ async function main() {
   }
 
   let alreadyBuild = await wasBuildAnnounced(build.buildNumber);
-  let flashSent = false;
   if (isNewBuild && alreadyBuild) {
     console.log('BUILD already announced', build.buildNumber);
   }
@@ -558,7 +495,6 @@ async function main() {
   const {
     expDiff,
     nextExpSnap,
-    coverage: expCoverage,
     rawDiff,
   } = computeExpDiff(
     findings.experiments,
@@ -604,6 +540,12 @@ async function main() {
         if (!(k in nextRt)) rtDiff.removed[k] = v;
       }
       if (Object.keys(rtDiff.removed).length > 40) rtDiff.removed = {};
+    }
+    const rk = Object.keys(rtDiff.added);
+    if (rk.length > MAX_NOTIFY_RT) {
+      const keep = {};
+      for (const k of rk.slice(0, MAX_NOTIFY_RT)) keep[k] = rtDiff.added[k];
+      rtDiff.added = keep;
     }
   }
 
@@ -965,7 +907,6 @@ async function main() {
 
   console.log('=== Done', Date.now() - t0 + 'ms ===');
 }
-
 
 function mergeExp(prev, next) {
   const map = new Map();

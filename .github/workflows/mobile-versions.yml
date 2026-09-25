@@ -57,7 +57,7 @@ jobs:
           VER=$(node -e "try{const d=require('./data/mobile_versions.json');const c=(d.channels||[]).filter(x=>x.version).map(x=>x.platform+':'+x.version).slice(0,4).join(' ');console.log(c||'versions')}catch(e){console.log('versions')}")
           git commit -m "mobile versions: ${VER}"
           PUSHED=0
-          for i in 1 2 3 4 5; do
+          for _ in 1 2 3 4 5; do
             if git pull --rebase --autostash origin main && git push origin HEAD:main; then
               PUSHED=1
               break
@@ -71,6 +71,7 @@ jobs:
 
       - name: Mobile experiments from client files
         id: files
+        if: always() && steps.versions.outcome != 'cancelled'
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           MOBILE_DATAMINE_REPO: ${{ secrets.MOBILE_DATAMINE_REPO }}
@@ -90,7 +91,7 @@ jobs:
           fi
           git commit -m "mobile files: experiments state"
           PUSHED=0
-          for i in 1 2 3 4 5; do
+          for _ in 1 2 3 4 5; do
             if git pull --rebase --autostash origin main && git push origin HEAD:main; then
               PUSHED=1
               break

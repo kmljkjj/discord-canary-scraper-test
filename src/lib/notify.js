@@ -10,10 +10,9 @@ const BOT = process.env.ORBIT_BOT_NAME || process.env.WEBHOOK_BOT_NAME || 'Datam
 const AVATAR =
   process.env.ORBIT_AVATAR_URL ||
   process.env.WEBHOOK_AVATAR_URL ||
-  'https://cdn.jsdelivr.net/gh/kmljkjj/discord-canary-scraper@main/assets/datamining-avatar.jpg';
+  'https://cdn.jsdelivr.net/gh/kmljkjj/discord-canary-scraper@main/media/datamining-avatar.png';
 
 const {
-  wasPosted,
   markPosted,
   markFailed,
   claimPosted,

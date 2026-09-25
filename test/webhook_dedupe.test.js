@@ -5,8 +5,12 @@ const assert = require('node:assert/strict');
 const path = require('path');
 const fs = require('fs-extra');
 
-const DATA = path.join(__dirname, '..', 'data');
+const os = require('os');
+
+// Répertoire temporaire isolé : ne JAMAIS toucher au vrai data/notify_dedupe.json
+const DATA = fs.mkdtempSync(path.join(os.tmpdir(), 'dedupe-test-'));
 const DEDUPE = path.join(DATA, 'notify_dedupe.json');
+process.env.NOTIFY_DEDUPE_FILE = DEDUPE;
 
 async function freshModule() {
   await fs.ensureDir(DATA);

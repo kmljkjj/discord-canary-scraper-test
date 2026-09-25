@@ -44,7 +44,7 @@ jobs:
           DISCORD_USER_TOKEN: ${{ secrets.DISCORD_USER_TOKEN }}
           DISCORD_USER_TOKEN_1: ${{ secrets.DISCORD_USER_TOKEN_1 }}
           ORBIT_BOT_NAME: Datamining
-          ORBIT_AVATAR_URL: https://cdn.jsdelivr.net/gh/kmljkjj/discord-canary-scraper@main/assets/datamining-avatar.jpg
+          ORBIT_AVATAR_URL: ${{ vars.ORBIT_AVATAR_URL || format('https://cdn.jsdelivr.net/gh/{0}@main/media/datamining-avatar.png', github.repository) }}
         run: node src/shop.js
 
       - name: Save shop state (conflict-proof)

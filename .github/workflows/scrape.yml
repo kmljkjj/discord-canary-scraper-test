@@ -26,6 +26,7 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: '22'
+          cache: npm
 
       - name: Install dependencies
         run: |
@@ -45,7 +46,9 @@ jobs:
           SCRAPE_CSS: '0'
           DOWNLOAD_CONCURRENCY: '24'
           DOWNLOAD_RETRIES: '4'
+          ARCHIVE_KEEP_BUILDS: '8'
           ORBIT_BOT_NAME: ${{ secrets.ORBIT_BOT_NAME }}
+          ORBIT_AVATAR_URL: ${{ vars.ORBIT_AVATAR_URL || format('https://cdn.jsdelivr.net/gh/{0}@main/media/datamining-avatar.png', github.repository) }}
           EMOJI_ADDED: ${{ secrets.EMOJI_ADDED }}
           EMOJI_MODIFIED: ${{ secrets.EMOJI_MODIFIED }}
           EMOJI_REMOVED: ${{ secrets.EMOJI_REMOVED }}
@@ -83,11 +86,12 @@ jobs:
             data/meta.json \
             data/generation.json \
             data/cache/ 2>/dev/null || true
-          for d in data/builds/*/; do
-            [ -d "$d" ] || continue
-            git add -f "${d}manifest.json" 2>/dev/null || true
-            git add -f "${d}"web.*.js 2>/dev/null || true
-          done
+          # Archives : src/lib/archive_chunks.js écrit dans builds/ (pas data/builds/).
+          # -A pour aussi committer les suppressions des vieux builds (ARCHIVE_KEEP_BUILDS).
+          # builds/*/files/ reste ignoré via .gitignore.
+          if [ -d builds ]; then
+            git add -A -- builds/ 2>/dev/null || true
+          fi
           if git diff --cached --quiet; then
             echo "No baseline changes"
             exit 0

@@ -11,7 +11,6 @@
  */
 const fs = require('fs-extra');
 const path = require('path');
-const fetch = require('node-fetch');
 const {
   downloadList,
   assertWebBundle,
@@ -20,9 +19,6 @@ const {
   resetDownloadStats,
   DOWNLOAD_CONCURRENCY,
 } = require('./download');
-
-const UA =
-  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
 
 // Priority path still starts with web.*; full chunks after unless disabled
 const FULL_CHUNKS = process.env.SCRAPE_FULL_CHUNKS !== '0';

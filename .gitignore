@@ -21,3 +21,7 @@ canary-*-chunks.zip
 .DS_Store
 .idea/
 .vscode/
+
+# générations de données temporaires (publish_data.js)
+data/.generations/
+*.tmp-*

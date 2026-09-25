@@ -1,6 +1,6 @@
 {
   "name": "discord-canary-scraper",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "private": true,
   "description": "Discord Canary datamining — builds, experiments, strings, routes",
   "main": "src/index.js",
@@ -9,8 +9,16 @@
     "scrape": "node src/index.js",
     "quests": "node src/quests.js",
     "mobile": "node src/mobile_versions.js",
-    "check": "node --check src/index.js && node --check src/lib/extract.js && node --check src/lib/notify.js && node --check src/lib/state.js && node --check src/lib/download.js && node --check src/lib/canary.js && node --check src/lib/webhook_dedupe.js && node --check src/lib/experiment_state.js && node --check src/lib/experiment_percentages.js && node --check src/lib/publish_data.js && node --check src/quests.js && node --check src/apex_rollouts.js && node --check src/x_watch.js && node --check src/mobile_versions.js && node --check src/mobile_from_files.js",
-    "test": "node --test test/experiment_state.test.js test/experiment_percentages.test.js test/publish_data.test.js"
+    "apex": "node src/apex_rollouts.js",
+    "user-rollouts": "node src/user_rollouts.js",
+    "shop": "node src/shop.js",
+    "blog": "node src/blog_tracker.js",
+    "x-news": "node src/x_news.js",
+    "x-watch": "node src/x_watch.js",
+    "check": "node scripts/check.js",
+    "test": "node --test test/",
+    "lint": "eslint .",
+    "verify": "npm run check && npm run lint && npm test"
   },
   "engines": {
     "node": ">=20.18.1"
@@ -19,5 +27,9 @@
     "cheerio": "1.2.0",
     "fs-extra": "^11.2.0",
     "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.5",
+    "globals": "^15.15.0"
   }
 }

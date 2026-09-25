@@ -6,7 +6,7 @@ Ne lance GitHub Actions QUE si le BUILD_NUMBER Canary a changé.
 Sinon : un simple check HTTP, zéro spam Actions.
 
 Setup:
-  1. TOKEN = PAT classic (repo + workflow) ci-dessous ou env GITHUB_TOKEN
+  1. export GITHUB_TOKEN=... (PAT classic : repo + workflow)
   2. python3 scripts/trigger_host.py
 
 Env:
@@ -24,7 +24,7 @@ import urllib.error
 import urllib.request
 
 TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN") or ""
-# TOKEN = "ghp_xxx"  # décommente et colle ici si besoin
+# Ne jamais coller de token dans ce fichier : utiliser la variable d’environnement GITHUB_TOKEN.
 
 REPO = os.environ.get("GITHUB_REPO", "kmljkjj/discord-canary-scraper")
 EVENT = "trigger-scraping"

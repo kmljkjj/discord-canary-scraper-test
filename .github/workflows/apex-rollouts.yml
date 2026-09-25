@@ -10,6 +10,7 @@ on:
 permissions:
   contents: write
 
+# Ne jamais annuler un run en pleine sauvegarde (sinon spam du même % au run suivant)
 concurrency:
   group: apex-rollouts
   cancel-in-progress: false
@@ -21,139 +22,23 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - uses: actions/setup-node@v5
         with:
           node-version: "22"
+          cache: npm
 
-      - name: Heal apex_rollouts.js if corrupted
-        run: |
-          set -euo pipefail
-          SZ=$(wc -c < src/apex_rollouts.js || echo 0)
-          echo "apex size=$SZ"
-          if [ "$SZ" -lt 5000 ] || grep -q 'SEE_FILE\|PLACEHOLDER' src/apex_rollouts.js 2>/dev/null; then
-            echo "apex corrupted — restoring from git history"
-            GOOD=""
-            for c in $(git log --pretty=format:%H -40 -- src/apex_rollouts.js); do
-              csz=$(git show "$c:src/apex_rollouts.js" 2>/dev/null | wc -c || echo 0)
-              if [ "$csz" -gt 10000 ]; then
-                GOOD=$c
-                break
-              fi
-            done
-            echo "GOOD=$GOOD"
-            test -n "$GOOD"
-            git show "$GOOD:src/apex_rollouts.js" > src/apex_rollouts.js
-            # Apply transactional patch if not already present
-            if ! grep -q 'announced NOT advanced' src/apex_rollouts.js; then
-              python3 << 'PY'
-          from pathlib import Path
-          src = Path('src/apex_rollouts.js').read_text()
-          marker = '  for (const e of compact) {\n    if (e.id && e.fingerprint) announced[e.id] = e.fingerprint;\n  }'
-          idx = src.find(marker)
-          if idx < 0:
-              print('marker not found — leave as restored')
-          else:
-              end = src.find('if (require.main === module)', idx)
-              new_tail = '''  async function writeState(announcedMap) {
-    await fs.writeJson(
-      STATE_FILE,
-      {
-        scrapedAt: new Date().toISOString(),
-        count: compact.length,
-        experiments: compact,
-        announced: announcedMap,
-      },
-      { spaces: 2 },
-    );
-  }
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
 
-  if (isFirst) {
-    const seedAnn = { ...announced };
-    for (const e of compact) {
-      if (e.id && e.fingerprint) seedAnn[e.id] = e.fingerprint;
-    }
-    await writeState(seedAnn);
-    console.log('Seed', compact.length, '- no notify');
-    return;
-  }
-
-  if (!(diff.added.length || diff.changed.length || diff.removed.length)) {
-    await writeState(announced);
-    console.log('No significant % change');
-    return;
-  }
-
-  if (!WEBHOOK) {
-    await writeState(announced);
-    console.warn('No webhook - state saved without advancing announced');
-    return;
-  }
-
-  const embeds = buildEmbeds(diff);
-  const sent = await postWebhook(embeds);
-  console.log('Webhook', sent.status, sent.ok ? 'OK' : sent.text);
-  if (sent.ok) {
-    const nextAnn = { ...announced };
-    for (const e of diff.added) if (e && e.id) nextAnn[e.id] = pctKey(e);
-    for (const c of diff.changed) if (c.after && c.after.id) nextAnn[c.after.id] = pctKey(c.after);
-    for (const e of diff.removed) if (e && e.id) nextAnn[e.id] = 'REMOVED';
-    for (const e of compact) {
-      if (e.id && e.fingerprint && nextAnn[e.id] !== 'REMOVED') {
-        if (!(e.id in nextAnn) || nextAnn[e.id] === e.fingerprint) nextAnn[e.id] = e.fingerprint;
-      }
-    }
-    await writeState(nextAnn);
-    console.log('Done - announced advanced after successful webhook');
-  } else {
-    await writeState(announced);
-    console.warn('Webhook failed - announced NOT advanced (will retry next run)');
-    process.exit(2);
-  }
-}
-
-'''
-              src = src[:idx] + new_tail + src[end:]
-              needle = '  let diff = diffExperiments(prev, experiments);'
-              guard = """  if (!isFirst && prev.length >= 20 && experiments.length < Math.max(5, prev.length * 0.4)) {
-    console.error('APEX_DEGRADED: collection too small vs previous', {
-      prev: prev.length,
-      now: experiments.length,
-    });
-    process.exit(1);
-  }
-
-"""
-              if 'APEX_DEGRADED' not in src and needle in src:
-                  src = src.replace(needle, guard + needle)
-              Path('src/apex_rollouts.js').write_text(src)
-              print('transactional patch applied', len(src))
-          PY
-            fi
-            node --check src/apex_rollouts.js
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add src/apex_rollouts.js
-            git commit -m "fix: restore apex_rollouts.js transactional" || true
-            git push origin HEAD:main || true
-            echo "healed apex size=$(wc -c < src/apex_rollouts.js)"
-          else
-            echo "apex looks healthy"
-            node --check src/apex_rollouts.js
-          fi
-
-      - name: Install npm packages
-        run: |
-          if [ -f package-lock.json ]; then
-            npm ci --no-audit --no-fund || npm install --no-audit --no-fund
-          else
-            npm install --no-audit --no-fund
-          fi
+      - name: Syntax check
+        run: node --check src/apex_rollouts.js
 
       - name: Track Apex rollout percentages
         id: apex
         env:
+          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
           DISCORD_USER_TOKENS: ${{ secrets.DISCORD_USER_TOKENS }}
           DISCORD_USER_TOKEN: ${{ secrets.DISCORD_USER_TOKEN }}
           DISCORD_USER_TOKEN_1: ${{ secrets.DISCORD_USER_TOKEN_1 }}
@@ -165,13 +50,14 @@ jobs:
           ROLLOUT_WEBHOOK_URL: ${{ secrets.ROLLOUT_WEBHOOK_URL }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           APEX_MIN_PCT_DELTA: "2"
-          APEX_RECENT_YEAR: "2024"
+          APEX_RECENT_YEAR: "2025"
           ORBIT_BOT_NAME: Datamining
-          ORBIT_AVATAR_URL: https://cdn.jsdelivr.net/gh/kmljkjj/discord-canary-scraper@main/assets/datamining-avatar.svg
+          ORBIT_AVATAR_URL: ${{ vars.ORBIT_AVATAR_URL || format('https://cdn.jsdelivr.net/gh/{0}@main/media/datamining-avatar.png', github.repository) }}
         run: node src/apex_rollouts.js
 
+      # exit 2 = webhook en échec : l'état a été écrit SANS avancer "announced" → on le sauvegarde quand même
       - name: Save apex state
-        if: success()
+        if: always() && steps.apex.outcome != 'cancelled'
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
@@ -195,3 +81,7 @@ jobs:
             echo "ERROR: could not push apex state"
             exit 1
           fi
+
+      - name: Fail if tracker failed
+        if: always() && steps.apex.outcome == 'failure'
+        run: exit 1
