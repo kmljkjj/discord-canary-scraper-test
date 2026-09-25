@@ -1,7 +1,7 @@
 {
-  "runId": "2026-09-25T18-27-34-962Z_621556_tk3pyb",
-  "buildNumber": "621556",
-  "updatedAt": "2026-09-25T18:27:34.962Z",
+  "runId": "2026-09-25T18-42-54-227Z_621589_m3lz32",
+  "buildNumber": "621589",
+  "updatedAt": "2026-09-25T18:42:54.227Z",
   "count": 359,
   "experiments": [
     {
@@ -12,7 +12,9 @@
       "label": "Display QS scores in results. Not a real experiment",
       "title": "Display QS scores in results. Not a real experiment",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "showScores": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -38,7 +40,10 @@
       "label": "Runtime Accessibility System",
       "title": "Runtime Accessibility System",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false,
+        "reporting": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -67,7 +72,9 @@
       "label": "Student hub study group",
       "title": "Student hub study group",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableStudyGroup": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -93,7 +100,9 @@
       "label": "Inferno Spam Redaction",
       "title": "Inferno Spam Redaction",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -141,7 +150,9 @@
       "label": "Voice in Threads",
       "title": "Voice in Threads",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -167,7 +178,9 @@
       "label": "Disable mass mentions for communities by default",
       "title": "Disable mass mentions for communities by default",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -193,7 +206,9 @@
       "label": "Automod Mention Raid Limit",
       "title": "Automod Mention Raid Limit",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -219,7 +234,9 @@
       "label": "Guest Voice Invites",
       "title": "Guest Voice Invites",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -245,7 +262,9 @@
       "label": "Safety Experience Unauthenticated Report Form",
       "title": "Safety Experience Unauthenticated Report Form",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -274,7 +293,9 @@
       "label": "Safety Experience IAR User Reporting",
       "title": "Safety Experience IAR User Reporting",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -301,15 +322,32 @@
       "title": "RTC Pacer & Golive Simulcast",
       "description": null,
       "defaultConfig": {
-        "fullname": "bandwidth_estimation/trendline-window-duration-3750,robust-estimator/"
+        "enabled": true,
+        "fullname": "bandwidth_estimation/trendline-window-duration-3750,robust-estimator/",
+        "simulcastEnabled": false
       },
       "variations": {
         "1": {
           "id": 1
+        },
+        "2": {
+          "id": 2
+        },
+        "3": {
+          "id": 3
+        },
+        "4": {
+          "id": 4
+        },
+        "5": {
+          "id": 5
+        },
+        "6": {
+          "id": 6
         }
       },
       "treatments": null,
-      "variationCount": 1,
+      "variationCount": 6,
       "guildPercentage": {
         "status": "unknown",
         "value": null
@@ -318,7 +356,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "7edeb70e1df04e9baf819e1e96e5cbbfb4a569317c7e329b632f25dd4f69dd17"
+      "fingerprint": "a759dfa4fe7da54af9a793c75a9be1a2593e0c64f998f66421f9b42681a0e522"
     },
     {
       "id": "2025-01-allow-nonstaff-to-preview-app-collections",
@@ -328,7 +366,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -354,7 +394,11 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "largerGuildIcons": false,
+        "darkerGuildListBackground": false,
+        "distinctBorders": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -392,7 +436,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -421,7 +467,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -447,7 +495,11 @@
       "label": "Native Intents",
       "title": "Native Intents",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "searchEnabled": false,
+        "clearEnabled": false,
+        "activityEnabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -516,20 +568,16 @@
       "label": "GameServer Enabled",
       "title": "GameServer Enabled",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
-        "0": {
-          "id": 0
-        },
         "1": {
           "id": 1
-        },
-        "2": {
-          "id": 2
         }
       },
       "treatments": null,
-      "variationCount": 3,
+      "variationCount": 1,
       "guildPercentage": {
         "status": "unknown",
         "value": null
@@ -538,7 +586,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "d5abbd8a84d82a0f3c5357bf4f673d13d6ffdbb1aa23393bdfce6b4df6f56bdc"
+      "fingerprint": "c18970e6d7833b9f6f7c29d1c00645b877df85f93d29c5ace8ba513419071987"
     },
     {
       "id": "2025-08-browser-hevc",
@@ -548,7 +596,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -574,7 +624,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -635,7 +687,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -667,7 +721,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -693,7 +749,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -719,7 +777,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -745,7 +805,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "externalAnalyticsEnabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -774,7 +836,9 @@
       "label": "Community Account Linking",
       "title": "Community Account Linking",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -800,7 +864,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableCustomCursors": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -829,7 +895,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -855,7 +923,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -913,7 +983,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -936,10 +1008,12 @@
       "kind": "user",
       "type": "user",
       "system": "apex",
-      "label": "None",
-      "title": "None",
+      "label": "Calendar",
+      "title": "Calendar",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -955,7 +1029,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "ee618967a49a73fd3d8ee6972e4d1f7b0ab5971c013aa012bd393abb590308b3"
+      "fingerprint": "4cd6e36cf01d92d497323b38018e31a3098d0d9fa78b206dfcecdf2a62a976f7"
     },
     {
       "id": "2025-11_tida_webform",
@@ -965,7 +1039,9 @@
       "label": "Tida Webform",
       "title": "Tida Webform",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "tidaWebformEnabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -991,7 +1067,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1017,7 +1095,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1043,7 +1123,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "isHidden": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1069,7 +1151,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1095,7 +1179,11 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "hasChat": false,
+        "hasFriendList": false,
+        "showNowPlayingForDifferentGames": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1127,7 +1215,11 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "altTitle": false,
+        "altBody": false,
+        "altCta": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -1156,7 +1248,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1182,7 +1276,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1208,7 +1304,10 @@
       "label": "Voice Channel Hoisting",
       "title": "Voice Channel Hoisting",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableWaveformIcon": false,
+        "enableHighlight": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1237,7 +1336,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -1266,7 +1367,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1292,7 +1395,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -1321,7 +1426,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1387,7 +1494,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1413,7 +1522,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1448,7 +1559,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1518,7 +1631,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1544,7 +1659,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "hasBugReporterAccess": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1570,7 +1687,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -1599,7 +1718,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1628,7 +1749,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "guildFriendsEnabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1654,7 +1777,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1680,7 +1805,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -1709,7 +1836,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1735,7 +1864,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1761,7 +1892,9 @@
       "label": "Game Claim Coachmark",
       "title": "Game Claim Coachmark",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1787,7 +1920,9 @@
       "label": "Hangout Window",
       "title": "Hangout Window",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableHangoutWindow": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1813,7 +1948,9 @@
       "label": "Past VC Activity Messages",
       "title": "Past VC Activity Messages",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1839,7 +1976,10 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "copyChanges": false,
+        "upsell": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -1871,7 +2011,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "announcementComposer": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1931,7 +2073,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -1957,7 +2101,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -1986,7 +2132,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2012,7 +2160,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -2041,7 +2191,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "hasFriendList": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2067,7 +2219,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2093,7 +2247,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2119,7 +2275,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2176,7 +2334,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2202,7 +2362,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2228,7 +2390,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2285,7 +2449,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2311,7 +2477,11 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "audioOutputPresent": true,
+        "nonContextualStreamOutputPresent": true,
+        "showTileVolumeIndicator": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2337,7 +2507,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2363,7 +2535,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2389,7 +2563,10 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableObfuscation": false,
+        "enableIntegrityCheck": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2421,7 +2598,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -2515,7 +2694,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "navigateOnly": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2541,7 +2722,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2567,7 +2750,9 @@
       "label": "Game Server Pricing",
       "title": "Game Server Pricing",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2593,7 +2778,9 @@
       "label": "Guild Official Messages",
       "title": "Guild Official Messages",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2619,7 +2806,9 @@
       "label": "Display Voice Channel Badge",
       "title": "Display Voice Channel Badge",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -2648,7 +2837,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2674,7 +2865,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -2703,7 +2896,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -2732,7 +2927,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2758,9 +2955,7 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": {
-        "condition": "none"
-      },
+      "defaultConfig": null,
       "variations": {
         "1": {
           "id": 1
@@ -2786,7 +2981,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2812,7 +3009,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "allowPlayStationStaging": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2838,7 +3037,10 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableClips": false,
+        "ignorePlatformRestriction": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2863,11 +3065,14 @@
       "id": "2026-03-content-inventory-memberlist-and-ranker",
       "kind": "user",
       "type": "user",
-      "system": "legacy",
-      "label": "Next iteration of the activity feed ranking model.",
-      "title": "Next iteration of the activity feed ranking model.",
+      "system": "apex",
+      "label": null,
+      "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": true,
+        "impressionCappingEnabled": true
+      },
       "variations": {
         "0": {
           "id": 0
@@ -2883,7 +3088,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "8b465ff2a1838eb929983563a81eb64ce36956c5b09cb319c6163888201ef66a"
+      "fingerprint": "5cc0b3d6a906a9b103739f4ef18f0575cb4e2a6103d8cf30bc410a9997bb7231"
     },
     {
       "id": "2026-03-conversation-highlighting-utility",
@@ -2893,7 +3098,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -2922,7 +3129,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -3012,7 +3221,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3038,7 +3249,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "icymiDesktopEnabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3064,7 +3277,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3090,7 +3305,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -3122,7 +3339,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3174,7 +3393,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -3203,7 +3424,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -3232,7 +3455,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3261,7 +3486,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -3291,6 +3518,7 @@
       "title": null,
       "description": null,
       "defaultConfig": {
+        "enabled": false,
         "variant": 0
       },
       "variations": {
@@ -3324,7 +3552,10 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false,
+        "showCta": true
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3385,7 +3616,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -3420,7 +3653,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -3455,7 +3690,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3481,7 +3718,10 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false,
+        "showSoundmojiInEmojiPicker": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3510,7 +3750,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -3539,7 +3781,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableSurfaceDirectRenderer": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3565,7 +3809,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "overrideDeviceReuse": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3591,7 +3837,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3617,7 +3865,9 @@
       "label": "Application Identity Linked Roles",
       "title": "Application Identity Linked Roles",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3643,7 +3893,9 @@
       "label": "Guild Verification Role",
       "title": "Guild Verification Role",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3669,14 +3921,25 @@
       "label": "Server Theme",
       "title": "Server Theme",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false,
+        "inExperiment": false,
+        "gatesApex": false,
+        "rollbackEnabled": false
+      },
       "variations": {
+        "0": {
+          "id": 0
+        },
         "1": {
           "id": 1
+        },
+        "2": {
+          "id": 2
         }
       },
       "treatments": null,
-      "variationCount": 1,
+      "variationCount": 3,
       "guildPercentage": {
         "status": "unknown",
         "value": null
@@ -3685,7 +3948,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "bd5580e43e984c66859bbd7a29909dda8e80fef1480bc758590f034554716760"
+      "fingerprint": "8dc1a02277ae8338683ddd95229f1ef59ee1e249ce853ea9b7107af5c1eed372"
     },
     {
       "id": "2026-04_voice_call_trigger_point",
@@ -3695,7 +3958,9 @@
       "label": "Voice Call Trigger Point Experiment",
       "title": "Voice Call Trigger Point Experiment",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3721,7 +3986,9 @@
       "label": "Voice User Duration",
       "title": "Voice User Duration",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3747,7 +4014,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -3776,7 +4045,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3802,7 +4073,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableClipsV3ML": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3831,7 +4104,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3893,7 +4168,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3919,7 +4196,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -3979,7 +4258,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4005,7 +4286,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4031,7 +4314,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4057,7 +4342,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4083,7 +4370,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "showButton": true
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4139,7 +4428,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4165,7 +4456,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -4194,7 +4487,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -4223,7 +4518,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4249,7 +4546,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4333,7 +4632,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4359,7 +4660,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -4388,7 +4691,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -4413,9 +4718,9 @@
       "id": "2026-04-server-boost-copy-1440p",
       "kind": "user",
       "type": "user",
-      "system": "legacy",
-      "label": "Server Theme",
-      "title": "Server Theme",
+      "system": "apex",
+      "label": null,
+      "title": null,
       "description": null,
       "defaultConfig": null,
       "variations": {
@@ -4433,7 +4738,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "12934861ee7b34973737c873160705f230ab762798ccbda8050f2482a5c08ce5"
+      "fingerprint": "58871fbca704d642edc3ae3d3375e66f65519000e6ec3f74ab65fea4d7868639"
     },
     {
       "id": "2026-04-topical-navigation-staff-control",
@@ -4443,7 +4748,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4469,7 +4776,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "showSettingsToggle": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4501,7 +4810,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "performanceAnalyticsEnabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -4530,7 +4841,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4556,7 +4869,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4582,7 +4897,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4605,8 +4922,8 @@
       "kind": "guild",
       "type": "guild",
       "system": "apex",
-      "label": "14 days",
-      "title": "14 days",
+      "label": "Default Invite Expiration Guild Web",
+      "title": "Default Invite Expiration Guild Web",
       "description": null,
       "defaultConfig": {
         "defaultMaxAge": 604800
@@ -4632,7 +4949,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "c48538b38b1c66acb6fad5c04f208c8cb1ed9d12a56933a53bd52b3dfb0fa73b"
+      "fingerprint": "8913e97a60f2154d1cf1807694a907fe4765c639345b7fa21f2f8371b49be85b"
     },
     {
       "id": "2026-05_voice_channel_list_invite_embed",
@@ -4642,7 +4959,9 @@
       "label": "Voice Channel List Invite Embed",
       "title": "Voice Channel List Invite Embed",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4668,7 +4987,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4694,7 +5015,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4720,7 +5043,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableAutoClipsReview": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4742,9 +5067,9 @@
       "id": "2026-05-av1-bitrate-tuning",
       "kind": "user",
       "type": "user",
-      "system": "legacy",
-      "label": "RTC Pacer & Golive Simulcast",
-      "title": "RTC Pacer & Golive Simulcast",
+      "system": "apex",
+      "label": null,
+      "title": null,
       "description": null,
       "defaultConfig": {
         "bitrate": 35
@@ -4769,7 +5094,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "69f03f8f52d46077f51b37e6640e020a6804ed6b80c3be9b3e53bc8cdfb0e607"
+      "fingerprint": "761452777591b6327bc0da500b9a6924fd4032eecb58ebc36b6c2b785f3c2c8f"
     },
     {
       "id": "2026-05-badge-discovery-milestone-2",
@@ -4779,7 +5104,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -4808,7 +5135,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -4837,7 +5166,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -4866,7 +5197,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableMediaComments": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4892,7 +5225,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "showDeviceFormFactorIndicators": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4918,7 +5253,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4944,7 +5281,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableSimulcast": true
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4970,7 +5309,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableDistributedClips": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -4996,7 +5337,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "useDiscordVideoPlayer": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -5025,7 +5368,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableElectronMultilangSpellcheck": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5090,7 +5435,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5112,7 +5459,7 @@
       "id": "2026-05-ios-video-stabilization",
       "kind": "user",
       "type": "user",
-      "system": "legacy",
+      "system": "apex",
       "label": null,
       "title": null,
       "description": null,
@@ -5147,7 +5494,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5173,7 +5522,12 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "useNewLayoutWithSearch": false,
+        "useNewTile": false,
+        "useNewFeaturedTiles": false,
+        "ctaOnHover": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -5211,7 +5565,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5237,7 +5593,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5263,7 +5621,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -5292,7 +5652,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -5321,7 +5683,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5347,7 +5711,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -5388,7 +5754,12 @@
       "label": "Guild Rooms",
       "title": "Guild Rooms",
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false,
+        "interactionsEnabled": false,
+        "multipleRoomsEnabled": false,
+        "posturesEnabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5426,7 +5797,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5452,7 +5825,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5478,7 +5853,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -5539,7 +5916,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5565,7 +5944,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5591,7 +5972,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableLeagueEvents": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5617,7 +6000,10 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableOverlayEntrypoint": false,
+        "enableGamePanelEntrypoint": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5643,7 +6029,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -5672,7 +6060,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5698,7 +6088,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5724,7 +6116,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -5753,7 +6147,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5779,7 +6175,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -5811,7 +6209,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5837,7 +6237,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "showServerTag": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5863,7 +6265,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5889,7 +6293,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5915,7 +6321,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5941,7 +6349,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -5970,7 +6380,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -5996,7 +6408,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -6025,7 +6439,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -6051,7 +6467,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -6080,7 +6498,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -6164,6 +6584,7 @@
       "title": null,
       "description": null,
       "defaultConfig": {
+        "enabled": false,
         "variant": 0
       },
       "variations": {
@@ -6204,7 +6625,8 @@
       "title": null,
       "description": null,
       "defaultConfig": {
-        "bitrate": 9
+        "bitrate": 9,
+        "enabled": false
       },
       "variations": {
         "1": {
@@ -6229,11 +6651,16 @@
       "id": "2026-06-server-theme-apex-shadow",
       "kind": "guild",
       "type": "guild",
-      "system": "legacy",
-      "label": "Server Theme",
-      "title": "Server Theme",
+      "system": "apex",
+      "label": null,
+      "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false,
+        "inExperiment": false,
+        "gatesApex": false,
+        "rollbackEnabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -6261,7 +6688,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "74ce9e9208e4beec4acf776e2231fac1269507fec6b44caf8a89cd396f57a41e"
+      "fingerprint": "5e593eb8f4dcae46568f26e78f831c92019d80f0f2d92931ebd61c8ee14a77a0"
     },
     {
       "id": "2026-06-systemwide-echo-cancellation-for-people-who-refuse-to-wear-headphones",
@@ -6299,7 +6726,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -6354,7 +6783,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -6383,7 +6814,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -6409,7 +6842,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": true
+      },
       "variations": {
         "1": {
           "id": 1
@@ -6436,6 +6871,7 @@
       "title": null,
       "description": null,
       "defaultConfig": {
+        "enabled": false,
         "sampleRate": 0
       },
       "variations": {
@@ -6469,7 +6905,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -6495,7 +6933,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -6521,7 +6961,11 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false,
+        "showPresetName": false,
+        "clientThemeAdaptedColorsEnabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -6550,7 +6994,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableFastAdRecheck": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -6588,7 +7034,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -6643,7 +7091,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -6669,7 +7119,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableMarketing": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -6695,7 +7147,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableAltGateway": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -6724,7 +7178,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -6753,7 +7209,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -6782,7 +7240,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -6811,7 +7271,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableGameEventsOnPlayer": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -6837,7 +7299,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "useNtpClock": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -6863,7 +7327,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -6892,7 +7358,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -6921,7 +7389,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -6950,7 +7420,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -6979,7 +7451,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -7005,7 +7479,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -7059,7 +7535,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -7088,7 +7566,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableCs2Gsi": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -7114,7 +7594,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -7140,7 +7622,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -7195,7 +7679,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -7221,7 +7707,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -7250,7 +7738,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -7276,7 +7766,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -7302,7 +7794,10 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false,
+        "showCreateEntrypoint": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -7363,7 +7858,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -7422,7 +7919,8 @@
       "title": null,
       "description": null,
       "defaultConfig": {
-        "referralRewardType": null
+        "referralRewardType": null,
+        "useAltReferralCardArt": false
       },
       "variations": {
         "0": {
@@ -7462,13 +7960,9 @@
       "title": null,
       "description": null,
       "defaultConfig": null,
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
+      "variations": null,
       "treatments": null,
-      "variationCount": 1,
+      "variationCount": 0,
       "guildPercentage": {
         "status": "unknown",
         "value": null
@@ -7477,7 +7971,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "d972caaaf075486f94bb6e58916166ec981cccd64d74c11fa3d969ce655b5e79"
+      "fingerprint": "18df652c1bc01c028e479c9d1e8619d0496d6060839ee544e251d0411451fb58"
     },
     {
       "id": "2026-07-reduce-leave-call-gpu",
@@ -7487,7 +7981,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "useStaticGradient": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -7513,7 +8009,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "migrationKilled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -7539,7 +8037,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -7568,7 +8068,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "shopThisLookEnabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -7597,7 +8099,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "isEnabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -7626,7 +8130,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -7652,7 +8158,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "showDeviceDetectedPanel": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -7678,7 +8186,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -7736,7 +8246,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -7797,6 +8309,8 @@
       "title": null,
       "description": null,
       "defaultConfig": {
+        "capSampleRate": false,
+        "capChannelCount": false,
         "condition": "none"
       },
       "variations": {
@@ -7845,7 +8359,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableAutomontage": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -7871,7 +8387,10 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false,
+        "tenureBadgeHideable": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -7901,7 +8420,9 @@
       "title": null,
       "description": null,
       "defaultConfig": {
-        "ctrVariant": 0
+        "enabled": false,
+        "ctrVariant": 0,
+        "hapticFeedbackOnRewardEarnedEnabled": false
       },
       "variations": {
         "1": {
@@ -7946,7 +8467,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -7975,7 +8498,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -8033,7 +8558,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "closeChatOnLeave": true
+      },
       "variations": {
         "1": {
           "id": 1
@@ -8059,7 +8586,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -8085,7 +8614,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "disableAgeRestrictedDestinations": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -8140,7 +8671,10 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "displayNameSearchEnabled": false,
+        "affinityOrderingEnabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -8175,7 +8709,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -8239,6 +8775,7 @@
       "title": null,
       "description": null,
       "defaultConfig": {
+        "enabled": false,
         "quality": 60
       },
       "variations": {
@@ -8272,7 +8809,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "isHidden": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -8323,7 +8862,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -8349,7 +8890,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -8378,7 +8921,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "measureFromStreakStart": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -8407,7 +8952,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "showWithheldBadge": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -8436,7 +8983,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableNoFill": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -8465,7 +9014,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -8491,7 +9042,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -8539,7 +9092,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableRocketLeagueEvents": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -8594,7 +9149,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -8620,7 +9177,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -8649,7 +9208,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -8678,7 +9239,10 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false,
+        "topSoundsFirst": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -8707,7 +9271,10 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false,
+        "topSoundsFirst": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -8765,7 +9332,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -8791,7 +9360,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "videoEnabled": true
+      },
       "variations": {
         "1": {
           "id": 1
@@ -8820,7 +9391,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -8846,7 +9419,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -8903,7 +9478,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -8929,7 +9506,10 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "agc2Enabled": false,
+        "noiseCancellationDuringProcessing": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -8961,10 +9541,12 @@
       "kind": "guild",
       "type": "guild",
       "system": "apex",
-      "label": "Automod Mention Raid Limit",
-      "title": "Automod Mention Raid Limit",
+      "label": null,
+      "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -8980,7 +9562,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "46ebb5636f82ca71e55dd6593becb54881c4ff873b68befb6e45144c7a16334e"
+      "fingerprint": "a5be70ee139dd5c1239cab585e737eed5a7b25d41854473f31feb3dd2c109c97"
     },
     {
       "id": "2026-09-build-a-bear",
@@ -8990,7 +9572,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -9019,7 +9603,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -9045,7 +9631,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -9074,7 +9662,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -9100,7 +9690,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -9126,7 +9718,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -9155,7 +9749,10 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "sidebarEnabled": false,
+        "appBarToggleEnabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -9187,7 +9784,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -9213,7 +9812,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -9242,7 +9843,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enableDotaGsi": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -9268,7 +9871,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -9297,7 +9902,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -9326,7 +9933,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -9355,7 +9964,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -9416,6 +10027,7 @@
       "title": null,
       "description": null,
       "defaultConfig": {
+        "enabled": false,
         "quality": 85
       },
       "variations": {
@@ -9446,7 +10058,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -9475,7 +10089,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -9504,7 +10120,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -9558,7 +10176,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "useNewHScroll": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -9587,7 +10207,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "useNewHScroll": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -9616,7 +10238,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -9642,7 +10266,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -9671,7 +10297,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -9698,6 +10326,7 @@
       "title": null,
       "description": null,
       "defaultConfig": {
+        "enabled": false,
         "maxWidgetOptions": 0
       },
       "variations": {
@@ -9728,7 +10357,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -9754,7 +10385,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -9809,7 +10442,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "trackingCopy": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -9903,7 +10538,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -9929,7 +10566,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -9959,7 +10598,8 @@
       "title": null,
       "description": null,
       "defaultConfig": {
-        "sortOrder": "creation-date"
+        "sortOrder": "creation-date",
+        "allowReordering": false
       },
       "variations": {
         "1": {
@@ -9989,7 +10629,11 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false,
+        "showQuickAccess": false,
+        "showOnRTCHover": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -10018,7 +10662,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -10044,7 +10690,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "1": {
           "id": 1
@@ -10070,7 +10718,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -10128,7 +10778,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0
@@ -10157,7 +10809,9 @@
       "label": null,
       "title": null,
       "description": null,
-      "defaultConfig": null,
+      "defaultConfig": {
+        "enabled": false
+      },
       "variations": {
         "0": {
           "id": 0

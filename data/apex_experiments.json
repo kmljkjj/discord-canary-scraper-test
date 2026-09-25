@@ -2,7 +2,9 @@
   {
     "kind": "user",
     "name": "2021-02_staff_qc_debugging",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "showScores": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -13,7 +15,10 @@
   {
     "kind": "user",
     "name": "2021-10_runtime_accessibility_system",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false,
+      "reporting": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -27,7 +32,9 @@
   {
     "kind": "guild",
     "name": "2021-10_study_group",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableStudyGroup": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -38,7 +45,9 @@
   {
     "kind": "user",
     "name": "2021-12_inferno_spam_redaction",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -56,7 +65,9 @@
   {
     "kind": "guild",
     "name": "2022-07_voice_in_threads",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -67,7 +78,9 @@
   {
     "kind": "guild",
     "name": "2022-11_default_disable_mass_mention",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -78,7 +91,9 @@
   {
     "kind": "guild",
     "name": "2022-12_mention_raid_limit",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -89,7 +104,9 @@
   {
     "kind": "guild",
     "name": "2023-02_guest_voice_invites",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -100,7 +117,9 @@
   {
     "kind": "user",
     "name": "2023-09_iar_dsa_webform",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -114,7 +133,9 @@
   {
     "kind": "user",
     "name": "2023-09_iar_user_reporting",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -126,11 +147,28 @@
     "kind": "user",
     "name": "2024-06_rtc_pacer__simulcast",
     "defaultConfig": {
-      "fullname": "bandwidth_estimation/trendline-window-duration-3750,robust-estimator/"
+      "enabled": true,
+      "fullname": "bandwidth_estimation/trendline-window-duration-3750,robust-estimator/",
+      "simulcastEnabled": false
     },
     "variations": {
       "1": {
         "id": 1
+      },
+      "2": {
+        "id": 2
+      },
+      "3": {
+        "id": 3
+      },
+      "4": {
+        "id": 4
+      },
+      "5": {
+        "id": 5
+      },
+      "6": {
+        "id": 6
       }
     },
     "label": "RTC Pacer & Golive Simulcast"
@@ -138,7 +176,9 @@
   {
     "kind": "user",
     "name": "2025-01-allow-nonstaff-to-preview-app-collections",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -149,7 +189,11 @@
   {
     "kind": "user",
     "name": "2025-04-desktop-refresh-fast-follows",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "largerGuildIcons": false,
+      "darkerGuildListBackground": false,
+      "distinctBorders": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -172,7 +216,9 @@
   {
     "kind": "user",
     "name": "2025-04-native-markdown",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -186,7 +232,9 @@
   {
     "kind": "user",
     "name": "2025-05-search-results-feedback",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -197,7 +245,11 @@
   {
     "kind": "user",
     "name": "2025-06_native_intents",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "searchEnabled": false,
+      "clearEnabled": false,
+      "activityEnabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -236,16 +288,12 @@
   {
     "kind": "guild",
     "name": "2025-08_portkey_enabled",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
-      "0": {
-        "id": 0
-      },
       "1": {
         "id": 1
-      },
-      "2": {
-        "id": 2
       }
     },
     "label": "GameServer Enabled"
@@ -253,7 +301,9 @@
   {
     "kind": "user",
     "name": "2025-08-browser-hevc",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -264,7 +314,9 @@
   {
     "kind": "user",
     "name": "2025-08-voice-user-affinity",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -295,7 +347,9 @@
   {
     "kind": "user",
     "name": "2025-09-image-attachment-mezzanine-v2",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -312,7 +366,9 @@
   {
     "kind": "user",
     "name": "2025-09-overlay-state-tracking",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -323,7 +379,9 @@
   {
     "kind": "user",
     "name": "2025-09-sensitive-content-self-harm",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -334,7 +392,9 @@
   {
     "kind": "user",
     "name": "2025-09-server-nsfw-level",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -345,7 +405,9 @@
   {
     "kind": "user",
     "name": "2025-09-video-qoe-metrics-tracking",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "externalAnalyticsEnabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -359,7 +421,9 @@
   {
     "kind": "guild",
     "name": "2025-10_community_account_link_onboarding",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -370,7 +434,9 @@
   {
     "kind": "user",
     "name": "2025-10-collectibles-custom-cursors",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableCustomCursors": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -384,7 +450,9 @@
   {
     "kind": "user",
     "name": "2025-10-desktop-communication-notifications-emoji",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -395,7 +463,9 @@
   {
     "kind": "user",
     "name": "2025-10-force-sdr-emojis-stickers",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -423,7 +493,9 @@
   {
     "kind": "user",
     "name": "2025-10-low-latency-rate-control",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -434,18 +506,22 @@
   {
     "kind": "user",
     "name": "2025-10-mana-date-inputs",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
       }
     },
-    "label": "None"
+    "label": "Calendar"
   },
   {
     "kind": "user",
     "name": "2025-11_tida_webform",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "tidaWebformEnabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -456,7 +532,9 @@
   {
     "kind": "user",
     "name": "2025-11-age-verification-expressive-everywhere",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -467,7 +545,9 @@
   {
     "kind": "user",
     "name": "2025-11-global-frame-pool-lock",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -478,7 +558,9 @@
   {
     "kind": "user",
     "name": "2025-11-hide-manual-link",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "isHidden": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -489,7 +571,9 @@
   {
     "kind": "user",
     "name": "2025-11-mana-context-menu",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -500,7 +584,11 @@
   {
     "kind": "user",
     "name": "2025-11-overlay-chat",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "hasChat": false,
+      "hasFriendList": false,
+      "showNowPlayingForDifferentGames": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -517,7 +605,11 @@
   {
     "kind": "user",
     "name": "2025-11-rtc-panel-entry-point-new-copy",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "altTitle": false,
+      "altBody": false,
+      "altCta": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -531,7 +623,9 @@
   {
     "kind": "user",
     "name": "2025-11-shockbyte-degraded",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -542,7 +636,9 @@
   {
     "kind": "user",
     "name": "2025-11-video-end-card-v2",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -553,7 +649,10 @@
   {
     "kind": "guild",
     "name": "2025-12_voice_channel_hoisting",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableWaveformIcon": false,
+      "enableHighlight": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -567,7 +666,9 @@
   {
     "kind": "user",
     "name": "2025-12-game-invite-account-linking-entry-point",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -581,7 +682,9 @@
   {
     "kind": "user",
     "name": "2025-12-hdr-accessibility-setting",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -592,7 +695,9 @@
   {
     "kind": "user",
     "name": "2025-12-katsudon",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -606,7 +711,9 @@
   {
     "kind": "user",
     "name": "2025-12-mana-multistep-community-enabled",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -642,7 +749,9 @@
   {
     "kind": "user",
     "name": "2025-12-orb-redemption-thru-orders",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -653,7 +762,9 @@
   {
     "kind": "user",
     "name": "2025-12-proportional-vad-indicator",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -673,7 +784,9 @@
   {
     "kind": "user",
     "name": "2025-12-quest-cta-refactor-rollout",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -713,7 +826,9 @@
   {
     "kind": "user",
     "name": "2025-12-wmf-gpu-encode",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -724,7 +839,9 @@
   {
     "kind": "user",
     "name": "2026-01-bug-reporter",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "hasBugReporterAccess": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -735,7 +852,9 @@
   {
     "kind": "user",
     "name": "2026-01-cms-layouts",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -749,7 +868,9 @@
   {
     "kind": "user",
     "name": "2026-01-favorites-server",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -763,7 +884,9 @@
   {
     "kind": "user",
     "name": "2026-01-friends-in-server",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "guildFriendsEnabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -774,7 +897,9 @@
   {
     "kind": "user",
     "name": "2026-01-ios-push-notif-json-fix",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -785,7 +910,9 @@
   {
     "kind": "user",
     "name": "2026-01-less-personalized-ads",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -799,7 +926,9 @@
   {
     "kind": "user",
     "name": "2026-01-voice-dares-v0",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -810,7 +939,9 @@
   {
     "kind": "user",
     "name": "2026-01-wmf-gpu-encode-intel",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -821,7 +952,9 @@
   {
     "kind": "guild",
     "name": "2026-02_game_claim_coachmark",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -832,7 +965,9 @@
   {
     "kind": "guild",
     "name": "2026-02_hangout_window",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableHangoutWindow": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -843,7 +978,9 @@
   {
     "kind": "guild",
     "name": "2026-02_past_vc_activity_messages",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -854,7 +991,10 @@
   {
     "kind": "user",
     "name": "2026-02-activity-privacy-matching",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "copyChanges": false,
+      "upsell": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -871,7 +1011,9 @@
   {
     "kind": "user",
     "name": "2026-02-announcement-composer",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "announcementComposer": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -901,7 +1043,9 @@
   {
     "kind": "user",
     "name": "2026-02-capture-target-window",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -912,7 +1056,9 @@
   {
     "kind": "user",
     "name": "2026-02-content-classification-presence-filter",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -926,7 +1072,9 @@
   {
     "kind": "user",
     "name": "2026-02-desktop-new-user-onboarding",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -937,7 +1085,9 @@
   {
     "kind": "user",
     "name": "2026-02-expiring-powerup-coachmark",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -951,7 +1101,9 @@
   {
     "kind": "user",
     "name": "2026-02-friends-list",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "hasFriendList": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -962,7 +1114,9 @@
   {
     "kind": "user",
     "name": "2026-02-game-server-tab-always-on",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -973,7 +1127,9 @@
   {
     "kind": "user",
     "name": "2026-02-gift-cards",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -984,7 +1140,9 @@
   {
     "kind": "user",
     "name": "2026-02-gifting-modal-redesign",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1011,7 +1169,9 @@
   {
     "kind": "user",
     "name": "2026-02-gsh-game-detection-upsell",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1022,7 +1182,9 @@
   {
     "kind": "user",
     "name": "2026-02-join-game-community-cta",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1033,7 +1195,9 @@
   {
     "kind": "user",
     "name": "2026-02-lazy-load-all-images",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1060,7 +1224,9 @@
   {
     "kind": "user",
     "name": "2026-02-mana-playground-access",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1071,7 +1237,11 @@
   {
     "kind": "user",
     "name": "2026-02-mobile-volume-output-slider-removal",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "audioOutputPresent": true,
+      "nonContextualStreamOutputPresent": true,
+      "showTileVolumeIndicator": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1082,7 +1252,9 @@
   {
     "kind": "user",
     "name": "2026-02-non-dm-gifting-modal-redesign",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1093,7 +1265,9 @@
   {
     "kind": "user",
     "name": "2026-02-premium-offer-reminder-xp",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1104,7 +1278,10 @@
   {
     "kind": "user",
     "name": "2026-02-private-channel-hiding",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableObfuscation": false,
+      "enableIntegrityCheck": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1121,7 +1298,9 @@
   {
     "kind": "user",
     "name": "2026-02-private-profiles",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -1170,7 +1349,9 @@
   {
     "kind": "user",
     "name": "2026-02-voice-channel-link-click",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "navigateOnly": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1181,7 +1362,9 @@
   {
     "kind": "user",
     "name": "2026-02-wgc-dirty-regions-all",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1192,7 +1375,9 @@
   {
     "kind": "guild",
     "name": "2026-03_game_server_pricing",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1203,7 +1388,9 @@
   {
     "kind": "guild",
     "name": "2026-03_guild_official_messages",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1214,7 +1401,9 @@
   {
     "kind": "guild",
     "name": "2026-03_voice_badge",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -1228,7 +1417,9 @@
   {
     "kind": "user",
     "name": "2026-03-age-verification-google-wallet",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1239,7 +1430,9 @@
   {
     "kind": "guild",
     "name": "2026-03-app-guild-validation",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -1253,7 +1446,9 @@
   {
     "kind": "user",
     "name": "2026-03-application-widget-v2-add-tweak",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -1267,7 +1462,9 @@
   {
     "kind": "user",
     "name": "2026-03-arborium-highlight",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1278,9 +1475,7 @@
   {
     "kind": "user",
     "name": "2026-03-audio-effects-probe",
-    "defaultConfig": {
-      "condition": "none"
-    },
+    "defaultConfig": null,
     "variations": {
       "1": {
         "id": 1
@@ -1291,7 +1486,9 @@
   {
     "kind": "user",
     "name": "2026-03-block-purchases",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1302,7 +1499,9 @@
   {
     "kind": "user",
     "name": "2026-03-churro",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "allowPlayStationStaging": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1313,7 +1512,10 @@
   {
     "kind": "user",
     "name": "2026-03-clips-experiment",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableClips": false,
+      "ignorePlatformRestriction": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1326,8 +1528,24 @@
   },
   {
     "kind": "user",
+    "name": "2026-03-content-inventory-memberlist-and-ranker",
+    "defaultConfig": {
+      "enabled": true,
+      "impressionCappingEnabled": true
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-03-conversation-highlighting-utility",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1341,7 +1559,9 @@
   {
     "kind": "user",
     "name": "2026-03-croissant",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -1386,7 +1606,9 @@
   {
     "kind": "user",
     "name": "2026-03-friend-request-message",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1397,7 +1619,9 @@
   {
     "kind": "user",
     "name": "2026-03-icymi-desktop",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "icymiDesktopEnabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1408,7 +1632,9 @@
   {
     "kind": "user",
     "name": "2026-03-icymi-staff-debugging-utility",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1419,7 +1645,9 @@
   {
     "kind": "user",
     "name": "2026-03-image-load-metrics",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -1436,7 +1664,9 @@
   {
     "kind": "user",
     "name": "2026-03-ios-audio-interrupt-handling",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1458,7 +1688,9 @@
   {
     "kind": "user",
     "name": "2026-03-l-3pp",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -1472,7 +1704,9 @@
   {
     "kind": "user",
     "name": "2026-03-media-play-metrics",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -1486,7 +1720,9 @@
   {
     "kind": "user",
     "name": "2026-03-message-bookmarks",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1500,7 +1736,9 @@
   {
     "kind": "user",
     "name": "2026-03-mobile-quest-home-red-dot-notification",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -1515,6 +1753,7 @@
     "kind": "user",
     "name": "2026-03-muted-video-quest-new-defaults",
     "defaultConfig": {
+      "enabled": false,
       "variant": 0
     },
     "variations": {
@@ -1533,7 +1772,10 @@
   {
     "kind": "user",
     "name": "2026-03-new-server-boost-system-messages",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false,
+      "showCta": true
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1564,7 +1806,9 @@
   {
     "kind": "user",
     "name": "2026-03-private-profiles-strict",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -1584,7 +1828,9 @@
   {
     "kind": "user",
     "name": "2026-03-private-profiles-strict-gb",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -1604,7 +1850,9 @@
   {
     "kind": "user",
     "name": "2026-03-soundmoji-rendering",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1615,7 +1863,10 @@
   {
     "kind": "user",
     "name": "2026-03-soundmoji-sending",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false,
+      "showSoundmojiInEmojiPicker": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1629,7 +1880,9 @@
   {
     "kind": "user",
     "name": "2026-03-steelseries-3p-recurring",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -1643,7 +1896,9 @@
   {
     "kind": "user",
     "name": "2026-03-surface-direct-renderer",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableSurfaceDirectRenderer": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1654,7 +1909,9 @@
   {
     "kind": "user",
     "name": "2026-03-video-capture-device-no-reuse",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "overrideDeviceReuse": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1665,7 +1922,9 @@
   {
     "kind": "user",
     "name": "2026-03-wysiwyg-user-profile-editing",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1676,7 +1935,9 @@
   {
     "kind": "guild",
     "name": "2026-04_application_identity_linked_roles",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1687,7 +1948,9 @@
   {
     "kind": "guild",
     "name": "2026-04_guild_verification_role",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1698,10 +1961,21 @@
   {
     "kind": "guild",
     "name": "2026-04_server_theme",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false,
+      "inExperiment": false,
+      "gatesApex": false,
+      "rollbackEnabled": false
+    },
     "variations": {
+      "0": {
+        "id": 0
+      },
       "1": {
         "id": 1
+      },
+      "2": {
+        "id": 2
       }
     },
     "label": "Server Theme"
@@ -1709,7 +1983,9 @@
   {
     "kind": "guild",
     "name": "2026-04_voice_call_trigger_point",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1720,7 +1996,9 @@
   {
     "kind": "guild",
     "name": "2026-04_voice_user_duration",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1731,7 +2009,9 @@
   {
     "kind": "user",
     "name": "2026-04-boosting-pre-checkout-modal-refresh-v2",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -1745,7 +2025,9 @@
   {
     "kind": "user",
     "name": "2026-04-browser-transceiver-padding-removal",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1756,7 +2038,9 @@
   {
     "kind": "user",
     "name": "2026-04-clips-v3-runtime",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableClipsV3ML": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1770,7 +2054,9 @@
   {
     "kind": "user",
     "name": "2026-04-composed-quest-player",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1802,7 +2088,9 @@
   {
     "kind": "user",
     "name": "2026-04-desktop-tti-dnstcp-warmup",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1813,7 +2101,9 @@
   {
     "kind": "user",
     "name": "2026-04-desktop-tti-early-update-check",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1843,7 +2133,9 @@
   {
     "kind": "user",
     "name": "2026-04-desktop-tti-v8-cache",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1854,7 +2146,9 @@
   {
     "kind": "user",
     "name": "2026-04-ensure-received-messages-added-in-order",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1865,7 +2159,9 @@
   {
     "kind": "user",
     "name": "2026-04-gift-promotion-reminder",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1876,7 +2172,9 @@
   {
     "kind": "user",
     "name": "2026-04-gifting-badge",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1887,7 +2185,9 @@
   {
     "kind": "user",
     "name": "2026-04-hide-view-full-profile-button",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "showButton": true
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1912,7 +2212,9 @@
   {
     "kind": "user",
     "name": "2026-04-icymi-staff-only",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1923,7 +2225,9 @@
   {
     "kind": "user",
     "name": "2026-04-inappropriate-conversations-default-on",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -1937,7 +2241,9 @@
   {
     "kind": "user",
     "name": "2026-04-inappropriate-conversations-prescan",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -1951,7 +2257,9 @@
   {
     "kind": "user",
     "name": "2026-04-mobile-boost-progress-bar",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -1962,7 +2270,9 @@
   {
     "kind": "user",
     "name": "2026-04-new-games-coachmark",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2001,7 +2311,9 @@
   {
     "kind": "user",
     "name": "2026-04-overlay-streamer-mode",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2012,7 +2324,9 @@
   {
     "kind": "user",
     "name": "2026-04-quests-premium-orb-multiplier-marketing",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -2026,7 +2340,9 @@
   {
     "kind": "user",
     "name": "2026-04-safety-flows",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -2039,7 +2355,7 @@
   },
   {
     "kind": "user",
-    "name": "2026-04-topical-navigation-staff-control",
+    "name": "2026-04-server-boost-copy-1440p",
     "defaultConfig": null,
     "variations": {
       "1": {
@@ -2050,8 +2366,23 @@
   },
   {
     "kind": "user",
+    "name": "2026-04-topical-navigation-staff-control",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-04-upcoming-server-event",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "showSettingsToggle": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2068,7 +2399,9 @@
   {
     "kind": "user",
     "name": "2026-04-user-profile-performance-analytics",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "performanceAnalyticsEnabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -2082,7 +2415,9 @@
   {
     "kind": "user",
     "name": "2026-04-video-hook-dx12",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2093,7 +2428,9 @@
   {
     "kind": "user",
     "name": "2026-04-voice-gateway-protocol-version",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2104,7 +2441,9 @@
   {
     "kind": "user",
     "name": "2026-04-wetf-parser",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2129,12 +2468,14 @@
         "id": 3
       }
     },
-    "label": "14 days"
+    "label": "Default Invite Expiration Guild Web"
   },
   {
     "kind": "guild",
     "name": "2026-05_voice_channel_list_invite_embed",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2145,7 +2486,9 @@
   {
     "kind": "user",
     "name": "2026-05-age-restricted-application-commands",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2156,7 +2499,9 @@
   {
     "kind": "user",
     "name": "2026-05-app-store-overlay-feature-gate",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2167,7 +2512,9 @@
   {
     "kind": "user",
     "name": "2026-05-auto-clips-review",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableAutoClipsReview": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2177,8 +2524,28 @@
   },
   {
     "kind": "user",
+    "name": "2026-05-av1-bitrate-tuning",
+    "defaultConfig": {
+      "bitrate": 35
+    },
+    "variations": {
+      "1": {
+        "id": 1,
+        "percentage": 3
+      },
+      "2": {
+        "id": 2,
+        "percentage": 25
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-05-badge-discovery-milestone-2",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -2192,7 +2559,9 @@
   {
     "kind": "user",
     "name": "2026-05-boosting-pre-checkout-modal-refresh-monthly-rate",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -2206,7 +2575,9 @@
   {
     "kind": "user",
     "name": "2026-05-bounty-stale-refresh-quest-home",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -2220,7 +2591,9 @@
   {
     "kind": "user",
     "name": "2026-05-clips-media-comments",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableMediaComments": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2231,7 +2604,9 @@
   {
     "kind": "user",
     "name": "2026-05-device-form-factor-indicators",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "showDeviceFormFactorIndicators": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2242,7 +2617,9 @@
   {
     "kind": "user",
     "name": "2026-05-dice-roll-slash-command",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2253,7 +2630,9 @@
   {
     "kind": "user",
     "name": "2026-05-disable-camera-simulcast",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableSimulcast": true
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2264,7 +2643,9 @@
   {
     "kind": "user",
     "name": "2026-05-distributed-clips",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableDistributedClips": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2275,7 +2656,9 @@
   {
     "kind": "user",
     "name": "2026-05-dvp-for-attachments",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "useDiscordVideoPlayer": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -2289,7 +2672,9 @@
   {
     "kind": "user",
     "name": "2026-05-electron-multilang-spellcheck",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableElectronMultilangSpellcheck": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2324,7 +2709,9 @@
   {
     "kind": "user",
     "name": "2026-05-global-soundboard-wheel-popout",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2334,8 +2721,26 @@
   },
   {
     "kind": "user",
+    "name": "2026-05-ios-video-stabilization",
+    "defaultConfig": {
+      "mode": "off"
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-05-mana-type-consolidation",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2346,7 +2751,12 @@
   {
     "kind": "user",
     "name": "2026-05-quest-home-tile-redesign",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "useNewLayoutWithSearch": false,
+      "useNewTile": false,
+      "useNewFeaturedTiles": false,
+      "ctaOnHover": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -2369,7 +2779,9 @@
   {
     "kind": "user",
     "name": "2026-05-screenshare-picker-wgc",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2380,7 +2792,9 @@
   {
     "kind": "user",
     "name": "2026-05-server-theme-user",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2391,7 +2805,9 @@
   {
     "kind": "user",
     "name": "2026-05-slayer-storefront-hide-leaderboard",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -2405,7 +2821,9 @@
   {
     "kind": "user",
     "name": "2026-05-social-layer-storefront-game-shops-dropdown",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -2419,7 +2837,9 @@
   {
     "kind": "user",
     "name": "2026-05-spatial-audio-for-voice",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2430,7 +2850,9 @@
   {
     "kind": "user",
     "name": "2026-05-use-ad-analytics-interface",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -2456,7 +2878,12 @@
   {
     "kind": "guild",
     "name": "2026-06_guild_rooms",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false,
+      "interactionsEnabled": false,
+      "multipleRoomsEnabled": false,
+      "posturesEnabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2479,7 +2906,9 @@
   {
     "kind": "user",
     "name": "2026-06-age-verification-incode",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2490,7 +2919,9 @@
   {
     "kind": "user",
     "name": "2026-06-av1-encode-linux",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2501,7 +2932,9 @@
   {
     "kind": "user",
     "name": "2026-06-battlenet-social-sdk-migration",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -2532,7 +2965,9 @@
   {
     "kind": "user",
     "name": "2026-06-chat-bar-customization",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2543,7 +2978,9 @@
   {
     "kind": "user",
     "name": "2026-06-clickstream-analytics",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2554,7 +2991,9 @@
   {
     "kind": "user",
     "name": "2026-06-clips-league-events",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableLeagueEvents": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2565,7 +3004,10 @@
   {
     "kind": "user",
     "name": "2026-06-clips-secondary-entrypoints",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableOverlayEntrypoint": false,
+      "enableGamePanelEntrypoint": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2576,7 +3018,9 @@
   {
     "kind": "user",
     "name": "2026-06-content-classification-embedded-activity-filter",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -2590,7 +3034,9 @@
   {
     "kind": "user",
     "name": "2026-06-desktop-tti-http-cdt",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2601,7 +3047,9 @@
   {
     "kind": "user",
     "name": "2026-06-desktop-tti-splash-asset",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2612,7 +3060,9 @@
   {
     "kind": "user",
     "name": "2026-06-dont-badge-muted-vcs",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -2626,7 +3076,9 @@
   {
     "kind": "guild",
     "name": "2026-06-game-invites-channel",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2637,7 +3089,9 @@
   {
     "kind": "user",
     "name": "2026-06-game-server-hosting-in-shop",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -2654,7 +3108,9 @@
   {
     "kind": "user",
     "name": "2026-06-gifting-badge-desktop",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2665,7 +3121,9 @@
   {
     "kind": "user",
     "name": "2026-06-guild-profile-server-tag",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "showServerTag": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2676,7 +3134,9 @@
   {
     "kind": "user",
     "name": "2026-06-gummy-bears",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2687,7 +3147,9 @@
   {
     "kind": "user",
     "name": "2026-06-gummy-viewers",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2698,7 +3160,9 @@
   {
     "kind": "user",
     "name": "2026-06-hero-shelf-ad-tile",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2709,7 +3173,9 @@
   {
     "kind": "user",
     "name": "2026-06-improved-shop-loading",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -2723,7 +3189,9 @@
   {
     "kind": "user",
     "name": "2026-06-mobile-server-tag",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2734,7 +3202,9 @@
   {
     "kind": "user",
     "name": "2026-06-nitro-gdm-cap-increase",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -2748,7 +3218,9 @@
   {
     "kind": "user",
     "name": "2026-06-non-friend-messages-requests-in-uk",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2759,7 +3231,9 @@
   {
     "kind": "user",
     "name": "2026-06-orbs-holdout",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -2773,7 +3247,9 @@
   {
     "kind": "user",
     "name": "2026-06-otp-orders-phase-1",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2812,6 +3288,7 @@
     "kind": "user",
     "name": "2026-06-quest-home-layout-visual-tweaks",
     "defaultConfig": {
+      "enabled": false,
       "variant": 0
     },
     "variations": {
@@ -2837,12 +3314,41 @@
     "kind": "user",
     "name": "2026-06-server-ladder",
     "defaultConfig": {
-      "bitrate": 9
+      "bitrate": 9,
+      "enabled": false
     },
     "variations": {
       "1": {
         "id": 1,
         "percentage": 35
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "guild",
+    "name": "2026-06-server-theme-apex-shadow",
+    "defaultConfig": {
+      "enabled": false,
+      "inExperiment": false,
+      "gatesApex": false,
+      "rollbackEnabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
+      },
+      "3": {
+        "id": 3
+      },
+      "4": {
+        "id": 4
       }
     },
     "label": null
@@ -2863,7 +3369,9 @@
   {
     "kind": "guild",
     "name": "2026-06-topical-navigation-guild",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2888,7 +3396,9 @@
   {
     "kind": "user",
     "name": "2026-06-use-new-badge-image-source",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -2902,7 +3412,9 @@
   {
     "kind": "user",
     "name": "2026-06-user-profile-sidebar-redesign",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2913,7 +3425,9 @@
   {
     "kind": "user",
     "name": "2026-06-web-translate-dom-guard",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": true
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2925,6 +3439,7 @@
     "kind": "user",
     "name": "2026-06-web-vitals-monitoring",
     "defaultConfig": {
+      "enabled": false,
       "sampleRate": 0
     },
     "variations": {
@@ -2942,7 +3457,9 @@
   {
     "kind": "user",
     "name": "2026-06-wmf-cpu-encode-intel",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2953,7 +3470,9 @@
   {
     "kind": "user",
     "name": "2026-06-wysiwyg-show-dns-to-non-nitro",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2964,7 +3483,11 @@
   {
     "kind": "user",
     "name": "2026-06-wysiwyg-user-profile-premium-try-it-out",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false,
+      "showPresetName": false,
+      "clientThemeAdaptedColorsEnabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -2978,7 +3501,9 @@
   {
     "kind": "user",
     "name": "2026-07-ad-recheck-interval-experiment",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableFastAdRecheck": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3001,7 +3526,9 @@
   {
     "kind": "guild",
     "name": "2026-07-app-channels",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3026,7 +3553,9 @@
   {
     "kind": "user",
     "name": "2026-07-autoclipping-default-override",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3037,7 +3566,9 @@
   {
     "kind": "user",
     "name": "2026-07-autoclipping-marketing",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableMarketing": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3048,7 +3579,9 @@
   {
     "kind": "user",
     "name": "2026-07-aws-gateway",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableAltGateway": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3062,7 +3595,9 @@
   {
     "kind": "user",
     "name": "2026-07-call-of-duty-3pp-expired",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3076,7 +3611,9 @@
   {
     "kind": "user",
     "name": "2026-07-call-of-duty-3pp-marketing",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3090,7 +3627,9 @@
   {
     "kind": "user",
     "name": "2026-07-call-of-duty-3pp-non-sub-marketing",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3104,7 +3643,9 @@
   {
     "kind": "user",
     "name": "2026-07-clips-game-events-on-player",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableGameEventsOnPlayer": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3115,7 +3656,9 @@
   {
     "kind": "user",
     "name": "2026-07-clips-ntp-clock",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "useNtpClock": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3126,7 +3669,9 @@
   {
     "kind": "user",
     "name": "2026-07-clips-on-profile-setter",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3140,7 +3685,9 @@
   {
     "kind": "user",
     "name": "2026-07-clips-on-profile-viewer",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3154,7 +3701,9 @@
   {
     "kind": "user",
     "name": "2026-07-cobalt",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3168,7 +3717,9 @@
   {
     "kind": "user",
     "name": "2026-07-cod-3pp",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3182,7 +3733,9 @@
   {
     "kind": "user",
     "name": "2026-07-custom-app-store-overlay",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3193,7 +3746,9 @@
   {
     "kind": "user",
     "name": "2026-07-desktop-channel-tabs",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3217,7 +3772,9 @@
   {
     "kind": "user",
     "name": "2026-07-expressive-modal-v2",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3231,7 +3788,9 @@
   {
     "kind": "user",
     "name": "2026-07-gsimagic",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableCs2Gsi": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3242,7 +3801,9 @@
   {
     "kind": "user",
     "name": "2026-07-ios-attribution",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3253,7 +3814,9 @@
   {
     "kind": "user",
     "name": "2026-07-manual-age-assurance-fallback",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3278,7 +3841,9 @@
   {
     "kind": "user",
     "name": "2026-07-nvenc-reconstructed-frames",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3289,7 +3854,9 @@
   {
     "kind": "user",
     "name": "2026-07-onyx",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3303,7 +3870,9 @@
   {
     "kind": "user",
     "name": "2026-07-orbchievements",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3314,7 +3883,9 @@
   {
     "kind": "user",
     "name": "2026-07-parental-consent-warning-fetch",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3325,7 +3896,10 @@
   {
     "kind": "user",
     "name": "2026-07-personal-widget",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false,
+      "showCreateEntrypoint": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3356,7 +3930,9 @@
   {
     "kind": "user",
     "name": "2026-07-powerups-coachmark-scroll-close",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3385,7 +3961,8 @@
     "kind": "user",
     "name": "2026-07-premium-referral-incentives",
     "defaultConfig": {
-      "referralRewardType": null
+      "referralRewardType": null,
+      "useAltReferralCardArt": false
     },
     "variations": {
       "0": {
@@ -3410,17 +3987,15 @@
     "kind": "user",
     "name": "2026-07-quest-home-default-banner-removal",
     "defaultConfig": null,
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
+    "variations": null,
     "label": null
   },
   {
     "kind": "user",
     "name": "2026-07-reduce-leave-call-gpu",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "useStaticGradient": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3431,7 +4006,9 @@
   {
     "kind": "user",
     "name": "2026-07-reject-with-error-kill-switch",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "migrationKilled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3442,7 +4019,9 @@
   {
     "kind": "user",
     "name": "2026-07-renewable-end-date-sort",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3456,7 +4035,9 @@
   {
     "kind": "user",
     "name": "2026-07-shop-this-look",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "shopThisLookEnabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3470,7 +4051,9 @@
   {
     "kind": "user",
     "name": "2026-07-smag-dm-sidebar-nitro-recommendation",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "isEnabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3484,7 +4067,9 @@
   {
     "kind": "user",
     "name": "2026-07-typing-users-css-dots",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3495,7 +4080,9 @@
   {
     "kind": "user",
     "name": "2026-07-unobtrusive-device-suggestions",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "showDeviceDetectedPanel": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3506,7 +4093,9 @@
   {
     "kind": "guild",
     "name": "2026-07-vibegrations-guild",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3534,7 +4123,9 @@
   {
     "kind": "user",
     "name": "2026-08-ad-topic-opt-out-client",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3565,6 +4156,8 @@
     "kind": "user",
     "name": "2026-08-audio-fidelity",
     "defaultConfig": {
+      "capSampleRate": false,
+      "capChannelCount": false,
       "condition": "none"
     },
     "variations": {
@@ -3598,7 +4191,9 @@
   {
     "kind": "user",
     "name": "2026-08-automontage",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableAutomontage": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3609,7 +4204,10 @@
   {
     "kind": "user",
     "name": "2026-08-badge-management",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false,
+      "tenureBadgeHideable": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3624,7 +4222,9 @@
     "kind": "user",
     "name": "2026-08-bounties-mobile-quest-bar",
     "defaultConfig": {
-      "ctrVariant": 0
+      "enabled": false,
+      "ctrVariant": 0,
+      "hapticFeedbackOnRewardEarnedEnabled": false
     },
     "variations": {
       "1": {
@@ -3654,7 +4254,9 @@
   {
     "kind": "user",
     "name": "2026-08-call-of-duty-3pp-nagbar",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3668,7 +4270,9 @@
   {
     "kind": "user",
     "name": "2026-08-compress-logs",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3696,7 +4300,9 @@
   {
     "kind": "user",
     "name": "2026-08-dont-close-chat",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "closeChatOnLeave": true
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3707,7 +4313,9 @@
   {
     "kind": "user",
     "name": "2026-08-favorites-server",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3718,7 +4326,9 @@
   {
     "kind": "user",
     "name": "2026-08-forward-age-restricted-destinations",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "disableAgeRestrictedDestinations": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3743,7 +4353,10 @@
   {
     "kind": "user",
     "name": "2026-08-gift-recipient-display-name-search",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "displayNameSearchEnabled": false,
+      "affinityOrderingEnabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3763,7 +4376,9 @@
   {
     "kind": "user",
     "name": "2026-08-gsh-subs-activity-bar",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3797,6 +4412,7 @@
     "kind": "user",
     "name": "2026-08-heic-upload-conversion",
     "defaultConfig": {
+      "enabled": false,
       "quality": 60
     },
     "variations": {
@@ -3815,7 +4431,9 @@
   {
     "kind": "user",
     "name": "2026-08-hide-gift-shop-upsell",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "isHidden": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3836,7 +4454,9 @@
   {
     "kind": "user",
     "name": "2026-08-mark-channel-unread",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3847,7 +4467,9 @@
   {
     "kind": "user",
     "name": "2026-08-mute-aware-noise-cancellation",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3861,7 +4483,9 @@
   {
     "kind": "user",
     "name": "2026-08-nitro-tenure-badge-total-progress",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "measureFromStreakStart": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3875,7 +4499,9 @@
   {
     "kind": "user",
     "name": "2026-08-nitro-tenure-badge-withheld-state",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "showWithheldBadge": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3889,7 +4515,9 @@
   {
     "kind": "user",
     "name": "2026-08-no-fill-logging",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableNoFill": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3903,7 +4531,9 @@
   {
     "kind": "user",
     "name": "2026-08-profile-embed-rendering",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3914,7 +4544,9 @@
   {
     "kind": "user",
     "name": "2026-08-profile-embed-share-button",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3932,7 +4564,9 @@
   {
     "kind": "user",
     "name": "2026-08-rocketleague-events",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableRocketLeagueEvents": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3957,7 +4591,9 @@
   {
     "kind": "user",
     "name": "2026-08-show-expressive-modal-subtitle-alt",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -3968,7 +4604,9 @@
   {
     "kind": "user",
     "name": "2026-08-timestamp-autocomplete-mobile",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3982,7 +4620,9 @@
   {
     "kind": "user",
     "name": "2026-08-tiny-bronco",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -3996,7 +4636,10 @@
   {
     "kind": "user",
     "name": "2026-08-top-soundboard-sounds",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false,
+      "topSoundsFirst": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4010,7 +4653,10 @@
   {
     "kind": "user",
     "name": "2026-08-top-soundboard-sounds-mobile",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false,
+      "topSoundsFirst": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4038,7 +4684,9 @@
   {
     "kind": "user",
     "name": "2026-08-user-profile-server-tag-style",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4049,7 +4697,9 @@
   {
     "kind": "user",
     "name": "2026-08-video-guard",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "videoEnabled": true
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4063,7 +4713,9 @@
   {
     "kind": "user",
     "name": "2026-08-virtual-backgrounds-ios",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4074,7 +4726,9 @@
   {
     "kind": "user",
     "name": "2026-08-voice-server-update-immediate",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4101,7 +4755,9 @@
   {
     "kind": "user",
     "name": "2026-08-web-filter-tag-group-migration",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4112,7 +4768,10 @@
   {
     "kind": "user",
     "name": "2026-09-agc2-mobile",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "agc2Enabled": false,
+      "noiseCancellationDuringProcessing": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4132,18 +4791,22 @@
   {
     "kind": "guild",
     "name": "2026-09-automod-application-rules",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
       }
     },
-    "label": "Automod Mention Raid Limit"
+    "label": null
   },
   {
     "kind": "user",
     "name": "2026-09-build-a-bear",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -4157,7 +4820,9 @@
   {
     "kind": "user",
     "name": "2026-09-clips-editor-image-track",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4168,7 +4833,9 @@
   {
     "kind": "user",
     "name": "2026-09-connected-thread-sidebar",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -4182,7 +4849,9 @@
   {
     "kind": "user",
     "name": "2026-09-conversation-topic-header",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4193,7 +4862,9 @@
   {
     "kind": "user",
     "name": "2026-09-desktop-tti-shader-cache",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4204,7 +4875,9 @@
   {
     "kind": "user",
     "name": "2026-09-dismissible-content-server-arbitration",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -4218,7 +4891,10 @@
   {
     "kind": "user",
     "name": "2026-09-friends-sidebar",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "sidebarEnabled": false,
+      "appBarToggleEnabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -4235,7 +4911,9 @@
   {
     "kind": "user",
     "name": "2026-09-gifting-badge-coachmark-audience",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4246,7 +4924,9 @@
   {
     "kind": "user",
     "name": "2026-09-gifting-badge-complex-art",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -4260,7 +4940,9 @@
   {
     "kind": "user",
     "name": "2026-09-gsimagic2",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enableDotaGsi": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4271,7 +4953,9 @@
   {
     "kind": "guild",
     "name": "2026-09-guild-spaces",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -4285,7 +4969,9 @@
   {
     "kind": "user",
     "name": "2026-09-halloween-holiday",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -4299,7 +4985,9 @@
   {
     "kind": "user",
     "name": "2026-09-halloween-wishlisting-animation",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -4313,7 +5001,9 @@
   {
     "kind": "user",
     "name": "2026-09-invite-expiring-soon",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -4344,6 +5034,7 @@
     "kind": "user",
     "name": "2026-09-jxr-upload-conversion",
     "defaultConfig": {
+      "enabled": false,
       "quality": 85
     },
     "variations": {
@@ -4359,7 +5050,9 @@
   {
     "kind": "user",
     "name": "2026-09-markdown-file-preview",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -4373,7 +5066,9 @@
   {
     "kind": "user",
     "name": "2026-09-mobile-quest-home-sort-priority",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -4387,7 +5082,9 @@
   {
     "kind": "user",
     "name": "2026-09-multisku-embed-builder",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4411,7 +5108,9 @@
   {
     "kind": "user",
     "name": "2026-09-new-horizontal-scroll-shared",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "useNewHScroll": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -4425,7 +5124,9 @@
   {
     "kind": "user",
     "name": "2026-09-new-hscroll",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "useNewHScroll": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -4439,7 +5140,9 @@
   {
     "kind": "user",
     "name": "2026-09-nitro-file-upload-rollout",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4450,7 +5153,9 @@
   {
     "kind": "user",
     "name": "2026-09-non-nitro-file-upload-marketing",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -4464,7 +5169,9 @@
   {
     "kind": "user",
     "name": "2026-09-profile-link-fetch",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4476,6 +5183,7 @@
     "kind": "user",
     "name": "2026-09-profile-widget-empty-state-suggestions",
     "defaultConfig": {
+      "enabled": false,
       "maxWidgetOptions": 0
     },
     "variations": {
@@ -4491,7 +5199,9 @@
   {
     "kind": "user",
     "name": "2026-09-quest-home-bounties-feature-gate",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4502,7 +5212,9 @@
   {
     "kind": "user",
     "name": "2026-09-quest-mobile-bar-secondary-cta",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4527,7 +5239,9 @@
   {
     "kind": "user",
     "name": "2026-09-registration-email-opt-in-copy",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "trackingCopy": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4576,7 +5290,9 @@
   {
     "kind": "user",
     "name": "2026-09-single-cpu-copy",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4587,7 +5303,9 @@
   {
     "kind": "user",
     "name": "2026-09-smag-nitro-gifting-lightning-checkout",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4602,7 +5320,8 @@
     "kind": "user",
     "name": "2026-09-soundboard-favorites",
     "defaultConfig": {
-      "sortOrder": "creation-date"
+      "sortOrder": "creation-date",
+      "allowReordering": false
     },
     "variations": {
       "1": {
@@ -4617,7 +5336,11 @@
   {
     "kind": "user",
     "name": "2026-09-soundboard-quick-action",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false,
+      "showQuickAccess": false,
+      "showOnRTCHover": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4631,7 +5354,9 @@
   {
     "kind": "user",
     "name": "2026-09-stream-zero-vad-leading",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4642,7 +5367,9 @@
   {
     "kind": "user",
     "name": "2026-09-update-email-settings-copy-subtext",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "1": {
         "id": 1
@@ -4653,7 +5380,9 @@
   {
     "kind": "user",
     "name": "2026-09-video-background-profile-fetch",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -4681,7 +5410,9 @@
   {
     "kind": "user",
     "name": "2026-09-youtube-3p",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0
@@ -4695,7 +5426,9 @@
   {
     "kind": "user",
     "name": "2026-10-badge-directory-updates",
-    "defaultConfig": null,
+    "defaultConfig": {
+      "enabled": false
+    },
     "variations": {
       "0": {
         "id": 0

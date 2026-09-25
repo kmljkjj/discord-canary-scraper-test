@@ -1,7 +1,7 @@
 {
-  "runId": "2026-09-25T18-27-34-962Z_621556_tk3pyb",
-  "buildNumber": "621556",
-  "updatedAt": "2026-09-25T18:27:34.962Z",
+  "runId": "2026-09-25T18-42-54-227Z_621589_m3lz32",
+  "buildNumber": "621589",
+  "updatedAt": "2026-09-25T18:42:54.227Z",
   "count": 359,
   "data": {
     "2021-02_staff_qc_debugging": {
@@ -154,13 +154,28 @@
       "type": "user",
       "kind": "user",
       "label": "RTC Pacer & Golive Simulcast",
-      "variationCount": 1,
+      "variationCount": 6,
       "variations": {
         "1": {
           "id": 1
+        },
+        "2": {
+          "id": 2
+        },
+        "3": {
+          "id": 3
+        },
+        "4": {
+          "id": 4
+        },
+        "5": {
+          "id": 5
+        },
+        "6": {
+          "id": 6
         }
       },
-      "fp": "e4a74d8c0f7fd154bb6618bf"
+      "fp": "bdb2452251c098dd085cec92"
     },
     "2025-01-allow-nonstaff-to-preview-app-collections": {
       "id": "2025-01-allow-nonstaff-to-preview-app-collections",
@@ -275,19 +290,13 @@
       "type": "guild",
       "kind": "guild",
       "label": "GameServer Enabled",
-      "variationCount": 3,
+      "variationCount": 1,
       "variations": {
-        "0": {
-          "id": 0
-        },
         "1": {
           "id": 1
-        },
-        "2": {
-          "id": 2
         }
       },
-      "fp": "dfbf714d35f574503495b40d"
+      "fp": "2db6ec47825e9a0e3b70cf77"
     },
     "2025-08-browser-hevc": {
       "id": "2025-08-browser-hevc",
@@ -502,14 +511,14 @@
       "id": "2025-10-mana-date-inputs",
       "type": "user",
       "kind": "user",
-      "label": "None",
+      "label": "Calendar",
       "variationCount": 1,
       "variations": {
         "1": {
           "id": 1
         }
       },
-      "fp": "6f06dfea553c8518f7a65027"
+      "fp": "e4344c1a7b00a663b09fed10"
     },
     "2025-11_tida_webform": {
       "id": "2025-11_tida_webform",
@@ -1519,14 +1528,14 @@
       "id": "2026-03-content-inventory-memberlist-and-ranker",
       "type": "user",
       "kind": "user",
-      "label": "Next iteration of the activity feed ranking model.",
+      "label": null,
       "variationCount": 1,
       "variations": {
         "0": {
           "id": 0
         }
       },
-      "fp": "def1c27ac49bced7c29120c6"
+      "fp": "5d772b8ae64c04c884c038b4"
     },
     "2026-03-conversation-highlighting-utility": {
       "id": "2026-03-conversation-highlighting-utility",
@@ -1956,13 +1965,19 @@
       "type": "guild",
       "kind": "guild",
       "label": "Server Theme",
-      "variationCount": 1,
+      "variationCount": 3,
       "variations": {
+        "0": {
+          "id": 0
+        },
         "1": {
           "id": 1
+        },
+        "2": {
+          "id": 2
         }
       },
-      "fp": "d15d475fcbe32e8ebb0e8cfe"
+      "fp": "1bf23e4b488eb861856301e9"
     },
     "2026-04_voice_call_trigger_point": {
       "id": "2026-04_voice_call_trigger_point",
@@ -2343,14 +2358,14 @@
       "id": "2026-04-server-boost-copy-1440p",
       "type": "user",
       "kind": "user",
-      "label": "Server Theme",
+      "label": null,
       "variationCount": 1,
       "variations": {
         "1": {
           "id": 1
         }
       },
-      "fp": "8a23d877b7abc4ce72983e1e"
+      "fp": "f168eaf07e491e0688f2b8f8"
     },
     "2026-04-topical-navigation-staff-control": {
       "id": "2026-04-topical-navigation-staff-control",
@@ -2443,7 +2458,7 @@
       "id": "2026-05_default_invite_expiration_guild_web",
       "type": "guild",
       "kind": "guild",
-      "label": "14 days",
+      "label": "Default Invite Expiration Guild Web",
       "variationCount": 3,
       "variations": {
         "1": {
@@ -2456,7 +2471,7 @@
           "id": 3
         }
       },
-      "fp": "e5939fb484181a0bf3ec60ce"
+      "fp": "323283e1c33e2ca710b5c2e3"
     },
     "2026-05_voice_channel_list_invite_embed": {
       "id": "2026-05_voice_channel_list_invite_embed",
@@ -2514,7 +2529,7 @@
       "id": "2026-05-av1-bitrate-tuning",
       "type": "user",
       "kind": "user",
-      "label": "RTC Pacer & Golive Simulcast",
+      "label": null,
       "variationCount": 2,
       "variations": {
         "1": {
@@ -2526,7 +2541,7 @@
           "percentage": 25
         }
       },
-      "fp": "c63ea227a5e17077acd71847"
+      "fp": "ab821ac5435571e419251e95"
     },
     "2026-05-badge-discovery-milestone-2": {
       "id": "2026-05-badge-discovery-milestone-2",
@@ -3314,7 +3329,7 @@
       "id": "2026-06-server-theme-apex-shadow",
       "type": "guild",
       "kind": "guild",
-      "label": "Server Theme",
+      "label": null,
       "variationCount": 5,
       "variations": {
         "0": {
@@ -3333,7 +3348,7 @@
           "id": 4
         }
       },
-      "fp": "33d5703bcadc5b6d418584a3"
+      "fp": "3d44a5780c3a5bf69b9508ad"
     },
     "2026-06-systemwide-echo-cancellation-for-people-who-refuse-to-wear-headphones": {
       "id": "2026-06-systemwide-echo-cancellation-for-people-who-refuse-to-wear-headphones",
@@ -3972,13 +3987,9 @@
       "type": "user",
       "kind": "user",
       "label": null,
-      "variationCount": 1,
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "f168eaf07e491e0688f2b8f8"
+      "variationCount": 0,
+      "variations": null,
+      "fp": "a352318c557a1ae211733b52"
     },
     "2026-07-reduce-leave-call-gpu": {
       "id": "2026-07-reduce-leave-call-gpu",
@@ -4788,14 +4799,14 @@
       "id": "2026-09-automod-application-rules",
       "type": "guild",
       "kind": "guild",
-      "label": "Automod Mention Raid Limit",
+      "label": null,
       "variationCount": 1,
       "variations": {
         "1": {
           "id": 1
         }
       },
-      "fp": "c04c8f0322b7dd35dfd0a052"
+      "fp": "21e8485f60217160d4c2e2f4"
     },
     "2026-09-build-a-bear": {
       "id": "2026-09-build-a-bear",
