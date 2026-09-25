@@ -23,18 +23,7 @@ jobs:
         with:
           fetch-depth: 1
 
-      - uses: actions/setup-node@v5
-        with:
-          node-version: '22'
-          cache: npm
-
-      - name: Install dependencies
-        run: |
-          if [ ! -f package-lock.json ]; then
-            echo "FATAL: package-lock.json missing — refuse non-reproducible install"
-            exit 1
-          fi
-          npm ci --no-audit --no-fund
+      - uses: ./.github/actions/setup
 
       - name: Syntax check
         run: npm run check
@@ -58,14 +47,15 @@ jobs:
           EMOJI_ROUTE: ${{ secrets.EMOJI_ROUTE }}
         run: node src/index.js
 
+      - name: Run summary
+        if: always()
+        run: node scripts/summary.js
+
       - name: Commit baseline + archive
         if: success()
         run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Whitelist only — never bare `git add -f data/`
-          git add -f \
+          BUILD_NUM=$(node -e "try{console.log(require('./data/build.json').buildNumber||'unknown')}catch(e){console.log('unknown')}")
+          scripts/commit-state.sh "canary build: ${BUILD_NUM}" \
             data/known_experiment_ids.json \
             data/known_string_keys.json \
             data/known_route_keys.json \
@@ -85,29 +75,5 @@ jobs:
             data/routes.json \
             data/meta.json \
             data/generation.json \
-            data/cache/ 2>/dev/null || true
-          # Archives : src/lib/archive_chunks.js écrit dans builds/ (pas data/builds/).
-          # -A pour aussi committer les suppressions des vieux builds (ARCHIVE_KEEP_BUILDS).
-          # builds/*/files/ reste ignoré via .gitignore.
-          if [ -d builds ]; then
-            git add -A -- builds/ 2>/dev/null || true
-          fi
-          if git diff --cached --quiet; then
-            echo "No baseline changes"
-            exit 0
-          fi
-          BUILD_NUM=$(node -e "try{console.log(require('./data/build.json').buildNumber||'unknown')}catch(e){console.log('unknown')}")
-          git commit -m "canary build: ${BUILD_NUM}"
-          PUSHED=0
-          for i in 1 2 3 4 5; do
-            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
-              PUSHED=1
-              break
-            fi
-            echo "push attempt $i failed — retrying"
-            sleep 3
-          done
-          if [ "$PUSHED" -ne 1 ]; then
-            echo "ERROR: Could not push baseline after 5 attempts"
-            exit 1
-          fi
+            data/cache \
+            builds

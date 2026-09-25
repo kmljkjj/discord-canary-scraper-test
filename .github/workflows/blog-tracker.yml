@@ -23,17 +23,7 @@ jobs:
         with:
           fetch-depth: 1
 
-      - uses: actions/setup-node@v5
-        with:
-          node-version: '22'
-
-      - name: Install dependencies
-        run: |
-          if [ -f package-lock.json ]; then
-            npm ci --no-audit --no-fund || npm install --no-audit --no-fund
-          else
-            npm install --no-audit --no-fund
-          fi
+      - uses: ./.github/actions/setup
 
       - name: Track blog + Zendesk
         id: track
@@ -44,48 +34,12 @@ jobs:
           ORBIT_BOT_NAME: Datamining
         run: node src/blog_tracker.js
 
-      - name: Save state (conflict-proof)
+      - name: Save state
         if: always() && steps.track.outcome != 'cancelled'
+        env:
+          COMMIT_SOFT_FAIL: '1'
         run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          if [ ! -f data/blog_tracker.json ]; then
-            echo "no state file"
-            exit 0
-          fi
-          cp data/blog_tracker.json /tmp/blog_this_run.json
-          git add -f data/blog_tracker.json
-          if git diff --staged --quiet; then
-            echo "No state changes"
-            exit 0
-          fi
-          git commit -m "blog-tracker: state" || true
-          PUSHED=0
-          for i in 1 2 3 4 5 6; do
-            git fetch origin main
-            if git rebase origin/main; then
-              if git push origin HEAD:main; then PUSHED=1; break; fi
-            else
-              cp /tmp/blog_this_run.json data/blog_tracker.json
-              git add -f data/blog_tracker.json
-              GIT_EDITOR=true git rebase --continue || {
-                git rebase --abort || true
-                git fetch origin main
-                git reset --soft origin/main
-                cp /tmp/blog_this_run.json data/blog_tracker.json
-                git add -f data/blog_tracker.json
-                git commit -m "blog-tracker: state" || true
-              }
-              if git push origin HEAD:main; then PUSHED=1; break; fi
-            fi
-            sleep $((i))
-          done
-          if [ "$PUSHED" -ne 1 ]; then
-            echo "WARN: state push failed — next run retries"
-            exit 0
-          fi
-          echo STATE_PUSH_OK
+          scripts/commit-state.sh "blog-tracker: state" data/blog_tracker.json
 
       - name: Fail if tracker failed
         if: always() && steps.track.outcome == 'failure'

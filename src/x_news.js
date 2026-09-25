@@ -24,6 +24,7 @@ const fs = require('fs-extra');
 const path = require('path');
 const fetch = require('node-fetch');
 const { writeJsonAtomic } = require('./lib/atomic');
+const { sendWebhook } = require('./lib/webhook');
 
 const DATA = path.join(__dirname, '..', 'data');
 const SEEN_FILE = path.join(DATA, 'seen_x_posts.json');
@@ -632,24 +633,13 @@ async function postWebhook(p) {
   };
   if (p.image) embed.image = { url: p.image };
 
-  try {
-    const res = await fetch(WEBHOOK, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        username: 'Datamining · X',
-        embeds: [embed],
-        content: p.url,
-      }),
-      timeout: 15000,
-    });
-    console.log('webhook', res.status, p.id);
-    if (!res.ok) console.warn(await res.text());
-    return res.ok;
-  } catch (e) {
-    console.warn('webhook error', e.message);
-    return false;
-  }
+  const r = await sendWebhook(
+    WEBHOOK,
+    { username: 'Datamining · X', embeds: [embed], content: p.url },
+    { label: 'x-news ' + p.id, timeoutMs: 15000 },
+  );
+  console.log('webhook', r.status, p.id);
+  return r.ok;
 }
 
 async function loadSeen() {

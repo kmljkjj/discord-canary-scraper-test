@@ -44,7 +44,7 @@ function uninstallFetchMock() {
 
 function clearNotifyModules() {
   for (const key of Object.keys(require.cache)) {
-    if (key.includes('webhook_dedupe') || key.includes('notify.js')) {
+    if (key.includes('webhook_dedupe') || key.includes('notify.js') || key.endsWith('webhook.js')) {
       delete require.cache[key];
     }
   }

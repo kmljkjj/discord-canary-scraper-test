@@ -25,6 +25,7 @@ const fetch = require('node-fetch');
 const fs = require('fs-extra');
 const path = require('path');
 const crypto = require('crypto');
+const { sendEmbeds } = require('./lib/webhook');
 const {
   mergeIntervals,
   estimateFromPoints,
@@ -449,23 +450,12 @@ function buildEmbeds(changes) {
 
 async function postWebhook(embeds) {
   if (!WEBHOOK || !embeds.length) return { ok: false, status: 0, text: 'skip' };
-  let last = { ok: true, status: 204, text: '' };
-  for (let i = 0; i < embeds.length; i += 10) {
-    const res = await fetch(WEBHOOK, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        username: BOT.slice(0, 80),
-        avatar_url: AVATAR,
-        embeds: embeds.slice(i, i + 10),
-      }),
-    });
-    const text = await res.text().catch(() => '');
-    last = { ok: res.ok, status: res.status, text: text.slice(0, 300) };
-    if (!res.ok) return last;
-    await sleep(450);
-  }
-  return last;
+  return sendEmbeds(
+    WEBHOOK,
+    { username: BOT.slice(0, 80), avatar_url: AVATAR },
+    embeds,
+    { label: 'user-rollouts' },
+  );
 }
 
 function hasName(id) {

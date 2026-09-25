@@ -11,6 +11,7 @@
 const fetch = require('node-fetch');
 const fs = require('fs-extra');
 const path = require('path');
+const { sendWebhook } = require('./lib/webhook');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const STATE_FILE = path.join(DATA_DIR, 'quests.json');
@@ -552,13 +553,7 @@ async function postWebhook(url, body) {
   if (!url) return { ok: false, status: 0, text: 'no webhook' };
   body.username = BOT_NAME;
   body.avatar_url = AVATAR;
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(body),
-  });
-  const text = await res.text().catch(() => '');
-  return { ok: res.ok, status: res.status, text: text.slice(0, 500) };
+  return sendWebhook(url, body, { label: 'quests' });
 }
 
 async function sendQuestWebhook(quest) {

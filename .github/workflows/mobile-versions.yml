@@ -23,17 +23,7 @@ jobs:
         with:
           fetch-depth: 1
 
-      - uses: actions/setup-node@v5
-        with:
-          node-version: '22'
-
-      - name: Install dependencies
-        run: |
-          if [ -f package-lock.json ]; then
-            npm ci --no-audit --no-fund || npm install --no-audit --no-fund
-          else
-            npm install --no-audit --no-fund
-          fi
+      - uses: ./.github/actions/setup
 
       - name: Mobile versions
         id: versions
@@ -46,28 +36,7 @@ jobs:
       - name: Commit versions state
         if: always() && steps.versions.outcome == 'success'
         run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f data/mobile_versions.json 2>/dev/null || true
-          if git diff --staged --quiet; then
-            echo "No mobile_versions.json changes"
-            exit 0
-          fi
-          VER=$(node -e "try{const d=require('./data/mobile_versions.json');const c=(d.channels||[]).filter(x=>x.version).map(x=>x.platform+':'+x.version).slice(0,4).join(' ');console.log(c||'versions')}catch(e){console.log('versions')}")
-          git commit -m "mobile versions: ${VER}"
-          PUSHED=0
-          for _ in 1 2 3 4 5; do
-            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
-              PUSHED=1
-              break
-            fi
-            sleep 2
-          done
-          if [ "$PUSHED" -ne 1 ]; then
-            echo "ERROR: could not push mobile_versions.json"
-            exit 1
-          fi
+          scripts/commit-state.sh "mobile versions" data/mobile_versions.json
 
       - name: Mobile experiments from client files
         id: files
@@ -81,27 +50,7 @@ jobs:
       - name: Commit files state
         if: always() && steps.files.outcome == 'success'
         run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f data/mobile_experiments.json data/known_mobile_experiment_ids.json 2>/dev/null || true
-          if git diff --staged --quiet; then
-            echo "No mobile files state changes"
-            exit 0
-          fi
-          git commit -m "mobile files: experiments state"
-          PUSHED=0
-          for _ in 1 2 3 4 5; do
-            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
-              PUSHED=1
-              break
-            fi
-            sleep 2
-          done
-          if [ "$PUSHED" -ne 1 ]; then
-            echo "ERROR: could not push mobile files state"
-            exit 1
-          fi
+          scripts/commit-state.sh "mobile files: experiments state" data/mobile_experiments.json data/known_mobile_experiment_ids.json
 
       - name: Fail if versions or files failed
         if: always() && (steps.versions.outcome == 'failure' || steps.files.outcome == 'failure')

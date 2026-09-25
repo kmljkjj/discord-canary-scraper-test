@@ -1,0 +1,75 @@
+name: Alertes d'échec
+
+# Envoie un message Discord quand un workflow du bot échoue.
+# Activé seulement si le secret ALERT_WEBHOOK_URL existe (salon séparé conseillé).
+# Anti-spam : une seule alerte tant que le workflow n'est pas repassé au vert.
+
+on:
+  workflow_run:
+    workflows:
+      - Scrape Discord Canary
+      - Discord Quests
+      - Apex Rollouts %
+      - User Rollouts %
+      - Mobile Versions + Files
+      - Discord Shop
+      - Blog + Zendesk Tracker
+      - X News · DiscordNEW8r
+      - X Watch DiscordNEW8r
+      - CI
+    types: [completed]
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  alert:
+    if: github.event.workflow_run.conclusion == 'failure'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Previous run of same workflow
+        id: prev
+        env:
+          GH_TOKEN: ${{ github.token }}
+          WF_ID: ${{ github.event.workflow_run.workflow_id }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          prev=$(gh api "repos/${GITHUB_REPOSITORY}/actions/workflows/${WF_ID}/runs?status=completed&per_page=5" \
+            --jq "[.workflow_runs[] | select(.id != ${RUN_ID})][0].conclusion // \"none\"")
+          echo "previous=$prev" >> "$GITHUB_OUTPUT"
+          echo "previous conclusion: $prev"
+
+      - name: Send Discord alert
+        if: steps.prev.outputs.previous != 'failure'
+        env:
+          ALERT_WEBHOOK_URL: ${{ secrets.ALERT_WEBHOOK_URL }}
+          NAME: ${{ github.event.workflow_run.name }}
+          URL: ${{ github.event.workflow_run.html_url }}
+          BRANCH: ${{ github.event.workflow_run.head_branch }}
+          SHA: ${{ github.event.workflow_run.head_sha }}
+          EVENT: ${{ github.event.workflow_run.event }}
+        run: |
+          if [ -z "$ALERT_WEBHOOK_URL" ]; then
+            echo "ALERT_WEBHOOK_URL non défini — alerte ignorée"
+            exit 0
+          fi
+          payload=$(jq -n \
+            --arg name "$NAME" --arg url "$URL" --arg branch "$BRANCH" \
+            --arg sha "${SHA:0:7}" --arg event "$EVENT" --arg repo "$GITHUB_REPOSITORY" \
+            '{username: "Datamining · Alertes",
+              embeds: [{
+                title: ("❌ " + $name + " a échoué"),
+                url: $url,
+                color: 15548997,
+                fields: [
+                  {name: "Dépôt", value: $repo, inline: true},
+                  {name: "Branche", value: $branch, inline: true},
+                  {name: "Déclencheur", value: $event, inline: true},
+                  {name: "Commit", value: ("`" + $sha + "`"), inline: true}
+                ],
+                timestamp: (now | todate)
+              }]}')
+          curl -fsS -X POST -H 'Content-Type: application/json' -d "$payload" "$ALERT_WEBHOOK_URL" \
+            && echo "alerte envoyée" || echo "::warning::envoi alerte échoué"

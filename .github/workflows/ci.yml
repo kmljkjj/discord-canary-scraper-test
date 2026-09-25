@@ -12,6 +12,7 @@ on:
       - 'package-lock.json'
       - 'eslint.config.js'
       - '.github/workflows/**'
+      - '.github/actions/**'
   pull_request:
   workflow_dispatch:
 
@@ -51,7 +52,20 @@ jobs:
         run: npm run lint
 
       - name: Unit tests
+        if: matrix.node != '22'
         run: npm test
+
+      - name: Unit tests + couverture
+        if: matrix.node == '22'
+        run: |
+          set -o pipefail
+          npm run coverage 2>&1 | tee coverage.txt
+          {
+            echo '## Couverture des tests'
+            echo '```'
+            grep -E '^# (file|all files|-)|^# [a-z_/]+\.js' coverage.txt | sed 's/^# //' || true
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Tests must not modify tracked data/
         run: git diff --exit-code -- data/

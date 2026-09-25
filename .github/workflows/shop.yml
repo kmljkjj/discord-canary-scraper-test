@@ -23,17 +23,7 @@ jobs:
         with:
           fetch-depth: 1
 
-      - uses: actions/setup-node@v5
-        with:
-          node-version: '22'
-
-      - name: Install
-        run: |
-          if [ -f package-lock.json ]; then
-            npm ci --no-audit --no-fund || npm install --no-audit --no-fund
-          else
-            npm install --no-audit --no-fund
-          fi
+      - uses: ./.github/actions/setup
 
       - name: Track shop items
         id: shop
@@ -47,57 +37,12 @@ jobs:
           ORBIT_AVATAR_URL: ${{ vars.ORBIT_AVATAR_URL || format('https://cdn.jsdelivr.net/gh/{0}@main/media/datamining-avatar.png', github.repository) }}
         run: node src/shop.js
 
-      - name: Save shop state (conflict-proof)
+      - name: Save shop state
         if: always() && steps.shop.outcome != 'cancelled'
+        env:
+          COMMIT_SOFT_FAIL: '1'
         run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          if [ ! -f data/shop_items.json ]; then
-            echo "no shop_items.json"
-            exit 0
-          fi
-
-          # Keep this run's state safe across rebases
-          cp data/shop_items.json /tmp/shop_this_run.json
-
-          git add -f data/shop_items.json
-          if git diff --staged --quiet; then
-            echo "No shop state changes"
-            exit 0
-          fi
-          git commit -m "shop: state" || true
-
-          PUSHED=0
-          for i in 1 2 3 4 5 6 7 8; do
-            git fetch origin main
-            if git rebase origin/main; then
-              if git push origin HEAD:main; then
-                PUSHED=1
-                break
-              fi
-            else
-              # Conflict: always prefer THIS run's shop_items.json
-              git rebase --abort 2>/dev/null || true
-              git fetch origin main
-              git reset --soft origin/main
-              cp /tmp/shop_this_run.json data/shop_items.json
-              git add -f data/shop_items.json
-              git commit -m "shop: state" || true
-              if git push origin HEAD:main; then
-                PUSHED=1
-                break
-              fi
-            fi
-            sleep $((i))
-          done
-
-          if [ "$PUSHED" -ne 1 ]; then
-            echo "WARN: could not push shop_items.json — next run retries"
-            exit 0
-          fi
-          echo STATE_PUSH_OK
+          scripts/commit-state.sh "shop: state" data/shop_items.json
 
       - name: Fail if shop step failed
         if: always() && steps.shop.outcome == 'failure'

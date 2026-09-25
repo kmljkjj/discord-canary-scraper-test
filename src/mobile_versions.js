@@ -6,6 +6,7 @@
 const fetch = require('node-fetch');
 const fs = require('fs-extra');
 const path = require('path');
+const { sendWebhook } = require('./lib/webhook');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const STATE_FILE = path.join(DATA_DIR, 'mobile_versions.json');
@@ -76,38 +77,13 @@ async function postWebhook(payload) {
     avatar_url: BOT_AVATAR,
     ...payload,
   };
-  for (let attempt = 0; attempt < 4; attempt++) {
-    try {
-      const res = await fetch(WEBHOOK_URL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(body),
-        timeout: 30000,
-      });
-      if (res.status === 429) {
-        const ra = Number(res.headers.get('retry-after') || 0);
-        const wait = ra > 0 ? ra * 1000 : Math.min(15000, 500 * 2 ** attempt);
-        console.warn('Webhook 429 wait', wait + 'ms');
-        await new Promise((r) => setTimeout(r, wait));
-        continue;
-      }
-      if (res.status >= 500) {
-        await new Promise((r) => setTimeout(r, Math.min(10000, 400 * 2 ** attempt)));
-        continue;
-      }
-      if (!res.ok) {
-        const t = await res.text();
-        console.warn('Webhook', res.status, t);
-        throw new Error('Webhook HTTP ' + res.status);
-      }
-      console.log('Webhook OK');
-      await new Promise((r) => setTimeout(r, 400));
-      return true;
-    } catch (e) {
-      if (String(e.message || e).startsWith('Webhook HTTP')) throw e;
-      console.warn('Webhook network', e.message);
-      await new Promise((r) => setTimeout(r, Math.min(10000, 400 * 2 ** attempt)));
-    }
+  const r = await sendWebhook(WEBHOOK_URL, body, { label: 'mobile', timeoutMs: 30000, minGapMs: 400 });
+  if (r.ok) {
+    console.log('Webhook OK');
+    return true;
+  }
+  if (r.status >= 400 && r.status < 500 && r.status !== 429) {
+    throw new Error('Webhook HTTP ' + r.status);
   }
   throw new Error('Webhook failed after retries');
 }

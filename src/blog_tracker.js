@@ -8,6 +8,7 @@ const fetch = require('node-fetch');
 const fs = require('fs-extra');
 const path = require('path');
 const crypto = require('crypto');
+const { sendWebhook } = require('./lib/webhook');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const STATE_FILE = path.join(DATA_DIR, 'blog_tracker.json');
@@ -587,17 +588,8 @@ async function postWebhook(payload) {
     avatar_url: AVATAR,
     ...payload,
   };
-  const res = await fetch(WEBHOOK, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(body),
-  });
-  const text = await res.text().catch(() => '');
-  if (!res.ok) {
-    console.warn('webhook fail', res.status, text.slice(0, 200));
-    return false;
-  }
-  return true;
+  const r = await sendWebhook(WEBHOOK, body, { label: 'blog' });
+  return r.ok;
 }
 
 async function notifyAll(diffs) {

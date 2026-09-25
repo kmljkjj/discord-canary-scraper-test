@@ -24,10 +24,7 @@ jobs:
         with:
           fetch-depth: 1
 
-      - uses: actions/setup-node@v5
-        with:
-          node-version: "22"
-          cache: npm
+      - uses: ./.github/actions/setup
 
       - name: Install dependencies
         run: npm ci --no-audit --no-fund
@@ -59,28 +56,7 @@ jobs:
       - name: Save apex state
         if: always() && steps.apex.outcome != 'cancelled'
         run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/apex_rollouts.json 2>/dev/null || true
-          if git diff --staged --quiet; then
-            echo "No apex state changes"
-            exit 0
-          fi
-          git commit -m "apex rollouts state"
-          PUSHED=0
-          for i in 1 2 3 4 5; do
-            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
-              PUSHED=1
-              break
-            fi
-            echo "push retry $i"
-            sleep $((i * 2))
-          done
-          if [ "$PUSHED" -ne 1 ]; then
-            echo "ERROR: could not push apex state"
-            exit 1
-          fi
+          scripts/commit-state.sh "apex rollouts state" data/apex_rollouts.json
 
       - name: Fail if tracker failed
         if: always() && steps.apex.outcome == 'failure'

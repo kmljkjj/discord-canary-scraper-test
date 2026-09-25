@@ -1,0 +1,21 @@
+name: Setup Node + deps
+description: Node 22 + cache npm + npm ci (reproductible, lockfile obligatoire)
+inputs:
+  node-version:
+    description: Version de Node
+    default: '22'
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@v5
+      with:
+        node-version: ${{ inputs.node-version }}
+        cache: npm
+    - name: npm ci
+      shell: bash
+      run: |
+        if [ ! -f package-lock.json ]; then
+          echo "::error::package-lock.json manquant — installation non reproductible refusée"
+          exit 1
+        fi
+        npm ci --no-audit --no-fund --omit=dev

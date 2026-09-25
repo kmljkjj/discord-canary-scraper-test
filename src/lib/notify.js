@@ -4,7 +4,7 @@
  * - Strings/Routes: key + full text
  * - Batch dedupe marked ONLY after successful webhook post
  */
-const fetch = require('node-fetch');
+const { sendWebhook } = require('./webhook');
 
 const BOT = process.env.ORBIT_BOT_NAME || process.env.WEBHOOK_BOT_NAME || 'Datamining';
 const AVATAR =
@@ -435,48 +435,16 @@ async function post(url, body) {
     console.log('webhook CLAIM skip', body.embeds?.[0]?.title || fp);
     return true;
   }
-  const payload = JSON.stringify(body);
-  let lastErr = null;
-
-  for (let attempt = 0; attempt < 4; attempt++) {
-    try {
-      const res = await fetch(url, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: payload,
-        timeout: 20000,
-      });
-      console.log('webhook', res.status, body.embeds?.[0]?.title || '');
-      if (res.ok) {
-        await markPosted(fp);
-        await sleep(80);
-        return true;
-      }
-      const text = await res.text();
-      lastErr = `HTTP ${res.status}: ${text.slice(0, 200)}`;
-      if (res.status === 429 || res.status >= 500) {
-        const retryAfter = Number(res.headers.get('retry-after') || 0);
-        const delay = retryAfter > 0 ? retryAfter * 1000 : 400 * 2 ** attempt;
-        console.warn('webhook retry', attempt + 1, lastErr, 'wait', delay);
-        await sleep(delay);
-        continue;
-      }
-      console.warn('webhook fail', lastErr);
-      await markFailed(fp, lastErr);
-      return false;
-    } catch (e) {
-      lastErr = e.message;
-      console.warn('webhook error', e.message, 'attempt', attempt + 1);
-      await sleep(400 * 2 ** attempt);
-    }
+  const title = body.embeds?.[0]?.title || '';
+  const r = await sendWebhook(url, body, { label: title, minGapMs: 80 });
+  console.log('webhook', r.status, title);
+  if (r.ok) {
+    await markPosted(fp);
+    return true;
   }
-  console.warn('webhook gave up', lastErr);
-  await markFailed(fp, lastErr);
+  await markFailed(fp, `HTTP ${r.status}: ${String(r.text || '').slice(0, 200)}`);
   return false;
 }
 
-function sleep(ms) {
-  return new Promise((r) => setTimeout(r, ms));
-}
 
 module.exports = { notifyAll, notifyUrgent, notifyNormal, post };

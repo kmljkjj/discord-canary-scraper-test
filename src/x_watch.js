@@ -10,6 +10,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 const fetch = require('node-fetch');
+const { sendWebhook } = require('./lib/webhook');
 
 const USERNAME = process.env.X_USERNAME || 'DiscordNEW8r';
 const USER_ID = process.env.X_USER_ID || '2073982489836584960';
@@ -255,21 +256,9 @@ async function postWebhook(p) {
     ],
   };
   if (p.image) body.embeds[0].image = { url: p.image };
-  let ok = false;
-  try {
-    const res = await fetch(WEBHOOK, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(body),
-    });
-    console.log('webhook', res.status, p.id);
-    if (!res.ok) console.warn(await res.text());
-    else ok = true;
-  } catch (e) {
-    console.warn('webhook error', e.message);
-  }
-  await sleep(250);
-  return ok;
+  const r = await sendWebhook(WEBHOOK, body, { label: 'x-watch ' + p.id });
+  console.log('webhook', r.status, p.id);
+  return r.ok;
 }
 
 async function loadSeen() {
@@ -331,9 +320,6 @@ function dedupe(posts) {
   return [...map.values()];
 }
 
-function sleep(ms) {
-  return new Promise((r) => setTimeout(r, ms));
-}
 
 main().catch((e) => {
   console.error('X watch error:', e.message || e);

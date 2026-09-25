@@ -23,9 +23,7 @@ jobs:
         with:
           fetch-depth: 1
 
-      - uses: actions/setup-node@v5
-        with:
-          node-version: '22'
+      - uses: ./.github/actions/setup
 
       - name: Guard quests.js not corrupted
         run: |
@@ -39,14 +37,6 @@ jobs:
           node --check src/quests.js
           echo "Known ids sample:"
           python3 -c "import json;d=json.load(open('data/quests.json'));print('ids',len(d.get('ids')or[]))"
-
-      - name: Install dependencies
-        run: |
-          if [ -f package-lock.json ]; then
-            npm ci --no-audit --no-fund || npm install --no-audit --no-fund
-          else
-            npm install --no-audit --no-fund
-          fi
 
       - name: Track Discord quests
         id: quests
@@ -68,9 +58,6 @@ jobs:
         if: always() && steps.quests.outcome != 'cancelled'
         run: |
           set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
           if [ ! -f data/quests.json ]; then
             echo "no quests.json"
             exit 0
@@ -94,27 +81,7 @@ jobs:
           print('state ids', len(d['ids']))
           PY
 
-          git add -f data/quests.json
-          if git diff --staged --quiet; then
-            echo "No quest state changes"
-            exit 0
-          fi
-          git commit -m "quests: state"
-
-          PUSHED=0
-          for i in 1 2 3 4 5 6 7 8; do
-            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
-              PUSHED=1
-              break
-            fi
-            sleep $((i + 1))
-          done
-
-          if [ "$PUSHED" -ne 1 ]; then
-            echo "ERROR: could not push quests.json"
-            exit 1
-          fi
-          echo "STATE_PUSH_OK"
+          scripts/commit-state.sh "quests: state" data/quests.json
 
       - name: Fail if quests scraper failed
         if: always() && steps.quests.outcome == 'failure'

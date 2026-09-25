@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: x-watch
+  group: x-posts  # partagé : les deux écrivent data/seen_x_posts.json
   cancel-in-progress: false
 
 jobs:
@@ -23,24 +23,7 @@ jobs:
         with:
           fetch-depth: 1
 
-      - uses: actions/setup-node@v5
-        with:
-          node-version: '22'
-
-      - name: Cache node_modules
-        uses: actions/cache@v5
-        with:
-          path: node_modules
-          key: nm-${{ runner.os }}-node22-${{ hashFiles('package.json') }}
-          restore-keys: |
-            nm-${{ runner.os }}-node22-
-
-      - name: Install deps
-        run: |
-          if [ ! -d node_modules/node-fetch ]; then
-            npm install --no-audit --no-fund --no-package-lock
-          fi
-          rm -f package-lock.json
+      - uses: ./.github/actions/setup
 
       - name: Watch @DiscordNEW8r
         env:
@@ -54,22 +37,7 @@ jobs:
 
       - name: Save seen ids
         if: always()
+        env:
+          COMMIT_SOFT_FAIL: '1'
         run: |
-          set -e
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          rm -f package-lock.json
-          git add -f data/x_seen_ids.json data/seen_x_posts.json 2>/dev/null || true
-          if git diff --staged --quiet; then
-            echo "No seen changes"
-            exit 0
-          fi
-          git commit -m "📌 x-watch seen $(date -u +%Y-%m-%dT%H:%MZ)" || true
-          for i in 1 2 3 4 5; do
-            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
-              exit 0
-            fi
-            git stash push -u -m "noise-$i" || true
-            sleep 2
-          done
-          exit 0
+          scripts/commit-state.sh "x-watch: seen" data/x_seen_ids.json data/seen_x_posts.json

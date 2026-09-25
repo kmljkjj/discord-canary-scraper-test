@@ -9,6 +9,7 @@ on:
       - 'data/findings.json'
       - 'data/routes.json'
       - 'data/build.json'
+      - 'data/last_run_meta.json'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 
@@ -47,7 +48,7 @@ jobs:
             cp docs/data/experiments.json docs/data/findings.json
             echo "Placeholder experiments.json"
           fi
-          for f in routes build; do
+          for f in routes build last_run_meta; do
             if [ -f "data/$f.json" ]; then cp "data/$f.json" "docs/data/$f.json"; fi
           done
 

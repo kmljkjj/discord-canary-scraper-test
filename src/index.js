@@ -1,5 +1,5 @@
 /**
- * Canary Pulse v11.10 — transactional notify + degraded extract guard
+ * Canary Pulse v11.11 — transactional notify + degraded extract guard + webhook partagé
  */
 const fs = require('fs-extra');
 const path = require('path');
@@ -194,7 +194,7 @@ function computeExpDiff(findingsExps, lastExp, knownExp, opts) {
 
 async function main() {
   const t0 = Date.now();
-  console.log('=== Canary Pulse v11.10 ===');
+  console.log('=== Canary Pulse v11.11 ===');
   await fs.ensureDir(DATA);
   await fs.ensureDir(ASSETS);
   await fs.ensureDir(BUILDS);
