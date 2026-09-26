@@ -21,9 +21,43 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
-          fetch-depth: 1
+          fetch-depth: 0
 
       - uses: ./.github/actions/setup
+
+      - name: Heal blog_tracker.js if PLACEHOLDER / too small
+        run: |
+          set -euo pipefail
+          SZ=$(wc -c < src/blog_tracker.js 2>/dev/null || echo 0)
+          echo "blog_tracker.js size=$SZ"
+          if [ "$SZ" -lt 5000 ] || grep -q 'PLACEHOLDER' src/blog_tracker.js 2>/dev/null || grep -q 'WILL_LOAD' src/blog_tracker.js 2>/dev/null || grep -q '^LOADING$' src/blog_tracker.js 2>/dev/null; then
+            echo "CORRUPTED — restoring from kmljkjj/discord-canary-scraper@main"
+            curl -fsSL "https://raw.githubusercontent.com/kmljkjj/discord-canary-scraper/main/src/blog_tracker.js" -o src/blog_tracker.js
+            # Fix HTML entities if raw delivery decoded them
+            python3 - <<'PY'
+          from pathlib import Path
+          import re
+          p = Path('src/blog_tracker.js')
+          c = p.read_text()
+          c2 = re.sub(
+              r"\.replace\(/&nbsp;/g, ' '\)\s*\n\s*\.replace\(/&/g, '&'\)\s*\n\s*\.replace\(/</g, '<'\)\s*\n\s*\.replace\(/>/g, '>'\)\s*\n\s*\.replace\(/\"/g, '\"'\)",
+              ".replace(/&nbsp;/g, ' ')\n    .replace(/&/g, '&')\n    .replace(/</g, '<')\n    .replace(/>/g, '>')\n    .replace(/"/g, '\"')",
+              c,
+              count=1,
+          )
+          p.write_text(c2)
+          print('restored', len(c2))
+          PY
+            node --check src/blog_tracker.js
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add src/blog_tracker.js
+            if ! git diff --staged --quiet; then
+              git commit -m "fix(blog): restore blog_tracker.js from production" || true
+              git pull --rebase --autostash origin main || git rebase --abort || true
+              git push origin HEAD:main || true
+            fi
+          fi
 
       - name: Track blog + Zendesk
         id: track
