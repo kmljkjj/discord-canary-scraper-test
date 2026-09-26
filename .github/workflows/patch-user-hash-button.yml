@@ -1,0 +1,93 @@
+name: Patch user hash button
+on:
+  workflow_dispatch:
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: Restore user_rollouts + inject button
+        run: |
+          set -euo pipefail
+          # known-good base before PLACEHOLDER corruption
+          git show 115a4c6f7532be62e9e2a2dcbc72881f6d001ce9:src/user_rollouts.js > src/user_rollouts.js
+          node <<'NODE'
+          const fs = require('fs');
+          let c = fs.readFileSync('src/user_rollouts.js', 'utf8');
+          if (!c.includes("require('./lib/experiment_hash')")) {
+            c = c.replace(
+              "const { sendEmbeds } = require('./lib/webhook');",
+              "const { sendEmbeds, sendWebhook } = require('./lib/webhook');\nconst { userHashButtonRow } = require('./lib/experiment_hash');"
+            );
+          }
+          const old = `async function postWebhook(embeds) {
+  if (!WEBHOOK || !embeds.length) return { ok: false, status: 0, text: 'skip' };
+  return sendEmbeds(
+    WEBHOOK,
+    { username: BOT.slice(0, 80), avatar_url: AVATAR },
+    embeds,
+    { label: 'user-rollouts' },
+  );
+}`;
+          const neu = `async function postWebhook(embeds, changes) {
+  if (!WEBHOOK || !embeds.length) return { ok: false, status: 0, text: 'skip' };
+  const byTitle = new Map();
+  for (const ch of changes || []) {
+    if (ch && ch.kind === 'new' && ch.id && !String(ch.id).startsWith('hash:')) {
+      byTitle.set('+ ' + ch.id, ch.id);
+    }
+  }
+  let last = { ok: true, status: 200, text: '' };
+  for (const emb of embeds) {
+    const body = {
+      username: BOT.slice(0, 80),
+      avatar_url: AVATAR,
+      embeds: [emb],
+    };
+    const expId = byTitle.get(emb.title);
+    if (expId) {
+      const row = userHashButtonRow(expId);
+      if (row) {
+        body.components = [row];
+        emb.footer = emb.footer || {};
+        emb.footer.text = ((emb.footer.text || '') + ' · bouton = ton hash user').trim();
+      }
+    }
+    const r = await sendWebhook(WEBHOOK, body, { label: 'user-rollouts' });
+    last = r;
+    if (!r.ok) break;
+  }
+  return last;
+}`;
+          if (!c.includes(old)) {
+            console.error('postWebhook block not found');
+            process.exit(1);
+          }
+          c = c.replace(old, neu);
+          c = c.replace(/await postWebhook\(embeds\)/g, 'await postWebhook(embeds, changes)');
+          fs.writeFileSync('src/user_rollouts.js', c);
+          console.log('patched', c.length);
+          NODE
+          node --check src/user_rollouts.js
+          node --check src/lib/experiment_hash.js
+          test -f public/bucket.html
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/user_rollouts.js src/lib/experiment_hash.js public/bucket.html
+          git commit -m "feat(user-exp): restore + bouton mon hash/bucket" || true
+          for i in 1 2 3 4 5 6; do
+            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
+              echo PUSH_OK
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $i
+          done
+          exit 1
