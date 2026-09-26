@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-09-26T11:25:27.388Z",
-  "count": 61,
+  "scrapedAt": "2026-09-26T15:04:49.351Z",
+  "count": 62,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -381,7 +381,8 @@
     "1551969525602451497",
     "1551982502347022347",
     "1552793125028634754",
-    "1551983210601382063"
+    "1551983210601382063",
+    "1552026570229813258"
   ],
   "quests": [
     {
@@ -404,8 +405,8 @@
       "id": "1509683146239512726",
       "name": "MONOPOLY GO!",
       "expiresAt": "2026-09-29T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1509683146239512726/1546921050078715914_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1509683146239512726/1546921105447723118.jpg",
+      "videoUrl": "https://cdn.discordapp.com/quests/1509683146239512726/1553198638614847608_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1509683146239512726/1553198374025564170.jpg",
       "rewardCount": 1
     },
     {
@@ -870,6 +871,14 @@
       "expiresAt": "2026-10-05T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1551969525602451497/1551970363032862821.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1551969525602451497/1551981581118345357.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552026570229813258",
+      "name": "Beware Boiúna",
+      "expiresAt": "2026-10-05T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552026570229813258/1552778974445445120_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1552026570229813258/1552038781408776222.jpg",
       "rewardCount": 1
     }
   ]
