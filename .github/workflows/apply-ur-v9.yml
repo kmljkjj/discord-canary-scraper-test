@@ -1,0 +1,57 @@
+name: Apply User Rollouts v9
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble user_rollouts.js
+        run: |
+          set -euo pipefail
+          python3 << 'EOF'
+          import base64, zlib, pathlib
+          parts = []
+          for i in range(5):
+              parts.append(pathlib.Path(f".github/payloads/ur_v9_{i}.b64").read_text().strip())
+          data = zlib.decompress(base64.b64decode("".join(parts)))
+          path = pathlib.Path("src/user_rollouts.js")
+          path.write_bytes(data)
+          text = data.decode()
+          assert "User rollouts v9" in text
+          assert "observed_proportion" in text
+          assert "user_rollout_samples.json" in text
+          print("wrote", path, len(data))
+          EOF
+          node --check src/user_rollouts.js
+      - name: Update workflow commit state for samples store
+        run: |
+          set -euo pipefail
+          if [ -f .github/workflows/user-rollouts.yml ]; then
+            python3 << 'PY'
+          from pathlib import Path
+          p = Path(".github/workflows/user-rollouts.yml")
+          t = p.read_text()
+          old = 'scripts/commit-state.sh "data: user rollouts" data/user_rollouts.json'
+          new = 'scripts/commit-state.sh "data: user rollouts" data/user_rollouts.json data/user_rollout_samples.json'
+          if old in t:
+              p.write_text(t.replace(old, new, 1))
+              print("workflow updated for samples store")
+          else:
+              print("commit line not found or already updated")
+          PY
+          fi
+      - name: Commit
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/user_rollouts.js .github/workflows/user-rollouts.yml || true
+          git diff --cached --stat
+          git commit -m "feat(user-rollouts): v9 cumulative proportion estimator" || echo nothing
+          git push
