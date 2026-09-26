@@ -21,12 +21,93 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
-          fetch-depth: 1
+          fetch-depth: 0
 
       - uses: ./.github/actions/setup
 
       - name: Install dependencies
         run: npm ci --no-audit --no-fund
+
+      - name: Heal user_rollouts.js if corrupted + ensure hash button
+        run: |
+          set -euo pipefail
+          SZ=$(wc -c < src/user_rollouts.js 2>/dev/null || echo 0)
+          NEED=0
+          if [ "$SZ" -lt 5000 ]; then NEED=1; fi
+          if grep -qE 'PLACEHOLDER|SEE_FILE|^LOADING$' src/user_rollouts.js 2>/dev/null; then NEED=1; fi
+          if ! grep -q "userHashButtonRow" src/user_rollouts.js 2>/dev/null; then NEED=1; fi
+          if [ "$NEED" = "1" ]; then
+            echo "Restoring/patching user_rollouts.js"
+            git show 115a4c6f7532be62e9e2a2dcbc72881f6d001ce9:src/user_rollouts.js > src/user_rollouts.js || \
+              curl -fsSL "https://raw.githubusercontent.com/kmljkjj/discord-canary-scraper-test/115a4c6f7532be62e9e2a2dcbc72881f6d001ce9/src/user_rollouts.js" -o src/user_rollouts.js
+            node <<'NODE'
+          const fs = require('fs');
+          let c = fs.readFileSync('src/user_rollouts.js', 'utf8');
+          if (!c.includes("require('./lib/experiment_hash')")) {
+            c = c.replace(
+              "const { sendEmbeds } = require('./lib/webhook');",
+              "const { sendEmbeds, sendWebhook } = require('./lib/webhook');\nconst { userHashButtonRow } = require('./lib/experiment_hash');"
+            );
+          }
+          const old = `async function postWebhook(embeds) {
+  if (!WEBHOOK || !embeds.length) return { ok: false, status: 0, text: 'skip' };
+  return sendEmbeds(
+    WEBHOOK,
+    { username: BOT.slice(0, 80), avatar_url: AVATAR },
+    embeds,
+    { label: 'user-rollouts' },
+  );
+}`;
+          const neu = `async function postWebhook(embeds, changes) {
+  if (!WEBHOOK || !embeds.length) return { ok: false, status: 0, text: 'skip' };
+  const byTitle = new Map();
+  for (const ch of changes || []) {
+    if (ch && ch.kind === 'new' && ch.id && !String(ch.id).startsWith('hash:')) {
+      byTitle.set('+ ' + ch.id, ch.id);
+    }
+  }
+  let last = { ok: true, status: 200, text: '' };
+  for (const emb of embeds) {
+    const body = {
+      username: BOT.slice(0, 80),
+      avatar_url: AVATAR,
+      embeds: [emb],
+    };
+    const expId = byTitle.get(emb.title);
+    if (expId) {
+      const row = userHashButtonRow(expId);
+      if (row) {
+        body.components = [row];
+        emb.footer = emb.footer || {};
+        emb.footer.text = ((emb.footer.text || '') + ' · bouton = ton hash user').trim();
+      }
+    }
+    const r = await sendWebhook(WEBHOOK, body, { label: 'user-rollouts' });
+    last = r;
+    if (!r.ok) break;
+  }
+  return last;
+}`;
+          if (c.includes(old)) {
+            c = c.replace(old, neu);
+            c = c.replace(/await postWebhook\(embeds\)/g, 'await postWebhook(embeds, changes)');
+          }
+          fs.writeFileSync('src/user_rollouts.js', c);
+          console.log('user_rollouts patched', c.length);
+          NODE
+            node --check src/user_rollouts.js
+            node --check src/lib/experiment_hash.js
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add src/user_rollouts.js src/lib/experiment_hash.js public/bucket.html 2>/dev/null || true
+            if ! git diff --staged --quiet; then
+              git commit -m "feat(user-exp): hash button + restore user_rollouts" || true
+              git pull --rebase --autostash origin main || git rebase --abort || true
+              git push origin HEAD:main || true
+            fi
+          else
+            echo "user_rollouts.js already OK ($SZ bytes)"
+          fi
 
       - name: Unit tests (rollout math)
         run: node --test test/rollout_math.test.js
