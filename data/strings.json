@@ -599,7 +599,6 @@
   "aWVf4j": "Open Chat",
   "Jj8Ftb": "Build it",
   "ieqTtP": "Permissions it needs",
-  "GYoWRk": "Conjure it",
   "KLyB8Y": "What you’ll get",
   "Cn9qix": "Extra access it needs",
   "IHCafX": "My plan came out blank. Ask me again?",
@@ -639,7 +638,7 @@
   "jxvtin": "This needs a few keys from you to work. Add them through the locked form. Never paste them into the chat.",
   "/e28TK": "Keys needed",
   "ACvhVC": "Add your keys",
-  "gVV+HX": "Add them securely",
+  "gVV+HX": "Press here to add securely",
   "LpnmXm": "Only have some of these? Save what you have; you can add the rest later.",
   "p0Ay4J": "These go straight into a locked vault. They never appear in the chat, and I never see them.",
   "8SWZaW": "Save keys",
@@ -30030,5 +30029,7 @@
   "wi6hPV": "Visit Our Help Center",
   "JqfHGt": "Age-Restricted Server",
   "RT9Ccb": "Console",
-  "0DvssQ": "Mobile"
+  "0DvssQ": "Mobile",
+  "hG0Y0+": "Approve",
+  "ga8too": "Conjure it!"
 }
