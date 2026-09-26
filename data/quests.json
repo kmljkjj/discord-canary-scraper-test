@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-09-25T22:50:18.141Z",
-  "count": 58,
+  "scrapedAt": "2026-09-26T01:05:10.821Z",
+  "count": 61,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -378,105 +378,12 @@
     "1549139459264741497",
     "1537134637686591699",
     "1552029588132200532",
-    "1551969525602451497"
+    "1551969525602451497",
+    "1551982502347022347",
+    "1552793125028634754",
+    "1551983210601382063"
   ],
   "quests": [
-    {
-      "id": "1550081499628441600",
-      "name": "War Thunder",
-      "expiresAt": "2026-10-01T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1550081499628441600/1550084022099517531_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1550081499628441600/1550083670164119662.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1548040517420449792",
-      "name": "Wizard101 Birthday!",
-      "expiresAt": "2026-09-29T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1548040517420449792/1548041397335232572.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1548040517420449792/1548041405379641404.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1539421708417765386",
-      "name": "Gravebound Early Access Launch",
-      "expiresAt": "2026-10-01T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1539421708417765386/1539424583407509504_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1539421708417765386/1546914021784158218.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1543813403204788235",
-      "name": "2nd Anniversary Season",
-      "expiresAt": "2026-09-28T17:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1543813403204788235/1548966852237991966_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1543813403204788235/1548966819295924315.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1544550568742101012",
-      "name": "Dragonheir : Frénésie du chaos",
-      "expiresAt": "2026-10-01T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1544550568742101012/1547068700685893632_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1544550568742101012/1547129380038381598.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1549171029241233449",
-      "name": "Apex VS Street Fighter 6 Event",
-      "expiresAt": "2026-10-14T00:00:00+00:00",
-      "videoUrl": null,
-      "heroImage": "https://cdn.discordapp.com/quests/1549171029241233449/1549172049606475986.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1546355323118420009",
-      "name": "Marvel Rivals S10: verify school email, get 10 free trial costumes",
-      "expiresAt": "2026-09-28T00:00:00+00:00",
-      "videoUrl": null,
-      "heroImage": "https://cdn.discordapp.com/quests/1546355323118420009/1547432270531403807.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1551969525602451497",
-      "name": "EA SPORTS FC™ 27",
-      "expiresAt": "2026-10-05T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1551969525602451497/1551970363032862821.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1551969525602451497/1551981581118345357.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1541642467881783337",
-      "name": "Where Winds Meet 2.2 Wuxia New Era",
-      "expiresAt": "2026-10-01T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1541642467881783337/1549448468622475305_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1541642467881783337/1549183759625232404.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552026065491202149",
-      "name": "Animal Hospital",
-      "expiresAt": "2026-10-05T06:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552026065491202149/1552027800377102469_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1552026065491202149/1552027741996716062.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1550528900788912231",
-      "name": "Typhoeus",
-      "expiresAt": "2026-10-01T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1550528900788912231/1550541343808426024_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1550528900788912231/1550541204247027854.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1549493465941942383",
-      "name": "ROBLOX",
-      "expiresAt": "2026-09-28T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1549493465941942383/1550249604270923887_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1549493465941942383/1549494335261646999.jpg",
-      "rewardCount": 1
-    },
     {
       "id": "1193992107035983872",
       "name": "Sky Runners V2",
@@ -558,6 +465,14 @@
       "rewardCount": 1
     },
     {
+      "id": "1541642467881783337",
+      "name": "Where Winds Meet 2.2 Wuxia New Era",
+      "expiresAt": "2026-10-01T06:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1541642467881783337/1549448468622475305_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1541642467881783337/1549183759625232404.jpg",
+      "rewardCount": 1
+    },
+    {
       "id": "1542927566568956095",
       "name": "Kit Kat Halloween",
       "expiresAt": "2026-11-01T00:00:00+00:00",
@@ -622,6 +537,14 @@
       "rewardCount": 1
     },
     {
+      "id": "1546355323118420009",
+      "name": "Marvel Rivals S10: verify school email, get 10 free trial costumes",
+      "expiresAt": "2026-09-28T00:00:00+00:00",
+      "videoUrl": null,
+      "heroImage": "https://cdn.discordapp.com/quests/1546355323118420009/1547432270531403807.jpg",
+      "rewardCount": 1
+    },
+    {
       "id": "1544977383990493194",
       "name": "DRAGON BALL Z DOKKAN BATTLE",
       "expiresAt": "2026-09-30T06:59:00+00:00",
@@ -643,6 +566,14 @@
       "expiresAt": "2026-10-01T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1544553334097190922/1547072817785339955_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1544553334097190922/1547130566976208896.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1544550568742101012",
+      "name": "Dragonheir: Chaos Revelry",
+      "expiresAt": "2026-10-01T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1544550568742101012/1547068700685893632_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1544550568742101012/1547129380038381598.jpg",
       "rewardCount": 1
     },
     {
@@ -718,6 +649,14 @@
       "rewardCount": 1
     },
     {
+      "id": "1550081499628441600",
+      "name": "War Thunder",
+      "expiresAt": "2026-10-01T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1550081499628441600/1550084022099517531_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1550081499628441600/1550083670164119662.jpg",
+      "rewardCount": 1
+    },
+    {
       "id": "1541854877850796113",
       "name": "Verizon Fios Face-off",
       "expiresAt": "2026-10-01T00:00:00+00:00",
@@ -734,11 +673,27 @@
       "rewardCount": 1
     },
     {
+      "id": "1543813403204788235",
+      "name": "2nd Anniversary Season",
+      "expiresAt": "2026-09-28T17:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1543813403204788235/1548966852237991966_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1543813403204788235/1548966819295924315.jpg",
+      "rewardCount": 1
+    },
+    {
       "id": "1543816964525396028",
       "name": "2nd Anniversary Season",
       "expiresAt": "2026-10-01T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1543816964525396028/1548973096608731178_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1543816964525396028/1548972687911682108.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1549493465941942383",
+      "name": "ROBLOX",
+      "expiresAt": "2026-09-28T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1549493465941942383/1550249604270923887_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1549493465941942383/1549494335261646999.jpg",
       "rewardCount": 1
     },
     {
@@ -782,11 +737,35 @@
       "rewardCount": 1
     },
     {
+      "id": "1548040517420449792",
+      "name": "Wizard101 Birthday!",
+      "expiresAt": "2026-09-29T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1548040517420449792/1548041397335232572.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1548040517420449792/1548041405379641404.jpg",
+      "rewardCount": 1
+    },
+    {
       "id": "1550471494721871962",
       "name": "CONTROL Resonant",
       "expiresAt": "2026-09-28T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1550471494721871962/1552426151820136528_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1550471494721871962/1550474356449353839.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1539421708417765386",
+      "name": "Gravebound Early Access Launch",
+      "expiresAt": "2026-10-01T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1539421708417765386/1539424583407509504_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1539421708417765386/1546914021784158218.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1549171029241233449",
+      "name": "Apex VS Street Fighter 6 Event",
+      "expiresAt": "2026-10-14T00:00:00+00:00",
+      "videoUrl": null,
+      "heroImage": "https://cdn.discordapp.com/quests/1549171029241233449/1549172049606475986.jpg",
       "rewardCount": 1
     },
     {
@@ -822,6 +801,22 @@
       "rewardCount": 1
     },
     {
+      "id": "1550528900788912231",
+      "name": "Typhoeus",
+      "expiresAt": "2026-10-01T06:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1550528900788912231/1550541343808426024_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1550528900788912231/1550541204247027854.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552026065491202149",
+      "name": "Animal Hospital",
+      "expiresAt": "2026-10-05T06:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552026065491202149/1552027800377102469_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1552026065491202149/1552027741996716062.jpg",
+      "rewardCount": 1
+    },
+    {
       "id": "1549139459264741497",
       "name": "VALORANT Champions Anthem",
       "expiresAt": "2026-10-05T00:00:00+00:00",
@@ -843,6 +838,38 @@
       "expiresAt": "2026-10-05T06:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1552026065491202149/1552027800377102469_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1552026065491202149/1552027741996716062.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1551969525602451497",
+      "name": "EA SPORTS FC™ 27",
+      "expiresAt": "2026-10-05T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1551969525602451497/1551970363032862821.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1551969525602451497/1551981581118345357.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1551982502347022347",
+      "name": "EA SPORTS FC™ 27",
+      "expiresAt": "2026-10-05T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1551969525602451497/1551970363032862821.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1551969525602451497/1551981581118345357.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552793125028634754",
+      "name": "EA SPORTS FC™ 27",
+      "expiresAt": "2026-10-05T00:00:00+00:00",
+      "videoUrl": null,
+      "heroImage": "https://cdn.discordapp.com/quests/1551969525602451497/1551981581118345357.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1551983210601382063",
+      "name": "EA SPORTS FC™ 27",
+      "expiresAt": "2026-10-05T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1551969525602451497/1551970363032862821.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1551969525602451497/1551981581118345357.jpg",
       "rewardCount": 1
     }
   ]
