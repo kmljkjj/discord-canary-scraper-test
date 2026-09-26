@@ -1,1 +1,109 @@
-PLACEHOLDER_HTML
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Discord experiment · mon hash</title>
+<style>
+  :root { color-scheme: dark; --bg:#1e1f22; --card:#2b2d31; --accent:#5865f2; --text:#f2f3f5; --muted:#b5bac1; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--text); min-height:100vh; display:flex; align-items:center; justify-content:center; padding:1.5rem; }
+  .card { background:var(--card); border-radius:12px; padding:1.5rem; max-width:420px; width:100%; box-shadow:0 8px 32px #0006; }
+  h1 { font-size:1.15rem; margin:0 0 .35rem; }
+  p { color:var(--muted); font-size:.9rem; line-height:1.45; margin:.4rem 0 1rem; }
+  label { display:block; font-size:.8rem; color:var(--muted); margin-bottom:.25rem; }
+  input { width:100%; padding:.65rem .75rem; border-radius:8px; border:1px solid #3f4147; background:#1e1f22; color:var(--text); font-size:1rem; margin-bottom:.75rem; }
+  button { width:100%; padding:.7rem; border:0; border-radius:8px; background:var(--accent); color:#fff; font-weight:600; font-size:1rem; cursor:pointer; }
+  button:hover { filter:brightness(1.08); }
+  .out { margin-top:1rem; padding:1rem; background:#1e1f22; border-radius:8px; font-family: ui-monospace, monospace; font-size:.95rem; display:none; }
+  .out strong { color:#57f287; }
+  .hint { font-size:.75rem; color:var(--muted); margin-top:.75rem; }
+  code { background:#1e1f22; padding:.1rem .3rem; border-radius:4px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>Calculer mon bucket (user experiment)</h1>
+  <p>Discord place chaque utilisateur avec<br><code>murmur3("nom_exp:user_id") % 10000</code><br>(position 0–9999). Guild = autre ID → pas ce bouton.</p>
+  <label for="exp">Nom de l’experiment</label>
+  <input id="exp" placeholder="ex. 2024-01_example" autocomplete="off"/>
+  <label for="uid">Ton User ID Discord</label>
+  <input id="uid" placeholder="ex. 123456789012345678" inputmode="numeric" autocomplete="off"/>
+  <button type="button" id="go">Calculer</button>
+  <div class="out" id="out"></div>
+  <p class="hint">User ID : paramètres Discord → Avancé → Mode développeur → clic droit sur ton profil → Copier l’identifiant.</p>
+</div>
+<script>
+function murmur3(key, seed) {
+  seed = seed || 0;
+  var h1 = seed >>> 0;
+  var c1 = 0xcc9e2d51, c2 = 0x1b873593;
+  var str = String(key);
+  var bytes = [];
+  for (var i = 0; i < str.length; i++) {
+    var code = str.charCodeAt(i);
+    if (code < 0x80) bytes.push(code);
+    else if (code < 0x800) { bytes.push(0xc0 | (code >> 6), 0x80 | (code & 0x3f)); }
+    else if (code < 0xd800 || code >= 0xe000) {
+      bytes.push(0xe0 | (code >> 12), 0x80 | ((code >> 6) & 0x3f), 0x80 | (code & 0x3f));
+    } else {
+      i++;
+      var u = 0x10000 + (((code & 0x3ff) << 10) | (str.charCodeAt(i) & 0x3ff));
+      bytes.push(0xf0 | (u >> 18), 0x80 | ((u >> 12) & 0x3f), 0x80 | ((u >> 6) & 0x3f), 0x80 | (u & 0x3f));
+    }
+  }
+  var len = bytes.length, nblocks = len >> 2;
+  function imul(a, b) { return Math.imul(a, b); }
+  for (var bi = 0; bi < nblocks; bi++) {
+    var k1 = bytes[bi*4] | (bytes[bi*4+1]<<8) | (bytes[bi*4+2]<<16) | (bytes[bi*4+3]<<24);
+    k1 = imul(k1, c1);
+    k1 = (k1 << 15) | (k1 >>> 17);
+    k1 = imul(k1, c2);
+    h1 ^= k1;
+    h1 = (h1 << 13) | (h1 >>> 19);
+    h1 = (imul(h1, 5) + 0xe6546b64) >>> 0;
+  }
+  k1 = 0;
+  var off = nblocks * 4, tail = len & 3;
+  if (tail === 3) k1 ^= bytes[off+2] << 16;
+  if (tail >= 2) k1 ^= bytes[off+1] << 8;
+  if (tail >= 1) {
+    k1 ^= bytes[off];
+    k1 = imul(k1, c1);
+    k1 = (k1 << 15) | (k1 >>> 17);
+    k1 = imul(k1, c2);
+    h1 ^= k1;
+  }
+  h1 ^= len;
+  h1 ^= h1 >>> 16;
+  h1 = imul(h1, 0x85ebca6b);
+  h1 ^= h1 >>> 13;
+  h1 = imul(h1, 0xc2b2ae35);
+  h1 ^= h1 >>> 16;
+  return h1 >>> 0;
+}
+function pos(exp, uid) { return murmur3(String(exp) + ':' + String(uid)) % 10000; }
+function qs(name) {
+  try { return new URLSearchParams(location.search).get(name) || ''; } catch(e) { return ''; }
+}
+document.getElementById('exp').value = qs('exp');
+document.getElementById('go').onclick = function() {
+  var exp = document.getElementById('exp').value.trim();
+  var uid = document.getElementById('uid').value.trim();
+  var el = document.getElementById('out');
+  if (!exp || !/^\d{5,22}$/.test(uid)) {
+    el.style.display = 'block';
+    el.innerHTML = 'Renseigne un nom d’experiment et un User ID valide.';
+    return;
+  }
+  var p = pos(exp, uid);
+  var pct = (p / 100).toFixed(2);
+  el.style.display = 'block';
+  el.innerHTML = 'Experiment: <strong>' + exp.replace(/</g,'') + '</strong><br/>'
+    + 'Position: <strong>' + p + '</strong> / 9999<br/>'
+    + '≈ <strong>' + pct + '%</strong> sur l’échelle de rollout<br/>'
+    + '<span style="color:#b5bac1;font-size:.8rem">Si les ranges treatment couvrent cette position, tu es dans ce bucket.</span>';
+};
+</script>
+</body>
+</html>
