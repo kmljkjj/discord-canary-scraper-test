@@ -1,0 +1,39 @@
+name: Restore blog_tracker once
+on:
+  workflow_dispatch:
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: Pull good blog_tracker from main repo
+        run: |
+          set -euo pipefail
+          curl -fsSL "https://raw.githubusercontent.com/kmljkjj/discord-canary-scraper/main/src/blog_tracker.js" -o src/blog_tracker.js
+          wc -c src/blog_tracker.js
+          head -3 src/blog_tracker.js
+          if grep -q PLACEHOLDER src/blog_tracker.js; then
+            echo "still placeholder"
+            exit 1
+          fi
+          node --check src/blog_tracker.js
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/blog_tracker.js
+          git commit -m "fix(blog): restore blog_tracker.js from discord-canary-scraper" || true
+          for i in 1 2 3 4 5 6; do
+            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
+              echo PUSH_OK
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i))
+          done
+          exit 1
