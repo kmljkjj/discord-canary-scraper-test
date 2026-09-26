@@ -1,9 +1,9 @@
 {
-  "runId": "2026-09-25T21-41-16-460Z_621854_vhtusj",
-  "buildNumber": "621854",
-  "scrapedAt": "2026-09-25T21:41:16.460Z",
+  "runId": "2026-09-26T00-10-27-393Z_622115_afo0ft",
+  "buildNumber": "622115",
+  "scrapedAt": "2026-09-26T00:10:27.393Z",
   "totals": {
-    "all": 359
+    "all": 362
   },
   "experiments": [
     {
@@ -2911,27 +2911,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-04-overlay-fps-limit",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": null,
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        },
-        "3": {
-          "id": 3
-        }
-      },
-      "variationCount": 3,
-      "source": "discord"
-    },
-    {
       "id": "2026-04-overlay-streamer-mode",
       "type": "user",
       "kind": "user",
@@ -5488,6 +5467,23 @@
       "source": "discord"
     },
     {
+      "id": "2026-08-game-mode",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
       "id": "2026-08-game-profiles-vc",
       "type": "user",
       "kind": "user",
@@ -6212,6 +6208,23 @@
       "source": "discord"
     },
     {
+      "id": "2026-09-game-search-row",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "extraChromeEnabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
       "id": "2026-09-gifting-badge-coachmark-audience",
       "type": "user",
       "kind": "user",
@@ -6384,6 +6397,29 @@
         }
       },
       "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-09-linux-gpu-decode",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "mode": "all"
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "variationCount": 3,
       "source": "discord"
     },
     {
@@ -6652,6 +6688,29 @@
       "system": "apex",
       "defaultConfig": {
         "variant": null
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        },
+        "3": {
+          "id": 3
+        }
+      },
+      "variationCount": 3,
+      "source": "discord"
+    },
+    {
+      "id": "2026-09-silp-desktop-app-upsell",
+      "type": "user",
+      "kind": "user",
+      "label": "download_discord_app",
+      "system": "apex",
+      "defaultConfig": {
+        "label": null
       },
       "variations": {
         "1": {

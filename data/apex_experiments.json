@@ -2293,23 +2293,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-04-overlay-fps-limit",
-    "defaultConfig": null,
-    "variations": {
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      },
-      "3": {
-        "id": 3
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-04-overlay-streamer-mode",
     "defaultConfig": {
       "enabled": false
@@ -4338,6 +4321,19 @@
   },
   {
     "kind": "user",
+    "name": "2026-08-game-mode",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-08-game-profiles-vc",
     "defaultConfig": null,
     "variations": {
@@ -4910,6 +4906,19 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-game-search-row",
+    "defaultConfig": {
+      "extraChromeEnabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-gifting-badge-coachmark-audience",
     "defaultConfig": {
       "enabled": false
@@ -5043,6 +5052,25 @@
       },
       "1": {
         "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-09-linux-gpu-decode",
+    "defaultConfig": {
+      "mode": "all"
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
       }
     },
     "label": null
@@ -5267,6 +5295,25 @@
       }
     },
     "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-09-silp-desktop-app-upsell",
+    "defaultConfig": {
+      "label": null
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
+      },
+      "3": {
+        "id": 3
+      }
+    },
+    "label": "download_discord_app"
   },
   {
     "kind": "user",

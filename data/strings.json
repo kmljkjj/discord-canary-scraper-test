@@ -6,7 +6,7 @@
   "camera": "cameraphotoselfiesnaptbttripvideo",
   "return": "enter",
   "reduce": "no-preference",
-  "active": "secondary",
+  "active": "primary",
   "before": "after",
   "insert": "remove_text",
   "center": "right",
@@ -625,8 +625,6 @@
   "fNP6Cd": "Couldn’t ship it. Try again.",
   "CC69wK": "Published projectName",
   "yzxKsU": "Your project was published!",
-  "egO5fO": "Not now",
-  "09LJ+I": "A side quest while you wait?",
   "xKexN1": "Refresh App",
   "fHTQgk": "Rename",
   "NkPaHG": "Couldn’t update the app name. Try again.",
@@ -29971,8 +29969,6 @@
   "wo1EUp": "Project",
   "cWmjzs": "Settings",
   "fIBJas": "Hide tasks",
-  "gNnrNi": "completed",
-  "j9qAGu": "Checklist: completed",
   "SVhXLT": "Show tasks",
   "1ley3g": "Not finished",
   "CuzcRY": "Assist",
@@ -30032,5 +30028,7 @@
   "PLdF3A": "A new leaderboard begins! Who will be this week’s winner with the most unique games played? So far $linkusername",
   "EdXn1A": "Age-restricted servers are blocked on the iOS platform per App Store guidelines. If you are an adult, you can join the server on desktop and update your settings to view this on iOS. Visit our Help Center to learn more.",
   "wi6hPV": "Visit Our Help Center",
-  "JqfHGt": "Age-Restricted Server"
+  "JqfHGt": "Age-Restricted Server",
+  "RT9Ccb": "Console",
+  "0DvssQ": "Mobile"
 }
