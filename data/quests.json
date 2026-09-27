@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-09-26T23:51:59.517Z",
-  "count": 62,
+  "scrapedAt": "2026-09-27T03:29:41.035Z",
+  "count": 61,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -663,14 +663,6 @@
       "expiresAt": "2026-10-01T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1541854877850796113/1550231305122357359_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1541854877850796113/1550249172815323276.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1546582811790675998",
-      "name": "iPhone 18 Pro",
-      "expiresAt": "2026-09-27T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1546582811790675998/1550218041806037215_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1546582811790675998/1549861027498299453.jpg",
       "rewardCount": 1
     },
     {
