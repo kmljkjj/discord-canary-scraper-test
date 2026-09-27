@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-09-27T14:48:54.311Z",
-  "count": 61,
+  "scrapedAt": "2026-09-27T18:44:23.979Z",
+  "count": 59,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -698,26 +698,10 @@
       "rewardCount": 1
     },
     {
-      "id": "1549194520128782357",
-      "name": "Forgotten Island",
-      "expiresAt": "2026-09-27T15:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1549194520128782357/1549886617748246658_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1547367413320777830/1549122469913305179.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1549194280432566313",
       "name": "La Isla Olvidada",
       "expiresAt": "2026-09-27T21:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1549194280432566313/1549877078034354277_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1547367413320777830/1549122469913305179.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1549194337928224929",
-      "name": "포가튼 아일랜드",
-      "expiresAt": "2026-09-27T14:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1549194337928224929/1549885633084784782_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1547367413320777830/1549122469913305179.jpg",
       "rewardCount": 1
     },
