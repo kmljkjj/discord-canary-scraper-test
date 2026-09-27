@@ -29996,7 +29996,6 @@
   "VuK9sC": "Quit appName",
   "JO5lXN": "Open Voice && Video Settings",
   "kj5epw": "Open Published App",
-  "SNcPbe": "Your published app is still yours to play meanwhile.",
   "B5tZXw": "orbAmount",
   "6w+Dyr": "This audio file could not be read. It may be corrupt or use an unsupported codec.",
   "RmLsRf": "Working for hoursone",
@@ -30031,5 +30030,13 @@
   "0DvssQ": "Mobile",
   "hG0Y0+": "Approve",
   "ga8too": "Conjure it!",
-  "EwXXks": "Deleting…"
+  "EwXXks": "Deleting…",
+  "NldIIG": "Your controls are paused.",
+  "7U6tIB": "You’re back in control",
+  "2HalWx": "Stop",
+  "ydhvN1": "Testing the app",
+  "cIp+Jf": "Tested the app",
+  "nP2LB6": "Tested the app for hoursone",
+  "h1N2Xd": "Tested the app for countone",
+  "abPI+A": "Testing the app"
 }
