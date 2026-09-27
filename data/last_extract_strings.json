@@ -1,8 +1,8 @@
 {
-  "runId": "2026-09-26T22-54-17-358Z_622361_1tym34",
-  "buildNumber": "622361",
-  "updatedAt": "2026-09-26T22:54:17.358Z",
-  "count": 27533,
+  "runId": "2026-09-27T01-07-11-889Z_622379_55hywh",
+  "buildNumber": "622379",
+  "updatedAt": "2026-09-27T01:07:11.889Z",
+  "count": 27532,
   "data": {
     "bottom": "left",
     "hidden": "visible",
@@ -26068,7 +26068,6 @@
     "wkbYxG": "count",
     "TOQnq4": "Build attempts per turn",
     "WQ9pMe": "Context ceiling",
-    "5iHZLk": "Iterations per session",
     "jbhs+f": "Message length (chars)",
     "iEAvzu": "Output per turn",
     "RIDc6D": "Session attempts per turn",
