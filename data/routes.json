@@ -33,7 +33,6 @@
   "COLLECTIBLES_CATEGORIES_V2": "/collectibles-categories/v2",
   "COLLECTIBLES_SEARCH": "/shop/search",
   "COLLECTIBLES_CLAIM": "/users/@me/claim-premium-collectibles-product",
-  "COLLECTIBLES_CLAIM_CATEGORY_REWARD": "/users/@me/claim-reward-category-product",
   "COLLECTIBLES_PURCHASES": "/users/@me/collectibles-purchases",
   "COLLECTIBLES_VALID_GIFT_RECIPIENT": "/users/@me/valid-collectibles-gift-recipient",
   "COLLECTIBLES_VALID_GIFT_RECIPIENTS_BATCH": "/users/@me/valid-collectibles-gift-recipients-batch",
@@ -670,5 +669,8 @@
   "BILLING_PAST_DUE_PAYMENT_PAYMENT_SOURCE": "/billing/past-due-payment/payment-source",
   "BILLING_PAST_DUE_PAYMENT": "/billing/past-due-payment",
   "DISMISSIBLE_CONTENT_ARBITRATE": "/dismissible-content/arbitrate",
-  "ADS_CREATIVES_PREVIEW_DELIVERY_STATE_LOOKBACK": "/ads/creatives/preview/delivery-state"
+  "ADS_CREATIVES_PREVIEW_DELIVERY_STATE_LOOKBACK": "/ads/creatives/preview/delivery-state",
+  "CHECKPOINT": "/checkpoint",
+  "CHECKPOINT_COMPLETE": "/checkpoint/complete",
+  "CHECKPOINT_RESET": "/checkpoint/reset"
 }

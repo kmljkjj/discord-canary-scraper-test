@@ -4785,6 +4785,22 @@
     "label": null
   },
   {
+    "kind": "user",
+    "name": "2026-09-application-test-mode-quick-access",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
     "kind": "guild",
     "name": "2026-09-automod-application-rules",
     "defaultConfig": {
@@ -4900,6 +4916,20 @@
       },
       "2": {
         "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-09-game-profiles-v3-commerce-tab",
+    "defaultConfig": null,
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
       }
     },
     "label": null
@@ -5101,6 +5131,19 @@
       "0": {
         "id": 0
       },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-09-multi-sku-embed-rendering",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
       "1": {
         "id": 1
       }
