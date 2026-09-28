@@ -640,7 +640,7 @@
   "ACvhVC": "Add your keys",
   "gVV+HX": "Press here to add securely",
   "LpnmXm": "Only have some of these? Save what you have; you can add the rest later.",
-  "p0Ay4J": "These go straight into a locked vault. They never appear in the chat, and I never see them.",
+  "p0Ay4J": "Stored privately for this app. Never shown in chat or to me.",
   "8SWZaW": "Save keys",
   "4nT7Lo": "Those didn’t save. Check the values and try again.",
   "lM98yZ": "Secrets saved",
@@ -30043,5 +30043,7 @@
   "8oUm/J": "Leafing back through the grimoire…",
   "fQx5qC": "Relighting the candles…",
   "phXeK/": "Dusting off the incantations…",
-  "s4oxNv": "I couldn’t recall our conversation just now. It’s still saved; check back in a moment."
+  "s4oxNv": "I couldn’t recall our conversation just now. It’s still saved; check back in a moment.",
+  "1LEnd8": "If you aren’t sure what to do, just ask me!",
+  "sKNh1M": "Keys needed from you"
 }
