@@ -1,8 +1,8 @@
 {
-  "runId": "2026-09-29T07-18-15-296Z_623961_j12ftw",
-  "buildNumber": "623961",
-  "updatedAt": "2026-09-29T07:18:15.296Z",
-  "count": 27566,
+  "runId": "2026-09-29T14-10-26-605Z_624059_drdhh1",
+  "buildNumber": "624059",
+  "updatedAt": "2026-09-29T14:10:26.605Z",
+  "count": 27568,
   "data": {
     "bottom": "left",
     "hidden": "visible",
@@ -1927,6 +1927,8 @@
     "q7A8hP": "Work With Us",
     "6CLLyH": "Customize Your Badges",
     "WDhIz2": "Date unlocked",
+    "jK2oto": "Scroll left or right to view other badges",
+    "q7PYXq": "badgeName",
     "Zh44ni": "Turn on activity-based personalization to start counting progress toward this badge. $linkGo to settings.",
     "PECB/R": "Earn this badge by gifting Nitro to friends.",
     "065Hig": "Hide levels",

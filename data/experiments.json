@@ -1,7 +1,7 @@
 {
-  "runId": "2026-09-29T07-18-15-296Z_623961_j12ftw",
-  "buildNumber": "623961",
-  "scrapedAt": "2026-09-29T07:18:15.296Z",
+  "runId": "2026-09-29T14-10-26-605Z_624059_drdhh1",
+  "buildNumber": "624059",
+  "scrapedAt": "2026-09-29T14:10:26.605Z",
   "totals": {
     "all": 365,
     "legacy": 0,
@@ -6985,7 +6985,8 @@
       "label": null,
       "system": "apex",
       "defaultConfig": {
-        "enabled": false
+        "enabled": false,
+        "swipeBetweenBadges": false
       },
       "variations": {
         "0": {
@@ -6993,9 +6994,12 @@
         },
         "1": {
           "id": 1
+        },
+        "2": {
+          "id": 2
         }
       },
-      "variationCount": 2,
+      "variationCount": 3,
       "source": "discord"
     }
   ],

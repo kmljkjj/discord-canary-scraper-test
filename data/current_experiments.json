@@ -1,7 +1,7 @@
 {
-  "runId": "2026-09-29T07-18-15-296Z_623961_j12ftw",
-  "buildNumber": "623961",
-  "updatedAt": "2026-09-29T07:18:15.296Z",
+  "runId": "2026-09-29T14-10-26-605Z_624059_drdhh1",
+  "buildNumber": "624059",
+  "updatedAt": "2026-09-29T14:10:26.605Z",
   "count": 365,
   "experiments": [
     {
@@ -10990,7 +10990,8 @@
       "title": null,
       "description": null,
       "defaultConfig": {
-        "enabled": false
+        "enabled": false,
+        "swipeBetweenBadges": false
       },
       "variations": {
         "0": {
@@ -10998,10 +10999,13 @@
         },
         "1": {
           "id": 1
+        },
+        "2": {
+          "id": 2
         }
       },
       "treatments": null,
-      "variationCount": 2,
+      "variationCount": 3,
       "guildPercentage": {
         "status": "unknown",
         "value": null
@@ -11010,7 +11014,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "5dfeea91f4ad9284d054d9fe3317cea9f089ec9f07bd00b2e1f5a0702533dcff"
+      "fingerprint": "1a0c1e9bbc5f02049748ce9e19d782d1a5f0b5b85df0b1da2544a6b664ca2747"
     }
   ]
 }
