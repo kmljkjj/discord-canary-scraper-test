@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-29T02:44:15.922Z",
+  "scrapedAt": "2026-09-29T09:07:09.931Z",
   "count": 49,
   "ids": [
     "1509675158363963444",
@@ -388,7 +388,8 @@
     "1552370451727261738",
     "1552782554845806643",
     "1549819328193364061",
-    "1552698676017766541"
+    "1552698676017766541",
+    "1552790924445356043"
   ],
   "quests": [
     {
@@ -410,7 +411,7 @@
     {
       "id": "1509683146239512726",
       "name": "MONOPOLY GO!",
-      "expiresAt": "2026-09-29T06:59:00+00:00",
+      "expiresAt": "2026-10-06T06:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1509683146239512726/1553198638614847608_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1509683146239512726/1553198374025564170.jpg",
       "rewardCount": 1
@@ -608,14 +609,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1539421708417765386",
-      "name": "Gravebound Early Access Launch",
-      "expiresAt": "2026-10-01T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1539421708417765386/1539424583407509504_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1539421708417765386/1546914021784158218.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1549171029241233449",
       "name": "Apex VS Street Fighter 6 Event",
       "expiresAt": "2026-10-14T00:00:00+00:00",
@@ -781,6 +774,14 @@
       "expiresAt": "2026-10-09T16:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1552698676017766541/1552702892736249856_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1549819328193364061/1551415313474789456.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552790924445356043",
+      "name": "Clive Barker's Hellraiser: Revival ",
+      "expiresAt": "2026-10-08T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552790924445356043/1553086271683825704_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1552790924445356043/1552792117854601327.jpg",
       "rewardCount": 1
     }
   ]
