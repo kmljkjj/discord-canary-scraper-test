@@ -1,11 +1,11 @@
 {
-  "runId": "2026-09-29T14-10-26-605Z_624059_drdhh1",
-  "buildNumber": "624059",
-  "scrapedAt": "2026-09-29T14:10:26.605Z",
+  "runId": "2026-09-29T19-26-31-192Z_624527_kzmb04",
+  "buildNumber": "624527",
+  "scrapedAt": "2026-09-29T19:26:31.193Z",
   "totals": {
-    "all": 365,
+    "all": 367,
     "legacy": 0,
-    "apex": 365
+    "apex": 367
   },
   "experiments": [
     {
@@ -2844,40 +2844,6 @@
         }
       },
       "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2026-04-mobile-boost-progress-bar",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2026-04-new-games-coachmark",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
       "source": "discord"
     },
     {
@@ -6152,6 +6118,23 @@
       "source": "discord"
     },
     {
+      "id": "2026-09-design-systems-notification-components",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
       "id": "2026-09-desktop-tti-shader-cache",
       "type": "user",
       "kind": "user",
@@ -6577,6 +6560,26 @@
       "source": "discord"
     },
     {
+      "id": "2026-09-new-orb-reward-visuals",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
       "id": "2026-09-nitro-file-upload-rollout",
       "type": "user",
       "kind": "user",
@@ -6738,6 +6741,29 @@
       "source": "discord"
     },
     {
+      "id": "2026-09-silp-app-opened-direct-to-discoverable",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "placement": null
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "variationCount": 3,
+      "source": "discord"
+    },
+    {
       "id": "2026-09-silp-cta-copy-tests",
       "type": "user",
       "kind": "user",
@@ -6841,6 +6867,23 @@
         }
       },
       "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-09-soundboard-echo",
+      "type": "guild",
+      "kind": "guild",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
       "source": "discord"
     },
     {

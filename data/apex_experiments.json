@@ -2243,32 +2243,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-04-mobile-boost-progress-bar",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-04-new-games-coachmark",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-04-one-day-fractional-nitro",
     "defaultConfig": null,
     "variations": {
@@ -4860,6 +4834,19 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-design-systems-notification-components",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-desktop-tti-shader-cache",
     "defaultConfig": {
       "enabled": false
@@ -5197,6 +5184,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-new-orb-reward-visuals",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-nitro-file-upload-rollout",
     "defaultConfig": {
       "enabled": false
@@ -5322,6 +5325,25 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-silp-app-opened-direct-to-discoverable",
+    "defaultConfig": {
+      "placement": null
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-silp-cta-copy-tests",
     "defaultConfig": {
       "variant": null
@@ -5402,6 +5424,19 @@
       },
       "2": {
         "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "guild",
+    "name": "2026-09-soundboard-echo",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
       }
     },
     "label": null
