@@ -1,7 +1,7 @@
 {
-  "runId": "2026-09-28T21-52-02-262Z_623582_0rzhrj",
-  "buildNumber": "623582",
-  "updatedAt": "2026-09-28T21:52:02.263Z",
+  "runId": "2026-09-29T01-24-05-368Z_623860_o1s4y8",
+  "buildNumber": "623860",
+  "updatedAt": "2026-09-29T01:24:05.368Z",
   "count": 365,
   "experiments": [
     {
@@ -63,34 +63,6 @@
         "value": null
       },
       "fingerprint": "38bf2a7429337fc29a3c14ba5217bb5e473daf650019b2cd6df26e963e19167e"
-    },
-    {
-      "id": "2021-10_study_group",
-      "kind": "guild",
-      "type": "guild",
-      "system": "apex",
-      "label": "Student hub study group",
-      "title": "Student hub study group",
-      "description": null,
-      "defaultConfig": {
-        "enableStudyGroup": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "734ddd69323df8cd9d855b2fdd7d29993b71305411a663eb527cf83df5af793f"
     },
     {
       "id": "2021-12_inferno_spam_redaction",
@@ -10607,6 +10579,34 @@
         "value": null
       },
       "fingerprint": "8e139cab627ec1b0ce298d190e611a4eee615de7108102a468bdb83121538335"
+    },
+    {
+      "id": "2026-09-server-onboarding-setup-progress",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "showSetupProgressRow": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "1481a7275f4d8f122df04e3a04bb1604e6509b344ccff99b27c14ce9ae5d56b5"
     },
     {
       "id": "2026-09-silp-cta-copy-tests",

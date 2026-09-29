@@ -1,7 +1,7 @@
 {
-  "runId": "2026-09-28T21-52-02-262Z_623582_0rzhrj",
-  "buildNumber": "623582",
-  "updatedAt": "2026-09-28T21:52:02.263Z",
+  "runId": "2026-09-29T01-24-05-368Z_623860_o1s4y8",
+  "buildNumber": "623860",
+  "updatedAt": "2026-09-29T01:24:05.368Z",
   "count": 365,
   "data": {
     "2021-02_staff_qc_debugging": {
@@ -32,19 +32,6 @@
         }
       },
       "fp": "5b96f1c51eca77881eec962b"
-    },
-    "2021-10_study_group": {
-      "id": "2021-10_study_group",
-      "type": "guild",
-      "kind": "guild",
-      "label": "Student hub study group",
-      "variationCount": 1,
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "d347f0efa663e8d98bccbd7f"
     },
     "2021-12_inferno_spam_redaction": {
       "id": "2021-12_inferno_spam_redaction",
@@ -5315,6 +5302,19 @@
     },
     "2026-09-registration-email-opt-in-copy": {
       "id": "2026-09-registration-email-opt-in-copy",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 1,
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "f168eaf07e491e0688f2b8f8"
+    },
+    "2026-09-server-onboarding-setup-progress": {
+      "id": "2026-09-server-onboarding-setup-progress",
       "type": "user",
       "kind": "user",
       "label": null,

@@ -30,19 +30,6 @@
     "label": "Runtime Accessibility System"
   },
   {
-    "kind": "guild",
-    "name": "2021-10_study_group",
-    "defaultConfig": {
-      "enableStudyGroup": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": "Student hub study group"
-  },
-  {
     "kind": "user",
     "name": "2021-12_inferno_spam_redaction",
     "defaultConfig": {
@@ -5312,6 +5299,19 @@
     "name": "2026-09-registration-email-opt-in-copy",
     "defaultConfig": {
       "trackingCopy": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-09-server-onboarding-setup-progress",
+    "defaultConfig": {
+      "showSetupProgressRow": false
     },
     "variations": {
       "1": {

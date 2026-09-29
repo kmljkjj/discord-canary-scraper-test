@@ -1,7 +1,7 @@
 {
-  "runId": "2026-09-28T21-52-02-262Z_623582_0rzhrj",
-  "buildNumber": "623582",
-  "scrapedAt": "2026-09-28T21:52:02.263Z",
+  "runId": "2026-09-29T01-24-05-368Z_623860_o1s4y8",
+  "buildNumber": "623860",
+  "scrapedAt": "2026-09-29T01:24:05.368Z",
   "totals": {
     "all": 365,
     "legacy": 0,
@@ -44,23 +44,6 @@
         }
       },
       "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2021-10_study_group",
-      "type": "guild",
-      "kind": "guild",
-      "label": "Student hub study group",
-      "system": "apex",
-      "defaultConfig": {
-        "enableStudyGroup": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
       "source": "discord"
     },
     {
@@ -6728,6 +6711,23 @@
       "system": "apex",
       "defaultConfig": {
         "trackingCopy": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
+      "id": "2026-09-server-onboarding-setup-progress",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "showSetupProgressRow": false
       },
       "variations": {
         "1": {
