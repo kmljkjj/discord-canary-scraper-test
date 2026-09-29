@@ -672,5 +672,6 @@
   "ADS_CREATIVES_PREVIEW_DELIVERY_STATE_LOOKBACK": "/ads/creatives/preview/delivery-state",
   "CHECKPOINT": "/checkpoint",
   "CHECKPOINT_COMPLETE": "/checkpoint/complete",
-  "CHECKPOINT_RESET": "/checkpoint/reset"
+  "CHECKPOINT_RESET": "/checkpoint/reset",
+  "VIRTUAL_CURRENCY_USER_TOTAL_REDEEMED": "/users/@me/virtual-currency/total-redeemed"
 }

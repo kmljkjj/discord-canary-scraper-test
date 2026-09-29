@@ -1,8 +1,8 @@
 {
-  "runId": "2026-09-29T19-26-31-192Z_624527_kzmb04",
-  "buildNumber": "624527",
-  "updatedAt": "2026-09-29T19:26:31.193Z",
-  "count": 14,
+  "runId": "2026-09-29T23-08-14-543Z_625020_w5ggrn",
+  "buildNumber": "625020",
+  "updatedAt": "2026-09-29T23:08:14.543Z",
+  "count": 17,
   "experiments": [
     {
       "id": "2026-02-mute-tutorial",
@@ -101,6 +101,27 @@
       "label": null,
       "removedAt": "2026-09-29T19:26:31.202Z",
       "lastBuild": "624527"
+    },
+    {
+      "id": "2025-11-hide-manual-link",
+      "kind": "user",
+      "label": null,
+      "removedAt": "2026-09-29T23:08:14.556Z",
+      "lastBuild": "625020"
+    },
+    {
+      "id": "2026-03_game_server_pricing",
+      "kind": "guild",
+      "label": "Game Server Pricing",
+      "removedAt": "2026-09-29T23:08:14.556Z",
+      "lastBuild": "625020"
+    },
+    {
+      "id": "2026-07-shop-this-look",
+      "kind": "user",
+      "label": null,
+      "removedAt": "2026-09-29T23:08:14.556Z",
+      "lastBuild": "625020"
     }
   ]
 }

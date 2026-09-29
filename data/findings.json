@@ -1,9 +1,9 @@
 {
-  "runId": "2026-09-29T19-26-31-192Z_624527_kzmb04",
-  "buildNumber": "624527",
-  "scrapedAt": "2026-09-29T19:26:31.193Z",
+  "runId": "2026-09-29T23-08-14-543Z_625020_w5ggrn",
+  "buildNumber": "625020",
+  "scrapedAt": "2026-09-29T23:08:14.543Z",
   "totals": {
-    "all": 367
+    "all": 366
   },
   "experiments": [
     {
@@ -684,23 +684,6 @@
       "system": "apex",
       "defaultConfig": {
         "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2025-11-hide-manual-link",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "isHidden": false
       },
       "variations": {
         "1": {
@@ -1714,23 +1697,6 @@
       "type": "user",
       "kind": "user",
       "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2026-03_game_server_pricing",
-      "type": "guild",
-      "kind": "guild",
-      "label": "Game Server Pricing",
       "system": "apex",
       "defaultConfig": {
         "enabled": false
@@ -5040,26 +5006,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-07-shop-this-look",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "shopThisLookEnabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2026-07-smag-dm-sidebar-nitro-recommendation",
       "type": "user",
       "kind": "user",
@@ -5754,6 +5700,23 @@
     },
     {
       "id": "2026-08-show-expressive-modal-subtitle-alt",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
+      "id": "2026-08-split-payments",
       "type": "user",
       "kind": "user",
       "label": null,
@@ -7017,6 +6980,23 @@
         }
       },
       "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-09-youtube-3p-nagbar",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
       "source": "discord"
     },
     {

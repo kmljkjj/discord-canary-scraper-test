@@ -544,19 +544,6 @@
   },
   {
     "kind": "user",
-    "name": "2025-11-hide-manual-link",
-    "defaultConfig": {
-      "isHidden": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2025-11-mana-context-menu",
     "defaultConfig": {
       "enabled": false
@@ -1358,19 +1345,6 @@
       }
     },
     "label": null
-  },
-  {
-    "kind": "guild",
-    "name": "2026-03_game_server_pricing",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": "Game Server Pricing"
   },
   {
     "kind": "guild",
@@ -3978,22 +3952,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-07-shop-this-look",
-    "defaultConfig": {
-      "shopThisLookEnabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-07-smag-dm-sidebar-nitro-recommendation",
     "defaultConfig": {
       "isEnabled": false
@@ -4548,6 +4506,19 @@
   {
     "kind": "user",
     "name": "2026-08-show-expressive-modal-subtitle-alt",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-08-split-payments",
     "defaultConfig": {
       "enabled": false
     },
@@ -5542,6 +5513,19 @@
       "0": {
         "id": 0
       },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-09-youtube-3p-nagbar",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
       "1": {
         "id": 1
       }

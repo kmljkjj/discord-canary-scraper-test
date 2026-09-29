@@ -1,8 +1,8 @@
 {
-  "runId": "2026-09-29T19-26-31-192Z_624527_kzmb04",
-  "buildNumber": "624527",
-  "updatedAt": "2026-09-29T19:26:31.193Z",
-  "count": 367,
+  "runId": "2026-09-29T23-08-14-543Z_625020_w5ggrn",
+  "buildNumber": "625020",
+  "updatedAt": "2026-09-29T23:08:14.543Z",
+  "count": 366,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -1086,34 +1086,6 @@
         "value": null
       },
       "fingerprint": "58dbb217e2150931547700662d9ce02685928fcc7b0e57b7cf742b2654e26432"
-    },
-    {
-      "id": "2025-11-hide-manual-link",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "isHidden": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "ba941fd968158216974869a5e067dd5446d486f733033a8ca8d28feb05f55dfb"
     },
     {
       "id": "2025-11-mana-context-menu",
@@ -2713,34 +2685,6 @@
         "value": null
       },
       "fingerprint": "fd910c74b36356d65b928d2dbff37e80484bc1d2e749e4ef6a67030b34b21882"
-    },
-    {
-      "id": "2026-03_game_server_pricing",
-      "kind": "guild",
-      "type": "guild",
-      "system": "apex",
-      "label": "Game Server Pricing",
-      "title": "Game Server Pricing",
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "2eee230fce8e958922b1470bffd4bb951a699180e227c18b2143640fd92d6295"
     },
     {
       "id": "2026-03_guild_official_messages",
@@ -7945,37 +7889,6 @@
       "fingerprint": "311ccadfc40355e47e830e28c1acec21f7752b70a31cf6290f42e4f3f9295502"
     },
     {
-      "id": "2026-07-shop-this-look",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "shopThisLookEnabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "dbea251bf885f5a283ab3a4a7f4dcb3680b7db856f06e72a51016330a3c33591"
-    },
-    {
       "id": "2026-07-smag-dm-sidebar-nitro-recommendation",
       "kind": "user",
       "type": "user",
@@ -9080,6 +8993,34 @@
         "value": null
       },
       "fingerprint": "bf2731bf4c07836ad612491cb6281ac1169de51172b352714cc8ade6ac8a806f"
+    },
+    {
+      "id": "2026-08-split-payments",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "c850820e0330d714b779b6833157e1616a7cc362c45e2e194a121252a0462ef7"
     },
     {
       "id": "2026-08-timestamp-autocomplete-mobile",
@@ -11045,6 +10986,34 @@
         "value": null
       },
       "fingerprint": "654fcb33f9ae9638ff3582e9da3987870e809362dd487cd3510432248a897cd4"
+    },
+    {
+      "id": "2026-09-youtube-3p-nagbar",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "f965d27f1e1eecede2679cb5d83ceab442fc62b3f480ff307186ee6e11a2b060"
     },
     {
       "id": "2026-10-badge-directory-updates",
