@@ -507,7 +507,7 @@
   "67PpcP": "Add a thought while it works",
   "nm4w9P": "Finding my way back to you…",
   "wjWm+/": "We lost the thread. Reconnecting…",
-  "3qelzD": "Conjuring MCP",
+  "3qelzD": "MCP",
   "lTtxBT": "This header works for 24 hours. Refresh it whenever you need a new one.",
   "QJKw6N": "That didn’t come together. Try again in a moment.",
   "c3R8Tx": "Conjuring your link…",
@@ -30005,7 +30005,7 @@
   "JqfHGt": "Age-Restricted Server",
   "RT9Ccb": "Console",
   "0DvssQ": "Mobile",
-  "hG0Y0+": "Approve",
+  "hG0Y0+": "Conjure it!",
   "ga8too": "Conjure it!",
   "EwXXks": "Deleting…",
   "NldIIG": "Your controls are paused.",
@@ -30060,5 +30060,10 @@
   "ncJb2S": "I updated your live bot $linkname",
   "M3cBMT": "I updated your live rule $linkname",
   "gSpqdm": "I updated your live widget $linkname",
-  "5U1fkv": "Live \\xb7 up to date"
+  "5U1fkv": "Live \\xb7 up to date",
+  "hKfSwp": "Move Channel",
+  "g+lLUV": "Move Role",
+  "d3aX5b": "userHook$buser",
+  "jZeaoW": "userHook$buser",
+  "Vl3IL0": "Or tell me what to change"
 }
