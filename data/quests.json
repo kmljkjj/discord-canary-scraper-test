@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-09-28T05:14:17.754Z",
-  "count": 53,
+  "scrapedAt": "2026-09-29T02:44:15.922Z",
+  "count": 49,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -384,7 +384,11 @@
     "1551983210601382063",
     "1552026570229813258",
     "1546583178230235336",
-    "1552101830807265300"
+    "1552101830807265300",
+    "1552370451727261738",
+    "1552782554845806643",
+    "1549819328193364061",
+    "1552698676017766541"
   ],
   "quests": [
     {
@@ -449,22 +453,6 @@
       "expiresAt": "2026-10-12T06:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1541363735791280209/1551723141514928198_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1541363735791280209/1541597492628553819.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1540036377146556556",
-      "name": "Student Perks",
-      "expiresAt": "2026-09-29T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1540036377146556556/1540082319606677564_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1540036377146556556/1543004822704361472.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1542287027578478654",
-      "name": "Student Perks",
-      "expiresAt": "2026-09-29T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1540036377146556556/1540082319606677564_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1542287027578478654/1543004659654852751.jpg",
       "rewardCount": 1
     },
     {
@@ -580,22 +568,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1537132225999413298",
-      "name": "FORGOTTEN ISLAND",
-      "expiresAt": "2026-09-28T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1537132225999413298/1549536715826405557_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1537132225999413298/1549100554310123520.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1547891967122346015",
-      "name": "War Thunder",
-      "expiresAt": "2026-09-29T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1547891967122346015/1547948624825159711_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1547891967122346015/1547948806887309322.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1547680317869924507",
       "name": "FINAL FANTASY XIV Online Trailer",
       "expiresAt": "2026-10-01T00:00:00+00:00",
@@ -604,27 +576,11 @@
       "rewardCount": 1
     },
     {
-      "id": "1549743272010719565",
-      "name": "Warhammer 40,000: Tacticus",
-      "expiresAt": "2026-09-29T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1549743272010719565/1549772522894139422_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1549743272010719565/1549772738229567598.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1544503579912572989",
       "name": "Lenovo Legion",
       "expiresAt": "2026-10-01T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1544503579912572989/1544505694752088175_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1544503579912572989/1544504981833646171.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1547360739918880860",
-      "name": "FORGOTTEN ISLAND",
-      "expiresAt": "2026-09-28T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1547360739918880860/1549536914279764008_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1547360739918880860/1549120429652840570.jpg",
       "rewardCount": 1
     },
     {
@@ -644,27 +600,11 @@
       "rewardCount": 1
     },
     {
-      "id": "1543813403204788235",
-      "name": "2nd Anniversary Season",
-      "expiresAt": "2026-09-28T17:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1543813403204788235/1548966852237991966_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1543813403204788235/1548966819295924315.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1543816964525396028",
       "name": "2nd Anniversary Season",
       "expiresAt": "2026-10-01T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1543816964525396028/1548973096608731178_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1543816964525396028/1548972687911682108.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1548040517420449792",
-      "name": "Wizard101 Birthday!",
-      "expiresAt": "2026-09-29T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1548040517420449792/1548041397335232572.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1548040517420449792/1548041405379641404.jpg",
       "rewardCount": 1
     },
     {
@@ -809,6 +749,38 @@
       "expiresAt": "2026-10-04T21:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1552101830807265300/1552403727074463835_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1552101830807265300/1552404306269831248.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552370451727261738",
+      "name": "Matchbox The Movie",
+      "expiresAt": "2026-10-09T16:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552370451727261738/1552703270667948072_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1549819328193364061/1551415313474789456.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552782554845806643",
+      "name": "Matchbox The Movie",
+      "expiresAt": "2026-10-09T16:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552782554845806643/1552814902312173690_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1549819328193364061/1551415313474789456.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1549819328193364061",
+      "name": "Matchbox The Movie",
+      "expiresAt": "2026-10-09T16:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1549819328193364061/1552814648192147476_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1549819328193364061/1551415313474789456.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552698676017766541",
+      "name": "Matchbox The Movie",
+      "expiresAt": "2026-10-09T16:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552698676017766541/1552702892736249856_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1549819328193364061/1551415313474789456.jpg",
       "rewardCount": 1
     }
   ]
