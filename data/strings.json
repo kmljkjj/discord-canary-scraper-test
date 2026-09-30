@@ -30043,7 +30043,7 @@
   "S+XFJ2": "Update widget",
   "j8541Y": "View AutoMod settings",
   "wK3FYl": "View profile",
-  "x71ku3": "Needs Manage Server in server",
+  "x71ku3": "You need the Manage Server permission in server",
   "ogEl54": "$linkname",
   "tg9fgb": "I updated your live app $linkname",
   "ncJb2S": "I updated your live bot $linkname",
@@ -30096,5 +30096,8 @@
   "h+LUpk": "percent",
   "NKTF0a": "50+ games, 10 hours of cloud gaming a month, and up to $25 in Rewards. Let\\'s play. $linkTerms and eligibility rules apply",
   "IthhpG": "Xbox Game Pass Awaits",
-  "ZOkckv": "name"
+  "ZOkckv": "name",
+  "53xiNu": "You need the Manage Channels permission in server",
+  "qG1SMK": "You need the Manage Server and Manage Channels permissions in server",
+  "AcWS6c": "The live version is out of date. $linkaction"
 }
