@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-09-29T20:21:27.733Z",
-  "count": 49,
+  "scrapedAt": "2026-09-30T03:43:57.513Z",
+  "count": 51,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -389,7 +389,9 @@
     "1552782554845806643",
     "1549819328193364061",
     "1552698676017766541",
-    "1552790924445356043"
+    "1552790924445356043",
+    "1554438460041863280",
+    "1553392150924890112"
   ],
   "quests": [
     {
@@ -521,14 +523,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1547905303356383283",
-      "name": "RuneScape: Dragonwilds",
-      "expiresAt": "2026-09-30T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1547905303356383283/1547908918758342686_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1547905303356383283/1547908519468990484.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1544553334097190922",
       "name": "Dragonheir: Chaos Revelry",
       "expiresAt": "2026-10-01T00:00:00+00:00",
@@ -545,14 +539,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1547897426755457146",
-      "name": "METRO 2039",
-      "expiresAt": "2026-09-30T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1547897426755457146/1547898374324494386_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1547897426755457146/1547898373330309160.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1547065378205736991",
       "name": "Dragonheir: Chaos Revelry",
       "expiresAt": "2026-10-01T00:00:00+00:00",
@@ -566,6 +552,14 @@
       "expiresAt": "2026-10-01T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1544963709678522439/1547078177354940436_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1544963709678522439/1547130826230206464.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1547891967122346015",
+      "name": "War Thunder",
+      "expiresAt": "2026-10-07T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1547891967122346015/1547948624825159711_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1547891967122346015/1547948806887309322.jpg",
       "rewardCount": 1
     },
     {
@@ -595,9 +589,17 @@
     {
       "id": "1541854877850796113",
       "name": "Verizon Fios Face-off",
-      "expiresAt": "2026-10-01T00:00:00+00:00",
+      "expiresAt": "2026-10-01T06:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1541854877850796113/1550231305122357359_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1541854877850796113/1550249172815323276.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1549427687603314699",
+      "name": "Heroes of History",
+      "expiresAt": "2026-10-08T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1549427687603314699/1550156057274224659_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1549427687603314699/1550156234974298234.jpg",
       "rewardCount": 1
     },
     {
@@ -780,8 +782,24 @@
       "id": "1552790924445356043",
       "name": "Clive Barker's Hellraiser: Revival ",
       "expiresAt": "2026-10-08T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552790924445356043/1553086271683825704_720.mp4",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552790924445356043/1554560864852516874_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1552790924445356043/1552792117854601327.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1554438460041863280",
+      "name": "The Witcher 3: Wild Hunt — Remastered",
+      "expiresAt": "2026-10-07T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1553392150924890112/1553394395695546408_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1553392150924890112/1553394394843844618.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1553392150924890112",
+      "name": "The Witcher 3: Wild Hunt — Remastered",
+      "expiresAt": "2026-10-07T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1553392150924890112/1553394395577852074_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1553392150924890112/1553394394843844618.jpg",
       "rewardCount": 1
     }
   ]
