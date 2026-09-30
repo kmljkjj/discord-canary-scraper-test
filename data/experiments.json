@@ -1,7 +1,7 @@
 {
-  "runId": "2026-09-30T20-07-56-478Z_625930_ha14e4",
-  "buildNumber": "625930",
-  "scrapedAt": "2026-09-30T20:07:56.478Z",
+  "runId": "2026-09-30T23-48-23-641Z_626350_2l10gq",
+  "buildNumber": "626350",
+  "scrapedAt": "2026-09-30T23:48:23.641Z",
   "totals": {
     "all": 360,
     "legacy": 0,
@@ -4178,45 +4178,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-06-wysiwyg-show-dns-to-non-nitro",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2026-06-wysiwyg-user-profile-premium-try-it-out",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false,
-        "showPresetName": false,
-        "clientThemeAdaptedColorsEnabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2026-07-ad-recheck-interval-experiment",
       "type": "user",
       "kind": "user",
@@ -6236,6 +6197,23 @@
       "source": "discord"
     },
     {
+      "id": "2026-09-linked-game-org-invites-dev",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
       "id": "2026-09-linux-gpu-decode",
       "type": "user",
       "kind": "user",
@@ -6444,6 +6422,26 @@
       "source": "discord"
     },
     {
+      "id": "2026-09-orbs-hero-carousel",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
       "id": "2026-09-profile-link-fetch",
       "type": "user",
       "kind": "user",
@@ -6516,6 +6514,24 @@
       "source": "discord"
     },
     {
+      "id": "2026-09-referral-profile-contextual-menu-upsell",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": null,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
       "id": "2026-09-referral-trial-cta",
       "type": "user",
       "kind": "user",
@@ -6557,14 +6573,18 @@
       "label": null,
       "system": "apex",
       "defaultConfig": {
-        "showSetupProgressRow": false
+        "showSetupProgressRow": false,
+        "boostBeforeAddApp": false
       },
       "variations": {
         "1": {
           "id": 1
+        },
+        "2": {
+          "id": 2
         }
       },
-      "variationCount": 1,
+      "variationCount": 2,
       "source": "discord"
     },
     {
@@ -6674,26 +6694,6 @@
         }
       },
       "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2026-09-smag-nitro-gifting-lightning-checkout",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "variationCount": 2,
       "source": "discord"
     },
     {

@@ -673,5 +673,6 @@
   "CHECKPOINT": "/checkpoint",
   "CHECKPOINT_COMPLETE": "/checkpoint/complete",
   "CHECKPOINT_RESET": "/checkpoint/reset",
-  "VIRTUAL_CURRENCY_USER_TOTAL_REDEEMED": "/users/@me/virtual-currency/total-redeemed"
+  "VIRTUAL_CURRENCY_USER_TOTAL_REDEEMED": "/users/@me/virtual-currency/total-redeemed",
+  "VIBEGRATIONS_PROJECT_ACK": "/conjuring/projects/:param/ack/:param"
 }

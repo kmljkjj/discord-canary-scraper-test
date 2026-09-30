@@ -1,7 +1,7 @@
 {
-  "runId": "2026-09-30T20-07-56-478Z_625930_ha14e4",
-  "buildNumber": "625930",
-  "updatedAt": "2026-09-30T20:07:56.478Z",
+  "runId": "2026-09-30T23-48-23-641Z_626350_2l10gq",
+  "buildNumber": "626350",
+  "updatedAt": "2026-09-30T23:48:23.641Z",
   "count": 360,
   "data": {
     "2021-02_staff_qc_debugging": {
@@ -3286,35 +3286,6 @@
       },
       "fp": "f168eaf07e491e0688f2b8f8"
     },
-    "2026-06-wysiwyg-show-dns-to-non-nitro": {
-      "id": "2026-06-wysiwyg-show-dns-to-non-nitro",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 1,
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "f168eaf07e491e0688f2b8f8"
-    },
-    "2026-06-wysiwyg-user-profile-premium-try-it-out": {
-      "id": "2026-06-wysiwyg-user-profile-premium-try-it-out",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 2,
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "fp": "f44d6f0eb6e4563019d5aa79"
-    },
     "2026-07-ad-recheck-interval-experiment": {
       "id": "2026-07-ad-recheck-interval-experiment",
       "type": "user",
@@ -4928,6 +4899,19 @@
       },
       "fp": "4eb58677fe4d82185914eef5"
     },
+    "2026-09-linked-game-org-invites-dev": {
+      "id": "2026-09-linked-game-org-invites-dev",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 1,
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "f168eaf07e491e0688f2b8f8"
+    },
     "2026-09-linux-gpu-decode": {
       "id": "2026-09-linux-gpu-decode",
       "type": "user",
@@ -5092,6 +5076,22 @@
       },
       "fp": "4eb58677fe4d82185914eef5"
     },
+    "2026-09-orbs-hero-carousel": {
+      "id": "2026-09-orbs-hero-carousel",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "4eb58677fe4d82185914eef5"
+    },
     "2026-09-profile-link-fetch": {
       "id": "2026-09-profile-link-fetch",
       "type": "user",
@@ -5147,6 +5147,22 @@
       },
       "fp": "f168eaf07e491e0688f2b8f8"
     },
+    "2026-09-referral-profile-contextual-menu-upsell": {
+      "id": "2026-09-referral-profile-contextual-menu-upsell",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "4eb58677fe4d82185914eef5"
+    },
     "2026-09-referral-trial-cta": {
       "id": "2026-09-referral-trial-cta",
       "type": "user",
@@ -5181,13 +5197,16 @@
       "type": "user",
       "kind": "user",
       "label": null,
-      "variationCount": 1,
+      "variationCount": 2,
       "variations": {
         "1": {
           "id": 1
+        },
+        "2": {
+          "id": 2
         }
       },
-      "fp": "f168eaf07e491e0688f2b8f8"
+      "fp": "f44d6f0eb6e4563019d5aa79"
     },
     "2026-09-silp-app-opened-direct-to-discoverable": {
       "id": "2026-09-silp-app-opened-direct-to-discoverable",
@@ -5277,22 +5296,6 @@
         }
       },
       "fp": "f168eaf07e491e0688f2b8f8"
-    },
-    "2026-09-smag-nitro-gifting-lightning-checkout": {
-      "id": "2026-09-smag-nitro-gifting-lightning-checkout",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 2,
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "fp": "f44d6f0eb6e4563019d5aa79"
     },
     "2026-09-soundboard-echo": {
       "id": "2026-09-soundboard-echo",

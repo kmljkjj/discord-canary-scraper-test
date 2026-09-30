@@ -1,7 +1,7 @@
 {
-  "runId": "2026-09-30T20-07-56-478Z_625930_ha14e4",
-  "buildNumber": "625930",
-  "updatedAt": "2026-09-30T20:07:56.478Z",
+  "runId": "2026-09-30T23-48-23-641Z_626350_2l10gq",
+  "buildNumber": "626350",
+  "updatedAt": "2026-09-30T23:48:23.641Z",
   "count": 360,
   "experiments": [
     {
@@ -6586,67 +6586,6 @@
       "fingerprint": "c30fe3ecfd010b99b1bc7ecafd066c309e58c4ccea4ca816ef881dcbcdb9880f"
     },
     {
-      "id": "2026-06-wysiwyg-show-dns-to-non-nitro",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "8d362dc29ffbf97911fd3790f6da47a043de4fc29c53f51c27673389165379c8"
-    },
-    {
-      "id": "2026-06-wysiwyg-user-profile-premium-try-it-out",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false,
-        "showPresetName": false,
-        "clientThemeAdaptedColorsEnabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "84caea83a5ee133187a967f5ea1b0f4f724f6772f5ffd5b14488353799595b1d"
-    },
-    {
       "id": "2026-07-ad-recheck-interval-experiment",
       "kind": "user",
       "type": "user",
@@ -9821,6 +9760,34 @@
       "fingerprint": "47e9c46827ce6f4fc505b529b1ec49184036f265ef0ff3b2ce63eb1b41afc02f"
     },
     {
+      "id": "2026-09-linked-game-org-invites-dev",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "604e6b216cc8293653e78567d8c8fdaed7ea07b3bd0a505b4948c25fa407fafc"
+    },
+    {
       "id": "2026-09-linux-gpu-decode",
       "kind": "user",
       "type": "user",
@@ -10150,6 +10117,37 @@
       "fingerprint": "07a086b1c4a87044c534c24457fabf88b91a71a5c56a69bf07e13eb6c955fc4e"
     },
     {
+      "id": "2026-09-orbs-hero-carousel",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "f9e839e21ce13f6dea7d772ecd6ec52e2e991042b49b7c63ac4c03a6f9a7c687"
+    },
+    {
       "id": "2026-09-profile-link-fetch",
       "kind": "user",
       "type": "user",
@@ -10266,6 +10264,35 @@
       "fingerprint": "692768d0856382b0878d41164fc80356486308422d7813c15e07823d71682d01"
     },
     {
+      "id": "2026-09-referral-profile-contextual-menu-upsell",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": null,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "61fdc04ebe1b35c6fc6f8aeea1ee050e27687f2fc5d3b6a4a9e051463af4cc96"
+    },
+    {
       "id": "2026-09-referral-trial-cta",
       "kind": "user",
       "type": "user",
@@ -10331,15 +10358,19 @@
       "title": null,
       "description": null,
       "defaultConfig": {
-        "showSetupProgressRow": false
+        "showSetupProgressRow": false,
+        "boostBeforeAddApp": false
       },
       "variations": {
         "1": {
           "id": 1
+        },
+        "2": {
+          "id": 2
         }
       },
       "treatments": null,
-      "variationCount": 1,
+      "variationCount": 2,
       "guildPercentage": {
         "status": "unknown",
         "value": null
@@ -10348,7 +10379,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "1481a7275f4d8f122df04e3a04bb1604e6509b344ccff99b27c14ce9ae5d56b5"
+      "fingerprint": "9d0e7b9d0be65120ea132ee658c1d65c9544b6ab751ce2bdd9b1de88afe489e7"
     },
     {
       "id": "2026-09-silp-app-opened-direct-to-discoverable",
@@ -10513,37 +10544,6 @@
         "value": null
       },
       "fingerprint": "7c232b0ca3b1f731b1fa9260fb6be35a1f615bf7d17a9a11f53e1b6f7e146970"
-    },
-    {
-      "id": "2026-09-smag-nitro-gifting-lightning-checkout",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "38bf52f018a510e7efbe37acccf0ce4a737b282438c8290aa0050caa85d3fb6d"
     },
     {
       "id": "2026-09-soundboard-echo",

@@ -3294,37 +3294,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-06-wysiwyg-show-dns-to-non-nitro",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-06-wysiwyg-user-profile-premium-try-it-out",
-    "defaultConfig": {
-      "enabled": false,
-      "showPresetName": false,
-      "clientThemeAdaptedColorsEnabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-07-ad-recheck-interval-experiment",
     "defaultConfig": {
       "enableFastAdRecheck": false
@@ -4924,6 +4893,19 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-linked-game-org-invites-dev",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-linux-gpu-decode",
     "defaultConfig": {
       "mode": "all"
@@ -5088,6 +5070,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-orbs-hero-carousel",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-profile-link-fetch",
     "defaultConfig": {
       "enabled": false
@@ -5144,6 +5142,20 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-referral-profile-contextual-menu-upsell",
+    "defaultConfig": null,
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-referral-trial-cta",
     "defaultConfig": null,
     "variations": {
@@ -5173,11 +5185,15 @@
     "kind": "user",
     "name": "2026-09-server-onboarding-setup-progress",
     "defaultConfig": {
-      "showSetupProgressRow": false
+      "showSetupProgressRow": false,
+      "boostBeforeAddApp": false
     },
     "variations": {
       "1": {
         "id": 1
+      },
+      "2": {
+        "id": 2
       }
     },
     "label": null
@@ -5267,22 +5283,6 @@
     "variations": {
       "1": {
         "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-09-smag-nitro-gifting-lightning-checkout",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
       }
     },
     "label": null
