@@ -1,11 +1,11 @@
 {
-  "runId": "2026-09-29T23-08-14-543Z_625020_w5ggrn",
-  "buildNumber": "625020",
-  "scrapedAt": "2026-09-29T23:08:14.543Z",
+  "runId": "2026-09-30T02-07-26-817Z_625274_6yto7f",
+  "buildNumber": "625274",
+  "scrapedAt": "2026-09-30T02:07:26.818Z",
   "totals": {
-    "all": 366,
+    "all": 363,
     "legacy": 0,
-    "apex": 366
+    "apex": 363
   },
   "experiments": [
     {
@@ -1615,26 +1615,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-02-private-profiles",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2026-02-process-boost-on-voice",
       "type": "user",
       "kind": "user",
@@ -2239,58 +2219,6 @@
         }
       },
       "variationCount": 3,
-      "source": "discord"
-    },
-    {
-      "id": "2026-03-private-profiles-strict",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        },
-        "3": {
-          "id": 3
-        }
-      },
-      "variationCount": 4,
-      "source": "discord"
-    },
-    {
-      "id": "2026-03-private-profiles-strict-gb",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        },
-        "3": {
-          "id": 3
-        }
-      },
-      "variationCount": 4,
       "source": "discord"
     },
     {

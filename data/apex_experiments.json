@@ -1271,22 +1271,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-02-private-profiles",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-02-process-boost-on-voice",
     "defaultConfig": {
       "threadPriorityConfiguration": 0
@@ -1752,50 +1736,6 @@
     "name": "2026-03-overlay-default-keybind",
     "defaultConfig": null,
     "variations": {
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      },
-      "3": {
-        "id": 3
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-03-private-profiles-strict",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      },
-      "3": {
-        "id": 3
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-03-private-profiles-strict-gb",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
       "1": {
         "id": 1
       },
