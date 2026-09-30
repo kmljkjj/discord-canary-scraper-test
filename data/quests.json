@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-09-30T03:43:57.513Z",
-  "count": 51,
+  "scrapedAt": "2026-09-30T10:01:27.089Z",
+  "count": 50,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -512,14 +512,6 @@
       "expiresAt": "2026-10-01T06:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1547274383226179668/1547276362715365516_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1547274383226179668/1547276131055706113.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1544977383990493194",
-      "name": "DRAGON BALL Z DOKKAN BATTLE",
-      "expiresAt": "2026-09-30T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1544977383990493194/1544979750458753074_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1544977383990493194/1544979452948127754.jpg",
       "rewardCount": 1
     },
     {
