@@ -964,26 +964,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-02-activity-privacy-matching",
-    "defaultConfig": {
-      "copyChanges": false,
-      "upsell": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-02-announcement-composer",
     "defaultConfig": {
       "announcementComposer": false

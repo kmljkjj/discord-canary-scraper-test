@@ -1,9 +1,9 @@
 {
-  "runId": "2026-09-30T08-32-24-003Z_625391_8df1fz",
-  "buildNumber": "625391",
-  "scrapedAt": "2026-09-30T08:32:24.003Z",
+  "runId": "2026-09-30T15-16-12-533Z_625510_sqw0ny",
+  "buildNumber": "625510",
+  "scrapedAt": "2026-09-30T15:16:12.533Z",
   "totals": {
-    "all": 363
+    "all": 362
   },
   "experiments": [
     {
@@ -1219,30 +1219,6 @@
         }
       },
       "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2026-02-activity-privacy-matching",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "copyChanges": false,
-        "upsell": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "variationCount": 3,
       "source": "discord"
     },
     {

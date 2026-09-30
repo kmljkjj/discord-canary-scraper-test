@@ -30061,7 +30061,7 @@
   "BReS7U": "Info",
   "1MXXPf": "Success",
   "7vL/d/": "Warning",
-  "VOmeSq": "echo sound name",
+  "VOmeSq": "play sound name",
   "Fb6oNP": "text",
   "8ALChp": "In voice",
   "KddZZf": "Playing for duration",
@@ -30099,5 +30099,15 @@
   "ZOkckv": "name",
   "53xiNu": "You need the Manage Channels permission in server",
   "qG1SMK": "You need the Manage Server and Manage Channels permissions in server",
-  "AcWS6c": "The live version is out of date. $linkaction"
+  "AcWS6c": "The live version is out of date. $linkaction",
+  "hcNhyq": "hcNhyq",
+  "xhZ23b": "xhZ23b",
+  "RHYx1k": "RHYx1k",
+  "foKBCN": "foKBCN",
+  "mg1NPe": "mg1NPe",
+  "GultYJ": "GultYJ",
+  "ZMJ8Mt": "Last listened to highlightHooktrackTitle",
+  "QqaqBg": "Last listened to highlightHooktrackTitle",
+  "yGqf0D": "by memberCountHookmemberCountone",
+  "W8etVA": "countone"
 }
