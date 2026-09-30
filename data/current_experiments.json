@@ -1,8 +1,8 @@
 {
-  "runId": "2026-09-30T15-16-12-533Z_625510_sqw0ny",
-  "buildNumber": "625510",
-  "updatedAt": "2026-09-30T15:16:12.533Z",
-  "count": 362,
+  "runId": "2026-09-30T20-07-56-478Z_625930_ha14e4",
+  "buildNumber": "625930",
+  "updatedAt": "2026-09-30T20:07:56.478Z",
+  "count": 360,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -169,34 +169,6 @@
         "value": null
       },
       "fingerprint": "a0d02767aa118888281de888ba20e967882ad6314c5b4ce1a07b54bca9e5f0d2"
-    },
-    {
-      "id": "2022-12_mention_raid_limit",
-      "kind": "guild",
-      "type": "guild",
-      "system": "apex",
-      "label": "Automod Mention Raid Limit",
-      "title": "Automod Mention Raid Limit",
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "6600e0b69245e6c8333c4a34c8f151b11f14a36bc4f88c7e1a2803558be87cb2"
     },
     {
       "id": "2023-02_guest_voice_invites",
@@ -9483,37 +9455,6 @@
       "fingerprint": "8b460a13a55c573114a5d692faba0185951f30e063f86458aef5db41716e347c"
     },
     {
-      "id": "2026-09-dismissible-content-server-arbitration",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "b3f8998242205eca7dfac64164dcd8e4743eab74a832e47843ce211e63f5bc3b"
-    },
-    {
       "id": "2026-09-friends-sidebar",
       "kind": "user",
       "type": "user",
@@ -9914,7 +9855,7 @@
       "fingerprint": "e61e4aacc46f26240161094e4ca47a7772bf24fe68ddcdc9a2bffec21fc23dcc"
     },
     {
-      "id": "2026-09-markdown-file-preview",
+      "id": "2026-09-manual-review-inconclusive-copy",
       "kind": "user",
       "type": "user",
       "system": "apex",
@@ -9925,15 +9866,12 @@
         "enabled": false
       },
       "variations": {
-        "0": {
-          "id": 0
-        },
         "1": {
           "id": 1
         }
       },
       "treatments": null,
-      "variationCount": 2,
+      "variationCount": 1,
       "guildPercentage": {
         "status": "unknown",
         "value": null
@@ -9942,7 +9880,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "3ce279c66c84088591fe56b561bdf6bf37a25b2020ba7ef16de367a5dffbc821"
+      "fingerprint": "69535f9948d37cecffb385c67e983c94a9afc6ba60b3aef7aee8ae8775126ed5"
     },
     {
       "id": "2026-09-mobile-quest-home-sort-priority",

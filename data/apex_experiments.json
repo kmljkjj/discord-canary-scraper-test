@@ -77,19 +77,6 @@
   },
   {
     "kind": "guild",
-    "name": "2022-12_mention_raid_limit",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": "Automod Mention Raid Limit"
-  },
-  {
-    "kind": "guild",
     "name": "2023-02_guest_voice_invites",
     "defaultConfig": {
       "enabled": false
@@ -4751,22 +4738,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-09-dismissible-content-server-arbitration",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-09-friends-sidebar",
     "defaultConfig": {
       "sidebarEnabled": false,
@@ -4972,14 +4943,11 @@
   },
   {
     "kind": "user",
-    "name": "2026-09-markdown-file-preview",
+    "name": "2026-09-manual-review-inconclusive-copy",
     "defaultConfig": {
       "enabled": false
     },
     "variations": {
-      "0": {
-        "id": 0
-      },
       "1": {
         "id": 1
       }

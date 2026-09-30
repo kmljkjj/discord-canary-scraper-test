@@ -1,8 +1,8 @@
 {
-  "runId": "2026-09-30T15-16-12-533Z_625510_sqw0ny",
-  "buildNumber": "625510",
-  "updatedAt": "2026-09-30T15:16:12.533Z",
-  "count": 21,
+  "runId": "2026-09-30T20-07-56-478Z_625930_ha14e4",
+  "buildNumber": "625930",
+  "updatedAt": "2026-09-30T20:07:56.478Z",
+  "count": 24,
   "experiments": [
     {
       "id": "2026-02-mute-tutorial",
@@ -150,6 +150,27 @@
       "label": null,
       "removedAt": "2026-09-30T15:16:12.546Z",
       "lastBuild": "625510"
+    },
+    {
+      "id": "2022-12_mention_raid_limit",
+      "kind": "guild",
+      "label": "Automod Mention Raid Limit",
+      "removedAt": "2026-09-30T20:07:56.486Z",
+      "lastBuild": "625930"
+    },
+    {
+      "id": "2026-09-dismissible-content-server-arbitration",
+      "kind": "user",
+      "label": null,
+      "removedAt": "2026-09-30T20:07:56.486Z",
+      "lastBuild": "625930"
+    },
+    {
+      "id": "2026-09-markdown-file-preview",
+      "kind": "user",
+      "label": null,
+      "removedAt": "2026-09-30T20:07:56.486Z",
+      "lastBuild": "625930"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
-  "runId": "2026-09-30T15-16-12-533Z_625510_sqw0ny",
-  "buildNumber": "625510",
-  "updatedAt": "2026-09-30T15:16:12.533Z",
-  "count": 362,
+  "runId": "2026-09-30T20-07-56-478Z_625930_ha14e4",
+  "buildNumber": "625930",
+  "updatedAt": "2026-09-30T20:07:56.478Z",
+  "count": 360,
   "data": {
     "2021-02_staff_qc_debugging": {
       "id": "2021-02_staff_qc_debugging",
@@ -80,19 +80,6 @@
         }
       },
       "fp": "af856f021bcdc8e4405e768b"
-    },
-    "2022-12_mention_raid_limit": {
-      "id": "2022-12_mention_raid_limit",
-      "type": "guild",
-      "kind": "guild",
-      "label": "Automod Mention Raid Limit",
-      "variationCount": 1,
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "c04c8f0322b7dd35dfd0a052"
     },
     "2023-02_guest_voice_invites": {
       "id": "2023-02_guest_voice_invites",
@@ -4755,22 +4742,6 @@
       },
       "fp": "f168eaf07e491e0688f2b8f8"
     },
-    "2026-09-dismissible-content-server-arbitration": {
-      "id": "2026-09-dismissible-content-server-arbitration",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 2,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "4eb58677fe4d82185914eef5"
-    },
     "2026-09-friends-sidebar": {
       "id": "2026-09-friends-sidebar",
       "type": "user",
@@ -4976,21 +4947,18 @@
       },
       "fp": "a80296903cc2e06ce785d5ee"
     },
-    "2026-09-markdown-file-preview": {
-      "id": "2026-09-markdown-file-preview",
+    "2026-09-manual-review-inconclusive-copy": {
+      "id": "2026-09-manual-review-inconclusive-copy",
       "type": "user",
       "kind": "user",
       "label": null,
-      "variationCount": 2,
+      "variationCount": 1,
       "variations": {
-        "0": {
-          "id": 0
-        },
         "1": {
           "id": 1
         }
       },
-      "fp": "4eb58677fe4d82185914eef5"
+      "fp": "f168eaf07e491e0688f2b8f8"
     },
     "2026-09-mobile-quest-home-sort-priority": {
       "id": "2026-09-mobile-quest-home-sort-priority",

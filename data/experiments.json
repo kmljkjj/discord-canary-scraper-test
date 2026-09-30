@@ -1,11 +1,11 @@
 {
-  "runId": "2026-09-30T15-16-12-533Z_625510_sqw0ny",
-  "buildNumber": "625510",
-  "scrapedAt": "2026-09-30T15:16:12.533Z",
+  "runId": "2026-09-30T20-07-56-478Z_625930_ha14e4",
+  "buildNumber": "625930",
+  "scrapedAt": "2026-09-30T20:07:56.478Z",
   "totals": {
-    "all": 362,
+    "all": 360,
     "legacy": 0,
-    "apex": 362
+    "apex": 360
   },
   "experiments": [
     {
@@ -96,23 +96,6 @@
       "type": "guild",
       "kind": "guild",
       "label": "Disable mass mentions for communities by default",
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2022-12_mention_raid_limit",
-      "type": "guild",
-      "kind": "guild",
-      "label": "Automod Mention Raid Limit",
       "system": "apex",
       "defaultConfig": {
         "enabled": false
@@ -6019,26 +6002,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-09-dismissible-content-server-arbitration",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2026-09-friends-sidebar",
       "type": "user",
       "kind": "user",
@@ -6296,7 +6259,7 @@
       "source": "discord"
     },
     {
-      "id": "2026-09-markdown-file-preview",
+      "id": "2026-09-manual-review-inconclusive-copy",
       "type": "user",
       "kind": "user",
       "label": null,
@@ -6305,14 +6268,11 @@
         "enabled": false
       },
       "variations": {
-        "0": {
-          "id": 0
-        },
         "1": {
           "id": 1
         }
       },
-      "variationCount": 2,
+      "variationCount": 1,
       "source": "discord"
     },
     {
