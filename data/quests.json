@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-01T06:27:35.495Z",
-  "count": 42,
+  "scrapedAt": "2026-10-01T13:49:22.151Z",
+  "count": 36,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -461,14 +461,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1541642467881783337",
-      "name": "Where Winds Meet 2.2 Wuxia New Era",
-      "expiresAt": "2026-10-01T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1541642467881783337/1549448468622475305_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1541642467881783337/1549183759625232404.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1542927566568956095",
       "name": "Kit Kat Halloween",
       "expiresAt": "2026-11-01T00:00:00+00:00",
@@ -477,43 +469,11 @@
       "rewardCount": 1
     },
     {
-      "id": "1547370886645026876",
-      "name": "FanDuel Everywhere",
-      "expiresAt": "2026-10-01T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1547370886645026876/1547372029488009306_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1547370886645026876/1547373049173639258.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1545075418489553016",
-      "name": "FanDuel Everywhere",
-      "expiresAt": "2026-10-01T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1545504106955808900/1546980772504666203_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1545075418489553016/1545482059517268098.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1547274383226179668",
-      "name": "Fatal Fury Switch 2",
-      "expiresAt": "2026-10-01T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1547274383226179668/1547276362715365516_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1547274383226179668/1547276131055706113.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1547891967122346015",
       "name": "War Thunder",
       "expiresAt": "2026-10-07T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1547891967122346015/1547948624825159711_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1547891967122346015/1547948806887309322.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1541854877850796113",
-      "name": "Verizon Fios Face-off",
-      "expiresAt": "2026-10-01T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1541854877850796113/1550231305122357359_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1541854877850796113/1550249172815323276.jpg",
       "rewardCount": 1
     },
     {
@@ -562,14 +522,6 @@
       "expiresAt": "2026-10-06T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1550379237335367680/1551645695469953124_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1550379237335367680/1550549569945735258.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1550528900788912231",
-      "name": "Typhoeus",
-      "expiresAt": "2026-10-01T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1550528900788912231/1550541343808426024_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1550528900788912231/1550541204247027854.jpg",
       "rewardCount": 1
     },
     {
