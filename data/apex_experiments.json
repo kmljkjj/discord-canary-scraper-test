@@ -4694,6 +4694,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-edit-profile-collectibles-ordering",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-friends-sidebar",
     "defaultConfig": {
       "sidebarEnabled": false,
@@ -4715,6 +4731,20 @@
   {
     "kind": "user",
     "name": "2026-09-game-profiles-v3-commerce-tab",
+    "defaultConfig": null,
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-09-game-profiles-v3-communities-tab",
     "defaultConfig": null,
     "variations": {
       "0": {
@@ -5162,6 +5192,22 @@
       "trackingCopy": false
     },
     "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-09-rust-3p",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
       "1": {
         "id": 1
       }
