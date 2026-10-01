@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-01T19:07:02.868Z",
-  "count": 36,
+  "scrapedAt": "2026-10-01T23:11:49.883Z",
+  "count": 43,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -393,7 +393,13 @@
     "1554438460041863280",
     "1553392150924890112",
     "1552763854692290630",
-    "1550563498394787951"
+    "1550563498394787951",
+    "1554258925073993850",
+    "1550543095911678094",
+    "1554264699301007411",
+    "1552897885883072582",
+    "1554245382601580687",
+    "1554249650012164207"
   ],
   "quests": [
     {
@@ -461,11 +467,19 @@
       "rewardCount": 1
     },
     {
+      "id": "1541642467881783337",
+      "name": "Where Winds Meet 2.2 Wuxia New Era",
+      "expiresAt": "2026-10-10T06:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1541642467881783337/1549448468622475305_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1541642467881783337/1549183759625232404.jpg",
+      "rewardCount": 1
+    },
+    {
       "id": "1542927566568956095",
       "name": "Kit Kat Halloween",
       "expiresAt": "2026-11-01T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1542927566568956095/1542953391867822100_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1542927566568956095/1542952871773872138.jpg",
+      "heroImage": "https://cdn.discordapp.com/quests/1542927566568956095/1555274010663592128.jpg",
       "rewardCount": 1
     },
     {
@@ -682,6 +696,54 @@
       "expiresAt": "2026-10-07T14:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1550563498394787951/1552727440621830154_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1550563498394787951/1551657575488036925.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1554258925073993850",
+      "name": "FanDuel Everywhere",
+      "expiresAt": "2026-11-01T06:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1547370886645026876/1547372029488009306_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1547370886645026876/1547373049173639258.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1550543095911678094",
+      "name": "Typhoeus",
+      "expiresAt": "2026-10-07T04:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1550528900788912231/1550541343808426024_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1550528900788912231/1550541204247027854.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1554264699301007411",
+      "name": "FanDuel Everywhere",
+      "expiresAt": "2026-11-01T06:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1547370886645026876/1547372029488009306_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1547370886645026876/1547373049173639258.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552897885883072582",
+      "name": "March of Giants Trailer",
+      "expiresAt": "2026-10-07T17:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552897885883072582/1553109709957898361_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1552897885883072582/1553109709689458719.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1554245382601580687",
+      "name": "Empires & Puzzles: Match-3 Fantasy RPG",
+      "expiresAt": "2026-10-15T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1554245382601580687/1554249133542473759_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1554245382601580687/1554249782795571220.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1554249650012164207",
+      "name": "Verizon Fios Face-off",
+      "expiresAt": "2026-10-17T03:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1541854877850796113/1550231305122357359_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1541854877850796113/1550249172815323276.jpg",
       "rewardCount": 1
     }
   ]
