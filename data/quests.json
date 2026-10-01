@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-09-30T16:23:09.085Z",
-  "count": 50,
+  "scrapedAt": "2026-10-01T00:28:27.072Z",
+  "count": 42,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -391,7 +391,9 @@
     "1552698676017766541",
     "1552790924445356043",
     "1554438460041863280",
-    "1553392150924890112"
+    "1553392150924890112",
+    "1552763854692290630",
+    "1550563498394787951"
   ],
   "quests": [
     {
@@ -422,40 +424,40 @@
       "id": "1541371710417272834",
       "name": "AION 2",
       "expiresAt": "2026-10-12T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1541371710417272834/1551722925680492599_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1541318428281929758/1541358119739850782.jpg",
+      "videoUrl": "https://cdn.discordapp.com/quests/1541371710417272834/1552428571023245413_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1541371710417272834/1552432979781877901.jpg",
       "rewardCount": 1
     },
     {
       "id": "1541369647985594369",
       "name": "AION 2",
       "expiresAt": "2026-10-12T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1541369647985594369/1551723017644548196_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1541369647985594369/1541598241282592829.jpg",
+      "videoUrl": "https://cdn.discordapp.com/quests/1541369647985594369/1554585507906986124_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1541369647985594369/1554585508007379075.jpg",
       "rewardCount": 1
     },
     {
       "id": "1541366408632475670",
       "name": "AION 2",
       "expiresAt": "2026-10-12T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1541366408632475670/1551723081616203806_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1541366408632475670/1541597134753632296.jpg",
+      "videoUrl": "https://cdn.discordapp.com/quests/1541366408632475670/1554585507969765458_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1541366408632475670/1554585508003184731.jpg",
       "rewardCount": 1
     },
     {
       "id": "1541360124457779283",
       "name": "AION 2",
       "expiresAt": "2026-10-12T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1541360124457779283/1551723189758074971_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1541360124457779283/1541597718583967764.jpg",
+      "videoUrl": "https://cdn.discordapp.com/quests/1541360124457779283/1554585579570733086_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1541360124457779283/1554585579533115412.jpg",
       "rewardCount": 1
     },
     {
       "id": "1541363735791280209",
       "name": "AION 2",
       "expiresAt": "2026-10-12T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1541363735791280209/1551723141514928198_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1541363735791280209/1541597492628553819.jpg",
+      "videoUrl": "https://cdn.discordapp.com/quests/1541363735791280209/1554585508469018654_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1541363735791280209/1554585508007649422.jpg",
       "rewardCount": 1
     },
     {
@@ -475,17 +477,9 @@
       "rewardCount": 1
     },
     {
-      "id": "1544391393227571231",
-      "name": "Greatness is Building",
-      "expiresAt": "2026-10-01T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1529174839141597276/1535384520768098334_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1529174839141597276/1535351503890419762.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1547370886645026876",
       "name": "FanDuel Everywhere",
-      "expiresAt": "2026-10-01T00:00:00+00:00",
+      "expiresAt": "2026-10-01T06:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1547370886645026876/1547372029488009306_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1547370886645026876/1547373049173639258.jpg",
       "rewardCount": 1
@@ -493,17 +487,9 @@
     {
       "id": "1545075418489553016",
       "name": "FanDuel Everywhere",
-      "expiresAt": "2026-10-01T00:00:00+00:00",
+      "expiresAt": "2026-10-01T06:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1545504106955808900/1546980772504666203_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1545075418489553016/1545482059517268098.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1544639617083510845",
-      "name": "Dumb Ways to Build",
-      "expiresAt": "2026-10-01T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1544639617083510845/1546425239020380221_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1544639617083510845/1546406672082403468.jpg",
       "rewardCount": 1
     },
     {
@@ -515,67 +501,11 @@
       "rewardCount": 1
     },
     {
-      "id": "1544553334097190922",
-      "name": "Dragonheir: Chaos Revelry",
-      "expiresAt": "2026-10-01T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1544553334097190922/1547072817785339955_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1544553334097190922/1547130566976208896.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1544550568742101012",
-      "name": "Dragonheir: Chaos Revelry",
-      "expiresAt": "2026-10-01T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1544550568742101012/1547068700685893632_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1544550568742101012/1547129380038381598.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1547065378205736991",
-      "name": "Dragonheir: Chaos Revelry",
-      "expiresAt": "2026-10-01T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1547065378205736991/1547069993965981766_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1547065378205736991/1547129908906565702.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1544963709678522439",
-      "name": "Dragonheir: Chaos Revelry",
-      "expiresAt": "2026-10-01T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1544963709678522439/1547078177354940436_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1544963709678522439/1547130826230206464.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1547891967122346015",
       "name": "War Thunder",
       "expiresAt": "2026-10-07T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1547891967122346015/1547948624825159711_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1547891967122346015/1547948806887309322.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1547680317869924507",
-      "name": "FINAL FANTASY XIV Online Trailer",
-      "expiresAt": "2026-10-01T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1527079584561102938/1527090840302780589_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1527079584561102938/1527750907075367072.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1544503579912572989",
-      "name": "Lenovo Legion",
-      "expiresAt": "2026-10-01T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1544503579912572989/1544505694752088175_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1544503579912572989/1544504981833646171.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1550081499628441600",
-      "name": "War Thunder",
-      "expiresAt": "2026-10-01T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1550081499628441600/1550084022099517531_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1550081499628441600/1550083670164119662.jpg",
       "rewardCount": 1
     },
     {
@@ -592,14 +522,6 @@
       "expiresAt": "2026-10-08T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1549427687603314699/1550156057274224659_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1549427687603314699/1550156234974298234.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1543816964525396028",
-      "name": "2nd Anniversary Season",
-      "expiresAt": "2026-10-01T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1543816964525396028/1548973096608731178_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1543816964525396028/1548972687911682108.jpg",
       "rewardCount": 1
     },
     {
@@ -792,6 +714,22 @@
       "expiresAt": "2026-10-07T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1553392150924890112/1553394395577852074_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1553392150924890112/1553394394843844618.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552763854692290630",
+      "name": "CONTROL Resonant",
+      "expiresAt": "2026-10-08T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552763854692290630/1554784407343337482_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1552763854692290630/1552766700422697070.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1550563498394787951",
+      "name": "NTE Half Anni",
+      "expiresAt": "2026-10-07T14:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1550563498394787951/1552727440621830154_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1550563498394787951/1551657575488036925.jpg",
       "rewardCount": 1
     }
   ]
