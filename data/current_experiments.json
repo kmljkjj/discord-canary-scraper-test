@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-02T13-47-00-643Z_627866_yp0h1o",
-  "buildNumber": "627866",
-  "updatedAt": "2026-10-02T13:47:00.643Z",
-  "count": 365,
+  "runId": "2026-10-02T18-45-12-608Z_628192_29e611",
+  "buildNumber": "628192",
+  "updatedAt": "2026-10-02T18:45:12.608Z",
+  "count": 366,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -9696,6 +9696,37 @@
         "value": null
       },
       "fingerprint": "476067cbc482cde06d7ef7f54112d9a58547b2481ef6146c30d0dd80f775f00a"
+    },
+    {
+      "id": "2026-09-invite-accept-age-group-errors",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "bbcfeb0de87dbafb0c1a96a0e3e829db9b0e964067611c4e598b018b30e50224"
     },
     {
       "id": "2026-09-invite-expiring-soon",
