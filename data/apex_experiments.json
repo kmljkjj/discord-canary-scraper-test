@@ -5268,6 +5268,25 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-server-tooltip-notification-context",
+    "defaultConfig": {
+      "mode": "disabled"
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-silp-app-opened-direct-to-discoverable",
     "defaultConfig": {
       "placement": null
@@ -5504,6 +5523,22 @@
       },
       "2": {
         "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-guild-tooltip-lazy-content",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
       }
     },
     "label": null

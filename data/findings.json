@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-01T21-23-26-997Z_627230_fbx99o",
-  "buildNumber": "627230",
-  "scrapedAt": "2026-10-01T21:23:26.997Z",
+  "runId": "2026-10-02T00-59-59-543Z_627630_5hp6ty",
+  "buildNumber": "627630",
+  "scrapedAt": "2026-10-02T00:59:59.543Z",
   "totals": {
-    "all": 363
+    "all": 365
   },
   "experiments": [
     {
@@ -6666,6 +6666,29 @@
       "source": "discord"
     },
     {
+      "id": "2026-09-server-tooltip-notification-context",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "mode": "disabled"
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "variationCount": 3,
+      "source": "discord"
+    },
+    {
       "id": "2026-09-silp-app-opened-direct-to-discoverable",
       "type": "user",
       "kind": "user",
@@ -6965,6 +6988,26 @@
         }
       },
       "variationCount": 3,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-guild-tooltip-lazy-content",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
       "source": "discord"
     }
   ]

@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-01T21-23-26-997Z_627230_fbx99o",
-  "buildNumber": "627230",
-  "updatedAt": "2026-10-01T21:23:26.997Z",
-  "count": 673,
+  "runId": "2026-10-02T00-59-59-543Z_627630_5hp6ty",
+  "buildNumber": "627630",
+  "updatedAt": "2026-10-02T00:59:59.543Z",
+  "count": 674,
   "data": {
     "USER_BULK_RELATIONSHIPS": "/users/@me/relationships/bulk",
     "USER_BADGE_SETTINGS": "/users/@me/badges/settings",
@@ -376,6 +376,7 @@
     "ADS_CREATIVES_PREVIEW_DELIVERY_STATE_LOOKBACK": "/ads/creatives/preview/delivery-state",
     "QUESTS_APP_STORE_METADATA": "/quests/appstore-metadata",
     "VIBEGRATIONS_PROJECTS": "/vibegrations/projects",
+    "VIBEGRATIONS_PROJECT_LIMIT": "/vibegrations/project-limit",
     "DEVELOPER_PORTAL": "/developers",
     "DEVELOPER_PORTAL_TEAMS": "/developers/teams",
     "DEVELOPER_PORTAL_APPLICATIONS_GAME_IDENTITY": "/developers/applications/select/game-identity",

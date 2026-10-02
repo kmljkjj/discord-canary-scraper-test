@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-01T21-23-26-997Z_627230_fbx99o",
-  "buildNumber": "627230",
-  "updatedAt": "2026-10-01T21:23:26.997Z",
-  "count": 363,
+  "runId": "2026-10-02T00-59-59-543Z_627630_5hp6ty",
+  "buildNumber": "627630",
+  "updatedAt": "2026-10-02T00:59:59.543Z",
+  "count": 365,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -10495,6 +10495,40 @@
       "fingerprint": "9d0e7b9d0be65120ea132ee658c1d65c9544b6ab751ce2bdd9b1de88afe489e7"
     },
     {
+      "id": "2026-09-server-tooltip-notification-context",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "mode": "disabled"
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "treatments": null,
+      "variationCount": 3,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "b2c8f4c72aa26deb3a4942089bb663149c990cbb26ab0cd0d253eb363be41493"
+    },
+    {
       "id": "2026-09-silp-app-opened-direct-to-discoverable",
       "kind": "user",
       "type": "user",
@@ -10960,6 +10994,37 @@
         "value": null
       },
       "fingerprint": "1a0c1e9bbc5f02049748ce9e19d782d1a5f0b5b85df0b1da2544a6b664ca2747"
+    },
+    {
+      "id": "2026-10-guild-tooltip-lazy-content",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "30c8a246c278c6d20659bf308adc718b74da27b6158e43807dec9fcce80bfda3"
     }
   ]
 }

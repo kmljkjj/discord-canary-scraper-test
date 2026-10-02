@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-01T21-23-26-997Z_627230_fbx99o",
-  "buildNumber": "627230",
-  "updatedAt": "2026-10-01T21:23:26.997Z",
-  "count": 363,
+  "runId": "2026-10-02T00-59-59-543Z_627630_5hp6ty",
+  "buildNumber": "627630",
+  "updatedAt": "2026-10-02T00:59:59.543Z",
+  "count": 365,
   "data": {
     "2021-02_staff_qc_debugging": {
       "id": "2021-02_staff_qc_debugging",
@@ -5280,6 +5280,25 @@
       },
       "fp": "f44d6f0eb6e4563019d5aa79"
     },
+    "2026-09-server-tooltip-notification-context": {
+      "id": "2026-09-server-tooltip-notification-context",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 3,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "fp": "a80296903cc2e06ce785d5ee"
+    },
     "2026-09-silp-app-opened-direct-to-discoverable": {
       "id": "2026-09-silp-app-opened-direct-to-discoverable",
       "type": "user",
@@ -5519,6 +5538,22 @@
         }
       },
       "fp": "a80296903cc2e06ce785d5ee"
+    },
+    "2026-10-guild-tooltip-lazy-content": {
+      "id": "2026-10-guild-tooltip-lazy-content",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "4eb58677fe4d82185914eef5"
     }
   }
 }
