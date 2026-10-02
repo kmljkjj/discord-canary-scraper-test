@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-02T00-59-59-543Z_627630_5hp6ty",
-  "buildNumber": "627630",
-  "updatedAt": "2026-10-02T00:59:59.543Z",
-  "count": 27953,
+  "runId": "2026-10-02T06-57-08-701Z_627780_b2lmod",
+  "buildNumber": "627780",
+  "updatedAt": "2026-10-02T06:57:08.701Z",
+  "count": 27955,
   "data": {
     "bottom": "⊥",
     "hidden": "visible",
@@ -26637,6 +26637,7 @@
     "2NWMqY": "Model settings",
     "4AsQHS": "Thinking",
     "t5mTfU": "Reconnecting — you can change these once the link is back.",
+    "fwSfWU": "Mute Project",
     "I2hgEB": "Give it a name first.",
     "EwshDz": "Ship into Discord\\'s own app channels instead of a Conjuring portal.",
     "nyY2CS": "Use app channels",
@@ -26943,6 +26944,7 @@
     "9/TJIF": "minutes",
     "FqRCg2": "seconds",
     "5T7DSm": "Interrupted",
+    "ZTkrp3": "Unmute Project",
     "kILb+R": "Runes saved by memory",
     "vVUMwj": "Deciding",
     "R9aduM": "Conjuring",
