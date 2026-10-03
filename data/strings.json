@@ -17,7 +17,7 @@
   "sender": "receiver",
   "unmute": "mute",
   "online": "offline",
-  "remove": "set",
+  "remove": "add",
   "failed": "settled",
   "Custom": "Object",
   "medium": "large",

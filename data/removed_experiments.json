@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-03T01-27-03-499Z_628752_jzcs1y",
-  "buildNumber": "628752",
-  "updatedAt": "2026-10-03T01:27:03.499Z",
-  "count": 28,
+  "runId": "2026-10-03T07-01-45-472Z_628830_p8gca3",
+  "buildNumber": "628830",
+  "updatedAt": "2026-10-03T07:01:45.472Z",
+  "count": 29,
   "experiments": [
     {
       "id": "2026-02-mute-tutorial",
@@ -199,6 +199,13 @@
       "label": null,
       "removedAt": "2026-10-01T16:39:12.017Z",
       "lastBuild": "626750"
+    },
+    {
+      "id": "2026-02-sticker-padding",
+      "kind": "user",
+      "label": null,
+      "removedAt": "2026-10-03T07:01:45.484Z",
+      "lastBuild": "628830"
     }
   ]
 }

@@ -1260,19 +1260,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-02-sticker-padding",
-    "defaultConfig": {
-      "padding": 2
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-02-voice-channel-link-click",
     "defaultConfig": {
       "navigateOnly": false

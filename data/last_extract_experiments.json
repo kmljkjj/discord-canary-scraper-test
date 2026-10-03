@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-03T01-27-03-499Z_628752_jzcs1y",
-  "buildNumber": "628752",
-  "updatedAt": "2026-10-03T01:27:03.499Z",
-  "count": 366,
+  "runId": "2026-10-03T07-01-45-472Z_628830_p8gca3",
+  "buildNumber": "628830",
+  "updatedAt": "2026-10-03T07:01:45.472Z",
+  "count": 365,
   "data": {
     "2021-02_staff_qc_debugging": {
       "id": "2021-02_staff_qc_debugging",
@@ -1255,19 +1255,6 @@
         }
       },
       "fp": "5c77e86646335e1936a55a3a"
-    },
-    "2026-02-sticker-padding": {
-      "id": "2026-02-sticker-padding",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 1,
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "f168eaf07e491e0688f2b8f8"
     },
     "2026-02-voice-channel-link-click": {
       "id": "2026-02-voice-channel-link-click",

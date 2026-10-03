@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-03T01-27-03-499Z_628752_jzcs1y",
-  "buildNumber": "628752",
-  "updatedAt": "2026-10-03T01:27:03.499Z",
-  "count": 366,
+  "runId": "2026-10-03T07-01-45-472Z_628830_p8gca3",
+  "buildNumber": "628830",
+  "updatedAt": "2026-10-03T07:01:45.472Z",
+  "count": 365,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -2507,34 +2507,6 @@
         "value": null
       },
       "fingerprint": "c63ae5e5154032bd242d909f7a9a1fa60789f88765ff618517c2f83fa8474dbe"
-    },
-    {
-      "id": "2026-02-sticker-padding",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "padding": 2
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "a58fab62c271a0901344d8d4673d4515ca5639c3da6aa3f8950df7bf84e0457b"
     },
     {
       "id": "2026-02-voice-channel-link-click",
