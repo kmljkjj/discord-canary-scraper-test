@@ -9,7 +9,7 @@
   "active": "primary",
   "before": "after",
   "insert": "remove_text",
-  "center": "right",
+  "center": "top",
   "manual": "auto",
   "paused": "running",
   "Silent": "Displayed",
@@ -30381,5 +30381,15 @@
   "HtUpwy": "View Emoji Packs",
   "2zxYCx": "Remove",
   "DtK5IG": "View Set",
-  "DrSoFn": "Conjure reacted with emojiName"
+  "DrSoFn": "Conjure reacted with emojiName",
+  "xzy7Ie": "How it works in your server",
+  "CJRQat": "Sample messages showing what the rule will do. Nothing here is posted.",
+  "Uw7rNo": "About these examples",
+  "EVMdYA": "Alert",
+  "DLAXIs": "Allowed",
+  "OlKZgi": "Blocked",
+  "mtBG+G": "Timeout",
+  "HMhHBG": "Member",
+  "5hI77G": "Alerts mods",
+  "Iz8bsB": "AutoMod Rule"
 }
