@@ -345,7 +345,6 @@
   "QUESTS_GET_DECISIONS": "/quests/get-decisions",
   "QUESTS_CREATIVE_PREVIEW": "/quests/preview",
   "QUESTS_APP_STORE_METADATA": "/quests/appstore-metadata",
-  "VIBEGRATIONS_PROJECTS": "/vibegrations/projects",
   "DEVELOPER_PORTAL": "/developers",
   "DEVELOPER_PORTAL_TEAMS": "/developers/teams",
   "DEVELOPER_PORTAL_APPLICATIONS_GAME_IDENTITY": "/developers/applications/select/game-identity",
@@ -674,6 +673,7 @@
   "CHECKPOINT_COMPLETE": "/checkpoint/complete",
   "CHECKPOINT_RESET": "/checkpoint/reset",
   "VIRTUAL_CURRENCY_USER_TOTAL_REDEEMED": "/users/@me/virtual-currency/total-redeemed",
-  "VIBEGRATIONS_PROJECT_ACK": "/conjuring/projects/:param/ack/:param",
-  "VIBEGRATIONS_PROJECT_LIMIT": "/vibegrations/project-limit"
+  "CONJURE_PROJECTS": "/vibegrations/projects",
+  "CONJURE_PROJECT_LIMIT": "/vibegrations/project-limit",
+  "CONJURE_PROJECT_ACK": "/conjuring/projects/:param/ack/:param"
 }

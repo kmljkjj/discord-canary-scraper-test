@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-04T17-46-04-541Z_629068_zfwssf",
-  "buildNumber": "629068",
-  "updatedAt": "2026-10-04T17:46:04.541Z",
-  "count": 684,
+  "runId": "2026-10-04T20-29-56-803Z_629096_yumn0m",
+  "buildNumber": "629096",
+  "updatedAt": "2026-10-04T20:29:56.803Z",
+  "count": 687,
   "ids": [
     "ACCOUNT_NOTIFICATION_SETTINGS",
     "ACCOUNT_REVERT",
@@ -181,6 +181,9 @@
     "CONFERENCE_MODE_EVENTS",
     "CONFERENCE_MODE_GUILDS",
     "CONFERENCE_MODE_VOICE",
+    "CONJURE_PROJECTS",
+    "CONJURE_PROJECT_ACK",
+    "CONJURE_PROJECT_LIMIT",
     "CONNECTIONS",
     "CONNECTION_SYNC_CONTACTS",
     "CONNECT_AUTHORIZE",
