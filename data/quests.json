@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-05T05:52:27.541Z",
-  "count": 40,
+  "scrapedAt": "2026-10-05T13:35:25.458Z",
+  "count": 37,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -533,30 +533,6 @@
       "expiresAt": "2026-10-06T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1550379237335367680/1551645695469953124_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1550379237335367680/1550549569945735258.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552026065491202149",
-      "name": "Animal Hospital",
-      "expiresAt": "2026-10-05T06:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552026065491202149/1552027800377102469_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1552026065491202149/1552027741996716062.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1537134637686591699",
-      "name": "VALORANT Aces",
-      "expiresAt": "2026-10-05T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1537134637686591699/1552442502571753512_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1537134637686591699/1552442586097127464.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552029588132200532",
-      "name": "Animal Hospital",
-      "expiresAt": "2026-10-05T06:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552026065491202149/1552027800377102469_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1552026065491202149/1552027741996716062.jpg",
       "rewardCount": 1
     },
     {
