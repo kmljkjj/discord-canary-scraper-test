@@ -4974,6 +4974,19 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-mobile-quest-reward-button-to-secondary-button",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-multi-sku-embed-rendering",
     "defaultConfig": {
       "enabled": false
@@ -5432,6 +5445,20 @@
       "enabled": false
     },
     "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-09-three-month-nitro-gifting",
+    "defaultConfig": null,
+    "variations": {
+      "0": {
+        "id": 0
+      },
       "1": {
         "id": 1
       }
