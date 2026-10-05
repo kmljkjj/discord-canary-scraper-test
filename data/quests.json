@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-04T14:30:32.473Z",
-  "count": 44,
+  "scrapedAt": "2026-10-05T00:13:31.542Z",
+  "count": 37,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -541,14 +541,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1549139459264741497",
-      "name": "VALORANT Champions Anthem",
-      "expiresAt": "2026-10-05T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1549139459264741497/1549140853266849943_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1549139459264741497/1550542111445749842.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1537134637686591699",
       "name": "VALORANT Aces",
       "expiresAt": "2026-10-05T06:59:00+00:00",
@@ -565,59 +557,11 @@
       "rewardCount": 1
     },
     {
-      "id": "1551969525602451497",
-      "name": "EA SPORTS FC™ 27",
-      "expiresAt": "2026-10-05T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1551969525602451497/1551970363032862821.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1551969525602451497/1551981581118345357.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1551982502347022347",
-      "name": "EA SPORTS FC™ 27",
-      "expiresAt": "2026-10-05T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1551969525602451497/1551970363032862821.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1551969525602451497/1551981581118345357.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552793125028634754",
-      "name": "EA SPORTS FC™ 27",
-      "expiresAt": "2026-10-05T00:00:00+00:00",
-      "videoUrl": null,
-      "heroImage": "https://cdn.discordapp.com/quests/1551969525602451497/1551981581118345357.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1551983210601382063",
-      "name": "EA SPORTS FC™ 27",
-      "expiresAt": "2026-10-05T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1551969525602451497/1551970363032862821.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1551969525602451497/1551981581118345357.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552026570229813258",
-      "name": "Beware Boiúna",
-      "expiresAt": "2026-10-05T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552026570229813258/1552778974390648852_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1552026570229813258/1552038781408776222.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1546583178230235336",
       "name": "iPhone 18 Pro",
       "expiresAt": "2026-10-19T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1546583178230235336/1552762807663988886_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1546583178230235336/1552763358338482246.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552101830807265300",
-      "name": "Forgotten Island",
-      "expiresAt": "2026-10-04T21:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552101830807265300/1552403727074463835_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1552101830807265300/1552404306269831248.jpg",
       "rewardCount": 1
     },
     {
