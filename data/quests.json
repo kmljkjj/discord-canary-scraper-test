@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-05T13:35:25.458Z",
-  "count": 37,
+  "scrapedAt": "2026-10-06T01:47:22.219Z",
+  "count": 45,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -404,7 +404,19 @@
     "1554674616033616004",
     "1554270669267537930",
     "1552406144067043438",
-    "1552407794634727635"
+    "1552407794634727635",
+    "1555158122522349568",
+    "1554676841879441438",
+    "1555654330043076719",
+    "1551980739757736078",
+    "1549142163487592600",
+    "1555082242319974420",
+    "1555709543579783198",
+    "1555090985086881834",
+    "1555086009878978620",
+    "1555088679192633418",
+    "1555684816882499675",
+    "1555682587819643052"
   ],
   "quests": [
     {
@@ -435,40 +447,40 @@
       "id": "1541371710417272834",
       "name": "AION 2",
       "expiresAt": "2026-10-12T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1541371710417272834/1552428571023245413_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1541371710417272834/1552432979781877901.jpg",
+      "videoUrl": "https://cdn.discordapp.com/quests/1541371710417272834/1555324855816290456_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1541371710417272834/1555324855858233344.jpg",
       "rewardCount": 1
     },
     {
       "id": "1541369647985594369",
       "name": "AION 2",
       "expiresAt": "2026-10-12T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1541369647985594369/1554585507906986124_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1541369647985594369/1554585508007379075.jpg",
+      "videoUrl": "https://cdn.discordapp.com/quests/1541369647985594369/1555324803018395769_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1541369647985594369/1555324803093762209.jpg",
       "rewardCount": 1
     },
     {
       "id": "1541366408632475670",
       "name": "AION 2",
       "expiresAt": "2026-10-12T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1541366408632475670/1554585507969765458_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1541366408632475670/1554585508003184731.jpg",
+      "videoUrl": "https://cdn.discordapp.com/quests/1541366408632475670/1555324720319037581_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1541366408632475670/1555324720243675206.jpg",
       "rewardCount": 1
     },
     {
       "id": "1541360124457779283",
       "name": "AION 2",
       "expiresAt": "2026-10-12T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1541360124457779283/1554585579570733086_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1541360124457779283/1554585579533115412.jpg",
+      "videoUrl": "https://cdn.discordapp.com/quests/1541360124457779283/1555324777156051095_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1541360124457779283/1555324776233308180.jpg",
       "rewardCount": 1
     },
     {
       "id": "1541363735791280209",
       "name": "AION 2",
       "expiresAt": "2026-10-12T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1541363735791280209/1554585508469018654_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1541363735791280209/1554585508007649422.jpg",
+      "videoUrl": "https://cdn.discordapp.com/quests/1541363735791280209/1555324669006057613_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1541363735791280209/1555324668972503200.jpg",
       "rewardCount": 1
     },
     {
@@ -501,38 +513,6 @@
       "expiresAt": "2026-10-14T00:00:00+00:00",
       "videoUrl": null,
       "heroImage": "https://cdn.discordapp.com/quests/1549171029241233449/1549172049606475986.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1551999809626439731",
-      "name": "Mech Arena",
-      "expiresAt": "2026-10-06T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1542119360116555856/1544640263035822090_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1542119360116555856/1544639630136189030.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552002448975994942",
-      "name": "F1 Clash",
-      "expiresAt": "2026-10-06T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1550179068362621049/1550181022941970532_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1550179068362621049/1550181068299046932.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552010656952356925",
-      "name": " Invincible: Guarding the Globe ",
-      "expiresAt": "2026-10-06T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1547895090830250055/1547951013183496292_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1547895090830250055/1547951058309877770.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1550379237335367680",
-      "name": "Ragnarok: The New World — New Version Launch",
-      "expiresAt": "2026-10-06T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1550379237335367680/1551645695469953124_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1550379237335367680/1550549569945735258.jpg",
       "rewardCount": 1
     },
     {
@@ -701,6 +681,102 @@
       "expiresAt": "2026-10-11T21:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1549194520128782357/1549886617748246658_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1547367413320777830/1549122469913305179.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1555158122522349568",
+      "name": "Melon Sandbox",
+      "expiresAt": "2026-10-20T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1555158122522349568/1555508071843889232_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1555158122522349568/1555507743421374524.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1554676841879441438",
+      "name": "AION 2 LAUNCH PLAY",
+      "expiresAt": "2026-10-12T06:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1554676841879441438/1555045062986170438_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1554676841879441438/1555044993746337792.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1555654330043076719",
+      "name": "Doors",
+      "expiresAt": "2026-10-15T06:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1555654330043076719/1555678732595888188_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1555654330043076719/1555678328571166730.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1551980739757736078",
+      "name": "VALORANT Aces Round 2",
+      "expiresAt": "2026-10-16T06:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1551980739757736078/1553077149986983946.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1551980739757736078/1553076626533916793.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1549142163487592600",
+      "name": "Play VALORANT",
+      "expiresAt": "2026-10-19T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1549142163487592600/1555285149288103936_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1549142163487592600/1549142442966524056.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1555082242319974420",
+      "name": "AION 2 LAUNCH PLAY",
+      "expiresAt": "2026-10-12T06:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1555082242319974420/1555083578918969344_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1555082242319974420/1555083526452416552.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1555709543579783198",
+      "name": "Doors",
+      "expiresAt": "2026-10-15T06:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1555709543579783198/1555722338618712245_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1555709543579783198/1555721055878778981.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1555090985086881834",
+      "name": "AION 2 LAUNCH PLAY",
+      "expiresAt": "2026-10-12T06:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1555090985086881834/1555091631307235368_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1555090985086881834/1555091598801502329.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1555086009878978620",
+      "name": "AION 2 LAUNCH PLAY",
+      "expiresAt": "2026-10-12T06:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1555086009878978620/1555097139862831194_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1555086009878978620/1555097597302153266.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1555088679192633418",
+      "name": "AION 2 LAUNCH PLAY",
+      "expiresAt": "2026-10-12T06:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1555088679192633418/1555089523237453834_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1555088679192633418/1555089495882211368.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1555684816882499675",
+      "name": "Doors",
+      "expiresAt": "2026-10-15T06:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1555654330043076719/1555678732595888188_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1555654330043076719/1555678328571166730.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1555682587819643052",
+      "name": "Doors",
+      "expiresAt": "2026-10-15T06:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1555654330043076719/1555678732595888188_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1555654330043076719/1555678328571166730.jpg",
       "rewardCount": 1
     }
   ]
