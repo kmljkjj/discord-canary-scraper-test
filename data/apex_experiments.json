@@ -4121,26 +4121,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-08-heic-upload-conversion",
-    "defaultConfig": {
-      "enabled": false,
-      "quality": 60
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-08-hide-gift-shop-upsell",
     "defaultConfig": {
       "isHidden": false
@@ -4836,23 +4816,6 @@
       },
       "2": {
         "id": 2
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-09-jxr-upload-conversion",
-    "defaultConfig": {
-      "enabled": false,
-      "quality": 85
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
       }
     },
     "label": null

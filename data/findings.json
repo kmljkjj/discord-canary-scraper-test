@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-06T00-23-17-172Z_630209_galuwb",
-  "buildNumber": "630209",
-  "scrapedAt": "2026-10-06T00:23:17.173Z",
+  "runId": "2026-10-06T06-41-28-157Z_630434_xh01w9",
+  "buildNumber": "630434",
+  "scrapedAt": "2026-10-06T06:41:28.157Z",
   "totals": {
-    "all": 367
+    "all": 365
   },
   "experiments": [
     {
@@ -5215,30 +5215,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-08-heic-upload-conversion",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false,
-        "quality": 60
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "variationCount": 3,
-      "source": "discord"
-    },
-    {
       "id": "2026-08-hide-gift-shop-upsell",
       "type": "user",
       "kind": "user",
@@ -6126,27 +6102,6 @@
         },
         "2": {
           "id": 2
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2026-09-jxr-upload-conversion",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false,
-        "quality": 85
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
         }
       },
       "variationCount": 2,

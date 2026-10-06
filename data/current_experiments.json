@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-06T00-23-17-172Z_630209_galuwb",
-  "buildNumber": "630209",
-  "updatedAt": "2026-10-06T00:23:17.173Z",
-  "count": 367,
+  "runId": "2026-10-06T06-41-28-157Z_630434_xh01w9",
+  "buildNumber": "630434",
+  "updatedAt": "2026-10-06T06:41:28.157Z",
+  "count": 365,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -8208,41 +8208,6 @@
       "fingerprint": "db093966a281cfda46042d382f5c20c8e7a390f233ee88f621e0279df5526aea"
     },
     {
-      "id": "2026-08-heic-upload-conversion",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false,
-        "quality": 60
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "treatments": null,
-      "variationCount": 3,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "ce7d5ae2c07799778afc8d4a35fc00526d047d4ab6a4d508b46bbb881870e7c2"
-    },
-    {
       "id": "2026-08-hide-gift-shop-upsell",
       "kind": "user",
       "type": "user",
@@ -9662,38 +9627,6 @@
         "value": null
       },
       "fingerprint": "b9a48e844fa45f96fa327d8adeaf39b6fd486ae2e942888536ba628bc2c1903b"
-    },
-    {
-      "id": "2026-09-jxr-upload-conversion",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false,
-        "quality": 85
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "47e9c46827ce6f4fc505b529b1ec49184036f265ef0ff3b2ce63eb1b41afc02f"
     },
     {
       "id": "2026-09-linked-game-org-invites-dev",
