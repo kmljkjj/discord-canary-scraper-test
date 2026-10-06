@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-06T19-06-33-248Z_630900_pskjwj",
-  "buildNumber": "630900",
-  "updatedAt": "2026-10-06T19:06:33.248Z",
-  "count": 363,
+  "runId": "2026-10-06T23-03-01-604Z_631358_rch47p",
+  "buildNumber": "631358",
+  "updatedAt": "2026-10-06T23:03:01.604Z",
+  "count": 367,
   "data": {
     "2021-02_staff_qc_debugging": {
       "id": "2021-02_staff_qc_debugging",
@@ -4444,6 +4444,25 @@
       },
       "fp": "f168eaf07e491e0688f2b8f8"
     },
+    "2026-09-a11y-chassis-target-size": {
+      "id": "2026-09-a11y-chassis-target-size",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 3,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "fp": "a80296903cc2e06ce785d5ee"
+    },
     "2026-09-agc2-mobile": {
       "id": "2026-09-agc2-mobile",
       "type": "user",
@@ -4701,6 +4720,22 @@
       },
       "fp": "f168eaf07e491e0688f2b8f8"
     },
+    "2026-09-guild-sidebar-stream-preview": {
+      "id": "2026-09-guild-sidebar-stream-preview",
+      "type": "guild",
+      "kind": "guild",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "74fc9d0ff39d614ade8bdadc"
+    },
     "2026-09-guild-spaces": {
       "id": "2026-09-guild-spaces",
       "type": "guild",
@@ -4748,6 +4783,25 @@
         }
       },
       "fp": "4eb58677fe4d82185914eef5"
+    },
+    "2026-09-hexagon-campaign-client": {
+      "id": "2026-09-hexagon-campaign-client",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 3,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "fp": "a80296903cc2e06ce785d5ee"
     },
     "2026-09-invite-accept-age-group-errors": {
       "id": "2026-09-invite-accept-age-group-errors",
@@ -5478,6 +5532,19 @@
         }
       },
       "fp": "4eb58677fe4d82185914eef5"
+    },
+    "2026-10-gift-cards-in-app-marketing": {
+      "id": "2026-10-gift-cards-in-app-marketing",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 1,
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "f168eaf07e491e0688f2b8f8"
     },
     "2026-10-guild-tooltip-lazy-content": {
       "id": "2026-10-guild-tooltip-lazy-content",

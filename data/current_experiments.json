@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-06T19-06-33-248Z_630900_pskjwj",
-  "buildNumber": "630900",
-  "updatedAt": "2026-10-06T19:06:33.248Z",
-  "count": 363,
+  "runId": "2026-10-06T23-03-01-604Z_631358_rch47p",
+  "buildNumber": "631358",
+  "updatedAt": "2026-10-06T23:03:01.604Z",
+  "count": 367,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -5316,7 +5316,8 @@
       "title": null,
       "description": null,
       "defaultConfig": {
-        "enabled": false
+        "enabled": false,
+        "defaultOn": false
       },
       "variations": {
         "1": {
@@ -8867,6 +8868,41 @@
       "fingerprint": "b0bf7eb76c4086d265762ae61995966f36e2ff9de48da7bb89ab9efac35d0c8d"
     },
     {
+      "id": "2026-09-a11y-chassis-target-size",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false,
+        "rtcLargerTarget": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "treatments": null,
+      "variationCount": 3,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "db5a2575494ce498c0d5891063855796b9dc6fe529727893bf6d6e5d6f0041bb"
+    },
+    {
       "id": "2026-09-agc2-mobile",
       "kind": "user",
       "type": "user",
@@ -9377,6 +9413,37 @@
       "fingerprint": "7d93c9b66cddc095062a72e1b6b0fc874c4260c321f6639ebb95d5dad38b0c06"
     },
     {
+      "id": "2026-09-guild-sidebar-stream-preview",
+      "kind": "guild",
+      "type": "guild",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "3b90d4e5f2288de796d750e202a8c5ba2d263a7d6a293333ba18d2fd33460a25"
+    },
+    {
       "id": "2026-09-guild-spaces",
       "kind": "guild",
       "type": "guild",
@@ -9468,6 +9535,41 @@
         "value": null
       },
       "fingerprint": "476067cbc482cde06d7ef7f54112d9a58547b2481ef6146c30d0dd80f775f00a"
+    },
+    {
+      "id": "2026-09-hexagon-campaign-client",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false,
+        "questHomeRedirect": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "treatments": null,
+      "variationCount": 3,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "e79f28104a0a581b06528af1f592172fbca407d789d124b3dd567605c25de3fa"
     },
     {
       "id": "2026-09-invite-accept-age-group-errors",
@@ -10885,6 +10987,34 @@
         "value": null
       },
       "fingerprint": "bdd5ac8f8e01f7145ce07d4055b7f3785d6a399975b63063a8f6e7888781245a"
+    },
+    {
+      "id": "2026-10-gift-cards-in-app-marketing",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "ee30f3bef1cc237eb161e263620d410348cd99e660f4fa1303bde21de39bdbe4"
     },
     {
       "id": "2026-10-guild-tooltip-lazy-content",

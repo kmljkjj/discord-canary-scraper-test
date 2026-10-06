@@ -2650,7 +2650,8 @@
     "kind": "user",
     "name": "2026-05-spatial-audio-for-voice",
     "defaultConfig": {
-      "enabled": false
+      "enabled": false,
+      "defaultOn": false
     },
     "variations": {
       "1": {
@@ -4435,6 +4436,26 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-a11y-chassis-target-size",
+    "defaultConfig": {
+      "enabled": false,
+      "rtcLargerTarget": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-agc2-mobile",
     "defaultConfig": {
       "agc2Enabled": false,
@@ -4690,6 +4711,22 @@
   },
   {
     "kind": "guild",
+    "name": "2026-09-guild-sidebar-stream-preview",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "guild",
     "name": "2026-09-guild-spaces",
     "defaultConfig": {
       "enabled": false
@@ -4732,6 +4769,26 @@
       },
       "1": {
         "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-09-hexagon-campaign-client",
+    "defaultConfig": {
+      "enabled": false,
+      "questHomeRedirect": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
       }
     },
     "label": null
@@ -5457,6 +5514,19 @@
       "0": {
         "id": 0
       },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-gift-cards-in-app-marketing",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
       "1": {
         "id": 1
       }

@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-06T19-06-33-248Z_630900_pskjwj",
-  "buildNumber": "630900",
-  "scrapedAt": "2026-10-06T19:06:33.248Z",
+  "runId": "2026-10-06T23-03-01-604Z_631358_rch47p",
+  "buildNumber": "631358",
+  "scrapedAt": "2026-10-06T23:03:01.604Z",
   "totals": {
-    "all": 363,
+    "all": 367,
     "legacy": 0,
-    "apex": 363
+    "apex": 367
   },
   "experiments": [
     {
@@ -3370,7 +3370,8 @@
       "label": null,
       "system": "apex",
       "defaultConfig": {
-        "enabled": false
+        "enabled": false,
+        "defaultOn": false
       },
       "variations": {
         "1": {
@@ -5623,6 +5624,30 @@
       "source": "discord"
     },
     {
+      "id": "2026-09-a11y-chassis-target-size",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false,
+        "rtcLargerTarget": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "variationCount": 3,
+      "source": "discord"
+    },
+    {
       "id": "2026-09-agc2-mobile",
       "type": "user",
       "kind": "user",
@@ -5946,6 +5971,26 @@
       "source": "discord"
     },
     {
+      "id": "2026-09-guild-sidebar-stream-preview",
+      "type": "guild",
+      "kind": "guild",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
       "id": "2026-09-guild-spaces",
       "type": "guild",
       "kind": "guild",
@@ -6003,6 +6048,30 @@
         }
       },
       "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-09-hexagon-campaign-client",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false,
+        "questHomeRedirect": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "variationCount": 3,
       "source": "discord"
     },
     {
@@ -6914,6 +6983,23 @@
         }
       },
       "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-gift-cards-in-app-marketing",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
       "source": "discord"
     },
     {
