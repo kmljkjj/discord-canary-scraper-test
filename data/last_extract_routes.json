@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-06T06-41-28-157Z_630434_xh01w9",
-  "buildNumber": "630434",
-  "updatedAt": "2026-10-06T06:41:28.157Z",
-  "count": 675,
+  "runId": "2026-10-06T13-39-32-402Z_630505_oq3whx",
+  "buildNumber": "630505",
+  "updatedAt": "2026-10-06T13:39:32.402Z",
+  "count": 674,
   "data": {
     "USER_BULK_RELATIONSHIPS": "/users/@me/relationships/bulk",
     "USER_BADGE_SETTINGS": "/users/@me/badges/settings",
@@ -173,7 +173,6 @@
     "DISABLE_EMAIL_NOTIFICATIONS": "/disable-email-notifications",
     "DISABLE_SERVER_HIGHLIGHT_NOTIFICATIONS": "/disable-server-highlight-notifications",
     "SEARCH_TABS_DMS": "/users/@me/messages/search/tabs",
-    "CHANGELOG_MESSAGES": "/changelogs/@me/messages",
     "APPLIED_GUILD_BOOST_COOLDOWN": "/users/@me/guilds/premium/subscriptions/cooldown",
     "USER_APPLIED_GUILD_BOOSTS": "/users/@me/guilds/premium/subscriptions",
     "USER_GUILD_BOOST_SLOTS": "/users/@me/guilds/premium/subscription-slots",

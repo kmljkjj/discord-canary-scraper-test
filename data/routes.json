@@ -162,7 +162,6 @@
   "DISABLE_EMAIL_NOTIFICATIONS": "/disable-email-notifications",
   "DISABLE_SERVER_HIGHLIGHT_NOTIFICATIONS": "/disable-server-highlight-notifications",
   "SEARCH_TABS_DMS": "/users/@me/messages/search/tabs",
-  "CHANGELOG_MESSAGES": "/changelogs/@me/messages",
   "APPLIED_GUILD_BOOST_COOLDOWN": "/users/@me/guilds/premium/subscriptions/cooldown",
   "USER_APPLIED_GUILD_BOOSTS": "/users/@me/guilds/premium/subscriptions",
   "USER_GUILD_BOOST_SLOTS": "/users/@me/guilds/premium/subscription-slots",
