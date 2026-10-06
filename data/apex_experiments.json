@@ -2958,19 +2958,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-06-gummy-viewers",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-06-hero-shelf-ad-tile",
     "defaultConfig": {
       "enabled": false
@@ -4057,29 +4044,6 @@
       },
       "1": {
         "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-08-gift-recipient-display-name-search",
-    "defaultConfig": {
-      "displayNameSearchEnabled": false,
-      "affinityOrderingEnabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      },
-      "3": {
-        "id": 3
       }
     },
     "label": null

@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-06T13-39-32-402Z_630505_oq3whx",
-  "buildNumber": "630505",
-  "scrapedAt": "2026-10-06T13:39:32.402Z",
+  "runId": "2026-10-06T19-06-33-248Z_630900_pskjwj",
+  "buildNumber": "630900",
+  "scrapedAt": "2026-10-06T19:06:33.248Z",
   "totals": {
-    "all": 365,
+    "all": 363,
     "legacy": 0,
-    "apex": 365
+    "apex": 363
   },
   "experiments": [
     {
@@ -3754,23 +3754,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-06-gummy-viewers",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
       "id": "2026-06-hero-shelf-ad-tile",
       "type": "user",
       "kind": "user",
@@ -5144,33 +5127,6 @@
         }
       },
       "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2026-08-gift-recipient-display-name-search",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "displayNameSearchEnabled": false,
-        "affinityOrderingEnabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        },
-        "3": {
-          "id": 3
-        }
-      },
-      "variationCount": 4,
       "source": "discord"
     },
     {
