@@ -1,7 +1,7 @@
 {
-  "runId": "2026-10-05T18-43-42-922Z_629572_mhr8yv",
-  "buildNumber": "629572",
-  "updatedAt": "2026-10-05T18:43:42.922Z",
+  "runId": "2026-10-06T00-23-17-172Z_630209_galuwb",
+  "buildNumber": "630209",
+  "updatedAt": "2026-10-06T00:23:17.173Z",
   "count": 367,
   "experiments": [
     {
@@ -6530,46 +6530,6 @@
       "fingerprint": "c30fe3ecfd010b99b1bc7ecafd066c309e58c4ccea4ca816ef881dcbcdb9880f"
     },
     {
-      "id": "2026-07-ad-recheck-interval-experiment",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enableFastAdRecheck": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        },
-        "3": {
-          "id": 3
-        },
-        "4": {
-          "id": 4
-        },
-        "5": {
-          "id": 5
-        }
-      },
-      "treatments": null,
-      "variationCount": 5,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "d4176f39ddb144c1633487c3999956c3bddfc6518a820ff1190767847dfcf84c"
-    },
-    {
       "id": "2026-07-app-channels",
       "kind": "guild",
       "type": "guild",
@@ -6681,37 +6641,6 @@
         "value": null
       },
       "fingerprint": "8592c9c86b29493ca08625376ebf5ee5e02d43c71adbe7f9911f886718d52d5f"
-    },
-    {
-      "id": "2026-07-aws-gateway",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enableAltGateway": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "cb648dae191dae619edc4d6a1ca869d0d70f00f043ccbe85055ef62661ae75c5"
     },
     {
       "id": "2026-07-call-of-duty-3pp-expired",
@@ -6833,34 +6762,6 @@
         "value": null
       },
       "fingerprint": "935ed2fdf7291549f5e2207b540f4bcd7d0150f1714f0dacbda96734cf92706c"
-    },
-    {
-      "id": "2026-07-clips-ntp-clock",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "useNtpClock": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "70c6ab17d7858486d59529ca51282202b54f6ece4c8b4c44880abbb112eec7bd"
     },
     {
       "id": "2026-07-clips-on-profile-setter",
@@ -10933,6 +10834,38 @@
       "fingerprint": "716b3b8224c3ebf37f86640c41da1120b600a8bf3f0394cad80c192f557cf554"
     },
     {
+      "id": "2026-09-voice-connect-feedback",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "rtcConnectionJoinSounds": false,
+        "showSelfConnectingUI": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "fcca02cb62f8124c18f713f2f752b94ebaac19c139f61b98e65b1ba9d03cb8b6"
+    },
+    {
       "id": "2026-09-web-sticker-picker-upsell-restyle",
       "kind": "user",
       "type": "user",
@@ -11056,6 +10989,37 @@
       "fingerprint": "1a0c1e9bbc5f02049748ce9e19d782d1a5f0b5b85df0b1da2544a6b664ca2747"
     },
     {
+      "id": "2026-10-contextual-referrals-gdm-member-list",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "showEmbed": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "bdd5ac8f8e01f7145ce07d4055b7f3785d6a399975b63063a8f6e7888781245a"
+    },
+    {
       "id": "2026-10-guild-tooltip-lazy-content",
       "kind": "user",
       "type": "user",
@@ -11085,6 +11049,34 @@
         "value": null
       },
       "fingerprint": "30c8a246c278c6d20659bf308adc718b74da27b6158e43807dec9fcce80bfda3"
+    },
+    {
+      "id": "2026-10-purchase-history",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "e3f5b2891467c81af1b2ee3316213a9d39f306ac6c612d3e47d2af8cddd73256"
     }
   ]
 }

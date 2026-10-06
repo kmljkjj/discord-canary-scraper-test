@@ -3267,31 +3267,6 @@
     "label": null
   },
   {
-    "kind": "user",
-    "name": "2026-07-ad-recheck-interval-experiment",
-    "defaultConfig": {
-      "enableFastAdRecheck": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      },
-      "3": {
-        "id": 3
-      },
-      "4": {
-        "id": 4
-      },
-      "5": {
-        "id": 5
-      }
-    },
-    "label": null
-  },
-  {
     "kind": "guild",
     "name": "2026-07-app-channels",
     "defaultConfig": {
@@ -3340,22 +3315,6 @@
     "variations": {
       "1": {
         "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-07-aws-gateway",
-    "defaultConfig": {
-      "enableAltGateway": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
       }
     },
     "label": null
@@ -3413,19 +3372,6 @@
     "name": "2026-07-clips-game-events-on-player",
     "defaultConfig": {
       "enableGameEventsOnPlayer": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-07-clips-ntp-clock",
-    "defaultConfig": {
-      "useNtpClock": false
     },
     "variations": {
       "1": {
@@ -5496,6 +5442,23 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-voice-connect-feedback",
+    "defaultConfig": {
+      "rtcConnectionJoinSounds": false,
+      "showSelfConnectingUI": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-web-sticker-picker-upsell-restyle",
     "defaultConfig": null,
     "variations": {
@@ -5559,6 +5522,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-contextual-referrals-gdm-member-list",
+    "defaultConfig": {
+      "showEmbed": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-guild-tooltip-lazy-content",
     "defaultConfig": {
       "enabled": false
@@ -5567,6 +5546,19 @@
       "0": {
         "id": 0
       },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-purchase-history",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
       "1": {
         "id": 1
       }

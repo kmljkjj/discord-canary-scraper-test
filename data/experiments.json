@@ -1,7 +1,7 @@
 {
-  "runId": "2026-10-05T18-43-42-922Z_629572_mhr8yv",
-  "buildNumber": "629572",
-  "scrapedAt": "2026-10-05T18:43:42.922Z",
+  "runId": "2026-10-06T00-23-17-172Z_630209_galuwb",
+  "buildNumber": "630209",
+  "scrapedAt": "2026-10-06T00:23:17.173Z",
   "totals": {
     "all": 367,
     "legacy": 0,
@@ -4144,35 +4144,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-07-ad-recheck-interval-experiment",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enableFastAdRecheck": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        },
-        "3": {
-          "id": 3
-        },
-        "4": {
-          "id": 4
-        },
-        "5": {
-          "id": 5
-        }
-      },
-      "variationCount": 5,
-      "source": "discord"
-    },
-    {
       "id": "2026-07-app-channels",
       "type": "guild",
       "kind": "guild",
@@ -4239,26 +4210,6 @@
         }
       },
       "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2026-07-aws-gateway",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enableAltGateway": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "variationCount": 2,
       "source": "discord"
     },
     {
@@ -4329,23 +4280,6 @@
       "system": "apex",
       "defaultConfig": {
         "enableGameEventsOnPlayer": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2026-07-clips-ntp-clock",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "useNtpClock": false
       },
       "variations": {
         "1": {
@@ -6952,6 +6886,27 @@
       "source": "discord"
     },
     {
+      "id": "2026-09-voice-connect-feedback",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "rtcConnectionJoinSounds": false,
+        "showSelfConnectingUI": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
       "id": "2026-09-web-sticker-picker-upsell-restyle",
       "type": "user",
       "kind": "user",
@@ -7031,6 +6986,26 @@
       "source": "discord"
     },
     {
+      "id": "2026-10-contextual-referrals-gdm-member-list",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "showEmbed": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
       "id": "2026-10-guild-tooltip-lazy-content",
       "type": "user",
       "kind": "user",
@@ -7048,6 +7023,23 @@
         }
       },
       "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-purchase-history",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
       "source": "discord"
     }
   ],

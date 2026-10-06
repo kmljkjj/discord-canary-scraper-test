@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-05T18-43-42-922Z_629572_mhr8yv",
-  "buildNumber": "629572",
-  "updatedAt": "2026-10-05T18:43:42.922Z",
-  "count": 674,
+  "runId": "2026-10-06T00-23-17-172Z_630209_galuwb",
+  "buildNumber": "630209",
+  "updatedAt": "2026-10-06T00:23:17.173Z",
+  "count": 675,
   "data": {
     "USER_BULK_RELATIONSHIPS": "/users/@me/relationships/bulk",
     "USER_BADGE_SETTINGS": "/users/@me/badges/settings",
@@ -185,6 +185,7 @@
     "BILLING_PAYMENT_SOURCES": "/users/@me/billing/payment-sources",
     "BILLING_PAYMENT_SOURCES_VALIDATE_BILLING_ADDRESS": "/users/@me/billing/payment-sources/validate-billing-address",
     "BILLING_PAYMENTS": "/billing/payments",
+    "BILLING_HISTORY": "/users/@me/billing/history",
     "BILLING_INVOICE_PDF": "/users/@me/billing/invoice",
     "BILLING_INVOICE_BREAKDOWN": "/users/@me/billing/invoice/breakdown",
     "BILLING_PAYPAL_BILLING_AGREEMENT_TOKENS": "/users/@me/billing/paypal/billing-agreement-tokens",

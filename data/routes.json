@@ -675,5 +675,6 @@
   "VIRTUAL_CURRENCY_USER_TOTAL_REDEEMED": "/users/@me/virtual-currency/total-redeemed",
   "CONJURE_PROJECTS": "/vibegrations/projects",
   "CONJURE_PROJECT_LIMIT": "/vibegrations/project-limit",
-  "CONJURE_PROJECT_ACK": "/conjuring/projects/:param/ack/:param"
+  "CONJURE_PROJECT_ACK": "/conjuring/projects/:param/ack/:param",
+  "BILLING_HISTORY": "/users/@me/billing/history"
 }
