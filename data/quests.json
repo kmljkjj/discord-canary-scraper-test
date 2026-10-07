@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-07T05:45:20.000Z",
-  "count": 42,
+  "scrapedAt": "2026-10-07T12:05:11.711Z",
+  "count": 46,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -418,7 +418,11 @@
     "1555684816882499675",
     "1555682587819643052",
     "1557057421417914388",
-    "1554166577207709767"
+    "1554166577207709767",
+    "1556982617587318897",
+    "1554797166101405738",
+    "1556983453541601361",
+    "1556984508107063417"
   ],
   "quests": [
     {
@@ -755,6 +759,38 @@
       "expiresAt": "2026-10-19T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1554166577207709767/1554561663225561138_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1554166577207709767/1554560313808912434.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1556982617587318897",
+      "name": "ARC Raiders",
+      "expiresAt": "2026-10-13T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1554797166101405738/1554819023357612042_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1554797166101405738/1554817394839650314.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1554797166101405738",
+      "name": "ARC Raiders",
+      "expiresAt": "2026-10-13T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1554797166101405738/1556617667815931954_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1554797166101405738/1554817394839650314.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1556983453541601361",
+      "name": "ARC Raiders",
+      "expiresAt": "2026-10-13T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1554797166101405738/1554819025203241040_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1554797166101405738/1554817394839650314.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1556984508107063417",
+      "name": "ARC Raiders",
+      "expiresAt": "2026-10-13T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1554797166101405738/1554819024041279518_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1554797166101405738/1554817394839650314.jpg",
       "rewardCount": 1
     }
   ]
