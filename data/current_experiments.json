@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-07T08-55-55-398Z_631639_ra54jy",
-  "buildNumber": "631639",
-  "updatedAt": "2026-10-07T08:55:55.399Z",
-  "count": 367,
+  "runId": "2026-10-07T16-13-34-442Z_631760_gqvwoe",
+  "buildNumber": "631760",
+  "updatedAt": "2026-10-07T16:13:34.442Z",
+  "count": 368,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -8386,6 +8386,34 @@
       "fingerprint": "06f2a9c185c68f4e85df6197547b5eaf8257df3654d0ec3a5b58d99b4192d71c"
     },
     {
+      "id": "2026-08-rive-web-perf",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "6130c8ec191fd600d3b84c0627ae004e9a1939a68dcd6f40b78764fa18bf5745"
+    },
+    {
       "id": "2026-08-rocketleague-events",
       "kind": "user",
       "type": "user",
@@ -9495,41 +9523,6 @@
         "value": null
       },
       "fingerprint": "476067cbc482cde06d7ef7f54112d9a58547b2481ef6146c30d0dd80f775f00a"
-    },
-    {
-      "id": "2026-09-hexagon-campaign-client",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false,
-        "questHomeRedirect": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "treatments": null,
-      "variationCount": 3,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "e79f28104a0a581b06528af1f592172fbca407d789d124b3dd567605c25de3fa"
     },
     {
       "id": "2026-09-invite-accept-age-group-errors",
@@ -10947,6 +10940,37 @@
         "value": null
       },
       "fingerprint": "bdd5ac8f8e01f7145ce07d4055b7f3785d6a399975b63063a8f6e7888781245a"
+    },
+    {
+      "id": "2026-10-desktop-game-perf",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "nativeSystemCpuTimes": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "31f572c1b66019e409bb6a1c91ef9cbf732b1ebc9bf1105e8790603ec110efaf"
     },
     {
       "id": "2026-10-desktop-tti-perf",

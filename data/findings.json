@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-07T08-55-55-398Z_631639_ra54jy",
-  "buildNumber": "631639",
-  "scrapedAt": "2026-10-07T08:55:55.399Z",
+  "runId": "2026-10-07T16-13-34-442Z_631760_gqvwoe",
+  "buildNumber": "631760",
+  "scrapedAt": "2026-10-07T16:13:34.442Z",
   "totals": {
-    "all": 367
+    "all": 368
   },
   "experiments": [
     {
@@ -5316,6 +5316,23 @@
       "source": "discord"
     },
     {
+      "id": "2026-08-rive-web-perf",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
       "id": "2026-08-rocketleague-events",
       "type": "user",
       "kind": "user",
@@ -6017,30 +6034,6 @@
         }
       },
       "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2026-09-hexagon-campaign-client",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false,
-        "questHomeRedirect": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "variationCount": 3,
       "source": "discord"
     },
     {
@@ -6942,6 +6935,26 @@
       "system": "apex",
       "defaultConfig": {
         "showEmbed": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-desktop-game-perf",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "nativeSystemCpuTimes": false
       },
       "variations": {
         "0": {
