@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-07T16-13-34-442Z_631760_gqvwoe",
-  "buildNumber": "631760",
-  "updatedAt": "2026-10-07T16:13:34.442Z",
-  "count": 368,
+  "runId": "2026-10-07T21-21-47-824Z_632338_vg7tuo",
+  "buildNumber": "632338",
+  "updatedAt": "2026-10-07T21:21:47.824Z",
+  "count": 369,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -3200,37 +3200,6 @@
         "value": null
       },
       "fingerprint": "10a1a853d42f0d870b67f82bd78fee794829eadae0e42391d1db8a3073f49e55"
-    },
-    {
-      "id": "2026-03-message-bookmarks",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "8e22138a030b5c9fcf6dfc7ccc69ef24bff0076b3861bef2aebfc4ddaf553648"
     },
     {
       "id": "2026-03-mobile-quest-home-red-dot-notification",
@@ -7020,35 +6989,6 @@
       "fingerprint": "fbb56ee6f33ad2e509e91f827195862bf47408dd67161212fb3734146bce2b37"
     },
     {
-      "id": "2026-07-message-bookmarks-v2",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": null,
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "a57a90b710fe420c19ae8de2060cae7a505a6debe3c4f4d8d284e18c43b030cf"
-    },
-    {
       "id": "2026-07-nvenc-reconstructed-frames",
       "kind": "user",
       "type": "user",
@@ -9106,6 +9046,37 @@
       "fingerprint": "52553f8bee5f515ef71bd2e1c3014cfbc7e435c2f7130df80596a70f0ff5fdfe"
     },
     {
+      "id": "2026-09-default-emojis",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "5eff64b0ef434ea393caa6fce9de56e614d74ba38be024083ed48097c751edf5"
+    },
+    {
       "id": "2026-09-design-systems-notification-components",
       "kind": "user",
       "type": "user",
@@ -10817,6 +10788,34 @@
       "fingerprint": "1227d7bd17b198847a0fc017a47f76413d30e7dbe1e6916c0d690aa7797a1a60"
     },
     {
+      "id": "2026-09-windows-native-premap",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "54a65487733339001d760c5267cb083e1b74bcb2e225fc2475e47f69391f1093"
+    },
+    {
       "id": "2026-09-youtube-3p",
       "kind": "user",
       "type": "user",
@@ -10971,6 +10970,38 @@
         "value": null
       },
       "fingerprint": "31f572c1b66019e409bb6a1c91ef9cbf732b1ebc9bf1105e8790603ec110efaf"
+    },
+    {
+      "id": "2026-10-desktop-general-perf",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "skipSilentDelayEstimatorFfts": false,
+        "basicProcessEnumeration": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "b1c8d36ee752af80557389690c5ef3a825e18fb8947b7aad0744bb6cdf6425da"
     },
     {
       "id": "2026-10-desktop-tti-perf",

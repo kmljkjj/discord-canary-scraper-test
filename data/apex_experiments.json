@@ -1593,22 +1593,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-03-message-bookmarks",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-03-mobile-quest-home-red-dot-notification",
     "defaultConfig": {
       "enabled": false
@@ -3503,20 +3487,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-07-message-bookmarks-v2",
-    "defaultConfig": null,
-    "variations": {
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-07-nvenc-reconstructed-frames",
     "defaultConfig": {
       "enabled": false
@@ -4554,6 +4524,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-default-emojis",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-design-systems-notification-components",
     "defaultConfig": {
       "enabled": false
@@ -5425,6 +5411,19 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-windows-native-premap",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-youtube-3p",
     "defaultConfig": {
       "enabled": false
@@ -5493,6 +5492,23 @@
     "name": "2026-10-desktop-game-perf",
     "defaultConfig": {
       "nativeSystemCpuTimes": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-desktop-general-perf",
+    "defaultConfig": {
+      "skipSilentDelayEstimatorFfts": false,
+      "basicProcessEnumeration": false
     },
     "variations": {
       "0": {

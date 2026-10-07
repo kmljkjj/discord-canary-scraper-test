@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-07T16-13-34-442Z_631760_gqvwoe",
-  "buildNumber": "631760",
-  "scrapedAt": "2026-10-07T16:13:34.442Z",
+  "runId": "2026-10-07T21-21-47-824Z_632338_vg7tuo",
+  "buildNumber": "632338",
+  "scrapedAt": "2026-10-07T21:21:47.824Z",
   "totals": {
-    "all": 368,
+    "all": 369,
     "legacy": 0,
-    "apex": 368
+    "apex": 369
   },
   "experiments": [
     {
@@ -2023,26 +2023,6 @@
         },
         "1": {
           "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2026-03-message-bookmarks",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
         }
       },
       "variationCount": 2,
@@ -4447,24 +4427,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-07-message-bookmarks-v2",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": null,
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2026-07-nvenc-reconstructed-frames",
       "type": "user",
       "kind": "user",
@@ -5774,6 +5736,26 @@
       "source": "discord"
     },
     {
+      "id": "2026-09-default-emojis",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
       "id": "2026-09-design-systems-notification-components",
       "type": "user",
       "kind": "user",
@@ -6869,6 +6851,23 @@
       "source": "discord"
     },
     {
+      "id": "2026-09-windows-native-premap",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
       "id": "2026-09-youtube-3p",
       "type": "user",
       "kind": "user",
@@ -6957,6 +6956,27 @@
       "system": "apex",
       "defaultConfig": {
         "nativeSystemCpuTimes": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-desktop-general-perf",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "skipSilentDelayEstimatorFfts": false,
+        "basicProcessEnumeration": false
       },
       "variations": {
         "0": {
