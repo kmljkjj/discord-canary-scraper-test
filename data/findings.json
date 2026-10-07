@@ -1,7 +1,7 @@
 {
-  "runId": "2026-10-06T23-03-01-604Z_631358_rch47p",
-  "buildNumber": "631358",
-  "scrapedAt": "2026-10-06T23:03:01.604Z",
+  "runId": "2026-10-07T02-18-56-696Z_631541_0q8wiv",
+  "buildNumber": "631541",
+  "scrapedAt": "2026-10-07T02:18:56.696Z",
   "totals": {
     "all": 367
   },
@@ -867,35 +867,6 @@
         }
       },
       "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2025-12-nitro-s-rewards",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "treatment": "control"
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        },
-        "3": {
-          "id": 3
-        },
-        "4": {
-          "id": 4
-        }
-      },
-      "variationCount": 5,
       "source": "discord"
     },
     {
@@ -6971,6 +6942,26 @@
       "system": "apex",
       "defaultConfig": {
         "showEmbed": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-desktop-tti-perf",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "legacyOverlayWorker": false
       },
       "variations": {
         "0": {

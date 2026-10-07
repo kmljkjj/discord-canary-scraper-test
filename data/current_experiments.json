@@ -1,7 +1,7 @@
 {
-  "runId": "2026-10-06T23-03-01-604Z_631358_rch47p",
-  "buildNumber": "631358",
-  "updatedAt": "2026-10-06T23:03:01.604Z",
+  "runId": "2026-10-07T02-18-56-696Z_631541_0q8wiv",
+  "buildNumber": "631541",
+  "updatedAt": "2026-10-07T02:18:56.696Z",
   "count": 367,
   "experiments": [
     {
@@ -1361,46 +1361,6 @@
         "value": null
       },
       "fingerprint": "e2e615f7671bd79febac193c1bf0f525cff65c46039b4a8cc4b0212d983a6643"
-    },
-    {
-      "id": "2025-12-nitro-s-rewards",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "treatment": "control"
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        },
-        "3": {
-          "id": 3
-        },
-        "4": {
-          "id": 4
-        }
-      },
-      "treatments": null,
-      "variationCount": 5,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "34204964bb47ba82bfe10717241be4e9937e5b6de64d54efed6f8fd2ca6463fa"
     },
     {
       "id": "2025-12-orb-redemption-thru-orders",
@@ -10987,6 +10947,37 @@
         "value": null
       },
       "fingerprint": "bdd5ac8f8e01f7145ce07d4055b7f3785d6a399975b63063a8f6e7888781245a"
+    },
+    {
+      "id": "2026-10-desktop-tti-perf",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "legacyOverlayWorker": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "eed054c142f7c0c556fbdb1b120c6885e05067e19410a67821701058160ab394"
     },
     {
       "id": "2026-10-gift-cards-in-app-marketing",

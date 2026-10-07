@@ -684,31 +684,6 @@
   },
   {
     "kind": "user",
-    "name": "2025-12-nitro-s-rewards",
-    "defaultConfig": {
-      "treatment": "control"
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      },
-      "3": {
-        "id": 3
-      },
-      "4": {
-        "id": 4
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2025-12-orb-redemption-thru-orders",
     "defaultConfig": {
       "enabled": false
@@ -5509,6 +5484,22 @@
     "name": "2026-10-contextual-referrals-gdm-member-list",
     "defaultConfig": {
       "showEmbed": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-desktop-tti-perf",
+    "defaultConfig": {
+      "legacyOverlayWorker": false
     },
     "variations": {
       "0": {

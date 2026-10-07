@@ -9,7 +9,7 @@
   "active": "primary",
   "before": "after",
   "insert": "remove_text",
-  "center": "top",
+  "center": "right",
   "manual": "auto",
   "paused": "running",
   "Silent": "Displayed",
@@ -23606,7 +23606,6 @@
   "J6STd9": "Current activity",
   "dQqmbk": "Discord Member Since",
   "9t7w53": "Joined Discord: date",
-  "A2XnI4": "fontName",
   "YAgq3W": "Edit avatar and decoration",
   "Z19/zE": "Edit avatar",
   "79MgMO": "Avatar image",
@@ -31327,5 +31326,8 @@
   "QcKHvf": "Expand sectionName",
   "sJHQqC": "Give or get Nitro, Shop items, and more. Now available at select retailers online and in-stores.",
   "j4n5/K": "Learn More",
-  "tmst3F": "Gift Cards are here!"
+  "tmst3F": "Gift Cards are here!",
+  "NV+MBV": "You don\\'t have any Server Tags to choose from.",
+  "Y3poDW": "Y3poDW",
+  "RqXsIs": "RqXsIs"
 }
