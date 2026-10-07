@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-07T12:05:11.711Z",
-  "count": 46,
+  "scrapedAt": "2026-10-07T18:55:11.848Z",
+  "count": 44,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -562,14 +562,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1550563498394787951",
-      "name": "NTE Half Anni",
-      "expiresAt": "2026-10-07T14:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1550563498394787951/1552727440621830154_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1550563498394787951/1551657575488036925.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1554258925073993850",
       "name": "FanDuel Everywhere",
       "expiresAt": "2026-11-01T06:59:00+00:00",
@@ -583,14 +575,6 @@
       "expiresAt": "2026-11-01T06:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1547370886645026876/1547372029488009306_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1547370886645026876/1547373049173639258.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552897885883072582",
-      "name": "March of Giants Trailer",
-      "expiresAt": "2026-10-07T17:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552897885883072582/1553109709957898361_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1552897885883072582/1553109709689458719.jpg",
       "rewardCount": 1
     },
     {
