@@ -675,5 +675,6 @@
   "CONJURE_PROJECTS": "/vibegrations/projects",
   "CONJURE_PROJECT_LIMIT": "/vibegrations/project-limit",
   "CONJURE_PROJECT_ACK": "/conjuring/projects/:param/ack/:param",
-  "BILLING_HISTORY": "/users/@me/billing/history"
+  "BILLING_HISTORY": "/users/@me/billing/history",
+  "GAME_ORGANIZATION_INVITES": "/game-organizations/:param/:param/invites"
 }

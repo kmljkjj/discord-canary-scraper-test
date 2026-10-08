@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-08T01-09-25-277Z_632792_4k8ocq",
-  "buildNumber": "632792",
-  "updatedAt": "2026-10-08T01:09:25.277Z",
-  "count": 688,
+  "runId": "2026-10-08T07-26-16-718Z_633023_hyglq7",
+  "buildNumber": "633023",
+  "updatedAt": "2026-10-08T07:26:16.718Z",
+  "count": 689,
   "ids": [
     "ACCOUNT_NOTIFICATION_SETTINGS",
     "ACCOUNT_REVERT",
@@ -266,6 +266,7 @@
     "GAME_INVITES",
     "GAME_INVITE_FRAGMENT",
     "GAME_NOTIFICATION_SETTINGS",
+    "GAME_ORGANIZATION_INVITES",
     "GAME_SERVERS_ME",
     "GAME_SERVER_MY_REGIONS",
     "GAME_SERVER_WAKE",

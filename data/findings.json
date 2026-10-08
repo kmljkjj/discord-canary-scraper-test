@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-08T01-09-25-277Z_632792_4k8ocq",
-  "buildNumber": "632792",
-  "scrapedAt": "2026-10-08T01:09:25.277Z",
+  "runId": "2026-10-08T07-26-16-718Z_633023_hyglq7",
+  "buildNumber": "633023",
+  "scrapedAt": "2026-10-08T07:26:16.718Z",
   "totals": {
-    "all": 369
+    "all": 368
   },
   "experiments": [
     {
@@ -3590,26 +3590,6 @@
         }
       },
       "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2026-06-dont-badge-muted-vcs",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
       "source": "discord"
     },
     {

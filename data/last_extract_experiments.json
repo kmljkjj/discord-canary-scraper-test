@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-08T01-09-25-277Z_632792_4k8ocq",
-  "buildNumber": "632792",
-  "updatedAt": "2026-10-08T01:09:25.277Z",
-  "count": 369,
+  "runId": "2026-10-08T07-26-16-718Z_633023_hyglq7",
+  "buildNumber": "633023",
+  "updatedAt": "2026-10-08T07:26:16.718Z",
+  "count": 368,
   "data": {
     "2021-02_staff_qc_debugging": {
       "id": "2021-02_staff_qc_debugging",
@@ -2826,22 +2826,6 @@
         }
       },
       "fp": "f168eaf07e491e0688f2b8f8"
-    },
-    "2026-06-dont-badge-muted-vcs": {
-      "id": "2026-06-dont-badge-muted-vcs",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 2,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "4eb58677fe4d82185914eef5"
     },
     "2026-06-game-invites-channel": {
       "id": "2026-06-game-invites-channel",

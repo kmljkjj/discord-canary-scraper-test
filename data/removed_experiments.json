@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-08T01-09-25-277Z_632792_4k8ocq",
-  "buildNumber": "632792",
-  "updatedAt": "2026-10-08T01:09:25.277Z",
-  "count": 40,
+  "runId": "2026-10-08T07-26-16-718Z_633023_hyglq7",
+  "buildNumber": "633023",
+  "updatedAt": "2026-10-08T07:26:16.718Z",
+  "count": 41,
   "experiments": [
     {
       "id": "2026-02-mute-tutorial",
@@ -283,6 +283,13 @@
       "label": null,
       "removedAt": "2026-10-07T21:21:47.835Z",
       "lastBuild": "632338"
+    },
+    {
+      "id": "2026-06-dont-badge-muted-vcs",
+      "kind": "user",
+      "label": null,
+      "removedAt": "2026-10-08T07:26:16.730Z",
+      "lastBuild": "633023"
     }
   ]
 }
