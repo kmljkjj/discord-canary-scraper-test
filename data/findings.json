@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-08T14-50-04-099Z_633125_xybozd",
-  "buildNumber": "633125",
-  "scrapedAt": "2026-10-08T14:50:04.099Z",
+  "runId": "2026-10-08T20-19-36-270Z_633630_c9ecyc",
+  "buildNumber": "633630",
+  "scrapedAt": "2026-10-08T20:19:36.271Z",
   "totals": {
-    "all": 369
+    "all": 368
   },
   "experiments": [
     {
@@ -1193,29 +1193,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-02-boosting-refresh-modals",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "variant": "control"
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "variationCount": 3,
-      "source": "discord"
-    },
-    {
       "id": "2026-02-capture-target-window",
       "type": "user",
       "kind": "user",
@@ -2316,26 +2293,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-04-boosting-pre-checkout-modal-refresh-v2",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2026-04-browser-transceiver-padding-removal",
       "type": "user",
       "kind": "user",
@@ -2944,26 +2901,6 @@
     },
     {
       "id": "2026-05-badge-discovery-milestone-2",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2026-05-boosting-pre-checkout-modal-refresh-monthly-rate",
       "type": "user",
       "kind": "user",
       "label": null,
@@ -6753,6 +6690,29 @@
       "source": "discord"
     },
     {
+      "id": "2026-09-try-display-name-style",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "placement": "off"
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "variationCount": 3,
+      "source": "discord"
+    },
+    {
       "id": "2026-09-update-email-settings-copy-subtext",
       "type": "user",
       "kind": "user",
@@ -6904,6 +6864,23 @@
         }
       },
       "variationCount": 3,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-bounties-desktop-quest-bar",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
       "source": "discord"
     },
     {

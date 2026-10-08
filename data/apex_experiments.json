@@ -939,25 +939,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-02-boosting-refresh-modals",
-    "defaultConfig": {
-      "variant": "control"
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-02-capture-target-window",
     "defaultConfig": {
       "enabled": false
@@ -1822,22 +1803,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-04-boosting-pre-checkout-modal-refresh-v2",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-04-browser-transceiver-padding-removal",
     "defaultConfig": {
       "enabled": false
@@ -2314,22 +2279,6 @@
   {
     "kind": "user",
     "name": "2026-05-badge-discovery-milestone-2",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-05-boosting-pre-checkout-modal-refresh-monthly-rate",
     "defaultConfig": {
       "enabled": false
     },
@@ -5335,6 +5284,25 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-try-display-name-style",
+    "defaultConfig": {
+      "placement": "off"
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-update-email-settings-copy-subtext",
     "defaultConfig": {
       "enabled": false
@@ -5451,6 +5419,19 @@
       },
       "2": {
         "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-bounties-desktop-quest-bar",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
       }
     },
     "label": null

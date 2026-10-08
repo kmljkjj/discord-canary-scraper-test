@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-08T14-50-04-099Z_633125_xybozd",
-  "buildNumber": "633125",
-  "updatedAt": "2026-10-08T14:50:04.099Z",
-  "count": 369,
+  "runId": "2026-10-08T20-19-36-270Z_633630_c9ecyc",
+  "buildNumber": "633630",
+  "updatedAt": "2026-10-08T20:19:36.271Z",
+  "count": 368,
   "data": {
     "2021-02_staff_qc_debugging": {
       "id": "2021-02_staff_qc_debugging",
@@ -938,25 +938,6 @@
       },
       "fp": "f168eaf07e491e0688f2b8f8"
     },
-    "2026-02-boosting-refresh-modals": {
-      "id": "2026-02-boosting-refresh-modals",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 3,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "fp": "a80296903cc2e06ce785d5ee"
-    },
     "2026-02-capture-target-window": {
       "id": "2026-02-capture-target-window",
       "type": "user",
@@ -1820,22 +1801,6 @@
       },
       "fp": "045c4a9a0a0ce29900b579a2"
     },
-    "2026-04-boosting-pre-checkout-modal-refresh-v2": {
-      "id": "2026-04-boosting-pre-checkout-modal-refresh-v2",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 2,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "4eb58677fe4d82185914eef5"
-    },
     "2026-04-browser-transceiver-padding-removal": {
       "id": "2026-04-browser-transceiver-padding-removal",
       "type": "user",
@@ -2315,22 +2280,6 @@
     },
     "2026-05-badge-discovery-milestone-2": {
       "id": "2026-05-badge-discovery-milestone-2",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 2,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "4eb58677fe4d82185914eef5"
-    },
-    "2026-05-boosting-pre-checkout-modal-refresh-monthly-rate": {
-      "id": "2026-05-boosting-pre-checkout-modal-refresh-monthly-rate",
       "type": "user",
       "kind": "user",
       "label": null,
@@ -5345,6 +5294,25 @@
       },
       "fp": "4eb58677fe4d82185914eef5"
     },
+    "2026-09-try-display-name-style": {
+      "id": "2026-09-try-display-name-style",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 3,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "fp": "a80296903cc2e06ce785d5ee"
+    },
     "2026-09-update-email-settings-copy-subtext": {
       "id": "2026-09-update-email-settings-copy-subtext",
       "type": "user",
@@ -5466,6 +5434,19 @@
         }
       },
       "fp": "a80296903cc2e06ce785d5ee"
+    },
+    "2026-10-bounties-desktop-quest-bar": {
+      "id": "2026-10-bounties-desktop-quest-bar",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 1,
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "f168eaf07e491e0688f2b8f8"
     },
     "2026-10-contextual-referrals-gdm-member-list": {
       "id": "2026-10-contextual-referrals-gdm-member-list",

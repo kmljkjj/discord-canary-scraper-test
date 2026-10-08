@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-08T14-50-04-099Z_633125_xybozd",
-  "buildNumber": "633125",
-  "updatedAt": "2026-10-08T14:50:04.099Z",
-  "count": 369,
+  "runId": "2026-10-08T20-19-36-270Z_633630_c9ecyc",
+  "buildNumber": "633630",
+  "updatedAt": "2026-10-08T20:19:36.271Z",
+  "count": 368,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -1873,40 +1873,6 @@
       "fingerprint": "6c61fad1029eb012e82e91c4b45eea34ebced6333252f035bc731de2ea74d23c"
     },
     {
-      "id": "2026-02-boosting-refresh-modals",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "variant": "control"
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "treatments": null,
-      "variationCount": 3,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "4ec7f33f90388dd32077550cbee20324353d040ea622184e68495868d992eb30"
-    },
-    {
       "id": "2026-02-capture-target-window",
       "kind": "user",
       "type": "user",
@@ -3656,37 +3622,6 @@
       "fingerprint": "945fa8bc2ca25746beb651216279617d26fd100aec8d95961d4ce3cf741cc7f0"
     },
     {
-      "id": "2026-04-boosting-pre-checkout-modal-refresh-v2",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "e2cd417cb6cedd578d3a7746fb6b9353bad76bcce915def9e394d777b85a969e"
-    },
-    {
       "id": "2026-04-browser-transceiver-padding-removal",
       "kind": "user",
       "type": "user",
@@ -4687,37 +4622,6 @@
         "value": null
       },
       "fingerprint": "b1beaa17804d7b9e5b97951d94ed4de5a7e13de82939ada7f945d31d1f93c7fd"
-    },
-    {
-      "id": "2026-05-boosting-pre-checkout-modal-refresh-monthly-rate",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "8d72a3ec576b3cce51f0868f46a45db113c44234c31f78d0fca47e9a6ec99ee9"
     },
     {
       "id": "2026-05-bounty-stale-refresh-quest-home",
@@ -10637,6 +10541,40 @@
       "fingerprint": "a754f59db8c6b4a623b9b2259ac98f805b371be2d4943669840adfcccdf7f1d1"
     },
     {
+      "id": "2026-09-try-display-name-style",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "placement": "off"
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "treatments": null,
+      "variationCount": 3,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "902db01da59a39a63cc891a8c3d5c9f046fe22478236c125afa9c85e7fcda714"
+    },
+    {
       "id": "2026-09-update-email-settings-copy-subtext",
       "kind": "user",
       "type": "user",
@@ -10877,6 +10815,34 @@
         "value": null
       },
       "fingerprint": "1a0c1e9bbc5f02049748ce9e19d782d1a5f0b5b85df0b1da2544a6b664ca2747"
+    },
+    {
+      "id": "2026-10-bounties-desktop-quest-bar",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "b9722cb7336bee7040ee15936ed2a13a6faf77b52aeca76e1fc6f29e5e48f299"
     },
     {
       "id": "2026-10-contextual-referrals-gdm-member-list",
