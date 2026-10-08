@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-08T07-26-16-718Z_633023_hyglq7",
-  "buildNumber": "633023",
-  "updatedAt": "2026-10-08T07:26:16.718Z",
-  "count": 368,
+  "runId": "2026-10-08T14-50-04-099Z_633125_xybozd",
+  "buildNumber": "633125",
+  "updatedAt": "2026-10-08T14:50:04.099Z",
+  "count": 369,
   "data": {
     "2021-02_staff_qc_debugging": {
       "id": "2021-02_staff_qc_debugging",
@@ -5559,6 +5559,25 @@
         }
       },
       "fp": "4eb58677fe4d82185914eef5"
+    },
+    "2026-10-macaron": {
+      "id": "2026-10-macaron",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 3,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "fp": "a80296903cc2e06ce785d5ee"
     },
     "2026-10-purchase-history": {
       "id": "2026-10-purchase-history",

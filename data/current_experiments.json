@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-08T07-26-16-718Z_633023_hyglq7",
-  "buildNumber": "633023",
-  "updatedAt": "2026-10-08T07:26:16.718Z",
-  "count": 368,
+  "runId": "2026-10-08T14-50-04-099Z_633125_xybozd",
+  "buildNumber": "633125",
+  "updatedAt": "2026-10-08T14:50:04.099Z",
+  "count": 369,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -11061,6 +11061,41 @@
         "value": null
       },
       "fingerprint": "30c8a246c278c6d20659bf308adc718b74da27b6158e43807dec9fcce80bfda3"
+    },
+    {
+      "id": "2026-10-macaron",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false,
+        "phase": 0
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "treatments": null,
+      "variationCount": 3,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "fde0724f4086cfc774c1216df5ef312819a2ccf64efdbcd8833ec45fd95be06c"
     },
     {
       "id": "2026-10-purchase-history",
