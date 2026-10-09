@@ -5483,6 +5483,42 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-contextual-referrals-server-channel-member-list",
+    "defaultConfig": {
+      "showEmbed": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-desktop-conjure-title-bar",
+    "defaultConfig": {
+      "leftEntrypoint": false,
+      "workingAnimation": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-desktop-game-perf",
     "defaultConfig": {
       "nativeSystemCpuTimes": false
@@ -5524,6 +5560,19 @@
       "0": {
         "id": 0
       },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-e2e-latency-measurement",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
       "1": {
         "id": 1
       }
@@ -5605,6 +5654,19 @@
       },
       "2": {
         "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-shop-marketing-fatigue",
+    "defaultConfig": {
+      "enforceFatigue": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
       }
     },
     "label": null

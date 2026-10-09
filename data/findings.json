@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-09T19-04-46-071Z_634665_hkfw1c",
-  "buildNumber": "634665",
-  "scrapedAt": "2026-10-09T19:04:46.071Z",
+  "runId": "2026-10-09T23-13-46-283Z_635092_j287yv",
+  "buildNumber": "635092",
+  "scrapedAt": "2026-10-09T23:13:46.283Z",
   "totals": {
-    "all": 372
+    "all": 376
   },
   "experiments": [
     {
@@ -6937,6 +6937,50 @@
       "source": "discord"
     },
     {
+      "id": "2026-10-contextual-referrals-server-channel-member-list",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "showEmbed": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-desktop-conjure-title-bar",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "leftEntrypoint": false,
+        "workingAnimation": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "variationCount": 3,
+      "source": "discord"
+    },
+    {
       "id": "2026-10-desktop-game-perf",
       "type": "user",
       "kind": "user",
@@ -6995,6 +7039,23 @@
         }
       },
       "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-e2e-latency-measurement",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
       "source": "discord"
     },
     {
@@ -7094,6 +7155,23 @@
         }
       },
       "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-shop-marketing-fatigue",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enforceFatigue": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
       "source": "discord"
     },
     {
