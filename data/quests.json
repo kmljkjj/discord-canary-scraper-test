@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-09T16:25:06.315Z",
-  "count": 46,
+  "scrapedAt": "2026-10-09T21:08:45.199Z",
+  "count": 44,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -427,7 +427,9 @@
     "1554989250322235533",
     "1547647018090893312",
     "1552891135125622834",
-    "1554147252065411133"
+    "1554147252065411133",
+    "1552706567374241872",
+    "1552784415942377583"
   ],
   "quests": [
     {
@@ -508,38 +510,6 @@
       "expiresAt": "2026-10-19T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1546583178230235336/1552762807663988886_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1546583178230235336/1552763358338482246.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552370451727261738",
-      "name": "Matchbox The Movie",
-      "expiresAt": "2026-10-09T16:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552370451727261738/1552703270667948072_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1549819328193364061/1551415313474789456.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552782554845806643",
-      "name": "Matchbox The Movie",
-      "expiresAt": "2026-10-09T16:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552782554845806643/1552814902312173690_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1549819328193364061/1551415313474789456.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1549819328193364061",
-      "name": "Matchbox The Movie",
-      "expiresAt": "2026-10-09T16:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1549819328193364061/1552814648192147476_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1549819328193364061/1551415313474789456.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552698676017766541",
-      "name": "Matchbox The Movie",
-      "expiresAt": "2026-10-09T16:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552698676017766541/1552702892736249856_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1549819328193364061/1551415313474789456.jpg",
       "rewardCount": 1
     },
     {
@@ -796,6 +766,22 @@
       "expiresAt": "2026-10-26T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1554147252065411133/1554600277758312628_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1554147252065411133/1554601339114496151.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552706567374241872",
+      "name": "Matchbox The Movie",
+      "expiresAt": "2026-10-12T06:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552706567374241872/1555299963347402892_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1552706567374241872/1555299314056691732.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552784415942377583",
+      "name": "Matchbox The Movie",
+      "expiresAt": "2026-10-12T06:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552784415942377583/1554593454816755823_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1552784415942377583/1554592774672744508.jpg",
       "rewardCount": 1
     }
   ]
