@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-09T13-47-31-967Z_634365_slsrel",
-  "buildNumber": "634365",
-  "scrapedAt": "2026-10-09T13:47:31.967Z",
+  "runId": "2026-10-09T19-04-46-071Z_634665_hkfw1c",
+  "buildNumber": "634665",
+  "scrapedAt": "2026-10-09T19:04:46.071Z",
   "totals": {
-    "all": 370
+    "all": 372
   },
   "experiments": [
     {
@@ -6184,7 +6184,7 @@
       "label": null,
       "system": "apex",
       "defaultConfig": {
-        "enabled": false
+        "variant": 0
       },
       "variations": {
         "0": {
@@ -6192,9 +6192,18 @@
         },
         "1": {
           "id": 1
+        },
+        "2": {
+          "id": 2
+        },
+        "3": {
+          "id": 3
+        },
+        "4": {
+          "id": 4
         }
       },
-      "variationCount": 2,
+      "variationCount": 5,
       "source": "discord"
     },
     {
@@ -6879,6 +6888,35 @@
       "source": "discord"
     },
     {
+      "id": "2026-10-collectibles-marketing-client-cache",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "ttlMs": null
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        },
+        "3": {
+          "id": 3
+        },
+        "4": {
+          "id": 4
+        }
+      },
+      "variationCount": 5,
+      "source": "discord"
+    },
+    {
       "id": "2026-10-contextual-referrals-gdm-member-list",
       "type": "user",
       "kind": "user",
@@ -7062,6 +7100,23 @@
       "id": "2026-10-stage-unified-call",
       "type": "guild",
       "kind": "guild",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-stage-unified-call-user",
+      "type": "user",
+      "kind": "user",
       "label": null,
       "system": "apex",
       "defaultConfig": {

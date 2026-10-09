@@ -4874,7 +4874,7 @@
     "kind": "user",
     "name": "2026-09-new-orb-reward-visuals",
     "defaultConfig": {
-      "enabled": false
+      "variant": 0
     },
     "variations": {
       "0": {
@@ -4882,6 +4882,15 @@
       },
       "1": {
         "id": 1
+      },
+      "2": {
+        "id": 2
+      },
+      "3": {
+        "id": 3
+      },
+      "4": {
+        "id": 4
       }
     },
     "label": null
@@ -5433,6 +5442,31 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-collectibles-marketing-client-cache",
+    "defaultConfig": {
+      "ttlMs": null
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
+      },
+      "3": {
+        "id": 3
+      },
+      "4": {
+        "id": 4
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-contextual-referrals-gdm-member-list",
     "defaultConfig": {
       "showEmbed": false
@@ -5578,6 +5612,19 @@
   {
     "kind": "guild",
     "name": "2026-10-stage-unified-call",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-stage-unified-call-user",
     "defaultConfig": {
       "enabled": false
     },
