@@ -5559,6 +5559,23 @@
     "label": null
   },
   {
+    "kind": "user",
+    "name": "2026-10-server-tag-upsell-on-profile",
+    "defaultConfig": {
+      "enabled": false,
+      "ignoreSubscriptionPlatform": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
+      }
+    },
+    "label": null
+  },
+  {
     "kind": "guild",
     "name": "2026-10-stage-unified-call",
     "defaultConfig": {
