@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-08T20-19-36-270Z_633630_c9ecyc",
-  "buildNumber": "633630",
-  "updatedAt": "2026-10-08T20:19:36.271Z",
-  "count": 368,
+  "runId": "2026-10-09T00-30-09-403Z_634089_7ah8d3",
+  "buildNumber": "634089",
+  "updatedAt": "2026-10-09T00:30:09.403Z",
+  "count": 367,
   "data": {
     "2021-02_staff_qc_debugging": {
       "id": "2021-02_staff_qc_debugging",
@@ -2277,22 +2277,6 @@
         }
       },
       "fp": "ab821ac5435571e419251e95"
-    },
-    "2026-05-badge-discovery-milestone-2": {
-      "id": "2026-05-badge-discovery-milestone-2",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 2,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "4eb58677fe4d82185914eef5"
     },
     "2026-05-bounty-stale-refresh-quest-home": {
       "id": "2026-05-bounty-stale-refresh-quest-home",

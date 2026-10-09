@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-08T20-19-36-270Z_633630_c9ecyc",
-  "buildNumber": "633630",
-  "scrapedAt": "2026-10-08T20:19:36.271Z",
+  "runId": "2026-10-09T00-30-09-403Z_634089_7ah8d3",
+  "buildNumber": "634089",
+  "scrapedAt": "2026-10-09T00:30:09.403Z",
   "totals": {
-    "all": 368
+    "all": 367
   },
   "experiments": [
     {
@@ -2894,26 +2894,6 @@
         "2": {
           "id": 2,
           "percentage": 25
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2026-05-badge-discovery-milestone-2",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
         }
       },
       "variationCount": 2,
@@ -6695,9 +6675,7 @@
       "kind": "user",
       "label": null,
       "system": "apex",
-      "defaultConfig": {
-        "placement": "off"
-      },
+      "defaultConfig": null,
       "variations": {
         "0": {
           "id": 0

@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-08T20-19-36-270Z_633630_c9ecyc",
-  "buildNumber": "633630",
-  "updatedAt": "2026-10-08T20:19:36.271Z",
-  "count": 44,
+  "runId": "2026-10-09T00-30-09-403Z_634089_7ah8d3",
+  "buildNumber": "634089",
+  "updatedAt": "2026-10-09T00:30:09.403Z",
+  "count": 45,
   "experiments": [
     {
       "id": "2026-02-mute-tutorial",
@@ -311,6 +311,13 @@
       "label": null,
       "removedAt": "2026-10-08T20:19:36.281Z",
       "lastBuild": "633630"
+    },
+    {
+      "id": "2026-05-badge-discovery-milestone-2",
+      "kind": "user",
+      "label": null,
+      "removedAt": "2026-10-09T00:30:09.415Z",
+      "lastBuild": "634089"
     }
   ]
 }
