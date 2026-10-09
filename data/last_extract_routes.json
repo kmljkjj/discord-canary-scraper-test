@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-09T00-30-09-403Z_634089_7ah8d3",
-  "buildNumber": "634089",
-  "updatedAt": "2026-10-09T00:30:09.403Z",
-  "count": 675,
+  "runId": "2026-10-09T06-37-45-206Z_634270_oasx3m",
+  "buildNumber": "634270",
+  "updatedAt": "2026-10-09T06:37:45.206Z",
+  "count": 676,
   "data": {
     "USER_BULK_RELATIONSHIPS": "/users/@me/relationships/bulk",
     "USER_BADGE_SETTINGS": "/users/@me/badges/settings",
@@ -319,6 +319,7 @@
     "ELIGIBLE_APPLICATION_SUBSCRIPTION_GUILDS": "/users/@me/billing/eligible-application-subscription-guilds",
     "APPLICATION_USER_ROLE_CONNECTIONS": "/users/@me/applications/role-connections",
     "GET_SAVED_MESSAGES": "/users/@me/saved-messages",
+    "GET_BOOKMARKS": "/users/@me/saved-messages/bookmarks",
     "GET_REFERRALS_REMAINING": "/users/@me/referrals/eligibility",
     "GET_REFERRAL_ELIGIBLE_USERS": "/users/@me/referrals/eligible-users",
     "FAMILY_CENTER_TEEN_ACTIVITY_ME": "/family-center/@me",

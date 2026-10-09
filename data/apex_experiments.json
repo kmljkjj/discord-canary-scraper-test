@@ -4331,6 +4331,19 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-activity-go-live",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-agc2-mobile",
     "defaultConfig": {
       "agc2Enabled": false,
@@ -5535,6 +5548,19 @@
   {
     "kind": "user",
     "name": "2026-10-purchase-history",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "guild",
+    "name": "2026-10-stage-unified-call",
     "defaultConfig": {
       "enabled": false
     },

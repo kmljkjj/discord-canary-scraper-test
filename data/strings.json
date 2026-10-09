@@ -9,7 +9,7 @@
   "active": "secondary",
   "before": "after",
   "insert": "remove_text",
-  "center": "top",
+  "center": "right",
   "manual": "auto",
   "paused": "running",
   "Silent": "Displayed",
@@ -31394,5 +31394,7 @@
   "6bWeWP": "Learn More",
   "w8gzZb": "The Perfect Gift For @everyone",
   "xYa9Y8": "Where to Buy",
-  "n/a182": "Share HD"
+  "n/a182": "Share HD",
+  "fbbIpP": "Stream to Start Clipping",
+  "Result": "model"
 }

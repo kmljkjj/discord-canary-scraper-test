@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-09T00-30-09-403Z_634089_7ah8d3",
-  "buildNumber": "634089",
-  "scrapedAt": "2026-10-09T00:30:09.403Z",
+  "runId": "2026-10-09T06-37-45-206Z_634270_oasx3m",
+  "buildNumber": "634270",
+  "scrapedAt": "2026-10-09T06:37:45.206Z",
   "totals": {
-    "all": 367,
+    "all": 369,
     "legacy": 0,
-    "apex": 367
+    "apex": 369
   },
   "experiments": [
     {
@@ -5495,6 +5495,23 @@
       "source": "discord"
     },
     {
+      "id": "2026-09-activity-go-live",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
       "id": "2026-09-agc2-mobile",
       "type": "user",
       "kind": "user",
@@ -7009,6 +7026,23 @@
       "id": "2026-10-purchase-history",
       "type": "user",
       "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-stage-unified-call",
+      "type": "guild",
+      "kind": "guild",
       "label": null,
       "system": "apex",
       "defaultConfig": {
