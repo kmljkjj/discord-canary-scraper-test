@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-09T21:08:45.199Z",
-  "count": 44,
+  "scrapedAt": "2026-10-10T00:51:59.971Z",
+  "count": 45,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -429,7 +429,9 @@
     "1552891135125622834",
     "1554147252065411133",
     "1552706567374241872",
-    "1552784415942377583"
+    "1552784415942377583",
+    "1556778857481113610",
+    "1554267368748883999"
   ],
   "quests": [
     {
@@ -542,14 +544,6 @@
       "expiresAt": "2026-10-17T03:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1541854877850796113/1550231305122357359_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1541854877850796113/1550249172815323276.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1553186976419807282",
-      "name": "バイオハザード",
-      "expiresAt": "2026-10-10T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1553186976419807282/1553188285441118259_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1553186976419807282/1553188284883144714.jpg",
       "rewardCount": 1
     },
     {
@@ -782,6 +776,22 @@
       "expiresAt": "2026-10-12T06:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1552784415942377583/1554593454816755823_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1552784415942377583/1554592774672744508.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1556778857481113610",
+      "name": "Deadzone Rogue 2",
+      "expiresAt": "2026-10-23T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1556778857481113610/1556780815843721227_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1556778857481113610/1556780368529457162.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1554267368748883999",
+      "name": "Dark Arisen Arrives",
+      "expiresAt": "2026-10-16T00:00:00+00:00",
+      "videoUrl": null,
+      "heroImage": "https://cdn.discordapp.com/quests/1539357001602302053/1539358043815411783.jpg",
       "rewardCount": 1
     }
   ]
