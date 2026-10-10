@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-10T06:39:27.719Z",
+  "scrapedAt": "2026-10-10T13:04:38.550Z",
   "count": 45,
   "ids": [
     "1509675158363963444",
@@ -431,7 +431,8 @@
     "1552706567374241872",
     "1552784415942377583",
     "1556778857481113610",
-    "1554267368748883999"
+    "1554267368748883999",
+    "1555710921614163989"
   ],
   "quests": [
     {
@@ -544,14 +545,6 @@
       "expiresAt": "2026-10-17T03:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1541854877850796113/1550231305122357359_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1541854877850796113/1550249172815323276.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1554674616033616004",
-      "name": "Where Winds Meet 2.2 Wuxia New Era",
-      "expiresAt": "2026-10-10T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1554674616033616004/1554733920862470164_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1554674616033616004/1554733898796240996.jpg",
       "rewardCount": 1
     },
     {
@@ -792,6 +785,14 @@
       "expiresAt": "2026-10-16T00:00:00+00:00",
       "videoUrl": null,
       "heroImage": "https://cdn.discordapp.com/quests/1539357001602302053/1539358043815411783.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1555710921614163989",
+      "name": "Vision",
+      "expiresAt": "2026-10-19T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1555710921614163989/1555715954644754432_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1555710921614163989/1555712982564999188.jpg",
       "rewardCount": 1
     }
   ]
