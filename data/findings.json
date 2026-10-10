@@ -1,7 +1,7 @@
 {
-  "runId": "2026-10-09T23-13-46-283Z_635092_j287yv",
-  "buildNumber": "635092",
-  "scrapedAt": "2026-10-09T23:13:46.283Z",
+  "runId": "2026-10-10T02-24-36-092Z_635235_ifjz3w",
+  "buildNumber": "635235",
+  "scrapedAt": "2026-10-10T02:24:36.092Z",
   "totals": {
     "all": 376
   },
@@ -3567,23 +3567,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-06-guild-profile-server-tag",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "showServerTag": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
       "id": "2026-06-gummy-bears",
       "type": "user",
       "kind": "user",
@@ -6379,6 +6362,23 @@
       "system": "apex",
       "defaultConfig": {
         "trackingCopy": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
+      "id": "2026-09-request-to-stream-new-entry-point",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "showReminderPanel": false
       },
       "variations": {
         "1": {

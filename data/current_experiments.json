@@ -1,7 +1,7 @@
 {
-  "runId": "2026-10-09T23-13-46-283Z_635092_j287yv",
-  "buildNumber": "635092",
-  "updatedAt": "2026-10-09T23:13:46.283Z",
+  "runId": "2026-10-10T02-24-36-092Z_635235_ifjz3w",
+  "buildNumber": "635235",
+  "updatedAt": "2026-10-10T02:24:36.092Z",
   "count": 376,
   "experiments": [
     {
@@ -5634,34 +5634,6 @@
       "fingerprint": "e8db162571223da157b51ead0d00c255b5e2fd6a6ec5a6fa316637e4224f3229"
     },
     {
-      "id": "2026-06-guild-profile-server-tag",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "showServerTag": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "471f00a3a07b8882a7d115232d646f52838276adf4eb0d05ad518a75e6797d8a"
-    },
-    {
       "id": "2026-06-gummy-bears",
       "kind": "user",
       "type": "user",
@@ -10084,6 +10056,34 @@
         "value": null
       },
       "fingerprint": "8e139cab627ec1b0ce298d190e611a4eee615de7108102a468bdb83121538335"
+    },
+    {
+      "id": "2026-09-request-to-stream-new-entry-point",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "showReminderPanel": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "6504a196c10684366993180db6557ac347ecfc83ac784229a08fc537acf7d5b4"
     },
     {
       "id": "2026-09-rust-3p",

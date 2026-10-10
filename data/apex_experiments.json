@@ -2809,19 +2809,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-06-guild-profile-server-tag",
-    "defaultConfig": {
-      "showServerTag": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-06-gummy-bears",
     "defaultConfig": {
       "enabled": false
@@ -5029,6 +5016,19 @@
     "name": "2026-09-registration-email-opt-in-copy",
     "defaultConfig": {
       "trackingCopy": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-09-request-to-stream-new-entry-point",
+    "defaultConfig": {
+      "showReminderPanel": false
     },
     "variations": {
       "1": {
