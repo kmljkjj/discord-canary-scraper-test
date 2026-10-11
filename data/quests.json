@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-11T11:38:12.391Z",
-  "count": 47,
+  "scrapedAt": "2026-10-11T23:59:46.179Z",
+  "count": 45,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -555,22 +555,6 @@
       "expiresAt": "2026-10-18T20:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1554270669267537930/1554954274981806170_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1554270669267537930/1554954274411126886.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552406144067043438",
-      "name": "Forgotten Island",
-      "expiresAt": "2026-10-11T22:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552406144067043438/1554960784692355102_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1552406144067043438/1554960753272815636.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552407794634727635",
-      "name": "Forgotten Island",
-      "expiresAt": "2026-10-11T21:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1549194520128782357/1549886617748246658_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1547367413320777830/1549122469913305179.jpg",
       "rewardCount": 1
     },
     {
