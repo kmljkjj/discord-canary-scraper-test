@@ -1,7 +1,7 @@
 {
-  "runId": "2026-10-11T01-12-13-871Z_635512_2grw48",
-  "buildNumber": "635512",
-  "updatedAt": "2026-10-11T01:12:13.872Z",
+  "runId": "2026-10-11T07-16-14-139Z_635548_xo4zym",
+  "buildNumber": "635548",
+  "updatedAt": "2026-10-11T07:16:14.140Z",
   "count": 27038,
   "data": {
     "bottom": "left",
@@ -27015,7 +27015,6 @@
     "answer": "offer",
     "screen": "desktop",
     "joined": "invite_to_activity",
-    "Result": "model",
     "BUNDLE": "COLLECTIBLE",
     "dgimsy": "gimsy",
     "preset": "custom",
@@ -27028,6 +27027,7 @@
     "Agreed": "Not agreed",
     "Cancel": "Start Processing",
     "ultima": "prossima",
+    "Result": "model",
     "burst-": "normal-",
     "mobile": "tablet",
     "select": "selectAll",
