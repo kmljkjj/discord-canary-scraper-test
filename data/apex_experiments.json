@@ -3188,38 +3188,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-07-call-of-duty-3pp-marketing",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-07-call-of-duty-3pp-non-sub-marketing",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-07-clips-game-events-on-player",
     "defaultConfig": {
       "enableGameEventsOnPlayer": false
@@ -3266,22 +3234,6 @@
   {
     "kind": "user",
     "name": "2026-07-cobalt",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-07-cod-3pp",
     "defaultConfig": {
       "enabled": false
     },
@@ -3782,22 +3734,6 @@
       },
       "7": {
         "id": 7
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-08-call-of-duty-3pp-nagbar",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
       }
     },
     "label": null

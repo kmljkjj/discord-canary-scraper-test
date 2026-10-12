@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-12T08-23-09-901Z_635728_3wubyq",
-  "buildNumber": "635728",
-  "updatedAt": "2026-10-12T08:23:09.901Z",
-  "count": 376,
+  "runId": "2026-10-12T18-06-41-493Z_635776_6t67on",
+  "buildNumber": "635776",
+  "updatedAt": "2026-10-12T18:06:41.494Z",
+  "count": 372,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -6390,68 +6390,6 @@
       "fingerprint": "bb91f120b45c6615b750d848d8180a70e28fbf41b3b7a01e8c311abad4bcd99a"
     },
     {
-      "id": "2026-07-call-of-duty-3pp-marketing",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "8fac2c2a51c0a25fdecaa29576cb2e91e93c0dea8835148945007a0a09340658"
-    },
-    {
-      "id": "2026-07-call-of-duty-3pp-non-sub-marketing",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "fb55b7c4d2d2666bbd503c9595775e6c7873647abc7fe02e81b13d8476e885cf"
-    },
-    {
       "id": "2026-07-clips-game-events-on-player",
       "kind": "user",
       "type": "user",
@@ -6571,37 +6509,6 @@
         "value": null
       },
       "fingerprint": "a332319ed2c938fa17925441624cddbba8e2ac2e6289e6a1ee563575aad0304e"
-    },
-    {
-      "id": "2026-07-cod-3pp",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "55be28c6b39c35dda99bcd8a23f5393e8f55ecfb64f2f10b2dd79bb5a598cc12"
     },
     {
       "id": "2026-07-custom-app-store-overlay",
@@ -7558,37 +7465,6 @@
         "value": null
       },
       "fingerprint": "c2b477672352a5423619077a2e325c144c249554a65a613a59852a1ee29d0263"
-    },
-    {
-      "id": "2026-08-call-of-duty-3pp-nagbar",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "f134a4564879156fdc358b55daa9be7167552bf552b159f63afa41dc45d65f5e"
     },
     {
       "id": "2026-08-compress-logs",

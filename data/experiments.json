@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-12T08-23-09-901Z_635728_3wubyq",
-  "buildNumber": "635728",
-  "scrapedAt": "2026-10-12T08:23:09.901Z",
+  "runId": "2026-10-12T18-06-41-493Z_635776_6t67on",
+  "buildNumber": "635776",
+  "scrapedAt": "2026-10-12T18:06:41.494Z",
   "totals": {
-    "all": 376,
+    "all": 372,
     "legacy": 0,
-    "apex": 376
+    "apex": 372
   },
   "experiments": [
     {
@@ -4048,46 +4048,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-07-call-of-duty-3pp-marketing",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2026-07-call-of-duty-3pp-non-sub-marketing",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2026-07-clips-game-events-on-player",
       "type": "user",
       "kind": "user",
@@ -4146,26 +4106,6 @@
     },
     {
       "id": "2026-07-cobalt",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2026-07-cod-3pp",
       "type": "user",
       "kind": "user",
       "label": null,
@@ -4797,26 +4737,6 @@
         }
       },
       "variationCount": 7,
-      "source": "discord"
-    },
-    {
-      "id": "2026-08-call-of-duty-3pp-nagbar",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
       "source": "discord"
     },
     {
