@@ -1,7 +1,7 @@
 {
-  "runId": "2026-10-11T22-47-15-566Z_635608_4vj3k4",
-  "buildNumber": "635608",
-  "updatedAt": "2026-10-11T22:47:15.566Z",
+  "runId": "2026-10-12T01-51-26-038Z_635678_wifgz3",
+  "buildNumber": "635678",
+  "updatedAt": "2026-10-12T01:51:26.038Z",
   "count": 27038,
   "data": {
     "bottom": "left",
@@ -11,7 +11,7 @@
     "return": "enter",
     "sender": "receiver",
     "reduce": "no-preference",
-    "active": "settled",
+    "active": "secondary",
     "before": "after",
     "insert": "remove_text",
     "center": "top",
@@ -27009,7 +27009,6 @@
     "vuoden": "vuotta",
     "buffer": "session",
     "chrome": "browser",
-    "Result": "model",
     "answer": "offer",
     "screen": "desktop",
     "enable": "disable",
@@ -27039,6 +27038,7 @@
     "minuta": "minutę",
     "minuty": "minut",
     "Images": "NoImages",
+    "Result": "model",
     "minutu": "minutou",
     "hodinu": "hodinou",
     "hodiny": "hodin"
