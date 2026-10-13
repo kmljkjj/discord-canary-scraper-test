@@ -31411,5 +31411,10 @@
   "EuarXc": "usernameHookusername",
   "TFn1fS": "Stream gameName",
   "SI8PNw": "Create one",
-  "s76lNz": "Want your own Server Tag?"
+  "s76lNz": "Want your own Server Tag?",
+  "J0m3aK": "Your desktop can\\'t register this shortcut, so it may not work on Wayland. Record one key with optional modifiers (for example Ctrl+F9) instead.",
+  "AcH7R7": "Keyboard shortcuts are registered with your desktop. Changes may need your approval, and you can re-map them in your system settings.",
+  "PTCrUP": "Your desktop hasn\\'t allowed this shortcut yet. Approve it in your system\\'s global shortcuts settings.",
+  "ZPHaPE": "Change in system settings",
+  "wu2lqV": "Your desktop has this action bound to $btrigger"
 }
