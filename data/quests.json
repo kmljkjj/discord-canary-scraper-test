@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-12T21:51:51.086Z",
-  "count": 34,
+  "scrapedAt": "2026-10-13T02:49:19.142Z",
+  "count": 33,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -435,7 +435,11 @@
     "1555710921614163989",
     "1554683719422316636",
     "1536466333783429242",
-    "1552766796283641978"
+    "1552766796283641978",
+    "1558039850270203925",
+    "1555688599184211998",
+    "1552771565991759922",
+    "1556768172961570966"
   ],
   "quests": [
     {
@@ -575,51 +579,11 @@
       "rewardCount": 1
     },
     {
-      "id": "1557057421417914388",
-      "name": "MONOPOLY GO!",
-      "expiresAt": "2026-10-13T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1557057421417914388/1557066162980790282_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1557057421417914388/1557065932893847623.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1554166577207709767",
       "name": "The Triple-I Initiative",
       "expiresAt": "2026-10-19T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1554166577207709767/1557802476646703204_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1554166577207709767/1554560313808912434.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1556982617587318897",
-      "name": "ARC Raiders",
-      "expiresAt": "2026-10-13T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1554797166101405738/1554819023357612042_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1554797166101405738/1554817394839650314.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1554797166101405738",
-      "name": "ARC Raiders",
-      "expiresAt": "2026-10-13T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1554797166101405738/1556617667815931954_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1554797166101405738/1554817394839650314.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1556983453541601361",
-      "name": "ARC Raiders",
-      "expiresAt": "2026-10-13T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1554797166101405738/1554819025203241040_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1554797166101405738/1554817394839650314.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1556984508107063417",
-      "name": "ARC Raiders",
-      "expiresAt": "2026-10-13T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1554797166101405738/1554819024041279518_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1554797166101405738/1554817394839650314.jpg",
       "rewardCount": 1
     },
     {
@@ -682,7 +646,7 @@
       "id": "1555710921614163989",
       "name": "Vision",
       "expiresAt": "2026-10-19T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1555710921614163989/1555715954644754432_1080.mp4",
+      "videoUrl": "https://cdn.discordapp.com/quests/1555710921614163989/1558259087953633491_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1555710921614163989/1555712982564999188.jpg",
       "rewardCount": 1
     },
@@ -708,6 +672,38 @@
       "expiresAt": "2026-10-18T22:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1549194520128782357/1549886617748246658_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1547367413320777830/1549122469913305179.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1558039850270203925",
+      "name": "Royal Match",
+      "expiresAt": "2026-10-19T06:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1558039850270203925/1558049720688058438_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1558039850270203925/1558049215953903688.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1555688599184211998",
+      "name": "Wild Horse Nine",
+      "expiresAt": "2026-10-26T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1555688599184211998/1557816476637995038_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1555688599184211998/1555701447776145418.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552771565991759922",
+      "name": "Clayface",
+      "expiresAt": "2026-10-26T06:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552771565991759922/1557148452826390631_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1552771565991759922/1557147667618861158.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1556768172961570966",
+      "name": "River Trailer",
+      "expiresAt": "2026-10-19T06:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1556768172961570966/1559221644210217034_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1556768172961570966/1558013394769023148.jpg",
       "rewardCount": 1
     }
   ]
