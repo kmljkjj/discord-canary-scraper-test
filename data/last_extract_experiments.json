@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-13T15-01-36-712Z_636198_2bta74",
-  "buildNumber": "636198",
-  "updatedAt": "2026-10-13T15:01:36.712Z",
-  "count": 371,
+  "runId": "2026-10-13T20-37-53-006Z_636628_g2a39g",
+  "buildNumber": "636628",
+  "updatedAt": "2026-10-13T20:37:53.007Z",
+  "count": 372,
   "data": {
     "2021-02_staff_qc_debugging": {
       "id": "2021-02_staff_qc_debugging",
@@ -2652,19 +2652,16 @@
       "type": "user",
       "kind": "user",
       "label": null,
-      "variationCount": 3,
+      "variationCount": 2,
       "variations": {
         "0": {
           "id": 0
-        },
-        "1": {
-          "id": 1
         },
         "2": {
           "id": 2
         }
       },
-      "fp": "a80296903cc2e06ce785d5ee"
+      "fp": "daf473af1b2bf875991e247d"
     },
     "2026-06-chat-bar-customization": {
       "id": "2026-06-chat-bar-customization",
@@ -3138,19 +3135,6 @@
         }
       },
       "fp": "4eb58677fe4d82185914eef5"
-    },
-    "2026-07-autoclipping-default-override": {
-      "id": "2026-07-autoclipping-default-override",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 1,
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "f168eaf07e491e0688f2b8f8"
     },
     "2026-07-autoclipping-marketing": {
       "id": "2026-07-autoclipping-marketing",
@@ -4423,6 +4407,22 @@
       },
       "fp": "f168eaf07e491e0688f2b8f8"
     },
+    "2026-09-desktop-tti-update-check-deadline": {
+      "id": "2026-09-desktop-tti-update-check-deadline",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "fp": "f44d6f0eb6e4563019d5aa79"
+    },
     "2026-09-edit-profile-collectibles-ordering": {
       "id": "2026-09-edit-profile-collectibles-ordering",
       "type": "user",
@@ -5555,6 +5555,22 @@
         }
       },
       "fp": "a80296903cc2e06ce785d5ee"
+    },
+    "2026-10-macaron-non-sub-marketing": {
+      "id": "2026-10-macaron-non-sub-marketing",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "4eb58677fe4d82185914eef5"
     },
     "2026-10-purchase-history": {
       "id": "2026-10-purchase-history",

@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-13T15-01-36-712Z_636198_2bta74",
-  "buildNumber": "636198",
-  "scrapedAt": "2026-10-13T15:01:36.712Z",
+  "runId": "2026-10-13T20-37-53-006Z_636628_g2a39g",
+  "buildNumber": "636628",
+  "scrapedAt": "2026-10-13T20:37:53.007Z",
   "totals": {
-    "all": 371,
+    "all": 372,
     "legacy": 0,
-    "apex": 371
+    "apex": 372
   },
   "experiments": [
     {
@@ -3378,14 +3378,11 @@
         "0": {
           "id": 0
         },
-        "1": {
-          "id": 1
-        },
         "2": {
           "id": 2
         }
       },
-      "variationCount": 3,
+      "variationCount": 2,
       "source": "discord"
     },
     {
@@ -3991,23 +3988,6 @@
         }
       },
       "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2026-07-autoclipping-default-override",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
       "source": "discord"
     },
     {
@@ -5607,6 +5587,26 @@
       "source": "discord"
     },
     {
+      "id": "2026-09-desktop-tti-update-check-deadline",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "deadline_ms": 0
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
       "id": "2026-09-edit-profile-collectibles-ordering",
       "type": "user",
       "kind": "user",
@@ -7015,6 +7015,26 @@
         }
       },
       "variationCount": 3,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-macaron-non-sub-marketing",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
       "source": "discord"
     },
     {

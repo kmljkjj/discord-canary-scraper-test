@@ -2658,9 +2658,6 @@
       "0": {
         "id": 0
       },
-      "1": {
-        "id": 1
-      },
       "2": {
         "id": 2
       }
@@ -3138,19 +3135,6 @@
       "0": {
         "id": 0
       },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-07-autoclipping-default-override",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
       "1": {
         "id": 1
       }
@@ -4419,6 +4403,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-desktop-tti-update-check-deadline",
+    "defaultConfig": {
+      "deadline_ms": 0
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-edit-profile-collectibles-ordering",
     "defaultConfig": {
       "enabled": false
@@ -5540,6 +5540,22 @@
       },
       "2": {
         "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-macaron-non-sub-marketing",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
       }
     },
     "label": null

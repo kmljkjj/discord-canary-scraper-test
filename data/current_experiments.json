@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-13T15-01-36-712Z_636198_2bta74",
-  "buildNumber": "636198",
-  "updatedAt": "2026-10-13T15:01:36.712Z",
-  "count": 371,
+  "runId": "2026-10-13T20-37-53-006Z_636628_g2a39g",
+  "buildNumber": "636628",
+  "updatedAt": "2026-10-13T20:37:53.007Z",
+  "count": 372,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -5324,15 +5324,12 @@
         "0": {
           "id": 0
         },
-        "1": {
-          "id": 1
-        },
         "2": {
           "id": 2
         }
       },
       "treatments": null,
-      "variationCount": 3,
+      "variationCount": 2,
       "guildPercentage": {
         "status": "unknown",
         "value": null
@@ -5341,7 +5338,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "b3a8a4b77b39cf8ecee6fbacbdf9ea06d1b255799827c9955947dcf5c13f37a6"
+      "fingerprint": "e4e709cd297b30baa1f3d7ecec1a28d587bfb1c4ff918cb0587bb23e92770296"
     },
     {
       "id": "2026-06-chat-bar-customization",
@@ -6301,34 +6298,6 @@
         "value": null
       },
       "fingerprint": "a12f7b58ced0a284301e5f10bc6ff540a6b65f4cff6fa0271e04a24b317a0277"
-    },
-    {
-      "id": "2026-07-autoclipping-default-override",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "5e274d09027dd3cdcd0b360bb27355fb41e0a5507a4a063c60a0a3b2cca4b322"
     },
     {
       "id": "2026-07-autoclipping-marketing",
@@ -8851,6 +8820,37 @@
       "fingerprint": "8b460a13a55c573114a5d692faba0185951f30e063f86458aef5db41716e347c"
     },
     {
+      "id": "2026-09-desktop-tti-update-check-deadline",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "deadline_ms": 0
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "d41b07f4fc16f5195dac9dfa45892bd8569cf2e747a9346de397e013554217ef"
+    },
+    {
       "id": "2026-09-edit-profile-collectibles-ordering",
       "kind": "user",
       "type": "user",
@@ -11041,6 +11041,37 @@
         "value": null
       },
       "fingerprint": "fde0724f4086cfc774c1216df5ef312819a2ccf64efdbcd8833ec45fd95be06c"
+    },
+    {
+      "id": "2026-10-macaron-non-sub-marketing",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "c89e4be78467eb986288413d3d8e4e7232737cf459da720e15defeb327f18a36"
     },
     {
       "id": "2026-10-purchase-history",
