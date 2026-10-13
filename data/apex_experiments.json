@@ -5435,26 +5435,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-10-desktop-conjure-title-bar",
-    "defaultConfig": {
-      "leftEntrypoint": false,
-      "workingAnimation": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-10-desktop-game-perf",
     "defaultConfig": {
       "nativeSystemCpuTimes": false
