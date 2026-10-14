@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-14T09-07-52-169Z_637294_g3uevg",
-  "buildNumber": "637294",
-  "updatedAt": "2026-10-14T09:07:52.169Z",
-  "count": 372,
+  "runId": "2026-10-14T14-31-08-027Z_637371_yr6dz7",
+  "buildNumber": "637371",
+  "updatedAt": "2026-10-14T14:31:08.028Z",
+  "count": 373,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -8553,6 +8553,37 @@
         "value": null
       },
       "fingerprint": "85c596ce86fb4a7e261cc5b95e002c089c3d0ca14c570241b3a4d82c391ca436"
+    },
+    {
+      "id": "2026-09-build-a-bear-cards",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "17ce787921bfdae06c6f6a836f3dfe3e509583eb1239501671b290300ea49733"
     },
     {
       "id": "2026-09-clips-editor-image-track",

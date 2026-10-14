@@ -4273,6 +4273,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-build-a-bear-cards",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-clips-editor-image-track",
     "defaultConfig": {
       "enabled": false
