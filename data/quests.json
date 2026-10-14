@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-13T21:54:03.286Z",
-  "count": 33,
+  "scrapedAt": "2026-10-14T00:56:39.520Z",
+  "count": 34,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -439,7 +439,8 @@
     "1558039850270203925",
     "1555688599184211998",
     "1552771565991759922",
-    "1556768172961570966"
+    "1556768172961570966",
+    "1539343821782126622"
   ],
   "quests": [
     {
@@ -464,14 +465,6 @@
       "expiresAt": "2026-11-01T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1542927566568956095/1542953391867822100_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1542927566568956095/1555274010663592128.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1549171029241233449",
-      "name": "Apex VS Street Fighter 6 Event",
-      "expiresAt": "2026-10-14T00:00:00+00:00",
-      "videoUrl": null,
-      "heroImage": "https://cdn.discordapp.com/quests/1549171029241233449/1549172049606475986.jpg",
       "rewardCount": 1
     },
     {
@@ -549,7 +542,7 @@
     {
       "id": "1549142163487592600",
       "name": "Play VALORANT",
-      "expiresAt": "2026-10-19T00:00:00+00:00",
+      "expiresAt": "2026-10-20T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1549142163487592600/1555285149288103936_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1549142163487592600/1549142442966524056.jpg",
       "rewardCount": 1
@@ -576,6 +569,14 @@
       "expiresAt": "2026-10-15T06:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1555654330043076719/1555678732595888188_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1555654330043076719/1555678328571166730.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1557057421417914388",
+      "name": "MONOPOLY GO!",
+      "expiresAt": "2026-10-20T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1557057421417914388/1557066162980790282_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1557057421417914388/1557065932893847623.jpg",
       "rewardCount": 1
     },
     {
@@ -704,6 +705,14 @@
       "expiresAt": "2026-10-19T06:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1556768172961570966/1559221644210217034_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1556768172961570966/1558013394769023148.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1539343821782126622",
+      "name": "The Terminal List S2",
+      "expiresAt": "2026-10-27T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1539343821782126622/1559578379492130887_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1539343821782126622/1558000099425128489.jpg",
       "rewardCount": 1
     }
   ]
