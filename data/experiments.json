@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-14T18-51-08-783Z_637691_bjkj4x",
-  "buildNumber": "637691",
-  "scrapedAt": "2026-10-14T18:51:08.783Z",
+  "runId": "2026-10-14T21-59-40-325Z_638149_egxq8v",
+  "buildNumber": "638149",
+  "scrapedAt": "2026-10-14T21:59:40.325Z",
   "totals": {
-    "all": 375,
+    "all": 377,
     "legacy": 0,
-    "apex": 375
+    "apex": 377
   },
   "experiments": [
     {
@@ -6789,6 +6789,23 @@
       "source": "discord"
     },
     {
+      "id": "2026-10-clickable-hero-banner",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
       "id": "2026-10-collectibles-marketing-client-cache",
       "type": "user",
       "kind": "user",
@@ -7052,6 +7069,17 @@
         }
       },
       "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-profile-default-tab-with-content",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": null,
+      "variations": null,
+      "variationCount": 0,
       "source": "discord"
     },
     {

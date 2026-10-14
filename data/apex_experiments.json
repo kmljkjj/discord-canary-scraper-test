@@ -5361,6 +5361,19 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-clickable-hero-banner",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-collectibles-marketing-client-cache",
     "defaultConfig": {
       "ttlMs": null
@@ -5571,6 +5584,13 @@
         "id": 1
       }
     },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-profile-default-tab-with-content",
+    "defaultConfig": null,
+    "variations": null,
     "label": null
   },
   {

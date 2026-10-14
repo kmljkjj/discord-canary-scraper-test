@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-14T18-51-08-783Z_637691_bjkj4x",
-  "buildNumber": "637691",
-  "updatedAt": "2026-10-14T18:51:08.783Z",
-  "count": 375,
+  "runId": "2026-10-14T21-59-40-325Z_638149_egxq8v",
+  "buildNumber": "638149",
+  "updatedAt": "2026-10-14T21:59:40.325Z",
+  "count": 377,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -10693,6 +10693,34 @@
       "fingerprint": "025618bc7522bdd6f871d67c210d0675a3afe4e1e0d01a6f1950232c1f094333"
     },
     {
+      "id": "2026-10-clickable-hero-banner",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "f7b1c7083795e7c58dd1b28a69ad77bb20e3b0c0450aeb1487ec6bfac03f1d1d"
+    },
+    {
       "id": "2026-10-collectibles-marketing-client-cache",
       "kind": "user",
       "type": "user",
@@ -11100,6 +11128,28 @@
         "value": null
       },
       "fingerprint": "c89e4be78467eb986288413d3d8e4e7232737cf459da720e15defeb327f18a36"
+    },
+    {
+      "id": "2026-10-profile-default-tab-with-content",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": null,
+      "variations": null,
+      "treatments": null,
+      "variationCount": 0,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "e7e9854c3a6d70a46fb8610b7d19d67af3672215d0b4c8192723c8519577d4b8"
     },
     {
       "id": "2026-10-purchase-history",
