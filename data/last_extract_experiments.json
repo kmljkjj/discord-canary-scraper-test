@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-13T23-54-20-206Z_637021_h14kd8",
-  "buildNumber": "637021",
-  "updatedAt": "2026-10-13T23:54:20.206Z",
-  "count": 371,
+  "runId": "2026-10-14T03-50-07-689Z_637184_wq9lr0",
+  "buildNumber": "637184",
+  "updatedAt": "2026-10-14T03:50:07.689Z",
+  "count": 372,
   "data": {
     "2021-02_staff_qc_debugging": {
       "id": "2021-02_staff_qc_debugging",
@@ -2647,22 +2647,6 @@
       },
       "fp": "4eb58677fe4d82185914eef5"
     },
-    "2026-06-bulk-nitro-gifting": {
-      "id": "2026-06-bulk-nitro-gifting",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 2,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "fp": "daf473af1b2bf875991e247d"
-    },
     "2026-06-chat-bar-customization": {
       "id": "2026-06-chat-bar-customization",
       "type": "user",
@@ -4121,19 +4105,6 @@
       },
       "fp": "4eb58677fe4d82185914eef5"
     },
-    "2026-08-user-profile-server-tag-style": {
-      "id": "2026-08-user-profile-server-tag-style",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 1,
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "f168eaf07e491e0688f2b8f8"
-    },
     "2026-08-video-guard": {
       "id": "2026-08-video-guard",
       "type": "user",
@@ -5371,6 +5342,19 @@
       },
       "fp": "f168eaf07e491e0688f2b8f8"
     },
+    "2026-10-bulk-nitro-gifting-discounts": {
+      "id": "2026-10-bulk-nitro-gifting-discounts",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 1,
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "f168eaf07e491e0688f2b8f8"
+    },
     "2026-10-collectibles-marketing-client-cache": {
       "id": "2026-10-collectibles-marketing-client-cache",
       "type": "user",
@@ -5414,6 +5398,22 @@
     },
     "2026-10-contextual-referrals-server-channel-member-list": {
       "id": "2026-10-contextual-referrals-server-channel-member-list",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "4eb58677fe4d82185914eef5"
+    },
+    "2026-10-desktop-conjure-native-preview-view": {
+      "id": "2026-10-desktop-conjure-native-preview-view",
       "type": "user",
       "kind": "user",
       "label": null,
@@ -5620,6 +5620,28 @@
         }
       },
       "fp": "f168eaf07e491e0688f2b8f8"
+    },
+    "2026-10-web-streaming-optimizations": {
+      "id": "2026-10-web-streaming-optimizations",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 4,
+      "variations": {
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        },
+        "3": {
+          "id": 3
+        },
+        "4": {
+          "id": 4
+        }
+      },
+      "fp": "5c77e86646335e1936a55a3a"
     }
   }
 }

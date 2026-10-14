@@ -2652,20 +2652,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-06-bulk-nitro-gifting",
-    "defaultConfig": null,
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "2": {
-        "id": 2
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-06-chat-bar-customization",
     "defaultConfig": {
       "enabled": false
@@ -4115,19 +4101,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-08-user-profile-server-tag-style",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-08-video-guard",
     "defaultConfig": {
       "videoEnabled": true
@@ -5359,6 +5332,19 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-bulk-nitro-gifting-discounts",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-collectibles-marketing-client-cache",
     "defaultConfig": {
       "ttlMs": null
@@ -5403,6 +5389,22 @@
     "name": "2026-10-contextual-referrals-server-channel-member-list",
     "defaultConfig": {
       "showEmbed": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-desktop-conjure-native-preview-view",
+    "defaultConfig": {
+      "enabled": false
     },
     "variations": {
       "0": {
@@ -5606,6 +5608,29 @@
     "variations": {
       "1": {
         "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-web-streaming-optimizations",
+    "defaultConfig": {
+      "degradationPreference": "default",
+      "motionContentHint": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
+      },
+      "3": {
+        "id": 3
+      },
+      "4": {
+        "id": 4
       }
     },
     "label": null

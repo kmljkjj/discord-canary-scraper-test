@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-13T23-54-20-206Z_637021_h14kd8",
-  "buildNumber": "637021",
-  "updatedAt": "2026-10-13T23:54:20.206Z",
-  "count": 371,
+  "runId": "2026-10-14T03-50-07-689Z_637184_wq9lr0",
+  "buildNumber": "637184",
+  "updatedAt": "2026-10-14T03:50:07.689Z",
+  "count": 372,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -5312,35 +5312,6 @@
       "fingerprint": "b9cd17596a18ee7cc6279695e8a3f0c19df97e1cd1bb9cad9cd2515adbe12760"
     },
     {
-      "id": "2026-06-bulk-nitro-gifting",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": null,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "e4e709cd297b30baa1f3d7ecec1a28d587bfb1c4ff918cb0587bb23e92770296"
-    },
-    {
       "id": "2026-06-chat-bar-customization",
       "kind": "user",
       "type": "user",
@@ -8247,34 +8218,6 @@
       "fingerprint": "dd345991ef2c8b027fae2373941786234b2477eb71a3289344fa3f8c2db2fb21"
     },
     {
-      "id": "2026-08-user-profile-server-tag-style",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "11d09707934182a02e7cd2f594d4f9fb8f0043b90640422a504d84a7aadabb7e"
-    },
-    {
       "id": "2026-08-video-guard",
       "kind": "user",
       "type": "user",
@@ -10691,6 +10634,34 @@
       "fingerprint": "b9722cb7336bee7040ee15936ed2a13a6faf77b52aeca76e1fc6f29e5e48f299"
     },
     {
+      "id": "2026-10-bulk-nitro-gifting-discounts",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "025618bc7522bdd6f871d67c210d0675a3afe4e1e0d01a6f1950232c1f094333"
+    },
+    {
       "id": "2026-10-collectibles-marketing-client-cache",
       "kind": "user",
       "type": "user",
@@ -10791,6 +10762,37 @@
         "value": null
       },
       "fingerprint": "697888d2d2d7cfc00d75674cde2951ddca23be145c4930ac6c9c705b8f68fad6"
+    },
+    {
+      "id": "2026-10-desktop-conjure-native-preview-view",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "659c439cf78af34f912b3173aa160e928b5bb47ebdd6aa29ce36f812f88c7701"
     },
     {
       "id": "2026-10-desktop-game-perf",
@@ -11182,6 +11184,44 @@
         "value": null
       },
       "fingerprint": "5fa79b78c2ea6653d75ee95b4e1abe381c152bec647d07416f2b8051be5ce132"
+    },
+    {
+      "id": "2026-10-web-streaming-optimizations",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "degradationPreference": "default",
+        "motionContentHint": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        },
+        "3": {
+          "id": 3
+        },
+        "4": {
+          "id": 4
+        }
+      },
+      "treatments": null,
+      "variationCount": 4,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "d9ee6bba22664c29860522aae25d78a96305a7c8cf2c7b8615a713d3718c85f6"
     }
   ]
 }

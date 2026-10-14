@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-13T23-54-20-206Z_637021_h14kd8",
-  "buildNumber": "637021",
-  "scrapedAt": "2026-10-13T23:54:20.206Z",
+  "runId": "2026-10-14T03-50-07-689Z_637184_wq9lr0",
+  "buildNumber": "637184",
+  "scrapedAt": "2026-10-14T03:50:07.689Z",
   "totals": {
-    "all": 371,
+    "all": 372,
     "legacy": 0,
-    "apex": 371
+    "apex": 372
   },
   "experiments": [
     {
@@ -3368,24 +3368,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-06-bulk-nitro-gifting",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": null,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2026-06-chat-bar-customization",
       "type": "user",
       "kind": "user",
@@ -5223,23 +5205,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-08-user-profile-server-tag-style",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
       "id": "2026-08-video-guard",
       "type": "user",
       "kind": "user",
@@ -6787,6 +6752,23 @@
       "source": "discord"
     },
     {
+      "id": "2026-10-bulk-nitro-gifting-discounts",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
       "id": "2026-10-collectibles-marketing-client-cache",
       "type": "user",
       "kind": "user",
@@ -6843,6 +6825,26 @@
       "system": "apex",
       "defaultConfig": {
         "showEmbed": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-desktop-conjure-native-preview-view",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
       },
       "variations": {
         "0": {
@@ -7101,6 +7103,33 @@
         }
       },
       "variationCount": 1,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-web-streaming-optimizations",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "degradationPreference": "default",
+        "motionContentHint": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        },
+        "3": {
+          "id": 3
+        },
+        "4": {
+          "id": 4
+        }
+      },
+      "variationCount": 4,
       "source": "discord"
     }
   ],
