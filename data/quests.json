@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-14T15:59:12.803Z",
-  "count": 34,
+  "scrapedAt": "2026-10-14T20:09:23.031Z",
+  "count": 35,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -440,7 +440,8 @@
     "1555688599184211998",
     "1552771565991759922",
     "1556768172961570966",
-    "1539343821782126622"
+    "1539343821782126622",
+    "1553154139435835392"
   ],
   "quests": [
     {
@@ -647,7 +648,7 @@
       "id": "1555710921614163989",
       "name": "Vision",
       "expiresAt": "2026-10-19T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1555710921614163989/1558259087953633491_1080.mp4",
+      "videoUrl": "https://cdn.discordapp.com/quests/1555710921614163989/1559732546063966298_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1555710921614163989/1555712982564999188.jpg",
       "rewardCount": 1
     },
@@ -713,6 +714,14 @@
       "expiresAt": "2026-10-27T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1539343821782126622/1559578379492130887_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1539343821782126622/1558000099425128489.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1553154139435835392",
+      "name": "Firefox Browser",
+      "expiresAt": "2026-10-29T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1553154139435835392/1557493183628185660_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1553154139435835392/1557503614157725716.jpg",
       "rewardCount": 1
     }
   ]
