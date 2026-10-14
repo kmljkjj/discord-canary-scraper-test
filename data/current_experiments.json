@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-14T14-31-08-027Z_637371_yr6dz7",
-  "buildNumber": "637371",
-  "updatedAt": "2026-10-14T14:31:08.028Z",
-  "count": 373,
+  "runId": "2026-10-14T18-51-08-783Z_637691_bjkj4x",
+  "buildNumber": "637691",
+  "updatedAt": "2026-10-14T18:51:08.783Z",
+  "count": 375,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -10976,6 +10976,35 @@
       "fingerprint": "ee30f3bef1cc237eb161e263620d410348cd99e660f4fa1303bde21de39bdbe4"
     },
     {
+      "id": "2026-10-gifted-subscriptions",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": null,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "19bc9295bd759b3bae795e87a58f77f393fc0a7b7dbf826e2bf1b0b611d9c293"
+    },
+    {
       "id": "2026-10-guild-tooltip-lazy-content",
       "kind": "user",
       "type": "user",
@@ -11099,6 +11128,39 @@
         "value": null
       },
       "fingerprint": "e3f5b2891467c81af1b2ee3316213a9d39f306ac6c612d3e47d2af8cddd73256"
+    },
+    {
+      "id": "2026-10-recurring-referral-reminder",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false,
+        "bottomSheetEnabled": false,
+        "notificationEnabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "6baacdd35ff9724ee2e880cded00cac1e9fca0d90771a31e1d4e2678cd3a5cef"
     },
     {
       "id": "2026-10-server-tag-upsell-on-profile",

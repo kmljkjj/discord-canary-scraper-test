@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-14T14-31-08-027Z_637371_yr6dz7",
-  "buildNumber": "637371",
-  "scrapedAt": "2026-10-14T14:31:08.028Z",
+  "runId": "2026-10-14T18-51-08-783Z_637691_bjkj4x",
+  "buildNumber": "637691",
+  "scrapedAt": "2026-10-14T18:51:08.783Z",
   "totals": {
-    "all": 373,
+    "all": 375,
     "legacy": 0,
-    "apex": 373
+    "apex": 375
   },
   "experiments": [
     {
@@ -6973,6 +6973,24 @@
       "source": "discord"
     },
     {
+      "id": "2026-10-gifted-subscriptions",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": null,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
       "id": "2026-10-guild-tooltip-lazy-content",
       "type": "user",
       "kind": "user",
@@ -7051,6 +7069,28 @@
         }
       },
       "variationCount": 1,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-recurring-referral-reminder",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false,
+        "bottomSheetEnabled": false,
+        "notificationEnabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "variationCount": 2,
       "source": "discord"
     },
     {

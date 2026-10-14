@@ -5509,6 +5509,20 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-gifted-subscriptions",
+    "defaultConfig": null,
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-guild-tooltip-lazy-content",
     "defaultConfig": {
       "enabled": false
@@ -5568,6 +5582,24 @@
     "variations": {
       "1": {
         "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-recurring-referral-reminder",
+    "defaultConfig": {
+      "enabled": false,
+      "bottomSheetEnabled": false,
+      "notificationEnabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
       }
     },
     "label": null
