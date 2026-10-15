@@ -4053,40 +4053,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-08-top-soundboard-sounds",
-    "defaultConfig": {
-      "enabled": false,
-      "topSoundsFirst": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-08-top-soundboard-sounds-mobile",
-    "defaultConfig": {
-      "enabled": false,
-      "topSoundsFirst": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-08-user-bio-max-length",
     "defaultConfig": null,
     "variations": {
@@ -5390,6 +5356,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-code-blurple-teaser-marketing",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-collectibles-marketing-client-cache",
     "defaultConfig": {
       "ttlMs": null
@@ -5526,6 +5508,36 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-express-checkout",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-game-profile-mobile-reviews",
+    "defaultConfig": null,
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-gift-cards-in-app-marketing",
     "defaultConfig": {
       "enabled": false
@@ -5605,6 +5617,23 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-overlay-native-window-rendering",
+    "defaultConfig": {
+      "enabled": false,
+      "enableNVOverlay": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-profile-default-tab-with-content",
     "defaultConfig": null,
     "variations": null,
@@ -5646,6 +5675,19 @@
       "0": {
         "id": 0
       },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "guild",
+    "name": "2026-10-request-to-stream-non-games",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
       "1": {
         "id": 1
       }
