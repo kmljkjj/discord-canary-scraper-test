@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-15T01:34:15.283Z",
-  "count": 34,
+  "scrapedAt": "2026-10-15T06:25:58.545Z",
+  "count": 30,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -517,14 +517,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1555654330043076719",
-      "name": "Doors",
-      "expiresAt": "2026-10-15T06:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1555654330043076719/1555678732595888188_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1555654330043076719/1555678328571166730.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1551980739757736078",
       "name": "VALORANT Aces Round 2",
       "expiresAt": "2026-10-16T06:59:00+00:00",
@@ -538,30 +530,6 @@
       "expiresAt": "2026-10-20T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1549142163487592600/1555285149288103936_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1549142163487592600/1549142442966524056.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1555709543579783198",
-      "name": "Doors",
-      "expiresAt": "2026-10-15T06:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1555709543579783198/1555722338618712245_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1555709543579783198/1555721055878778981.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1555684816882499675",
-      "name": "Doors",
-      "expiresAt": "2026-10-15T06:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1555654330043076719/1555678732595888188_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1555654330043076719/1555678328571166730.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1555682587819643052",
-      "name": "Doors",
-      "expiresAt": "2026-10-15T06:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1555654330043076719/1555678732595888188_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1555654330043076719/1555678328571166730.jpg",
       "rewardCount": 1
     },
     {
