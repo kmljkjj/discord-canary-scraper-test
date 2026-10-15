@@ -678,5 +678,6 @@
   "BILLING_HISTORY": "/users/@me/billing/history",
   "GAME_ORGANIZATION_INVITES": "/game-organizations/:param/:param/invites",
   "GET_BOOKMARKS": "/users/@me/saved-messages/bookmarks",
-  "EMOJI_PACKS": "/emoji-packs"
+  "EMOJI_PACKS": "/emoji-packs",
+  "CONTEXTUAL_REFERRAL_UPSELL_DISMISSALS": "/users/@me/contextual-referral-upsell-dismissals"
 }

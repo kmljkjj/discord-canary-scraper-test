@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-15T21-47-53-018Z_639489_eeksje",
-  "buildNumber": "639489",
-  "updatedAt": "2026-10-15T21:47:53.018Z",
-  "count": 385,
+  "runId": "2026-10-15T23-56-28-469Z_639869_sedpp4",
+  "buildNumber": "639869",
+  "updatedAt": "2026-10-15T23:56:28.469Z",
+  "count": 386,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -10720,6 +10720,37 @@
         "value": null
       },
       "fingerprint": "74d9a09e461fae31daf4a2b37a1d8a03df9cef819276a79bf5384dc1f91a9473"
+    },
+    {
+      "id": "2026-10-collectibles-interactive-jumble-bar",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "01766ee2e189f95580c1865fc4db1b9900979a57edcde18bd8c38460b4a2438e"
     },
     {
       "id": "2026-10-collectibles-marketing-client-cache",
