@@ -28976,7 +28976,7 @@
   "string": "unknown",
   "burst-": "normal-",
   "minute": "day",
-  "enable": "disable",
+  "enable": "idle",
   "Copied": "Copy All",
   "Agreed": "Not agreed",
   "Active": "Inactive",
@@ -31457,5 +31457,14 @@
   "UvhjEc": "It\\'s almost here",
   "D3CWUF": "Full reveal when Call of Duty: Modern Warfare 4 launches on date::MMMd",
   "ugfqKp": "Classified: Code Blurple",
-  "YEsjvt": "Get a Call of Duty: MW4 blueprint on date::MMMd"
+  "YEsjvt": "Get a Call of Duty: MW4 blueprint on date::MMMd",
+  "XdSaQW": "CS2 Highlight Reel",
+  "c52s8D": "CS2 Kill Compilation",
+  "oPqa86": "CS2 Round Summary",
+  "UTFgtm": "Dota 2 Game Highlights",
+  "zym7WV": "Dota 2 Kill Compilation",
+  "WSShfj": "League of Legends Game Highlights",
+  "FDhlax": "League of Legends Kill Compilation",
+  "kYrpvi": "Rocket League Goals & Saves",
+  "J0YWRq": "Create your own Server Tag"
 }

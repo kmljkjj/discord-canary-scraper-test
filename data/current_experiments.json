@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-15T09-51-08-964Z_638664_0nmt1e",
-  "buildNumber": "638664",
-  "updatedAt": "2026-10-15T09:51:08.964Z",
-  "count": 379,
+  "runId": "2026-10-15T14-34-54-608Z_638733_t9i1yf",
+  "buildNumber": "638733",
+  "updatedAt": "2026-10-15T14:34:54.608Z",
+  "count": 380,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -11269,6 +11269,38 @@
         "value": null
       },
       "fingerprint": "15d829a40b8a0b0dc5b144002e287e3563208787a9003cc5f1c81bdc11bc2eff"
+    },
+    {
+      "id": "2026-10-server-tag-upsell-on-guild-profile",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false,
+        "ignoreSubscriptionPlatform": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "1d621e1926be3ece637c38fd583e0cc4899efea1708f648125447dbc8f9818c4"
     },
     {
       "id": "2026-10-server-tag-upsell-on-profile",
