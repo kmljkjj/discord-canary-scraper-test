@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-14T23:15:37.764Z",
-  "count": 35,
+  "scrapedAt": "2026-10-15T01:34:15.283Z",
+  "count": 34,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -490,14 +490,6 @@
       "expiresAt": "2026-11-01T06:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1547370886645026876/1547372029488009306_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1547370886645026876/1547373049173639258.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1554245382601580687",
-      "name": "Empires & Puzzles: Match-3 Fantasy RPG",
-      "expiresAt": "2026-10-15T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1554245382601580687/1554249133542473759_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1554245382601580687/1554249782795571220.jpg",
       "rewardCount": 1
     },
     {
