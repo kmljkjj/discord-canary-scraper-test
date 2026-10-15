@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-15T18-38-29-420Z_639106_fd5u11",
-  "buildNumber": "639106",
-  "scrapedAt": "2026-10-15T18:38:29.420Z",
+  "runId": "2026-10-15T21-47-53-018Z_639489_eeksje",
+  "buildNumber": "639489",
+  "scrapedAt": "2026-10-15T21:47:53.018Z",
   "totals": {
-    "all": 383,
+    "all": 385,
     "legacy": 0,
-    "apex": 383
+    "apex": 385
   },
   "experiments": [
     {
@@ -5616,11 +5616,14 @@
         "extraChromeEnabled": false
       },
       "variations": {
+        "0": {
+          "id": 0
+        },
         "1": {
           "id": 1
         }
       },
-      "variationCount": 1,
+      "variationCount": 2,
       "source": "discord"
     },
     {
@@ -7010,6 +7013,26 @@
       "source": "discord"
     },
     {
+      "id": "2026-10-gdm-duration-timer",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
       "id": "2026-10-gift-cards-in-app-marketing",
       "type": "user",
       "kind": "user",
@@ -7046,6 +7069,26 @@
     },
     {
       "id": "2026-10-guild-tooltip-lazy-content",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-hd-streaming-contextual-referrals",
       "type": "user",
       "kind": "user",
       "label": null,

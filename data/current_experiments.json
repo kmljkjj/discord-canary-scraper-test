@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-15T18-38-29-420Z_639106_fd5u11",
-  "buildNumber": "639106",
-  "updatedAt": "2026-10-15T18:38:29.420Z",
-  "count": 383,
+  "runId": "2026-10-15T21-47-53-018Z_639489_eeksje",
+  "buildNumber": "639489",
+  "updatedAt": "2026-10-15T21:47:53.018Z",
+  "count": 385,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -8862,12 +8862,15 @@
         "extraChromeEnabled": false
       },
       "variations": {
+        "0": {
+          "id": 0
+        },
         "1": {
           "id": 1
         }
       },
       "treatments": null,
-      "variationCount": 1,
+      "variationCount": 2,
       "guildPercentage": {
         "status": "unknown",
         "value": null
@@ -8876,7 +8879,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "cf375798f0a927a9716a9f497b2775a08592d5905201891d8596608d3ea5037c"
+      "fingerprint": "fb7f61fd884824facc17df27b40864365f16396d17eded860283573522b64de5"
     },
     {
       "id": "2026-09-gifting-badge-coachmark-audience",
@@ -11035,6 +11038,37 @@
       "fingerprint": "df76cb24054b5cb8a0d2089c61b14d4c86f5cced7a6cfea3587b24465219d110"
     },
     {
+      "id": "2026-10-gdm-duration-timer",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "114cb3a3d17bd65ed1e7d7a63b19fdbc5bde3bbc7cf3459f10635db819ccfe3a"
+    },
+    {
       "id": "2026-10-gift-cards-in-app-marketing",
       "kind": "user",
       "type": "user",
@@ -11121,6 +11155,37 @@
         "value": null
       },
       "fingerprint": "30c8a246c278c6d20659bf308adc718b74da27b6158e43807dec9fcce80bfda3"
+    },
+    {
+      "id": "2026-10-hd-streaming-contextual-referrals",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "499024414631041510eca62a37e88342fb025d8c8f03cc0a35365dcec92cb60d"
     },
     {
       "id": "2026-10-macaron",

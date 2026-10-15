@@ -4424,6 +4424,9 @@
       "extraChromeEnabled": false
     },
     "variations": {
+      "0": {
+        "id": 0
+      },
       "1": {
         "id": 1
       }
@@ -5538,6 +5541,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-gdm-duration-timer",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-gift-cards-in-app-marketing",
     "defaultConfig": {
       "enabled": false
@@ -5566,6 +5585,22 @@
   {
     "kind": "user",
     "name": "2026-10-guild-tooltip-lazy-content",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-hd-streaming-contextual-referrals",
     "defaultConfig": {
       "enabled": false
     },
