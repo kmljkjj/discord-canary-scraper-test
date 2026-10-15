@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-15T00-27-25-197Z_638440_6zlcha",
-  "buildNumber": "638440",
-  "updatedAt": "2026-10-15T00:27:25.197Z",
-  "count": 378,
+  "runId": "2026-10-15T05-04-57-641Z_638611_8owzti",
+  "buildNumber": "638611",
+  "updatedAt": "2026-10-15T05:04:57.642Z",
+  "count": 379,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -10721,6 +10721,37 @@
       "fingerprint": "f7b1c7083795e7c58dd1b28a69ad77bb20e3b0c0450aeb1487ec6bfac03f1d1d"
     },
     {
+      "id": "2026-10-code-blurple-teaser",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "f1256bd6ecb644e6272e051763de9593cad47fe7c45cb4828568747e6c93e9af"
+    },
+    {
       "id": "2026-10-collectibles-marketing-client-cache",
       "kind": "user",
       "type": "user",
@@ -10894,7 +10925,8 @@
       "description": null,
       "defaultConfig": {
         "skipSilentDelayEstimatorFfts": false,
-        "processPollingPerf": false
+        "processPollingPerf": false,
+        "keepRendererLogFileOpen": false
       },
       "variations": {
         "0": {
@@ -11180,7 +11212,7 @@
       "fingerprint": "e3f5b2891467c81af1b2ee3316213a9d39f306ac6c612d3e47d2af8cddd73256"
     },
     {
-      "id": "2026-10-recurring-referral-reminder",
+      "id": "2026-10-referral-refresh-notification",
       "kind": "user",
       "type": "user",
       "system": "apex",
@@ -11188,20 +11220,15 @@
       "title": null,
       "description": null,
       "defaultConfig": {
-        "enabled": false,
-        "bottomSheetEnabled": false,
-        "notificationEnabled": false
+        "enabled": false
       },
       "variations": {
         "1": {
           "id": 1
-        },
-        "2": {
-          "id": 2
         }
       },
       "treatments": null,
-      "variationCount": 2,
+      "variationCount": 1,
       "guildPercentage": {
         "status": "unknown",
         "value": null
@@ -11210,7 +11237,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "6baacdd35ff9724ee2e880cded00cac1e9fca0d90771a31e1d4e2678cd3a5cef"
+      "fingerprint": "34cae9cf47acf062834a0e179e4ba72d9284798169309c46cfce7a5f25d81f27"
     },
     {
       "id": "2026-10-remove-quests-from-discovery",

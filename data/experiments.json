@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-15T00-27-25-197Z_638440_6zlcha",
-  "buildNumber": "638440",
-  "scrapedAt": "2026-10-15T00:27:25.197Z",
+  "runId": "2026-10-15T05-04-57-641Z_638611_8owzti",
+  "buildNumber": "638611",
+  "scrapedAt": "2026-10-15T05:04:57.642Z",
   "totals": {
-    "all": 378,
+    "all": 379,
     "legacy": 0,
-    "apex": 378
+    "apex": 379
   },
   "experiments": [
     {
@@ -6806,6 +6806,26 @@
       "source": "discord"
     },
     {
+      "id": "2026-10-code-blurple-teaser",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
       "id": "2026-10-collectibles-marketing-client-cache",
       "type": "user",
       "kind": "user",
@@ -6922,7 +6942,8 @@
       "system": "apex",
       "defaultConfig": {
         "skipSilentDelayEstimatorFfts": false,
-        "processPollingPerf": false
+        "processPollingPerf": false,
+        "keepRendererLogFileOpen": false
       },
       "variations": {
         "0": {
@@ -7100,25 +7121,20 @@
       "source": "discord"
     },
     {
-      "id": "2026-10-recurring-referral-reminder",
+      "id": "2026-10-referral-refresh-notification",
       "type": "user",
       "kind": "user",
       "label": null,
       "system": "apex",
       "defaultConfig": {
-        "enabled": false,
-        "bottomSheetEnabled": false,
-        "notificationEnabled": false
+        "enabled": false
       },
       "variations": {
         "1": {
           "id": 1
-        },
-        "2": {
-          "id": 2
         }
       },
-      "variationCount": 2,
+      "variationCount": 1,
       "source": "discord"
     },
     {
