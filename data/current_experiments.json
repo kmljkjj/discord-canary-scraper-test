@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-14T21-59-40-325Z_638149_egxq8v",
-  "buildNumber": "638149",
-  "updatedAt": "2026-10-14T21:59:40.325Z",
-  "count": 377,
+  "runId": "2026-10-15T00-27-25-197Z_638440_6zlcha",
+  "buildNumber": "638440",
+  "updatedAt": "2026-10-15T00:27:25.197Z",
+  "count": 378,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -10894,7 +10894,7 @@
       "description": null,
       "defaultConfig": {
         "skipSilentDelayEstimatorFfts": false,
-        "basicProcessEnumeration": false
+        "processPollingPerf": false
       },
       "variations": {
         "0": {
@@ -11211,6 +11211,37 @@
         "value": null
       },
       "fingerprint": "6baacdd35ff9724ee2e880cded00cac1e9fca0d90771a31e1d4e2678cd3a5cef"
+    },
+    {
+      "id": "2026-10-remove-quests-from-discovery",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "15d829a40b8a0b0dc5b144002e287e3563208787a9003cc5f1c81bdc11bc2eff"
     },
     {
       "id": "2026-10-server-tag-upsell-on-profile",

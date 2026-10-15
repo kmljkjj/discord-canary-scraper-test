@@ -5466,7 +5466,7 @@
     "name": "2026-10-desktop-general-perf",
     "defaultConfig": {
       "skipSilentDelayEstimatorFfts": false,
-      "basicProcessEnumeration": false
+      "processPollingPerf": false
     },
     "variations": {
       "0": {
@@ -5620,6 +5620,22 @@
       },
       "2": {
         "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-remove-quests-from-discovery",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
       }
     },
     "label": null

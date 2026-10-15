@@ -6,10 +6,10 @@
   "camera": "cameraphotoselfiesnaptbttripvideo",
   "return": "enter",
   "reduce": "no-preference",
-  "active": "settled",
+  "active": "secondary",
   "before": "after",
   "insert": "remove_text",
-  "center": "top",
+  "center": "space-between",
   "manual": "auto",
   "paused": "running",
   "Silent": "Displayed",
@@ -31445,5 +31445,12 @@
   "yCHPPF": "Renews monthly",
   "Rqr/Kg": "Renews yearly",
   "S3pnck": "price",
-  "K0spYL": "Start a Stream"
+  "K0spYL": "Start a Stream",
+  "ujfS5V": "Tap to see more suggestions or swipe left to add to your message.",
+  "l8nVB9": "Access emojis faster",
+  "MPURhG": "Roblox",
+  "Gl5dnA": "My Subscriptions",
+  "XFZr3P": "Subscriptions",
+  "cYCqz8": "cYCqz8",
+  "TOMBAW": "TOMBAW"
 }

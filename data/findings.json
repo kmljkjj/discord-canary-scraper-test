@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-14T21-59-40-325Z_638149_egxq8v",
-  "buildNumber": "638149",
-  "scrapedAt": "2026-10-14T21:59:40.325Z",
+  "runId": "2026-10-15T00-27-25-197Z_638440_6zlcha",
+  "buildNumber": "638440",
+  "scrapedAt": "2026-10-15T00:27:25.197Z",
   "totals": {
-    "all": 377
+    "all": 378
   },
   "experiments": [
     {
@@ -6920,7 +6920,7 @@
       "system": "apex",
       "defaultConfig": {
         "skipSilentDelayEstimatorFfts": false,
-        "basicProcessEnumeration": false
+        "processPollingPerf": false
       },
       "variations": {
         "0": {
@@ -7114,6 +7114,26 @@
         },
         "2": {
           "id": 2
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-remove-quests-from-discovery",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
         }
       },
       "variationCount": 2,
