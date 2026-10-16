@@ -6,10 +6,10 @@
   "camera": "cameraphotoselfiesnaptbttripvideo",
   "return": "enter",
   "reduce": "no-preference",
-  "active": "primary",
+  "active": "secondary",
   "before": "after",
   "insert": "remove_text",
-  "center": "right",
+  "center": "space-between",
   "manual": "auto",
   "paused": "running",
   "Silent": "Displayed",
@@ -28976,7 +28976,7 @@
   "string": "unknown",
   "burst-": "normal-",
   "minute": "day",
-  "enable": "disable",
+  "enable": "idle",
   "Copied": "Copy All",
   "Agreed": "Not agreed",
   "Active": "Inactive",
@@ -31509,5 +31509,6 @@
   "0UoJ1x": "Yearly Discount (percent",
   "aJMJ6b": "aJMJ6b",
   "mqdLhl": "mqdLhl",
-  "HM2fjf": "HM2fjf"
+  "HM2fjf": "HM2fjf",
+  "sAYgZc": "None Selected"
 }

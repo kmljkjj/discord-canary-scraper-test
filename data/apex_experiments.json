@@ -1574,6 +1574,13 @@
   },
   {
     "kind": "user",
+    "name": "2026-03-mobile-hermes-occupancy-target",
+    "defaultConfig": null,
+    "variations": null,
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-03-mobile-quest-home-red-dot-notification",
     "defaultConfig": {
       "enabled": false
@@ -3604,6 +3611,13 @@
   },
   {
     "kind": "user",
+    "name": "2026-08-android-jank-per-screen",
+    "defaultConfig": null,
+    "variations": null,
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-08-android-rn-reparenting-flag",
     "defaultConfig": null,
     "variations": null,
@@ -4589,6 +4603,13 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-ios-callkit-connected-on-rtc",
+    "defaultConfig": null,
+    "variations": null,
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-linked-game-org-invites-dev",
     "defaultConfig": {
       "enabled": false
@@ -5284,6 +5305,20 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-android-chat-preinflation",
+    "defaultConfig": null,
+    "variations": null,
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-android-ui-manager-constants-cache",
+    "defaultConfig": null,
+    "variations": null,
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-badge-directory-updates",
     "defaultConfig": {
       "enabled": false,
@@ -5335,6 +5370,22 @@
       "enabled": false
     },
     "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-cod-relink",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
       "1": {
         "id": 1
       }
@@ -5543,6 +5594,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-game-exit-promo-rust",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-game-profile-mobile-reviews",
     "defaultConfig": null,
     "variations": {
@@ -5653,6 +5720,22 @@
   {
     "kind": "user",
     "name": "2026-10-macaron-non-sub-marketing",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-nitro-tab-remove-account-age-restriction",
     "defaultConfig": {
       "enabled": false
     },
@@ -5816,6 +5899,13 @@
         "id": 1
       }
     },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-uimanager-experiments",
+    "defaultConfig": null,
+    "variations": null,
     "label": null
   },
   {

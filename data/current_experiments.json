@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-16T09-02-18-211Z_640108_ul8c5t",
-  "buildNumber": "640108",
-  "updatedAt": "2026-10-16T09:02:18.211Z",
-  "count": 386,
+  "runId": "2026-10-16T17-52-55-163Z_640437_ez7v7l",
+  "buildNumber": "640437",
+  "updatedAt": "2026-10-16T17:52:55.163Z",
+  "count": 395,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -3166,6 +3166,28 @@
         "value": null
       },
       "fingerprint": "10a1a853d42f0d870b67f82bd78fee794829eadae0e42391d1db8a3073f49e55"
+    },
+    {
+      "id": "2026-03-mobile-hermes-occupancy-target",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": null,
+      "variations": null,
+      "treatments": null,
+      "variationCount": 0,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "1d32a6a54d1cc4fe55a50682c937c71cdae34527f1a1cbac2498de055cc321cc"
     },
     {
       "id": "2026-03-mobile-quest-home-red-dot-notification",
@@ -7226,6 +7248,28 @@
       "fingerprint": "1da67547b3b25f51f7e72e8c35a7ec02a7ed766d2ca8933825c673a8677965b4"
     },
     {
+      "id": "2026-08-android-jank-per-screen",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": null,
+      "variations": null,
+      "treatments": null,
+      "variationCount": 0,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "95be977092a6e020f6a53c39333c7619181f93e1bb0bee36668acac7ed39ce42"
+    },
+    {
       "id": "2026-08-android-rn-reparenting-flag",
       "kind": "user",
       "type": "user",
@@ -9186,6 +9230,28 @@
       "fingerprint": "b9a48e844fa45f96fa327d8adeaf39b6fd486ae2e942888536ba628bc2c1903b"
     },
     {
+      "id": "2026-09-ios-callkit-connected-on-rtc",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": null,
+      "variations": null,
+      "treatments": null,
+      "variationCount": 0,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "c56a37aaf083508ac4ae3733606128a1d71a92ce507d170a4c8ff63e4142a65b"
+    },
+    {
       "id": "2026-09-linked-game-org-invites-dev",
       "kind": "user",
       "type": "user",
@@ -10541,6 +10607,50 @@
       "fingerprint": "f965d27f1e1eecede2679cb5d83ceab442fc62b3f480ff307186ee6e11a2b060"
     },
     {
+      "id": "2026-10-android-chat-preinflation",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": null,
+      "variations": null,
+      "treatments": null,
+      "variationCount": 0,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "56d9b9da6a96aa77607e4d4ef63f3205756b1fb01fcc406f9b4d449e48aee2d8"
+    },
+    {
+      "id": "2026-10-android-ui-manager-constants-cache",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": null,
+      "variations": null,
+      "treatments": null,
+      "variationCount": 0,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "1c74d8717e44607c5b8c998bc9802edd5d1240ff1dad4cb063b42ac5834cc5e4"
+    },
+    {
       "id": "2026-10-badge-directory-updates",
       "kind": "user",
       "type": "user",
@@ -10658,6 +10768,37 @@
         "value": null
       },
       "fingerprint": "f7b1c7083795e7c58dd1b28a69ad77bb20e3b0c0450aeb1487ec6bfac03f1d1d"
+    },
+    {
+      "id": "2026-10-cod-relink",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "063c6773340e1ec671798160b352a040def2c879bd59b84e64ca6fe73c99b732"
     },
     {
       "id": "2026-10-code-blurple-teaser",
@@ -11040,6 +11181,37 @@
       "fingerprint": "7f42b6f8b249c7397b7a14b361d516240d2be52a2c2da459af0a942f5b511061"
     },
     {
+      "id": "2026-10-game-exit-promo-rust",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "15090f5f0470f0c1a91d947b159435f76a7c7b57ab5fb2c35a9da78a8da2a21e"
+    },
+    {
       "id": "2026-10-game-profile-mobile-reviews",
       "kind": "user",
       "type": "user",
@@ -11283,6 +11455,37 @@
         "value": null
       },
       "fingerprint": "c89e4be78467eb986288413d3d8e4e7232737cf459da720e15defeb327f18a36"
+    },
+    {
+      "id": "2026-10-nitro-tab-remove-account-age-restriction",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "5ce45cac57f9974997f2319393d78a605ed6ac334b9e1fe633ea65b30c3a7bbf"
     },
     {
       "id": "2026-10-overlay-native-window-rendering",
@@ -11600,6 +11803,28 @@
         "value": null
       },
       "fingerprint": "5fa79b78c2ea6653d75ee95b4e1abe381c152bec647d07416f2b8051be5ce132"
+    },
+    {
+      "id": "2026-10-uimanager-experiments",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": null,
+      "variations": null,
+      "treatments": null,
+      "variationCount": 0,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "2c6cfb4b538e22d715f4686fdebc2203dd3312a653b3d48b62453fd73344355c"
     },
     {
       "id": "2026-10-web-streaming-optimizations",
