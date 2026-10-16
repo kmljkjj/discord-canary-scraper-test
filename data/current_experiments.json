@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-16T20-28-27-738Z_640713_gcz568",
-  "buildNumber": "640713",
-  "updatedAt": "2026-10-16T20:28:27.738Z",
-  "count": 394,
+  "runId": "2026-10-16T22-59-26-231Z_641035_iu753p",
+  "buildNumber": "641035",
+  "updatedAt": "2026-10-16T22:59:26.231Z",
+  "count": 390,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -5070,37 +5070,6 @@
       "fingerprint": "46346854fea695a0d24dee0088c7194ea73fa5aa8e2cfad33505fc0b621e7af6"
     },
     {
-      "id": "2026-05-social-layer-storefront-game-shops-dropdown",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "591c54042f9f18b6683526e3f9465f44eadc7f75a34a5b4ed8b794949b26066b"
-    },
-    {
       "id": "2026-05-spatial-audio-for-voice",
       "kind": "user",
       "type": "user",
@@ -8386,37 +8355,6 @@
       "fingerprint": "349d822cf34cd9f41a5accab2046d1d574cbeefeb0f32b673ea9bf1cd1334d5e"
     },
     {
-      "id": "2026-09-application-test-mode-quick-access",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "ff9c40c4da6691d96da45dfd6aa7cd97f51d3ad2f41fd75b1fa795900c5b06b6"
-    },
-    {
       "id": "2026-09-automod-application-rules",
       "kind": "guild",
       "type": "guild",
@@ -8895,37 +8833,6 @@
       "fingerprint": "21d95d39a1fcb703de325fa7a5bbe855109b4613a0298d011a5480a11d95194c"
     },
     {
-      "id": "2026-09-gifting-badge-complex-art",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "112a399c1e1250d4fed9147ec08428e99cc5c7808fc3343cd6c907d606543a22"
-    },
-    {
       "id": "2026-09-gsimagic2",
       "kind": "user",
       "type": "user",
@@ -9368,34 +9275,6 @@
         "value": null
       },
       "fingerprint": "7ee82c5be58223864dd1f3ffeba07cffad6376853e1c2bd6146cd37252f1580d"
-    },
-    {
-      "id": "2026-09-multisku-embed-builder",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "a75a599aea22eb162e7b0c99b268599a06dcdab943d1ea5149aae8001b554f97"
     },
     {
       "id": "2026-09-nameplate-video-preload-none",

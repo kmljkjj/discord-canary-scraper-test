@@ -2515,22 +2515,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-05-social-layer-storefront-game-shops-dropdown",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-05-spatial-audio-for-voice",
     "defaultConfig": {
       "enabled": false,
@@ -4178,22 +4162,6 @@
     "label": null
   },
   {
-    "kind": "user",
-    "name": "2026-09-application-test-mode-quick-access",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
     "kind": "guild",
     "name": "2026-09-automod-application-rules",
     "defaultConfig": {
@@ -4433,22 +4401,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-09-gifting-badge-complex-art",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-09-gsimagic2",
     "defaultConfig": {
       "enableDotaGsi": false
@@ -4656,19 +4608,6 @@
   {
     "kind": "user",
     "name": "2026-09-multi-sku-embed-rendering",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-09-multisku-embed-builder",
     "defaultConfig": {
       "enabled": false
     },

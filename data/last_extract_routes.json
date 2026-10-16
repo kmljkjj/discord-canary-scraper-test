@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-16T20-28-27-738Z_640713_gcz568",
-  "buildNumber": "640713",
-  "updatedAt": "2026-10-16T20:28:27.738Z",
-  "count": 678,
+  "runId": "2026-10-16T22-59-26-231Z_641035_iu753p",
+  "buildNumber": "641035",
+  "updatedAt": "2026-10-16T22:59:26.231Z",
+  "count": 679,
   "data": {
     "USER_BULK_RELATIONSHIPS": "/users/@me/relationships/bulk",
     "USER_BADGE_SETTINGS": "/users/@me/badges/settings",
@@ -301,6 +301,7 @@
     "KLIPY_ASSET_PATH": "/klipy",
     "EMAIL_SETTINGS": "/users/@me/email-settings",
     "ACCOUNT_NOTIFICATION_SETTINGS": "/users/@me/notification-settings",
+    "ACCOUNT_NOTIFICATION_DECLARATIVE_SETTINGS": "/users/@me/notification-settings/declarative",
     "VIDEO_FILTER_ASSETS": "/users/@me/video-filters/assets",
     "SOUNDBOARD_DEFAULT_SOUNDS": "/soundboard-default-sounds",
     "APPLICATION_COMMAND_INDEX_USER": "/users/@me/application-command-index",

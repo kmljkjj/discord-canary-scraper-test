@@ -679,5 +679,6 @@
   "GAME_ORGANIZATION_INVITES": "/game-organizations/:param/:param/invites",
   "GET_BOOKMARKS": "/users/@me/saved-messages/bookmarks",
   "EMOJI_PACKS": "/emoji-packs",
-  "CONTEXTUAL_REFERRAL_UPSELL_DISMISSALS": "/users/@me/contextual-referral-upsell-dismissals"
+  "CONTEXTUAL_REFERRAL_UPSELL_DISMISSALS": "/users/@me/contextual-referral-upsell-dismissals",
+  "ACCOUNT_NOTIFICATION_DECLARATIVE_SETTINGS": "/users/@me/notification-settings/declarative"
 }
