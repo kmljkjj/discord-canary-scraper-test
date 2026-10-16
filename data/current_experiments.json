@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-16T17-52-55-163Z_640437_ez7v7l",
-  "buildNumber": "640437",
-  "updatedAt": "2026-10-16T17:52:55.163Z",
-  "count": 395,
+  "runId": "2026-10-16T20-28-27-738Z_640713_gcz568",
+  "buildNumber": "640713",
+  "updatedAt": "2026-10-16T20:28:27.738Z",
+  "count": 394,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -1585,37 +1585,6 @@
         "value": null
       },
       "fingerprint": "9f548accd996019c2dcaf86244a45b4de4cc6958907fa3925c5d6ba94ce4424d"
-    },
-    {
-      "id": "2026-01-favorites-server",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "a462fa39cb3a3251a359b9b2207f3ead02ab8b5c6d14858fc3b040d554887e3b"
     },
     {
       "id": "2026-01-friends-in-server",
@@ -7539,34 +7508,6 @@
       "fingerprint": "892984a25fb8dd3fbfc8f52d30586a21baf96578c5f35c3cf40ccfd1316332cb"
     },
     {
-      "id": "2026-08-favorites-server",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "e01f8addc53ed577df04f8659353f5223bfc4e68c5cf39793c8cdd90f683792f"
-    },
-    {
       "id": "2026-08-forward-age-restricted-destinations",
       "kind": "user",
       "type": "user",
@@ -10994,6 +10935,37 @@
         "value": null
       },
       "fingerprint": "697888d2d2d7cfc00d75674cde2951ddca23be145c4930ac6c9c705b8f68fad6"
+    },
+    {
+      "id": "2026-10-contextual-referrals-user-dm-sidebar",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "showEmbed": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "a1a3a2ad3ccdd46a6e70f91d15ace3a335bb7a667fdcb77d60d0e86b6389fb9d"
     },
     {
       "id": "2026-10-desktop-conjure-native-preview-view",

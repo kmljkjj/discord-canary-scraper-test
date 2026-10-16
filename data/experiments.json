@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-16T17-52-55-163Z_640437_ez7v7l",
-  "buildNumber": "640437",
-  "scrapedAt": "2026-10-16T17:52:55.163Z",
+  "runId": "2026-10-16T20-28-27-738Z_640713_gcz568",
+  "buildNumber": "640713",
+  "scrapedAt": "2026-10-16T20:28:27.738Z",
   "totals": {
-    "all": 395,
+    "all": 394,
     "legacy": 0,
-    "apex": 395
+    "apex": 394
   },
   "experiments": [
     {
@@ -1013,26 +1013,6 @@
         },
         "1": {
           "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2026-01-favorites-server",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
         }
       },
       "variationCount": 2,
@@ -4779,23 +4759,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-08-favorites-server",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
       "id": "2026-08-forward-age-restricted-destinations",
       "type": "user",
       "kind": "user",
@@ -6952,6 +6915,26 @@
     },
     {
       "id": "2026-10-contextual-referrals-server-channel-member-list",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "showEmbed": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-contextual-referrals-user-dm-sidebar",
       "type": "user",
       "kind": "user",
       "label": null,

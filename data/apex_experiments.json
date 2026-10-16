@@ -803,22 +803,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-01-favorites-server",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-01-friends-in-server",
     "defaultConfig": {
       "guildFriendsEnabled": false
@@ -3767,19 +3751,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-08-favorites-server",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-08-forward-age-restricted-destinations",
     "defaultConfig": {
       "disableAgeRestrictedDestinations": false
@@ -5484,6 +5455,22 @@
   {
     "kind": "user",
     "name": "2026-10-contextual-referrals-server-channel-member-list",
+    "defaultConfig": {
+      "showEmbed": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-contextual-referrals-user-dm-sidebar",
     "defaultConfig": {
       "showEmbed": false
     },
