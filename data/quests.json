@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-16T18:55:27.092Z",
-  "count": 39,
+  "scrapedAt": "2026-10-16T21:58:30.606Z",
+  "count": 41,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -453,7 +453,8 @@
     "1558179570098765887",
     "1555718375492161596",
     "1558178497212715078",
-    "1558183375058112603"
+    "1558183375058112603",
+    "1551980932276293683"
   ],
   "quests": [
     {
@@ -518,6 +519,14 @@
       "expiresAt": "2026-10-18T20:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1554270669267537930/1554954274981806170_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1554270669267537930/1554954274411126886.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1555158122522349568",
+      "name": "Melon Sandbox",
+      "expiresAt": "2026-10-20T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1555158122522349568/1555508071843889232_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1555158122522349568/1557425444431859752.jpg",
       "rewardCount": 1
     },
     {
@@ -766,6 +775,14 @@
       "expiresAt": "2026-10-25T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1558183375058112603/1559977885136326749_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1558183375058112603/1559977749873959004.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1551980932276293683",
+      "name": "VALORANT Aces Round 3",
+      "expiresAt": "2026-10-26T23:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1551980932276293683/1553077580767436962.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1551980932276293683/1553077441788903474.jpg",
       "rewardCount": 1
     }
   ]
