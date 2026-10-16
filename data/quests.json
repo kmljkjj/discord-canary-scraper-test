@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-16T01:18:24.831Z",
-  "count": 41,
+  "scrapedAt": "2026-10-16T05:57:29.002Z",
+  "count": 40,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -521,14 +521,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1555158122522349568",
-      "name": "Melon Sandbox",
-      "expiresAt": "2026-10-20T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1555158122522349568/1555508071843889232_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1555158122522349568/1557425444431859752.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1551980739757736078",
       "name": "VALORANT Aces Round 2",
       "expiresAt": "2026-10-16T06:59:00+00:00",
@@ -588,7 +580,7 @@
       "id": "1552891135125622834",
       "name": "Call of Duty: Modern Warfare 4 Video",
       "expiresAt": "2026-10-23T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552891135125622834/1554623546897072270_1080.mp4",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552891135125622834/1560415575816019968_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1552891135125622834/1554622631389569215.jpg",
       "rewardCount": 1
     },
