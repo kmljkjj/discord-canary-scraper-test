@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-15T23:05:04.292Z",
-  "count": 42,
+  "scrapedAt": "2026-10-16T01:18:24.831Z",
+  "count": 41,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -606,14 +606,6 @@
       "expiresAt": "2026-10-23T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1556778857481113610/1556780815843721227_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1556778857481113610/1556780368529457162.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1554267368748883999",
-      "name": "Dark Arisen Arrives",
-      "expiresAt": "2026-10-16T00:00:00+00:00",
-      "videoUrl": null,
-      "heroImage": "https://cdn.discordapp.com/quests/1539357001602302053/1539358043815411783.jpg",
       "rewardCount": 1
     },
     {
