@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-16T21:58:30.606Z",
-  "count": 41,
+  "scrapedAt": "2026-10-17T00:19:28.802Z",
+  "count": 43,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -454,7 +454,9 @@
     "1555718375492161596",
     "1558178497212715078",
     "1558183375058112603",
-    "1551980932276293683"
+    "1551980932276293683",
+    "1552893313500184617",
+    "1552348509838123168"
   ],
   "quests": [
     {
@@ -524,7 +526,7 @@
     {
       "id": "1555158122522349568",
       "name": "Melon Sandbox",
-      "expiresAt": "2026-10-20T00:00:00+00:00",
+      "expiresAt": "2026-10-17T05:15:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1555158122522349568/1555508071843889232_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1555158122522349568/1557425444431859752.jpg",
       "rewardCount": 1
@@ -783,6 +785,22 @@
       "expiresAt": "2026-10-26T23:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1551980932276293683/1553077580767436962.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1551980932276293683/1553077441788903474.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552893313500184617",
+      "name": "Call of Duty: Modern Warfare 4",
+      "expiresAt": "2026-11-07T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552893313500184617/1559713399598751744_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1552893313500184617/1559713299635904542.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552348509838123168",
+      "name": "Gaming for Cause",
+      "expiresAt": "2026-10-23T06:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552348509838123168/1559992962778406912_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1552348509838123168/1559976798744223914.jpg",
       "rewardCount": 1
     }
   ]
