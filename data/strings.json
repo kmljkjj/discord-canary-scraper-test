@@ -28953,7 +28953,7 @@
   "meters": "Unknown",
   "denied": "idle",
   "Images": "NoImages",
-  "mobile": "desktop",
+  "mobile": "tablet",
   "minuta": "minutę",
   "minuty": "minut",
   "Aacute": "\\xc1",
@@ -31712,5 +31712,12 @@
   "k4IRsm": "Automatic publishing is on.",
   "EuhBSG": "Turn on",
   "EXceox": "Could not turn on automatic publishing. Try again.",
-  "dRxtva": "Something went wrong."
+  "dRxtva": "Something went wrong.",
+  "iNGJNe": "New Anchored Scroller",
+  "pe/6Ma": "Disabled",
+  "LfEwvz": "Enabled",
+  "VHxerm": "Pause App",
+  "iKSu55": "Conjure can keep working. If it needs to check the preview, it\\'ll auto resume.",
+  "MMWEH2": "App preview is paused",
+  "ZKd2Cw": "Resume App"
 }
