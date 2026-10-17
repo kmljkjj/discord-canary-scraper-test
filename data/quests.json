@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-17T00:19:28.802Z",
-  "count": 43,
+  "scrapedAt": "2026-10-17T04:44:20.177Z",
+  "count": 42,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -505,14 +505,6 @@
       "expiresAt": "2026-11-01T06:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1547370886645026876/1547372029488009306_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1547370886645026876/1547373049173639258.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1554249650012164207",
-      "name": "Verizon Fios Face-off",
-      "expiresAt": "2026-10-17T03:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1541854877850796113/1550231305122357359_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1541854877850796113/1550249172815323276.jpg",
       "rewardCount": 1
     },
     {
