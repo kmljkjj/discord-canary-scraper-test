@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-17T04:44:20.177Z",
-  "count": 42,
+  "scrapedAt": "2026-10-17T08:51:55.888Z",
+  "count": 41,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -513,14 +513,6 @@
       "expiresAt": "2026-10-18T20:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1554270669267537930/1554954274981806170_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1554270669267537930/1554954274411126886.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1555158122522349568",
-      "name": "Melon Sandbox",
-      "expiresAt": "2026-10-17T05:15:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1555158122522349568/1555508071843889232_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1555158122522349568/1557425444431859752.jpg",
       "rewardCount": 1
     },
     {
