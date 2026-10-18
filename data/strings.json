@@ -9,7 +9,7 @@
   "active": "settled",
   "before": "::after",
   "insert": "remove_text",
-  "center": "right",
+  "center": "top",
   "manual": "auto",
   "paused": "running",
   "Silent": "Displayed",

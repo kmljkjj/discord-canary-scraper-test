@@ -3692,19 +3692,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-08-compress-logs",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-08-dcf-new-user-cooldown",
     "defaultConfig": null,
     "variations": {

@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-18T17-06-19-248Z_641567_8rak07",
-  "buildNumber": "641567",
-  "scrapedAt": "2026-10-18T17:06:19.248Z",
+  "runId": "2026-10-18T19-25-25-766Z_641599_kohkd1",
+  "buildNumber": "641599",
+  "scrapedAt": "2026-10-18T19:25:25.766Z",
   "totals": {
-    "all": 391
+    "all": 390
   },
   "experiments": [
     {
@@ -4679,23 +4679,6 @@
         }
       },
       "variationCount": 7,
-      "source": "discord"
-    },
-    {
-      "id": "2026-08-compress-logs",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
       "source": "discord"
     },
     {
