@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-19T14-36-53-274Z_641898_0jfj97",
-  "buildNumber": "641898",
-  "updatedAt": "2026-10-19T14:36:53.274Z",
-  "count": 390,
+  "runId": "2026-10-19T20-12-28-387Z_642370_v6wf55",
+  "buildNumber": "642370",
+  "updatedAt": "2026-10-19T20:12:28.387Z",
+  "count": 389,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -1124,39 +1124,6 @@
       "fingerprint": "d0dd775aa26de3da2310574e8cd846ca6824ee890e4b6d8c801bf11120421d6e"
     },
     {
-      "id": "2025-11-rtc-panel-entry-point-new-copy",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "altTitle": false,
-        "altBody": false,
-        "altCta": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "184542ad6521d06f514a1b4cc19f737daddcfbdc21a6801c29a8e9c0f3cef7fe"
-    },
-    {
       "id": "2025-11-shockbyte-degraded",
       "kind": "user",
       "type": "user",
@@ -1868,37 +1835,6 @@
         "value": null
       },
       "fingerprint": "b3876c4b843a7096f9957389cb91c3f90f214e88a66f78d0c0084fcd4b086f35"
-    },
-    {
-      "id": "2026-02-content-classification-presence-filter",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "7c80abc71008845befb1c8c63018f8410778a8c51960a6de131c115ccb749a44"
     },
     {
       "id": "2026-02-desktop-new-user-onboarding",
@@ -5039,37 +4975,6 @@
       "fingerprint": "cbd0625be9e7fd46f96d169e0f4c58542cdafc21ef0fa06828718107ed4c2777"
     },
     {
-      "id": "2026-05-slayer-storefront-hide-leaderboard",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "46346854fea695a0d24dee0088c7194ea73fa5aa8e2cfad33505fc0b621e7af6"
-    },
-    {
       "id": "2026-05-spatial-audio-for-voice",
       "kind": "user",
       "type": "user",
@@ -6758,35 +6663,6 @@
         "value": null
       },
       "fingerprint": "0321c03a3b15587ac162e90e800f16bbe995f65677e70226675a5ed359056e10"
-    },
-    {
-      "id": "2026-07-plan-select-ui-redesign",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": null,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "b5b0d511595ecaddfed8c0d38269705bfd872a2ea0dd7b6f0ae71d2612d1a7ef"
     },
     {
       "id": "2026-07-powerups-coachmark-scroll-close",
@@ -8622,6 +8498,37 @@
       "fingerprint": "d41b07f4fc16f5195dac9dfa45892bd8569cf2e747a9346de397e013554217ef"
     },
     {
+      "id": "2026-09-desktop-voice-message-recording",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "29e553e4a05db99e93ec3a72ec164a620266edd2ed6a15b13f06f32ed2ae2816"
+    },
+    {
       "id": "2026-09-edit-profile-collectibles-ordering",
       "kind": "user",
       "type": "user",
@@ -9669,6 +9576,37 @@
         "value": null
       },
       "fingerprint": "8e139cab627ec1b0ce298d190e611a4eee615de7108102a468bdb83121538335"
+    },
+    {
+      "id": "2026-09-request-to-stream-go-live-modal",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "openGoLiveModal": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "6c08964c16a99d497594ab165a18ad8996efddcbc3a76c8362154fb04064756e"
     },
     {
       "id": "2026-09-request-to-stream-new-entry-point",
@@ -10971,6 +10909,34 @@
         "value": null
       },
       "fingerprint": "3888a47d0f83a2c635d5f1b8bd53472c339ba9fc1adaf3b912179b8da69e2094"
+    },
+    {
+      "id": "2026-10-embedded-app-shim-v2",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "ea224c233b2d291c8f21856902be5af8f65e40389910cf63c8b9f05cbcdf1813"
     },
     {
       "id": "2026-10-express-checkout",

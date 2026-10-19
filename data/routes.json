@@ -680,5 +680,6 @@
   "GET_BOOKMARKS": "/users/@me/saved-messages/bookmarks",
   "EMOJI_PACKS": "/emoji-packs",
   "CONTEXTUAL_REFERRAL_UPSELL_DISMISSALS": "/users/@me/contextual-referral-upsell-dismissals",
-  "ACCOUNT_NOTIFICATION_DECLARATIVE_SETTINGS": "/users/@me/notification-settings/declarative"
+  "ACCOUNT_NOTIFICATION_DECLARATIVE_SETTINGS": "/users/@me/notification-settings/declarative",
+  "ORBS_ARCADE_GAMES": "/orbs-arcade/games/@me"
 }

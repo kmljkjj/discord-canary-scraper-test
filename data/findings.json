@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-19T14-36-53-274Z_641898_0jfj97",
-  "buildNumber": "641898",
-  "scrapedAt": "2026-10-19T14:36:53.274Z",
+  "runId": "2026-10-19T20-12-28-387Z_642370_v6wf55",
+  "buildNumber": "642370",
+  "scrapedAt": "2026-10-19T20:12:28.387Z",
   "totals": {
-    "all": 390
+    "all": 389
   },
   "experiments": [
     {
@@ -719,28 +719,6 @@
       "source": "discord"
     },
     {
-      "id": "2025-11-rtc-panel-entry-point-new-copy",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "altTitle": false,
-        "altBody": false,
-        "altCta": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2025-11-shockbyte-degraded",
       "type": "user",
       "kind": "user",
@@ -1187,26 +1165,6 @@
         }
       },
       "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2026-02-content-classification-presence-filter",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
       "source": "discord"
     },
     {
@@ -3181,26 +3139,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-05-slayer-storefront-hide-leaderboard",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2026-05-spatial-audio-for-voice",
       "type": "user",
       "kind": "user",
@@ -4270,24 +4208,6 @@
         }
       },
       "variationCount": 3,
-      "source": "discord"
-    },
-    {
-      "id": "2026-07-plan-select-ui-redesign",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": null,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
       "source": "discord"
     },
     {
@@ -5453,6 +5373,26 @@
       "source": "discord"
     },
     {
+      "id": "2026-09-desktop-voice-message-recording",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
       "id": "2026-09-edit-profile-collectibles-ordering",
       "type": "user",
       "kind": "user",
@@ -6114,6 +6054,26 @@
         }
       },
       "variationCount": 1,
+      "source": "discord"
+    },
+    {
+      "id": "2026-09-request-to-stream-go-live-modal",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "openGoLiveModal": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
       "source": "discord"
     },
     {
@@ -6941,6 +6901,23 @@
     },
     {
       "id": "2026-10-e2e-latency-measurement",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-embedded-app-shim-v2",
       "type": "user",
       "kind": "user",
       "label": null,

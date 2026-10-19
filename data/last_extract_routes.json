@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-19T14-36-53-274Z_641898_0jfj97",
-  "buildNumber": "641898",
-  "updatedAt": "2026-10-19T14:36:53.274Z",
-  "count": 679,
+  "runId": "2026-10-19T20-12-28-387Z_642370_v6wf55",
+  "buildNumber": "642370",
+  "updatedAt": "2026-10-19T20:12:28.387Z",
+  "count": 680,
   "data": {
     "USER_BULK_RELATIONSHIPS": "/users/@me/relationships/bulk",
     "USER_BADGE_SETTINGS": "/users/@me/badges/settings",
@@ -349,6 +349,7 @@
     "CHECKPOINT_COMPLETE": "/checkpoint/complete",
     "CHECKPOINT_RESET": "/checkpoint/reset",
     "QUESTS_CURRENT_QUESTS": "/quests/@me",
+    "ORBS_ARCADE_GAMES": "/orbs-arcade/games/@me",
     "QUESTS_CLAIMED_QUESTS": "/quests/@me/claimed",
     "DISMISSIBLE_CONTENT_ARBITRATE": "/dismissible-content/arbitrate",
     "QUESTS_RESET_RECENT_QUEST_COMPLETIONS": "/quests/reset-recent-quest-completions",

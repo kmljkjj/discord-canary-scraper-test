@@ -565,24 +565,6 @@
   },
   {
     "kind": "user",
-    "name": "2025-11-rtc-panel-entry-point-new-copy",
-    "defaultConfig": {
-      "altTitle": false,
-      "altBody": false,
-      "altCta": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2025-11-shockbyte-degraded",
     "defaultConfig": {
       "enabled": false
@@ -928,22 +910,6 @@
       "enabled": false
     },
     "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-02-content-classification-presence-filter",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
       "1": {
         "id": 1
       }
@@ -2499,22 +2465,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-05-slayer-storefront-hide-leaderboard",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-05-spatial-audio-for-voice",
     "defaultConfig": {
       "enabled": false,
@@ -3357,20 +3307,6 @@
       },
       "2": {
         "id": 2
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-07-plan-select-ui-redesign",
-    "defaultConfig": null,
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
       }
     },
     "label": null
@@ -4295,6 +4231,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-desktop-voice-message-recording",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-edit-profile-collectibles-ordering",
     "defaultConfig": {
       "enabled": false
@@ -4811,6 +4763,22 @@
       "trackingCopy": false
     },
     "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-09-request-to-stream-go-live-modal",
+    "defaultConfig": {
+      "openGoLiveModal": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
       "1": {
         "id": 1
       }
@@ -5479,6 +5447,19 @@
   {
     "kind": "user",
     "name": "2026-10-e2e-latency-measurement",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-embedded-app-shim-v2",
     "defaultConfig": {
       "enabled": false
     },
