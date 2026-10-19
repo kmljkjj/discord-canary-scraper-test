@@ -28953,7 +28953,7 @@
   "meters": "Unknown",
   "denied": "idle",
   "Images": "NoImages",
-  "mobile": "desktop",
+  "mobile": "tablet",
   "minuta": "minutę",
   "minuty": "minut",
   "Aacute": "\\xc1",
@@ -31736,5 +31736,8 @@
   "vLgj1J": "Back to App",
   "yLN1x6": "Type your answer",
   "9ZqzLo": "It’s only in the preview so far. Publish it to open it in Discord.",
-  "new_ui": "first_publish"
+  "new_ui": "first_publish",
+  "mQNR4x": "mQNR4x",
+  "Z+HdIo": "Z+HdIo",
+  "SifbJM": "What you see is a preview. Publish it to let others see it."
 }
