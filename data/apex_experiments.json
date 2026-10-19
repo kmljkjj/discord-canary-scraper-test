@@ -1531,22 +1531,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-03-mobile-quest-home-red-dot-notification",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-03-muted-video-quest-new-defaults",
     "defaultConfig": {
       "enabled": false,
@@ -1616,15 +1600,11 @@
     "kind": "user",
     "name": "2026-03-soundmoji-sending",
     "defaultConfig": {
-      "enabled": false,
-      "showSoundmojiInEmojiPicker": false
+      "enabled": false
     },
     "variations": {
       "1": {
         "id": 1
-      },
-      "2": {
-        "id": 2
       }
     },
     "label": null
@@ -3516,13 +3496,6 @@
   {
     "kind": "user",
     "name": "2026-08-android-jank-per-screen",
-    "defaultConfig": null,
-    "variations": null,
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-08-android-rn-reparenting-flag",
     "defaultConfig": null,
     "variations": null,
     "label": null
@@ -5629,6 +5602,19 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-mana-badge-refresh",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-nitro-tab-remove-account-age-restriction",
     "defaultConfig": {
       "enabled": false
@@ -5816,6 +5802,13 @@
         "id": 1
       }
     },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-wasm-precompressed-brotli",
+    "defaultConfig": null,
+    "variations": null,
     "label": null
   },
   {

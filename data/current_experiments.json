@@ -1,7 +1,7 @@
 {
-  "runId": "2026-10-19T20-12-28-387Z_642370_v6wf55",
-  "buildNumber": "642370",
-  "updatedAt": "2026-10-19T20:12:28.387Z",
+  "runId": "2026-10-19T23-46-03-668Z_642787_nnudze",
+  "buildNumber": "642787",
+  "updatedAt": "2026-10-19T23:46:03.668Z",
   "count": 389,
   "experiments": [
     {
@@ -3095,37 +3095,6 @@
       "fingerprint": "1d32a6a54d1cc4fe55a50682c937c71cdae34527f1a1cbac2498de055cc321cc"
     },
     {
-      "id": "2026-03-mobile-quest-home-red-dot-notification",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "668fe67c9b70d973e26fa63a192631137cc8f07f2be58d0895467274014ebacf"
-    },
-    {
       "id": "2026-03-muted-video-quest-new-defaults",
       "kind": "user",
       "type": "user",
@@ -3261,19 +3230,15 @@
       "title": null,
       "description": null,
       "defaultConfig": {
-        "enabled": false,
-        "showSoundmojiInEmojiPicker": false
+        "enabled": false
       },
       "variations": {
         "1": {
           "id": 1
-        },
-        "2": {
-          "id": 2
         }
       },
       "treatments": null,
-      "variationCount": 2,
+      "variationCount": 1,
       "guildPercentage": {
         "status": "unknown",
         "value": null
@@ -3282,7 +3247,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "5b9ec88be18bdd1c2abd060b74e30dbf9b1e567063a27d711254a62ee444d766"
+      "fingerprint": "c3d0e1c17e457a888770e36569486a38002107c342e38f7dd5fc1fe857802368"
     },
     {
       "id": "2026-03-steelseries-3p-recurring",
@@ -7082,28 +7047,6 @@
         "value": null
       },
       "fingerprint": "95be977092a6e020f6a53c39333c7619181f93e1bb0bee36668acac7ed39ce42"
-    },
-    {
-      "id": "2026-08-android-rn-reparenting-flag",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": null,
-      "variations": null,
-      "treatments": null,
-      "variationCount": 0,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "09504c642c2411a625f73c4e5f4f7409b0b1d7b193278b78906d353b096c1915"
     },
     {
       "id": "2026-08-audio-fidelity",
@@ -11246,6 +11189,34 @@
       "fingerprint": "c89e4be78467eb986288413d3d8e4e7232737cf459da720e15defeb327f18a36"
     },
     {
+      "id": "2026-10-mana-badge-refresh",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "18393cee2dd16904cb44fd48b404a04e99ec4969802717ed431f8a2689c9d0a9"
+    },
+    {
       "id": "2026-10-nitro-tab-remove-account-age-restriction",
       "kind": "user",
       "type": "user",
@@ -11645,6 +11616,28 @@
         "value": null
       },
       "fingerprint": "e41f7f44fefa63d3af45d16e087c5aca14d24d2e2b8c81180949ef998a1fe004"
+    },
+    {
+      "id": "2026-10-wasm-precompressed-brotli",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": null,
+      "variations": null,
+      "treatments": null,
+      "variationCount": 0,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "47c47dba77cab369fd565877c6da5a66d5f92c844cbabc5898a443ef1ab2b4c0"
     },
     {
       "id": "2026-10-web-streaming-optimizations",

@@ -1,7 +1,7 @@
 {
-  "runId": "2026-10-19T20-12-28-387Z_642370_v6wf55",
-  "buildNumber": "642370",
-  "scrapedAt": "2026-10-19T20:12:28.387Z",
+  "runId": "2026-10-19T23-46-03-668Z_642787_nnudze",
+  "buildNumber": "642787",
+  "scrapedAt": "2026-10-19T23:46:03.668Z",
   "totals": {
     "all": 389,
     "legacy": 0,
@@ -1955,26 +1955,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-03-mobile-quest-home-red-dot-notification",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2026-03-muted-video-quest-new-defaults",
       "type": "user",
       "kind": "user",
@@ -2064,18 +2044,14 @@
       "label": null,
       "system": "apex",
       "defaultConfig": {
-        "enabled": false,
-        "showSoundmojiInEmojiPicker": false
+        "enabled": false
       },
       "variations": {
         "1": {
           "id": 1
-        },
-        "2": {
-          "id": 2
         }
       },
-      "variationCount": 2,
+      "variationCount": 1,
       "source": "discord"
     },
     {
@@ -4468,17 +4444,6 @@
     },
     {
       "id": "2026-08-android-jank-per-screen",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": null,
-      "variations": null,
-      "variationCount": 0,
-      "source": "discord"
-    },
-    {
-      "id": "2026-08-android-rn-reparenting-flag",
       "type": "user",
       "kind": "user",
       "label": null,
@@ -7133,6 +7098,23 @@
       "source": "discord"
     },
     {
+      "id": "2026-10-mana-badge-refresh",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
       "id": "2026-10-nitro-tab-remove-account-age-restriction",
       "type": "user",
       "kind": "user",
@@ -7377,6 +7359,17 @@
         }
       },
       "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-wasm-precompressed-brotli",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": null,
+      "variations": null,
+      "variationCount": 0,
       "source": "discord"
     },
     {

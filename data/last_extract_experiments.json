@@ -1,7 +1,7 @@
 {
-  "runId": "2026-10-19T20-12-28-387Z_642370_v6wf55",
-  "buildNumber": "642370",
-  "updatedAt": "2026-10-19T20:12:28.387Z",
+  "runId": "2026-10-19T23-46-03-668Z_642787_nnudze",
+  "buildNumber": "642787",
+  "updatedAt": "2026-10-19T23:46:03.668Z",
   "count": 389,
   "data": {
     "2021-02_staff_qc_debugging": {
@@ -1537,22 +1537,6 @@
       "variations": null,
       "fp": "a352318c557a1ae211733b52"
     },
-    "2026-03-mobile-quest-home-red-dot-notification": {
-      "id": "2026-03-mobile-quest-home-red-dot-notification",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 2,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "4eb58677fe4d82185914eef5"
-    },
     "2026-03-muted-video-quest-new-defaults": {
       "id": "2026-03-muted-video-quest-new-defaults",
       "type": "user",
@@ -1625,16 +1609,13 @@
       "type": "user",
       "kind": "user",
       "label": null,
-      "variationCount": 2,
+      "variationCount": 1,
       "variations": {
         "1": {
           "id": 1
-        },
-        "2": {
-          "id": 2
         }
       },
-      "fp": "f44d6f0eb6e4563019d5aa79"
+      "fp": "f168eaf07e491e0688f2b8f8"
     },
     "2026-03-steelseries-3p-recurring": {
       "id": "2026-03-steelseries-3p-recurring",
@@ -3516,15 +3497,6 @@
     },
     "2026-08-android-jank-per-screen": {
       "id": "2026-08-android-jank-per-screen",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 0,
-      "variations": null,
-      "fp": "a352318c557a1ae211733b52"
-    },
-    "2026-08-android-rn-reparenting-flag": {
-      "id": "2026-08-android-rn-reparenting-flag",
       "type": "user",
       "kind": "user",
       "label": null,
@@ -5652,6 +5624,19 @@
       },
       "fp": "4eb58677fe4d82185914eef5"
     },
+    "2026-10-mana-badge-refresh": {
+      "id": "2026-10-mana-badge-refresh",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 1,
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "f168eaf07e491e0688f2b8f8"
+    },
     "2026-10-nitro-tab-remove-account-age-restriction": {
       "id": "2026-10-nitro-tab-remove-account-age-restriction",
       "type": "user",
@@ -5843,6 +5828,15 @@
         }
       },
       "fp": "4eb58677fe4d82185914eef5"
+    },
+    "2026-10-wasm-precompressed-brotli": {
+      "id": "2026-10-wasm-precompressed-brotli",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 0,
+      "variations": null,
+      "fp": "a352318c557a1ae211733b52"
     },
     "2026-10-web-streaming-optimizations": {
       "id": "2026-10-web-streaming-optimizations",
