@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-18T16:51:25.086Z",
-  "count": 38,
+  "scrapedAt": "2026-10-19T01:43:12.978Z",
+  "count": 34,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -456,7 +456,8 @@
     "1558183375058112603",
     "1551980932276293683",
     "1552893313500184617",
-    "1552348509838123168"
+    "1552348509838123168",
+    "1560392603877249036"
   ],
   "quests": [
     {
@@ -484,14 +485,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1546583178230235336",
-      "name": "iPhone 18 Pro",
-      "expiresAt": "2026-10-19T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1546583178230235336/1552762807663988886_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1546583178230235336/1552763358338482246.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1554258925073993850",
       "name": "FanDuel Everywhere",
       "expiresAt": "2026-11-01T06:59:00+00:00",
@@ -508,14 +501,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1554270669267537930",
-      "name": "Street Fighter",
-      "expiresAt": "2026-10-18T20:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1554270669267537930/1554954274981806170_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1554270669267537930/1554954274411126886.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1549142163487592600",
       "name": "Play VALORANT",
       "expiresAt": "2026-10-20T00:00:00+00:00",
@@ -529,14 +514,6 @@
       "expiresAt": "2026-10-20T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1557057421417914388/1557066162980790282_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1557057421417914388/1557065932893847623.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1554166577207709767",
-      "name": "The Triple-I Initiative",
-      "expiresAt": "2026-10-19T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1554166577207709767/1557802476646703204_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1554166577207709767/1554560313808912434.jpg",
       "rewardCount": 1
     },
     {
@@ -564,14 +541,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1555710921614163989",
-      "name": "Vision",
-      "expiresAt": "2026-10-19T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1555710921614163989/1559732546063966298_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1555710921614163989/1555712982564999188.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1554683719422316636",
       "name": "Version 2.3: Friends from Afar",
       "expiresAt": "2026-10-19T06:59:00+00:00",
@@ -585,14 +554,6 @@
       "expiresAt": "2026-10-26T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1536466333783429242/1557022151947583620_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1536466333783429242/1557021513662726144.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552766796283641978",
-      "name": "Forgotten Island",
-      "expiresAt": "2026-10-18T22:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1549194520128782357/1549886617748246658_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1547367413320777830/1549122469913305179.jpg",
       "rewardCount": 1
     },
     {
@@ -761,6 +722,14 @@
       "expiresAt": "2026-10-23T06:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1552348509838123168/1559992962778406912_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1552348509838123168/1559976798744223914.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1560392603877249036",
+      "name": "EA SPORTS FC™ 27",
+      "expiresAt": "2026-10-25T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1560392603877249036/1560732939531198504_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1551969525602451497/1551981581118345357.jpg",
       "rewardCount": 1
     }
   ]
