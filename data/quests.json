@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-19T06:57:08.943Z",
-  "count": 34,
+  "scrapedAt": "2026-10-19T14:34:39.321Z",
+  "count": 31,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -541,27 +541,11 @@
       "rewardCount": 1
     },
     {
-      "id": "1554683719422316636",
-      "name": "Version 2.3: Friends from Afar",
-      "expiresAt": "2026-10-19T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1554683719422316636/1560322385184292974_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1554683719422316636/1560322174626037841.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1536466333783429242",
       "name": "Crystal Lake",
       "expiresAt": "2026-10-26T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1536466333783429242/1557022151947583620_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1536466333783429242/1557021513662726144.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1558039850270203925",
-      "name": "Royal Match",
-      "expiresAt": "2026-10-19T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1558039850270203925/1558049720688058438_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1558039850270203925/1558049215953903688.jpg",
       "rewardCount": 1
     },
     {
@@ -578,14 +562,6 @@
       "expiresAt": "2026-10-26T06:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1552771565991759922/1557148452826390631_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1552771565991759922/1557147667618861158.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1556768172961570966",
-      "name": "River Trailer",
-      "expiresAt": "2026-10-19T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1556768172961570966/1559221644210217034_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1556768172961570966/1558013394769023148.jpg",
       "rewardCount": 1
     },
     {
