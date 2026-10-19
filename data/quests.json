@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-19T14:34:39.321Z",
-  "count": 31,
+  "scrapedAt": "2026-10-19T20:11:30.680Z",
+  "count": 34,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -457,7 +457,10 @@
     "1551980932276293683",
     "1552893313500184617",
     "1552348509838123168",
-    "1560392603877249036"
+    "1560392603877249036",
+    "1559695150228443156",
+    "1554689886835966094",
+    "1556747190242779347"
   ],
   "quests": [
     {
@@ -706,6 +709,30 @@
       "expiresAt": "2026-10-25T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1560392603877249036/1560732939531198504_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1551969525602451497/1551981581118345357.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1559695150228443156",
+      "name": "Clayface",
+      "expiresAt": "2026-10-20T09:59:59+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1559695150228443156/1560676618421272708_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1559695150228443156/1560676457305481378.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1554689886835966094",
+      "name": "Version 2.3: Friends from Afar",
+      "expiresAt": "2026-11-07T07:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1554689886835966094/1559383960960639086_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1554689886835966094/1559383761463017592.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1556747190242779347",
+      "name": "The Mosquito Bowl",
+      "expiresAt": "2026-11-02T07:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1556747190242779347/1559691764065894512_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1556747190242779347/1560352067707474100.jpg",
       "rewardCount": 1
     }
   ]
