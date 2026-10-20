@@ -5813,6 +5813,19 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-web-screen-share-audio",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-web-streaming-optimizations",
     "defaultConfig": {
       "degradationPreference": "default",
