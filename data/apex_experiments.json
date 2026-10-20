@@ -769,22 +769,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-01-cms-layouts",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-01-friends-in-server",
     "defaultConfig": {
       "guildFriendsEnabled": false
