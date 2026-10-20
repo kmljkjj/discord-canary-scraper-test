@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-19T20:11:30.680Z",
-  "count": 34,
+  "scrapedAt": "2026-10-20T02:10:45.116Z",
+  "count": 37,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -460,7 +460,12 @@
     "1560392603877249036",
     "1559695150228443156",
     "1554689886835966094",
-    "1556747190242779347"
+    "1556747190242779347",
+    "1558112706446368769",
+    "1557109486291001375",
+    "1559920791959769158",
+    "1555669093204500591",
+    "1553913530225262633"
   ],
   "quests": [
     {
@@ -501,22 +506,6 @@
       "expiresAt": "2026-11-01T06:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1547370886645026876/1547372029488009306_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1547370886645026876/1547373049173639258.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1549142163487592600",
-      "name": "Play VALORANT",
-      "expiresAt": "2026-10-20T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1549142163487592600/1555285149288103936_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1549142163487592600/1549142442966524056.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1557057421417914388",
-      "name": "MONOPOLY GO!",
-      "expiresAt": "2026-10-20T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1557057421417914388/1557066162980790282_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1557057421417914388/1557065932893847623.jpg",
       "rewardCount": 1
     },
     {
@@ -733,6 +722,46 @@
       "expiresAt": "2026-11-02T07:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1556747190242779347/1559691764065894512_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1556747190242779347/1560352067707474100.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1558112706446368769",
+      "name": "Royal Match",
+      "expiresAt": "2026-10-24T23:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1558112706446368769/1560598818389491782_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1558039850270203925/1558049215953903688.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1557109486291001375",
+      "name": "Sensei Pro and Rival Pro",
+      "expiresAt": "2026-10-26T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1553913530225262633/1557179098118225921_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1553913530225262633/1554253132614074368.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1559920791959769158",
+      "name": "Gun Of Eschaton",
+      "expiresAt": "2026-10-26T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1559920791959769158/1560644961312047174_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1559920791959769158/1560644425774796872.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1555669093204500591",
+      "name": "Save 50% on Topaz Studio",
+      "expiresAt": "2026-11-09T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1555669093204500591/1560045513359884439_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1555669093204500591/1560045804025286737.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1553913530225262633",
+      "name": "Sensei Pro and Rival Pro",
+      "expiresAt": "2026-10-26T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1553913530225262633/1554254047039455322_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1553913530225262633/1554253132614074368.jpg",
       "rewardCount": 1
     }
   ]
