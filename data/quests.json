@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-20T13:00:30.741Z",
-  "count": 36,
+  "scrapedAt": "2026-10-20T17:56:29.584Z",
+  "count": 38,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -465,7 +465,9 @@
     "1557109486291001375",
     "1559920791959769158",
     "1555669093204500591",
-    "1553913530225262633"
+    "1553913530225262633",
+    "1555629080697897022",
+    "1555629966752882749"
   ],
   "quests": [
     {
@@ -754,6 +756,22 @@
       "expiresAt": "2026-10-26T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1553913530225262633/1554254047039455322_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1553913530225262633/1554253132614074368.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1555629080697897022",
+      "name": "FanDuel Everywhere",
+      "expiresAt": "2026-10-21T09:59:59+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1549897603712286810/1549901940375429130_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1549897603712286810/1549901041519034469.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1555629966752882749",
+      "name": "FanDuel Everywhere",
+      "expiresAt": "2026-10-21T09:59:59+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1549897603712286810/1549901940375429130_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1549897603712286810/1549901041519034469.jpg",
       "rewardCount": 1
     }
   ]
