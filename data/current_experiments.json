@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-20T17-55-58-929Z_643639_jpj1ar",
-  "buildNumber": "643639",
-  "updatedAt": "2026-10-20T17:55:58.929Z",
-  "count": 389,
+  "runId": "2026-10-20T21-26-01-393Z_644063_9q375m",
+  "buildNumber": "644063",
+  "updatedAt": "2026-10-20T21:26:01.393Z",
+  "count": 385,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -2483,65 +2483,6 @@
       "fingerprint": "156948543c6eb749b14f528e1a6d416949a12438fee885871d49d1a194e50c91"
     },
     {
-      "id": "2026-03-application-widget-v2-add-tweak",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "72520c9e990ad450840f58a006aaae59f14a9fbfb3f27dd61467a570d824fc8a"
-    },
-    {
-      "id": "2026-03-arborium-highlight",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "0e44dd2a6999efb7e57008c96de7be0366f5d995a8a52e3c326b8db3db850cc2"
-    },
-    {
       "id": "2026-03-audio-effects-probe",
       "kind": "user",
       "type": "user",
@@ -4337,34 +4278,6 @@
       "fingerprint": "f0acfc506429b9e338d42fc0f8c597b7bca000c6f1bc1918f53880c8cbe3f609"
     },
     {
-      "id": "2026-05-age-restricted-application-commands",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "a73eb332eb750bc868bcedfa360cac5be32f8b250b4dec0f9c8cc56ec8a800bb"
-    },
-    {
       "id": "2026-05-app-store-overlay-feature-gate",
       "kind": "user",
       "type": "user",
@@ -4567,34 +4480,6 @@
         "value": null
       },
       "fingerprint": "f2e0845a4c57dc4c46cfb66bbce13fea59d65fb092368ee7abdef545ec657937"
-    },
-    {
-      "id": "2026-05-disable-camera-simulcast",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enableSimulcast": true
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "c8588e7cfb9998511eaa2cdd7429ef601c1adb089a6d7909d178eecb16b742ad"
     },
     {
       "id": "2026-05-distributed-clips",
@@ -5078,37 +4963,6 @@
         "value": null
       },
       "fingerprint": "3616e7ed9543ff3071cf1a2d1bf0f82c9841f341fa7100ac43ea879e884dc412"
-    },
-    {
-      "id": "2026-06-battlenet-social-sdk-migration",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "b9cd17596a18ee7cc6279695e8a3f0c19df97e1cd1bb9cad9cd2515adbe12760"
     },
     {
       "id": "2026-06-chat-bar-customization",
@@ -10708,7 +10562,8 @@
       "title": null,
       "description": null,
       "defaultConfig": {
-        "nativeSystemCpuTimes": false
+        "nativeSystemCpuTimes": false,
+        "overlayOnlyAnimatesItself": false
       },
       "variations": {
         "0": {
@@ -10821,6 +10676,34 @@
         "value": null
       },
       "fingerprint": "3888a47d0f83a2c635d5f1b8bd53472c339ba9fc1adaf3b912179b8da69e2094"
+    },
+    {
+      "id": "2026-10-embedded-app-frame-policy",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "dfb2baada9a9400b9530a3ac6466b77e694caa5a568677b7b353e1c776bfc743"
     },
     {
       "id": "2026-10-embedded-app-shim-v2",

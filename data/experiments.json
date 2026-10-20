@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-20T17-55-58-929Z_643639_jpj1ar",
-  "buildNumber": "643639",
-  "scrapedAt": "2026-10-20T17:55:58.929Z",
+  "runId": "2026-10-20T21-26-01-393Z_644063_9q375m",
+  "buildNumber": "644063",
+  "scrapedAt": "2026-10-20T21:26:01.393Z",
   "totals": {
-    "all": 389,
+    "all": 385,
     "legacy": 0,
-    "apex": 389
+    "apex": 385
   },
   "experiments": [
     {
@@ -1574,43 +1574,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-03-application-widget-v2-add-tweak",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2026-03-arborium-highlight",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
       "id": "2026-03-audio-effects-probe",
       "type": "user",
       "kind": "user",
@@ -2734,23 +2697,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-05-age-restricted-application-commands",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
       "id": "2026-05-app-store-overlay-feature-gate",
       "type": "user",
       "kind": "user",
@@ -2868,23 +2814,6 @@
       "system": "apex",
       "defaultConfig": {
         "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2026-05-disable-camera-simulcast",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enableSimulcast": true
       },
       "variations": {
         "1": {
@@ -3210,26 +3139,6 @@
         }
       },
       "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2026-06-battlenet-social-sdk-migration",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
       "source": "discord"
     },
     {
@@ -6791,7 +6700,8 @@
       "label": null,
       "system": "apex",
       "defaultConfig": {
-        "nativeSystemCpuTimes": false
+        "nativeSystemCpuTimes": false,
+        "overlayOnlyAnimatesItself": false
       },
       "variations": {
         "0": {
@@ -6848,6 +6758,23 @@
     },
     {
       "id": "2026-10-e2e-latency-measurement",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-embedded-app-frame-policy",
       "type": "user",
       "kind": "user",
       "label": null,

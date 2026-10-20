@@ -1234,35 +1234,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-03-application-widget-v2-add-tweak",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-03-arborium-highlight",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-03-audio-effects-probe",
     "defaultConfig": null,
     "variations": {
@@ -2142,19 +2113,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-05-age-restricted-application-commands",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-05-app-store-overlay-feature-gate",
     "defaultConfig": {
       "enabled": false
@@ -2244,19 +2202,6 @@
     "name": "2026-05-dice-roll-slash-command",
     "defaultConfig": {
       "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-05-disable-camera-simulcast",
-    "defaultConfig": {
-      "enableSimulcast": true
     },
     "variations": {
       "1": {
@@ -2517,22 +2462,6 @@
       "enabled": false
     },
     "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-06-battlenet-social-sdk-migration",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
       "1": {
         "id": 1
       }
@@ -5355,7 +5284,8 @@
     "kind": "user",
     "name": "2026-10-desktop-game-perf",
     "defaultConfig": {
-      "nativeSystemCpuTimes": false
+      "nativeSystemCpuTimes": false,
+      "overlayOnlyAnimatesItself": false
     },
     "variations": {
       "0": {
@@ -5404,6 +5334,19 @@
   {
     "kind": "user",
     "name": "2026-10-e2e-latency-measurement",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-embedded-app-frame-policy",
     "defaultConfig": {
       "enabled": false
     },
