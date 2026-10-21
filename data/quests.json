@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-20T21:30:12.282Z",
-  "count": 38,
+  "scrapedAt": "2026-10-21T00:06:02.282Z",
+  "count": 40,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -467,7 +467,9 @@
     "1555669093204500591",
     "1553913530225262633",
     "1555629080697897022",
-    "1555629966752882749"
+    "1555629966752882749",
+    "1560389333956034571",
+    "1552735480024531076"
   ],
   "quests": [
     {
@@ -772,6 +774,22 @@
       "expiresAt": "2026-10-21T09:59:59+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1549897603712286810/1549901940375429130_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1549897603712286810/1549901041519034469.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1560389333956034571",
+      "name": "Play Nekome Demo",
+      "expiresAt": "2026-10-28T00:00:00+00:00",
+      "videoUrl": null,
+      "heroImage": "https://cdn.discordapp.com/quests/1560389333956034571/1561822710416408616.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552735480024531076",
+      "name": "Magic: The Gathering | Star Trek",
+      "expiresAt": "2026-10-30T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552735480024531076/1561796312687575161_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1552735480024531076/1560073085888241714.jpg",
       "rewardCount": 1
     }
   ]
