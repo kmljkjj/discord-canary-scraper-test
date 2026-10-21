@@ -5074,6 +5074,38 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-code-blurple",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-code-blurple-marketing-holdout",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-code-blurple-teaser",
     "defaultConfig": {
       "enabled": false
@@ -5643,6 +5675,22 @@
     "name": "2026-10-uimanager-experiments",
     "defaultConfig": null,
     "variations": null,
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-user-profile-widget-suggestions",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
+      }
+    },
     "label": null
   },
   {
