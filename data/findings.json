@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-22T19-30-58-221Z_647341_woebjo",
-  "buildNumber": "647341",
-  "scrapedAt": "2026-10-22T19:30:58.221Z",
+  "runId": "2026-10-22T22-43-05-123Z_647799_mt9x4v",
+  "buildNumber": "647799",
+  "scrapedAt": "2026-10-22T22:43:05.123Z",
   "totals": {
-    "all": 383
+    "all": 381
   },
   "experiments": [
     {
@@ -192,23 +192,6 @@
         }
       },
       "variationCount": 6,
-      "source": "discord"
-    },
-    {
-      "id": "2025-01-allow-nonstaff-to-preview-app-collections",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
       "source": "discord"
     },
     {
@@ -2128,23 +2111,6 @@
       "type": "guild",
       "kind": "guild",
       "label": "Voice User Duration",
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2026-04-browser-transceiver-padding-removal",
-      "type": "user",
-      "kind": "user",
-      "label": null,
       "system": "apex",
       "defaultConfig": {
         "enabled": false
@@ -6649,7 +6615,8 @@
       "defaultConfig": {
         "nativeSystemCpuTimes": false,
         "overlayOnlyAnimatesItself": false,
-        "fullscreenPopupOcclusion": false
+        "fullscreenPopupOcclusion": false,
+        "overlayHiddenWavePaused": false
       },
       "variations": {
         "0": {

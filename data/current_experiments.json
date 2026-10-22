@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-22T19-30-58-221Z_647341_woebjo",
-  "buildNumber": "647341",
-  "updatedAt": "2026-10-22T19:30:58.221Z",
-  "count": 383,
+  "runId": "2026-10-22T22-43-05-123Z_647799_mt9x4v",
+  "buildNumber": "647799",
+  "updatedAt": "2026-10-22T22:43:05.123Z",
+  "count": 381,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -301,34 +301,6 @@
         "value": null
       },
       "fingerprint": "a759dfa4fe7da54af9a793c75a9be1a2593e0c64f998f66421f9b42681a0e522"
-    },
-    {
-      "id": "2025-01-allow-nonstaff-to-preview-app-collections",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "7011c7e6d77be6b3922ec9d7d692aed7199863717b4fc7cc8dfab8441c89e27c"
     },
     {
       "id": "2025-04-desktop-refresh-fast-follows",
@@ -3391,34 +3363,6 @@
         "value": null
       },
       "fingerprint": "945fa8bc2ca25746beb651216279617d26fd100aec8d95961d4ce3cf741cc7f0"
-    },
-    {
-      "id": "2026-04-browser-transceiver-padding-removal",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "d468cd48c4f03dedcdaeaed77ea412b06bb7fee1ec324681c563b81ce38c3dc9"
     },
     {
       "id": "2026-04-clips-v3-runtime",
@@ -10480,7 +10424,8 @@
       "defaultConfig": {
         "nativeSystemCpuTimes": false,
         "overlayOnlyAnimatesItself": false,
-        "fullscreenPopupOcclusion": false
+        "fullscreenPopupOcclusion": false,
+        "overlayHiddenWavePaused": false
       },
       "variations": {
         "0": {

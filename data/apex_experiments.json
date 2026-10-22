@@ -149,19 +149,6 @@
   },
   {
     "kind": "user",
-    "name": "2025-01-allow-nonstaff-to-preview-app-collections",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2025-04-desktop-refresh-fast-follows",
     "defaultConfig": {
       "largerGuildIcons": false,
@@ -1676,19 +1663,6 @@
       }
     },
     "label": "Voice User Duration"
-  },
-  {
-    "kind": "user",
-    "name": "2026-04-browser-transceiver-padding-removal",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
   },
   {
     "kind": "user",
@@ -5247,7 +5221,8 @@
     "defaultConfig": {
       "nativeSystemCpuTimes": false,
       "overlayOnlyAnimatesItself": false,
-      "fullscreenPopupOcclusion": false
+      "fullscreenPopupOcclusion": false,
+      "overlayHiddenWavePaused": false
     },
     "variations": {
       "0": {
