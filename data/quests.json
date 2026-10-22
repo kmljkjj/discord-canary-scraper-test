@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-21T22:16:10.227Z",
-  "count": 38,
+  "scrapedAt": "2026-10-22T00:44:56.295Z",
+  "count": 42,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -469,7 +469,11 @@
     "1555629080697897022",
     "1555629966752882749",
     "1560389333956034571",
-    "1552735480024531076"
+    "1552735480024531076",
+    "1554696065704529930",
+    "1560042472560787507",
+    "1552381063475499109",
+    "1560042382072742050"
   ],
   "quests": [
     {
@@ -774,6 +778,38 @@
       "expiresAt": "2026-10-30T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1552735480024531076/1561796312687575161_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1552735480024531076/1560073085888241714.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1554696065704529930",
+      "name": "Once Human Free Expansion",
+      "expiresAt": "2026-11-08T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1554696065704529930/1561577087075229696_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1554696065704529930/1561581743771754556.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1560042472560787507",
+      "name": "Resident Evil Sale",
+      "expiresAt": "2026-11-05T01:00:00+00:00",
+      "videoUrl": null,
+      "heroImage": "https://cdn.discordapp.com/quests/1560042472560787507/1560046579577262140.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552381063475499109",
+      "name": "MapleStory Classic World Trailer",
+      "expiresAt": "2026-11-05T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552381063475499109/1562119313962573855_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1552381063475499109/1560450190991826955.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1560042382072742050",
+      "name": "Resident Evil Season Is Here",
+      "expiresAt": "2026-11-01T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1560042382072742050/1560060155129761802_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1560042382072742050/1560046697827012758.jpg",
       "rewardCount": 1
     }
   ]
