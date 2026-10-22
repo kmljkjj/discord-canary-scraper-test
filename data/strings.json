@@ -28911,7 +28911,7 @@
   "string": "unknown",
   "burst-": "normal-",
   "minute": "day",
-  "enable": "idle",
+  "enable": "disable",
   "Copied": "Copy All",
   "Agreed": "Not agreed",
   "Active": "Inactive",
@@ -31951,5 +31951,7 @@
   "FQb5Z3": "Show background overlay",
   "5Hp3Nx": "Connect you to voice channels",
   "uvDWXa": "Allow connecting you to voice channels",
-  "PW1+MY": "Fill this in before saving."
+  "PW1+MY": "Fill this in before saving.",
+  "3Ng/um": "count",
+  "itMa3c": "Back to Shop"
 }
