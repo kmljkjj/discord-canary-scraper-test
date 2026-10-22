@@ -608,22 +608,6 @@
   },
   {
     "kind": "user",
-    "name": "2025-12-game-invite-account-linking-entry-point",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2025-12-hdr-accessibility-setting",
     "defaultConfig": {
       "enabled": false
@@ -4995,6 +4979,22 @@
     "name": "2026-10-android-ui-manager-constants-cache",
     "defaultConfig": null,
     "variations": null,
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-avx512-entropy-histogram",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
     "label": null
   },
   {

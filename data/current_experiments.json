@@ -1,7 +1,7 @@
 {
-  "runId": "2026-10-22T00-44-48-647Z_646155_0nm2py",
-  "buildNumber": "646155",
-  "updatedAt": "2026-10-22T00:44:48.647Z",
+  "runId": "2026-10-22T05-28-37-866Z_646497_88ab52",
+  "buildNumber": "646497",
+  "updatedAt": "2026-10-22T05:28:37.866Z",
   "count": 383,
   "experiments": [
     {
@@ -1210,37 +1210,6 @@
         "value": null
       },
       "fingerprint": "bd671cf10ed1e6285635c1bf64e5526e4b801f7d40f818c4addfc0bb990d393d"
-    },
-    {
-      "id": "2025-12-game-invite-account-linking-entry-point",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "452b94b13a4801fa4392091da8ccd04f9adb9e3a577956f31f88260da4413b81"
     },
     {
       "id": "2025-12-hdr-accessibility-setting",
@@ -9999,6 +9968,37 @@
         "value": null
       },
       "fingerprint": "1c74d8717e44607c5b8c998bc9802edd5d1240ff1dad4cb063b42ac5834cc5e4"
+    },
+    {
+      "id": "2026-10-avx512-entropy-histogram",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "51ff03f3420ec145308c769d5df176d8b746464b5f85df97655d298a5479fd4e"
     },
     {
       "id": "2026-10-badge-directory-updates",
