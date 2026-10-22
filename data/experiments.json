@@ -1,7 +1,7 @@
 {
-  "runId": "2026-10-22T15-37-24-008Z_646915_l1ytqw",
-  "buildNumber": "646915",
-  "scrapedAt": "2026-10-22T15:37:24.008Z",
+  "runId": "2026-10-22T19-30-58-221Z_647341_woebjo",
+  "buildNumber": "647341",
+  "scrapedAt": "2026-10-22T19:30:58.221Z",
   "totals": {
     "all": 383,
     "legacy": 0,
@@ -6673,7 +6673,8 @@
       "defaultConfig": {
         "skipSilentDelayEstimatorFfts": false,
         "processPollingPerf": false,
-        "keepRendererLogFileOpen": false
+        "keepRendererLogFileOpen": false,
+        "questRingVisibleSteps": false
       },
       "variations": {
         "0": {
