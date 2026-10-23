@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-23T01-00-24-755Z_648172_us1t67",
-  "buildNumber": "648172",
-  "updatedAt": "2026-10-23T01:00:24.755Z",
-  "count": 381,
+  "runId": "2026-10-23T05-58-12-184Z_648539_nhbibg",
+  "buildNumber": "648539",
+  "updatedAt": "2026-10-23T05:58:12.184Z",
+  "count": 382,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -8397,6 +8397,41 @@
       "fingerprint": "476067cbc482cde06d7ef7f54112d9a58547b2481ef6146c30d0dd80f775f00a"
     },
     {
+      "id": "2026-09-hexagon-campaign-client",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false,
+        "questHomeRedirect": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "treatments": null,
+      "variationCount": 3,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "e79f28104a0a581b06528af1f592172fbca407d789d124b3dd567605c25de3fa"
+    },
+    {
       "id": "2026-09-invite-accept-age-group-errors",
       "kind": "user",
       "type": "user",
@@ -10426,7 +10461,8 @@
         "overlayOnlyAnimatesItself": false,
         "fullscreenPopupOcclusion": false,
         "overlayHiddenWavePaused": false,
-        "renderOverlayWhileMinimized": false
+        "renderOverlayWhileMinimized": false,
+        "notificationIconCpuCanvas": false
       },
       "variations": {
         "0": {

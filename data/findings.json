@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-23T01-00-24-755Z_648172_us1t67",
-  "buildNumber": "648172",
-  "scrapedAt": "2026-10-23T01:00:24.755Z",
+  "runId": "2026-10-23T05-58-12-184Z_648539_nhbibg",
+  "buildNumber": "648539",
+  "scrapedAt": "2026-10-23T05:58:12.184Z",
   "totals": {
-    "all": 381
+    "all": 382
   },
   "experiments": [
     {
@@ -5316,6 +5316,30 @@
       "source": "discord"
     },
     {
+      "id": "2026-09-hexagon-campaign-client",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false,
+        "questHomeRedirect": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "variationCount": 3,
+      "source": "discord"
+    },
+    {
       "id": "2026-09-invite-accept-age-group-errors",
       "type": "user",
       "kind": "user",
@@ -6617,7 +6641,8 @@
         "overlayOnlyAnimatesItself": false,
         "fullscreenPopupOcclusion": false,
         "overlayHiddenWavePaused": false,
-        "renderOverlayWhileMinimized": false
+        "renderOverlayWhileMinimized": false,
+        "notificationIconCpuCanvas": false
       },
       "variations": {
         "0": {
