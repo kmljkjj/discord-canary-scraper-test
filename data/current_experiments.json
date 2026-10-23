@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-23T11-28-07-355Z_648770_qnz17u",
-  "buildNumber": "648770",
-  "updatedAt": "2026-10-23T11:28:07.355Z",
-  "count": 382,
+  "runId": "2026-10-23T15-52-40-845Z_648941_qofedq",
+  "buildNumber": "648941",
+  "updatedAt": "2026-10-23T15:52:40.845Z",
+  "count": 383,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -11261,6 +11261,34 @@
       "fingerprint": "57f1b60a18ae3e49408d5d47e92df175c7224fa0a5a390c12d8410c3dffc5263"
     },
     {
+      "id": "2026-10-soundboard-mute-indicator",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "cb48906c949d4030905bbd55bee69e71393ecb9c2ea46d4baaaa6672559494a8"
+    },
+    {
       "id": "2026-10-stage-unified-call",
       "kind": "guild",
       "type": "guild",
@@ -11460,7 +11488,8 @@
       "description": null,
       "defaultConfig": {
         "degradationPreference": "default",
-        "motionContentHint": false
+        "motionContentHint": false,
+        "cpuFallback": false
       },
       "variations": {
         "1": {
@@ -11474,10 +11503,16 @@
         },
         "4": {
           "id": 4
+        },
+        "5": {
+          "id": 5
+        },
+        "6": {
+          "id": 6
         }
       },
       "treatments": null,
-      "variationCount": 4,
+      "variationCount": 6,
       "guildPercentage": {
         "status": "unknown",
         "value": null
@@ -11486,7 +11521,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "d9ee6bba22664c29860522aae25d78a96305a7c8cf2c7b8615a713d3718c85f6"
+      "fingerprint": "ca770474a1f47b681dc61a2070b171de128aa9b4b8a8cbcaa3732c387e796011"
     }
   ]
 }

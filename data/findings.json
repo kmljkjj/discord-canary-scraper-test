@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-23T11-28-07-355Z_648770_qnz17u",
-  "buildNumber": "648770",
-  "scrapedAt": "2026-10-23T11:28:07.355Z",
+  "runId": "2026-10-23T15-52-40-845Z_648941_qofedq",
+  "buildNumber": "648941",
+  "scrapedAt": "2026-10-23T15:52:40.845Z",
   "totals": {
-    "all": 382
+    "all": 383
   },
   "experiments": [
     {
@@ -7146,6 +7146,23 @@
       "source": "discord"
     },
     {
+      "id": "2026-10-soundboard-mute-indicator",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
       "id": "2026-10-stage-unified-call",
       "type": "guild",
       "kind": "guild",
@@ -7266,7 +7283,8 @@
       "system": "apex",
       "defaultConfig": {
         "degradationPreference": "default",
-        "motionContentHint": false
+        "motionContentHint": false,
+        "cpuFallback": false
       },
       "variations": {
         "1": {
@@ -7280,9 +7298,15 @@
         },
         "4": {
           "id": 4
+        },
+        "5": {
+          "id": 5
+        },
+        "6": {
+          "id": 6
         }
       },
-      "variationCount": 4,
+      "variationCount": 6,
       "source": "discord"
     }
   ]

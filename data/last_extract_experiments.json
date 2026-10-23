@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-23T11-28-07-355Z_648770_qnz17u",
-  "buildNumber": "648770",
-  "updatedAt": "2026-10-23T11:28:07.355Z",
-  "count": 382,
+  "runId": "2026-10-23T15-52-40-845Z_648941_qofedq",
+  "buildNumber": "648941",
+  "updatedAt": "2026-10-23T15:52:40.845Z",
+  "count": 383,
   "data": {
     "2021-02_staff_qc_debugging": {
       "id": "2021-02_staff_qc_debugging",
@@ -5658,6 +5658,19 @@
       },
       "fp": "f168eaf07e491e0688f2b8f8"
     },
+    "2026-10-soundboard-mute-indicator": {
+      "id": "2026-10-soundboard-mute-indicator",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 1,
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "f168eaf07e491e0688f2b8f8"
+    },
     "2026-10-stage-unified-call": {
       "id": "2026-10-stage-unified-call",
       "type": "guild",
@@ -5752,7 +5765,7 @@
       "type": "user",
       "kind": "user",
       "label": null,
-      "variationCount": 4,
+      "variationCount": 6,
       "variations": {
         "1": {
           "id": 1
@@ -5765,9 +5778,15 @@
         },
         "4": {
           "id": 4
+        },
+        "5": {
+          "id": 5
+        },
+        "6": {
+          "id": 6
         }
       },
-      "fp": "5c77e86646335e1936a55a3a"
+      "fp": "14abe73c4e316a56058731fd"
     }
   }
 }
