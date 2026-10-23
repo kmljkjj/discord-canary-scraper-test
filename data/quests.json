@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-23T15:53:16.749Z",
-  "count": 43,
+  "scrapedAt": "2026-10-23T19:48:33.535Z",
+  "count": 45,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -477,7 +477,9 @@
     "1562420837292707873",
     "1553157223117496330",
     "1562406097615323156",
-    "1562260965687300186"
+    "1562260965687300186",
+    "1552895954753945620",
+    "1552895020724527125"
   ],
   "quests": [
     {
@@ -548,7 +550,7 @@
       "id": "1552771565991759922",
       "name": "Clayface",
       "expiresAt": "2026-10-26T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552771565991759922/1557148452826390631_1080.mp4",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552771565991759922/1563217842256478349_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1552771565991759922/1557147667618861158.jpg",
       "rewardCount": 1
     },
@@ -822,6 +824,22 @@
       "expiresAt": "2026-10-24T09:59:59+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1562260965687300186/1562266096717799494_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1562260965687300186/1562266078267318392.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552895954753945620",
+      "name": "Call of Duty: Modern Warfare 4",
+      "expiresAt": "2026-11-07T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552895954753945620/1562259114036305920_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1552895954753945620/1562258909522300978.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552895020724527125",
+      "name": "Call of Duty: Modern Warfare 4",
+      "expiresAt": "2026-11-07T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552895020724527125/1562256423583350824_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1552895020724527125/1562256208717414440.jpg",
       "rewardCount": 1
     }
   ]
