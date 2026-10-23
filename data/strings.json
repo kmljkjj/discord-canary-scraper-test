@@ -28911,11 +28911,8 @@
   "string": "unknown",
   "burst-": "normal-",
   "minute": "day",
-  "enable": "disable",
-  "Copied": "Copy All",
-  "Agreed": "Not agreed",
+  "enable": "idle",
   "Active": "Inactive",
-  "Cancel": "Start Processing",
   "BackId": "FrontId",
   "create": "edit",
   "BUNDLE": "COLLECTIBLE",
@@ -31981,5 +31978,9 @@
   "LqZvZ2": "Uploading your app…",
   "LFcGAT": "Updating Discord…",
   "GQeas1": "Preparing your app…",
-  "F+AxgM": "Setting up…"
+  "F+AxgM": "Setting up…",
+  "DZQzJn": "DZQzJn",
+  "tUU3fe": "tUU3fe",
+  "e2UHGT": "e2UHGT",
+  "KXDPot": "KXDPot"
 }

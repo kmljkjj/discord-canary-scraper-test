@@ -5222,7 +5222,8 @@
       "nativeSystemCpuTimes": false,
       "overlayOnlyAnimatesItself": false,
       "fullscreenPopupOcclusion": false,
-      "overlayHiddenWavePaused": false
+      "overlayHiddenWavePaused": false,
+      "renderOverlayWhileMinimized": false
     },
     "variations": {
       "0": {
