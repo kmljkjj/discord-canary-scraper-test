@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-22T22:43:19.930Z",
-  "count": 42,
+  "scrapedAt": "2026-10-23T01:00:34.774Z",
+  "count": 43,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -473,7 +473,10 @@
     "1554696065704529930",
     "1560042472560787507",
     "1552381063475499109",
-    "1560042382072742050"
+    "1560042382072742050",
+    "1562420837292707873",
+    "1553157223117496330",
+    "1562406097615323156"
   ],
   "quests": [
     {
@@ -517,27 +520,11 @@
       "rewardCount": 1
     },
     {
-      "id": "1552891135125622834",
-      "name": "Call of Duty: Modern Warfare 4 Video",
-      "expiresAt": "2026-10-23T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552891135125622834/1560415575816019968_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1552891135125622834/1554622631389569215.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1554147252065411133",
       "name": "Crystal Lake",
       "expiresAt": "2026-10-26T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1554147252065411133/1554600277758312628_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1554147252065411133/1554601339114496151.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1556778857481113610",
-      "name": "Deadzone Rogue 2",
-      "expiresAt": "2026-10-23T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1556778857481113610/1556780815843721227_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1556778857481113610/1556780368529457162.jpg",
       "rewardCount": 1
     },
     {
@@ -609,7 +596,7 @@
       "name": "Kenshi Yonezu: Tour / Ghost",
       "expiresAt": "2026-10-26T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1556310841178194060/1559714144666648576_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1556310841178194060/1559714860311388201.jpg",
+      "heroImage": "https://cdn.discordapp.com/quests/1556310841178194060/1562908583257972826.jpg",
       "rewardCount": 1
     },
     {
@@ -810,6 +797,30 @@
       "expiresAt": "2026-11-01T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1560042382072742050/1560060155129761802_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1560042382072742050/1560046697827012758.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1562420837292707873",
+      "name": "Cyberpunk: Edgerunners 2 Update",
+      "expiresAt": "2026-10-26T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1562406097615323156/1562407482448678943_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1562406097615323156/1562407223643078666.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1553157223117496330",
+      "name": "Firefox Browser",
+      "expiresAt": "2026-11-08T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1553157223117496330/1560448170260172800_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1553157223117496330/1560448151926734868.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1562406097615323156",
+      "name": "Cyberpunk: Edgerunners 2 Update",
+      "expiresAt": "2026-10-26T00:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1562406097615323156/1562408021244645446_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1562406097615323156/1562407223643078666.jpg",
       "rewardCount": 1
     }
   ]
