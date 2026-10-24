@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-23T22-40-37-186Z_649662_dapiu8",
-  "buildNumber": "649662",
-  "versionHash": "5f8ae80656201cedbbb83c4ae29a61867043efcf",
+  "runId": "2026-10-24T01-09-02-557Z_649886_p8shp1",
+  "buildNumber": "649886",
+  "versionHash": "fe2fbe79f302140d27391432294928a40c770784",
   "releaseChannel": "canary",
-  "scrapedAt": "2026-10-23T22:40:18.145Z",
+  "scrapedAt": "2026-10-24T01:08:46.165Z",
   "assetCount": 352,
   "cssCount": 317
 }
