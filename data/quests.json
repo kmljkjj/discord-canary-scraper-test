@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-24T05:56:10.092Z",
-  "count": 47,
+  "scrapedAt": "2026-10-24T10:45:47.862Z",
+  "count": 46,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -687,7 +687,7 @@
     {
       "id": "1560392603877249036",
       "name": "EA SPORTS FC™ 27",
-      "expiresAt": "2026-10-25T00:00:00+00:00",
+      "expiresAt": "2026-10-25T06:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1560392603877249036/1560732939531198504_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1551969525602451497/1551981581118345357.jpg",
       "rewardCount": 1
@@ -818,14 +818,6 @@
       "expiresAt": "2026-10-26T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1562406097615323156/1562408021244645446_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1562406097615323156/1562407223643078666.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1562260965687300186",
-      "name": "Call of Duty: Modern Warfare 4",
-      "expiresAt": "2026-10-24T09:59:59+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1562260965687300186/1562266096717799494_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1562260965687300186/1562266078267318392.jpg",
       "rewardCount": 1
     },
     {
