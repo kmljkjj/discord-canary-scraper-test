@@ -30856,7 +30856,7 @@
   "iqN7YA": "The rewind was scheduled but not confirmed yet; it may still take effect in the next few moments. Check your app’s data before making changes, and rewind again if it didn’t apply.",
   "t+b0rz": "Earlier version",
   "xu1I8B": "Review new permissions",
-  "8qJtGr": "You need to accept the new permissions to message your project’s bot.",
+  "8qJtGr": "Accept the new permissions for your project’s preview bot to keep previewing your app.",
   "Agqmbt": "Please accept permissions before publishing",
   "Nub/J6": "Review permissions",
   "gMuw5d": "runes",
@@ -32088,5 +32088,7 @@
   "esTM8y": "Shared with",
   "d8lNBq": "A service we rely on is busy right now.",
   "yreXyD": "A service we rely on failed.",
-  "t1R7Rt": "A service we rely on took too long to answer."
+  "t1R7Rt": "A service we rely on took too long to answer.",
+  "gnsPOt": "Search servers",
+  "zJUQOI": "Approve all of the updated permissions for your preview bot, then publish again."
 }
