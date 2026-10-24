@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-23T19:48:33.535Z",
-  "count": 45,
+  "scrapedAt": "2026-10-24T01:10:05.376Z",
+  "count": 47,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -479,7 +479,9 @@
     "1562406097615323156",
     "1562260965687300186",
     "1552895954753945620",
-    "1552895020724527125"
+    "1552895020724527125",
+    "1549087389715013632",
+    "1562882129065410582"
   ],
   "quests": [
     {
@@ -840,6 +842,22 @@
       "expiresAt": "2026-11-07T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1552895020724527125/1562256423583350824_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1552895020724527125/1562256208717414440.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1549087389715013632",
+      "name": "Xfinity Imagine That",
+      "expiresAt": "2026-11-10T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1549087389715013632/1557060836776869971_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1549087389715013632/1557062659436839012.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1562882129065410582",
+      "name": "Resident Evil Sale",
+      "expiresAt": "2026-11-05T01:00:00+00:00",
+      "videoUrl": null,
+      "heroImage": "https://cdn.discordapp.com/quests/1560042472560787507/1560046579577262140.jpg",
       "rewardCount": 1
     }
   ]
