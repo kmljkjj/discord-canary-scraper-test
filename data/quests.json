@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-24T10:45:47.862Z",
-  "count": 46,
+  "scrapedAt": "2026-10-25T00:13:17.888Z",
+  "count": 36,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -589,83 +589,11 @@
       "rewardCount": 1
     },
     {
-      "id": "1559699706798407791",
-      "name": "Clean Crew",
-      "expiresAt": "2026-10-25T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1559699706798407791/1559700833036280038_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1559699706798407791/1559700784013250623.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1556310841178194060",
       "name": "Kenshi Yonezu: Tour / Ghost",
       "expiresAt": "2026-10-26T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1556310841178194060/1559714144666648576_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1556310841178194060/1562908583257972826.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1558176501663272961",
-      "name": "Clean Crew",
-      "expiresAt": "2026-10-25T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1558176501663272961/1559972762724864101_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1558176501663272961/1559972660153163837.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1558182573270634517",
-      "name": "Clean Crew",
-      "expiresAt": "2026-10-25T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1558182573270634517/1559976952574509086_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1558182573270634517/1559976850657251469.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1555718811208912917",
-      "name": "Clean Crew",
-      "expiresAt": "2026-10-25T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1555718811208912917/1559974499775021117_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1555718811208912917/1559974378240876564.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1555718124269998120",
-      "name": "Clean Crew",
-      "expiresAt": "2026-10-25T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1555718124269998120/1559975305056354334_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1555718124269998120/1559975247435010178.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1558179570098765887",
-      "name": "Clean Crew",
-      "expiresAt": "2026-10-25T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1558179570098765887/1559969023855304744_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1558179570098765887/1559967636463427674.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1555718375492161596",
-      "name": "Clean Crew",
-      "expiresAt": "2026-10-25T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1555718375492161596/1559976173365366815_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1555718375492161596/1559976082550165614.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1558178497212715078",
-      "name": "Clean Crew",
-      "expiresAt": "2026-10-25T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1558178497212715078/1559720952642932776_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1558178497212715078/1559720847273496636.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1558183375058112603",
-      "name": "Clean Crew",
-      "expiresAt": "2026-10-25T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1558183375058112603/1559977885136326749_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1558183375058112603/1559977749873959004.jpg",
       "rewardCount": 1
     },
     {
@@ -706,14 +634,6 @@
       "expiresAt": "2026-11-02T07:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1556747190242779347/1559691764065894512_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1556747190242779347/1560352067707474100.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1558112706446368769",
-      "name": "Royal Match",
-      "expiresAt": "2026-10-24T23:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1558112706446368769/1560598818389491782_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1558039850270203925/1558049215953903688.jpg",
       "rewardCount": 1
     },
     {
