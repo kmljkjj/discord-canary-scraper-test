@@ -28931,7 +28931,7 @@
   "meters": "Unknown",
   "denied": "idle",
   "Images": "NoImages",
-  "mobile": "tablet",
+  "mobile": "desktop",
   "minuta": "minutę",
   "minuty": "minut",
   "Aacute": "\\xc1",
@@ -30855,8 +30855,6 @@
   "uyjFNZ": "I couldn’t rewind the data. Nothing changed, and it’s safe to try again.",
   "iqN7YA": "The rewind was scheduled but not confirmed yet; it may still take effect in the next few moments. Check your app’s data before making changes, and rewind again if it didn’t apply.",
   "t+b0rz": "Earlier version",
-  "xu1I8B": "Review new permissions",
-  "8qJtGr": "Accept the new permissions for your project’s preview bot to keep previewing your app.",
   "Agqmbt": "Please accept permissions before publishing",
   "Nub/J6": "Review permissions",
   "gMuw5d": "runes",
@@ -32090,7 +32088,9 @@
   "yreXyD": "A service we rely on failed.",
   "t1R7Rt": "A service we rely on took too long to answer.",
   "gnsPOt": "Search servers",
-  "zJUQOI": "Approve all of the updated permissions for your preview bot, then publish again.",
   "R/F7xs": "Mute App",
-  "PTYULU": "Unmute App"
+  "PTYULU": "Unmute App",
+  "2pDCXO": "You need to approve new server permissions for your project for it to function properly.",
+  "FExK4w": "Review Permissions",
+  "0S9HY8": "Your project needs new server permissions to work. $linkReview permissions"
 }
