@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-25T04:53:49.368Z",
-  "count": 36,
+  "scrapedAt": "2026-10-25T09:36:58.344Z",
+  "count": 35,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -610,14 +610,6 @@
       "expiresAt": "2026-11-07T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1552893313500184617/1559713399598751744_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1552893313500184617/1559713299635904542.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1560392603877249036",
-      "name": "EA SPORTS FC™ 27",
-      "expiresAt": "2026-10-25T06:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1560392603877249036/1560732939531198504_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1551969525602451497/1551981581118345357.jpg",
       "rewardCount": 1
     },
     {
