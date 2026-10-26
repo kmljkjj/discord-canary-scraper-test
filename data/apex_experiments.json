@@ -2300,34 +2300,6 @@
     "label": null
   },
   {
-    "kind": "user",
-    "name": "2026-05-use-ad-analytics-interface",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      },
-      "3": {
-        "id": 3
-      },
-      "4": {
-        "id": 4
-      },
-      "5": {
-        "id": 5
-      }
-    },
-    "label": null
-  },
-  {
     "kind": "guild",
     "name": "2026-06_guild_rooms",
     "defaultConfig": {
@@ -3686,22 +3658,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-08-timestamp-autocomplete-mobile",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-08-tiny-bronco",
     "defaultConfig": {
       "enabled": false
@@ -3954,19 +3910,6 @@
       "0": {
         "id": 0
       },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-09-design-systems-notification-components",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
       "1": {
         "id": 1
       }

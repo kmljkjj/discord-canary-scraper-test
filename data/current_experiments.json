@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-26T11-12-07-754Z_650416_385fn8",
-  "buildNumber": "650416",
-  "updatedAt": "2026-10-26T11:12:07.754Z",
-  "count": 383,
+  "runId": "2026-10-26T17-25-32-690Z_650683_ftub0k",
+  "buildNumber": "650683",
+  "updatedAt": "2026-10-26T17:25:32.690Z",
+  "count": 380,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -4646,49 +4646,6 @@
       "fingerprint": "31db781dc1110dec2dde4a4e4154ee672a06a876638cdad8a3274a7c2ab1c18a"
     },
     {
-      "id": "2026-05-use-ad-analytics-interface",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        },
-        "3": {
-          "id": 3
-        },
-        "4": {
-          "id": 4
-        },
-        "5": {
-          "id": 5
-        }
-      },
-      "treatments": null,
-      "variationCount": 6,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "d9d4c48abbfa3b0513126e134c09db682e90228c509ff836c070686becf6d4b4"
-    },
-    {
       "id": "2026-06_guild_rooms",
       "kind": "guild",
       "type": "guild",
@@ -7398,37 +7355,6 @@
       "fingerprint": "c850820e0330d714b779b6833157e1616a7cc362c45e2e194a121252a0462ef7"
     },
     {
-      "id": "2026-08-timestamp-autocomplete-mobile",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "c736bc4307cf6096ffdd90690194a6e4ae09dbac885e056b9a04713399a285f5"
-    },
-    {
       "id": "2026-08-tiny-bronco",
       "kind": "user",
       "type": "user",
@@ -7942,34 +7868,6 @@
         "value": null
       },
       "fingerprint": "5eff64b0ef434ea393caa6fce9de56e614d74ba38be024083ed48097c751edf5"
-    },
-    {
-      "id": "2026-09-design-systems-notification-components",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "418eb825d4da9a6ba78c70d319b34fa1a76759a85acf0eabea293273616e1390"
     },
     {
       "id": "2026-09-desktop-tti-shader-cache",

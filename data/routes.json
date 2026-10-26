@@ -88,7 +88,6 @@
   "MENTIONS": "/users/@me/mentions",
   "CAPTCHA": "/users/@me/captcha/verify",
   "CAPTCHA_TEST": "/captcha/decider",
-  "AGE_ASSURANCE_TEST": "/age-verification/test",
   "VERIFY_AGE": "/age-verification/verify",
   "VERIFY_AGE_V2": "/age-verification/verify/v2",
   "REGISTER_INCODE_INTERVIEW": "/age-verification/incode/interview",

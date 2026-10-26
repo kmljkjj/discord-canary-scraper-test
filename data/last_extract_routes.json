@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-26T11-12-07-754Z_650416_385fn8",
-  "buildNumber": "650416",
-  "updatedAt": "2026-10-26T11:12:07.754Z",
-  "count": 679,
+  "runId": "2026-10-26T17-25-32-690Z_650683_ftub0k",
+  "buildNumber": "650683",
+  "updatedAt": "2026-10-26T17:25:32.690Z",
+  "count": 678,
   "data": {
     "USER_BULK_RELATIONSHIPS": "/users/@me/relationships/bulk",
     "USER_BADGE_SETTINGS": "/users/@me/badges/settings",
@@ -94,7 +94,6 @@
     "MENTIONS": "/users/@me/mentions",
     "CAPTCHA": "/users/@me/captcha/verify",
     "CAPTCHA_TEST": "/captcha/decider",
-    "AGE_ASSURANCE_TEST": "/age-verification/test",
     "VERIFY_AGE": "/age-verification/verify",
     "VERIFY_AGE_V2": "/age-verification/verify/v2",
     "AGE_VERIFICATION_MANUAL_REVIEW": "/age-verification/manual-review",

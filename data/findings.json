@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-26T11-12-07-754Z_650416_385fn8",
-  "buildNumber": "650416",
-  "scrapedAt": "2026-10-26T11:12:07.754Z",
+  "runId": "2026-10-26T17-25-32-690Z_650683_ftub0k",
+  "buildNumber": "650683",
+  "scrapedAt": "2026-10-26T17:25:32.690Z",
   "totals": {
-    "all": 383
+    "all": 380
   },
   "experiments": [
     {
@@ -2931,38 +2931,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-05-use-ad-analytics-interface",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        },
-        "3": {
-          "id": 3
-        },
-        "4": {
-          "id": 4
-        },
-        "5": {
-          "id": 5
-        }
-      },
-      "variationCount": 6,
-      "source": "discord"
-    },
-    {
       "id": "2026-06_guild_rooms",
       "type": "guild",
       "kind": "guild",
@@ -4680,26 +4648,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-08-timestamp-autocomplete-mobile",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2026-08-tiny-bronco",
       "type": "user",
       "kind": "user",
@@ -5025,23 +4973,6 @@
         }
       },
       "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2026-09-design-systems-notification-components",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
       "source": "discord"
     },
     {
