@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-25T22:24:36.871Z",
-  "count": 42,
+  "scrapedAt": "2026-10-26T00:35:50.874Z",
+  "count": 33,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -532,30 +532,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1554147252065411133",
-      "name": "Crystal Lake",
-      "expiresAt": "2026-10-26T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1554147252065411133/1554600277758312628_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1554147252065411133/1554601339114496151.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1536466333783429242",
-      "name": "Crystal Lake",
-      "expiresAt": "2026-10-26T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1536466333783429242/1557022151947583620_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1536466333783429242/1557021513662726144.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1555688599184211998",
-      "name": "Wild Horse Nine",
-      "expiresAt": "2026-10-26T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1555688599184211998/1557816476637995038_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1555688599184211998/1555701447776145418.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1552771565991759922",
       "name": "Clayface",
       "expiresAt": "2026-10-26T06:59:00+00:00",
@@ -596,14 +572,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1556310841178194060",
-      "name": "Kenshi Yonezu: Tour / Ghost",
-      "expiresAt": "2026-10-26T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1556310841178194060/1559714144666648576_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1556310841178194060/1562908583257972826.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1551980932276293683",
       "name": "VALORANT Aces Round 3",
       "expiresAt": "2026-10-26T23:59:00+00:00",
@@ -636,35 +604,11 @@
       "rewardCount": 1
     },
     {
-      "id": "1557109486291001375",
-      "name": "Sensei Pro and Rival Pro",
-      "expiresAt": "2026-10-26T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1553913530225262633/1557179098118225921_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1553913530225262633/1554253132614074368.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1559920791959769158",
-      "name": "Gun Of Eschaton",
-      "expiresAt": "2026-10-26T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1559920791959769158/1560644961312047174_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1559920791959769158/1560644425774796872.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1555669093204500591",
       "name": "Save 50% on Topaz Studio",
       "expiresAt": "2026-11-09T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1555669093204500591/1560045513359884439_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1555669093204500591/1560045804025286737.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1553913530225262633",
-      "name": "Sensei Pro and Rival Pro",
-      "expiresAt": "2026-10-26T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1553913530225262633/1554254047039455322_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1553913530225262633/1554253132614074368.jpg",
       "rewardCount": 1
     },
     {
@@ -716,27 +660,11 @@
       "rewardCount": 1
     },
     {
-      "id": "1562420837292707873",
-      "name": "Cyberpunk: Edgerunners 2 Update",
-      "expiresAt": "2026-10-26T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1562406097615323156/1562407482448678943_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1562406097615323156/1562407223643078666.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1553157223117496330",
       "name": "Firefox Browser",
       "expiresAt": "2026-11-08T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1553157223117496330/1560448170260172800_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1553157223117496330/1560448151926734868.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1562406097615323156",
-      "name": "Cyberpunk: Edgerunners 2 Update",
-      "expiresAt": "2026-10-26T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1562406097615323156/1562408021244645446_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1562406097615323156/1562407223643078666.jpg",
       "rewardCount": 1
     },
     {
