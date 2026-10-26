@@ -31996,9 +31996,9 @@
   "kVJc0r": "Sponsored",
   "ZWXDeI": "Pick a server",
   "GcFRaY": "Answer the question above",
-  "dbuk9m": "All games",
-  "/++Pf+": "Pick at least one game, or turn on All games.",
-  "74Afoq": "Search games",
+  "dbuk9m": "Run in all games",
+  "/++Pf+": "Pick a game or choose all games.",
+  "74Afoq": "Search for a game",
   "+E+hQR": "Hide in game until this game closes",
   "IigTLE": "Go back to your game settings",
   "CEYbWc": "Show in game until this game closes",
@@ -32091,5 +32091,7 @@
   "PTYULU": "Unmute App",
   "2pDCXO": "You need to approve new server permissions for your project for it to function properly.",
   "FExK4w": "Review Permissions",
-  "0S9HY8": "Your project needs new server permissions to work. $linkReview permissions"
+  "0S9HY8": "Your project needs new server permissions to work. $linkReview permissions",
+  "nEv677": "All games",
+  "cqWCNY": "This overlay only runs in these games:"
 }
