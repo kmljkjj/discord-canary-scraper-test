@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-26T17-25-32-690Z_650683_ftub0k",
-  "buildNumber": "650683",
-  "scrapedAt": "2026-10-26T17:25:32.690Z",
+  "runId": "2026-10-26T21-47-21-480Z_651178_6bo940",
+  "buildNumber": "651178",
+  "scrapedAt": "2026-10-26T21:47:21.480Z",
   "totals": {
-    "all": 380
+    "all": 378
   },
   "experiments": [
     {
@@ -2527,23 +2527,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-04-wetf-parser",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
       "id": "2026-05_default_invite_expiration_guild_web",
       "type": "guild",
       "kind": "guild",
@@ -4939,23 +4922,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-09-conversation-topic-header",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
       "id": "2026-09-default-emojis",
       "type": "user",
       "kind": "user",
@@ -5490,26 +5456,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-09-new-hscroll",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "useNewHScroll": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2026-09-new-orb-reward-visuals",
       "type": "user",
       "kind": "user",
@@ -5701,23 +5647,6 @@
         }
       },
       "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2026-09-registration-email-opt-in-copy",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "trackingCopy": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
       "source": "discord"
     },
     {
@@ -6086,23 +6015,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-09-update-email-settings-copy-subtext",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
       "id": "2026-09-video-background-profile-fetch",
       "type": "user",
       "kind": "user",
@@ -6213,6 +6125,26 @@
         }
       },
       "variationCount": 1,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-add-server-join-first",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
       "source": "discord"
     },
     {
@@ -6482,6 +6414,26 @@
       "source": "discord"
     },
     {
+      "id": "2026-10-conjure-mcp-ui",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
       "id": "2026-10-contextual-referrals-gdm-member-list",
       "type": "user",
       "kind": "user",
@@ -6698,6 +6650,21 @@
         }
       },
       "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-fix-soundboard-muting-iconography",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": null,
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
       "source": "discord"
     },
     {

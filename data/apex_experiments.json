@@ -1980,19 +1980,6 @@
     "label": null
   },
   {
-    "kind": "user",
-    "name": "2026-04-wetf-parser",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
     "kind": "guild",
     "name": "2026-05_default_invite_expiration_guild_web",
     "defaultConfig": {
@@ -3889,19 +3876,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-09-conversation-topic-header",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-09-default-emojis",
     "defaultConfig": {
       "enabled": false
@@ -4324,22 +4298,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-09-new-hscroll",
-    "defaultConfig": {
-      "useNewHScroll": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-09-new-orb-reward-visuals",
     "defaultConfig": {
       "variant": 0
@@ -4486,19 +4444,6 @@
       "0": {
         "id": 0
       },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-09-registration-email-opt-in-copy",
-    "defaultConfig": {
-      "trackingCopy": false
-    },
-    "variations": {
       "1": {
         "id": 1
       }
@@ -4804,19 +4749,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-09-update-email-settings-copy-subtext",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-09-video-background-profile-fetch",
     "defaultConfig": {
       "enabled": false
@@ -4898,6 +4830,22 @@
       "enabled": false
     },
     "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-add-server-join-first",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
       "1": {
         "id": 1
       }
@@ -5116,6 +5064,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-conjure-mcp-ui",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-contextual-referrals-gdm-member-list",
     "defaultConfig": {
       "showEmbed": false
@@ -5285,6 +5249,17 @@
       },
       "2": {
         "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-fix-soundboard-muting-iconography",
+    "defaultConfig": null,
+    "variations": {
+      "1": {
+        "id": 1
       }
     },
     "label": null
