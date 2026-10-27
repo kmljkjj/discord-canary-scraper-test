@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-26T21:48:42.473Z",
-  "count": 33,
+  "scrapedAt": "2026-10-27T00:58:11.750Z",
+  "count": 32,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -489,7 +489,8 @@
     "1562173737434882150",
     "1562174323802898584",
     "1562169044583448737",
-    "1561852480378249308"
+    "1561852480378249308",
+    "1557974434269364336"
   ],
   "quests": [
     {
@@ -533,14 +534,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1539343821782126622",
-      "name": "The Terminal List S2",
-      "expiresAt": "2026-10-27T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1539343821782126622/1562157397730922607_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1539343821782126622/1558000099425128489.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1553154139435835392",
       "name": "Firefox Browser",
       "expiresAt": "2026-10-29T00:00:00+00:00",
@@ -562,14 +555,6 @@
       "expiresAt": "2026-11-01T00:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1552202240339611688/1556703387146391664_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1552202240339611688/1554165076234080368.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1551980932276293683",
-      "name": "VALORANT Aces Round 3",
-      "expiresAt": "2026-10-26T23:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1551980932276293683/1553077580767436962.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1551980932276293683/1553077441788903474.jpg",
       "rewardCount": 1
     },
     {
@@ -754,6 +739,14 @@
       "expiresAt": "2026-11-04T04:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1561852480378249308/1562898196903104564_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1561852480378249308/1562133138589618397.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1557974434269364336",
+      "name": "Wild Horse Nine",
+      "expiresAt": "2026-11-09T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1557974434269364336/1563269971155484782_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1557974434269364336/1563239403139371089.jpg",
       "rewardCount": 1
     }
   ]
