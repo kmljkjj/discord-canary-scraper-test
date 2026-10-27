@@ -28906,7 +28906,7 @@
   "string": "unknown",
   "burst-": "normal-",
   "minute": "day",
-  "enable": "disable",
+  "enable": "idle",
   "Active": "Inactive",
   "BackId": "FrontId",
   "create": "edit",
@@ -28928,7 +28928,7 @@
   "meters": "Unknown",
   "denied": "idle",
   "Images": "NoImages",
-  "mobile": "desktop",
+  "mobile": "tablet",
   "minuta": "minutę",
   "minuty": "minut",
   "Aacute": "\\xc1",
@@ -32115,5 +32115,10 @@
   "esEGL5": "$linkView in AutoMod",
   "Copied": "Copy All",
   "Agreed": "Not agreed",
-  "Cancel": "Start Processing"
+  "Cancel": "Start Processing",
+  "IJY15p": "What app",
+  "+pSIev": "Done",
+  "wum6n2": "Device Permissions",
+  "wyav+H": "Not asked yet",
+  "7a+RNP": "Device Permissions"
 }
