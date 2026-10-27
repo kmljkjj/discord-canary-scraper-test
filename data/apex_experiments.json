@@ -3201,6 +3201,26 @@
     "kind": "guild",
     "name": "2026-07-vibegrations-guild",
     "defaultConfig": {
+      "enabled": false,
+      "requiresUserExperiment": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-07-vibegrations-user",
+    "defaultConfig": {
       "enabled": false
     },
     "variations": {
@@ -4255,6 +4275,22 @@
     "label": null
   },
   {
+    "kind": "guild",
+    "name": "2026-09-mobile-request-to-stream",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
     "kind": "user",
     "name": "2026-09-multi-sku-embed-rendering",
     "defaultConfig": {
@@ -5270,20 +5306,6 @@
     "defaultConfig": {
       "enabled": false
     },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-10-game-profile-mobile-reviews",
-    "defaultConfig": null,
     "variations": {
       "0": {
         "id": 0

@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-26T21-47-21-480Z_651178_6bo940",
-  "buildNumber": "651178",
-  "updatedAt": "2026-10-26T21:47:21.480Z",
-  "count": 378,
+  "runId": "2026-10-27T00-55-49-464Z_651607_ge03c1",
+  "buildNumber": "651607",
+  "updatedAt": "2026-10-27T00:55:49.464Z",
+  "count": 379,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -6454,6 +6454,41 @@
       "title": null,
       "description": null,
       "defaultConfig": {
+        "enabled": false,
+        "requiresUserExperiment": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "treatments": null,
+      "variationCount": 3,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "9f594d6f9ed0cbc87de57f6c320a945a67c967cd52c6b237c67de15fefb4f00b"
+    },
+    {
+      "id": "2026-07-vibegrations-user",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
         "enabled": false
       },
       "variations": {
@@ -6474,7 +6509,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "deeae3d685142afa6c9ed95e7faa86470ac819c43282dd212aabfd69907fe5d3"
+      "fingerprint": "dcf344561475a6ac94c3740bacb22a02293841c1948e89e4cd7ef99edfe5fe2a"
     },
     {
       "id": "2026-07-wishlist-direct-to-gifting",
@@ -8538,6 +8573,37 @@
       "fingerprint": "8db85b43b7d9f3e49a9ac2d61c5b7f95b99408957ab9a7ae8da7a9b585388448"
     },
     {
+      "id": "2026-09-mobile-request-to-stream",
+      "kind": "guild",
+      "type": "guild",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "49330af50b822c2d4a77657225c68a0c6372aeab9bc28c2cf1fa54217e538f81"
+    },
+    {
       "id": "2026-09-multi-sku-embed-rendering",
       "kind": "user",
       "type": "user",
@@ -10537,35 +10603,6 @@
         "value": null
       },
       "fingerprint": "15090f5f0470f0c1a91d947b159435f76a7c7b57ab5fb2c35a9da78a8da2a21e"
-    },
-    {
-      "id": "2026-10-game-profile-mobile-reviews",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": null,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "df76cb24054b5cb8a0d2089c61b14d4c86f5cced7a6cfea3587b24465219d110"
     },
     {
       "id": "2026-10-gdm-duration-timer",

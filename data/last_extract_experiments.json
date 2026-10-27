@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-26T21-47-21-480Z_651178_6bo940",
-  "buildNumber": "651178",
-  "updatedAt": "2026-10-26T21:47:21.480Z",
-  "count": 378,
+  "runId": "2026-10-27T00-55-49-464Z_651607_ge03c1",
+  "buildNumber": "651607",
+  "updatedAt": "2026-10-27T00:55:49.464Z",
+  "count": 379,
   "data": {
     "2021-02_staff_qc_debugging": {
       "id": "2021-02_staff_qc_debugging",
@@ -3202,6 +3202,25 @@
       "type": "guild",
       "kind": "guild",
       "label": null,
+      "variationCount": 3,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "fp": "867c7ed82d0610b35863acc5"
+    },
+    "2026-07-vibegrations-user": {
+      "id": "2026-07-vibegrations-user",
+      "type": "user",
+      "kind": "user",
+      "label": null,
       "variationCount": 2,
       "variations": {
         "0": {
@@ -3211,7 +3230,7 @@
           "id": 1
         }
       },
-      "fp": "74fc9d0ff39d614ade8bdadc"
+      "fp": "4eb58677fe4d82185914eef5"
     },
     "2026-07-wishlist-direct-to-gifting": {
       "id": "2026-07-wishlist-direct-to-gifting",
@@ -4267,6 +4286,22 @@
       },
       "fp": "f168eaf07e491e0688f2b8f8"
     },
+    "2026-09-mobile-request-to-stream": {
+      "id": "2026-09-mobile-request-to-stream",
+      "type": "guild",
+      "kind": "guild",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "74fc9d0ff39d614ade8bdadc"
+    },
     "2026-09-multi-sku-embed-rendering": {
       "id": "2026-09-multi-sku-embed-rendering",
       "type": "user",
@@ -5282,22 +5317,6 @@
     },
     "2026-10-game-exit-promo-rust": {
       "id": "2026-10-game-exit-promo-rust",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 2,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "4eb58677fe4d82185914eef5"
-    },
-    "2026-10-game-profile-mobile-reviews": {
-      "id": "2026-10-game-profile-mobile-reviews",
       "type": "user",
       "kind": "user",
       "label": null,

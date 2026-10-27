@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-10-26T21-47-21-480Z_651178_6bo940",
-  "buildNumber": "651178",
-  "publishedAt": "2026-10-26T21:47:21.616Z",
+  "runId": "2026-10-27T00-55-49-464Z_651607_ge03c1",
+  "buildNumber": "651607",
+  "publishedAt": "2026-10-27T00:55:49.572Z",
   "files": [
     "apex_experiments.json",
     "build.json",
@@ -21,5 +21,5 @@
     "routes.json",
     "strings.json"
   ],
-  "generationDir": ".generations/2026-10-26T21-47-21-480Z_651178_6bo940"
+  "generationDir": ".generations/2026-10-27T00-55-49-464Z_651607_ge03c1"
 }
