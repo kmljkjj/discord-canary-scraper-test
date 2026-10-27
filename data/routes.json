@@ -679,5 +679,6 @@
   "CONTEXTUAL_REFERRAL_UPSELL_DISMISSALS": "/users/@me/contextual-referral-upsell-dismissals",
   "ACCOUNT_NOTIFICATION_DECLARATIVE_SETTINGS": "/users/@me/notification-settings/declarative",
   "ORBS_ARCADE_GAMES": "/orbs-arcade/games/@me",
-  "GAME_ORGANIZATIONS_INVITABLE": "/game-organizations/invitable/@me"
+  "GAME_ORGANIZATIONS_INVITABLE": "/game-organizations/invitable/@me",
+  "CONJURE": "/conjure"
 }

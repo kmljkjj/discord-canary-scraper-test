@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-27T17-57-33-866Z_652652_5p52md",
-  "buildNumber": "652652",
-  "updatedAt": "2026-10-27T17:57:33.866Z",
-  "count": 678,
+  "runId": "2026-10-27T22-05-50-376Z_653109_7rrmu4",
+  "buildNumber": "653109",
+  "updatedAt": "2026-10-27T22:05:50.376Z",
+  "count": 679,
   "data": {
     "USER_BULK_RELATIONSHIPS": "/users/@me/relationships/bulk",
     "USER_BADGE_SETTINGS": "/users/@me/badges/settings",
@@ -426,6 +426,7 @@
     "GLOBAL_DISCOVERY": "/discovery",
     "QUEST_HOME_DEPRECATED": "/discovery/quests",
     "QUEST_HOME": "/quest-home",
+    "CONJURE": "/conjure",
     "GLOBAL_DISCOVERY_SERVERS": "/discovery/servers",
     "GLOBAL_DISCOVERY_APPS": "/discovery/applications",
     "GLOBAL_DISCOVERY_APPS_SEARCH": "/discovery/applications/search",

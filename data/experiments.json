@@ -1,7 +1,7 @@
 {
-  "runId": "2026-10-27T17-57-33-866Z_652652_5p52md",
-  "buildNumber": "652652",
-  "scrapedAt": "2026-10-27T17:57:33.866Z",
+  "runId": "2026-10-27T22-05-50-376Z_653109_7rrmu4",
+  "buildNumber": "653109",
+  "scrapedAt": "2026-10-27T22:05:50.376Z",
   "totals": {
     "all": 383,
     "legacy": 0,
@@ -3884,26 +3884,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-07-powerups-coachmark-scroll-close",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2026-07-premium-group-expansion-announcement",
       "type": "user",
       "kind": "user",
@@ -4537,17 +4517,6 @@
         }
       },
       "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2026-08-profile-read-state-v1",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": null,
-      "variations": null,
-      "variationCount": 0,
       "source": "discord"
     },
     {
@@ -7015,6 +6984,17 @@
       "source": "discord"
     },
     {
+      "id": "2026-10-profile-read-state",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": null,
+      "variations": null,
+      "variationCount": 0,
+      "source": "discord"
+    },
+    {
       "id": "2026-10-purchase-history",
       "type": "user",
       "kind": "user",
@@ -7125,6 +7105,36 @@
         }
       },
       "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-sfp-bloons-orb-split-tender",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "discountPercent": null,
+        "offerSkuId": null
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1,
+          "percentage": 10
+        },
+        "2": {
+          "id": 2,
+          "percentage": 15
+        },
+        "3": {
+          "id": 3,
+          "percentage": 20
+        }
+      },
+      "variationCount": 4,
       "source": "discord"
     },
     {

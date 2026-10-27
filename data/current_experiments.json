@@ -1,7 +1,7 @@
 {
-  "runId": "2026-10-27T17-57-33-866Z_652652_5p52md",
-  "buildNumber": "652652",
-  "updatedAt": "2026-10-27T17:57:33.866Z",
+  "runId": "2026-10-27T22-05-50-376Z_653109_7rrmu4",
+  "buildNumber": "653109",
+  "updatedAt": "2026-10-27T22:05:50.376Z",
   "count": 383,
   "experiments": [
     {
@@ -6149,37 +6149,6 @@
       "fingerprint": "0321c03a3b15587ac162e90e800f16bbe995f65677e70226675a5ed359056e10"
     },
     {
-      "id": "2026-07-powerups-coachmark-scroll-close",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "9daa7fb247d93c5d7a314db733cd1338f058b49ab8c6d1da472d55305288a5af"
-    },
-    {
       "id": "2026-07-premium-group-expansion-announcement",
       "kind": "user",
       "type": "user",
@@ -7166,28 +7135,6 @@
         "value": null
       },
       "fingerprint": "229a1c8c5ef7280a25207071e4d425b45f60c8be857c68977a90691c75e6b535"
-    },
-    {
-      "id": "2026-08-profile-read-state-v1",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": null,
-      "variations": null,
-      "treatments": null,
-      "variationCount": 0,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "06f2a9c185c68f4e85df6197547b5eaf8257df3654d0ec3a5b58d99b4192d71c"
     },
     {
       "id": "2026-08-rive-web-perf",
@@ -11051,6 +10998,28 @@
       "fingerprint": "e7e9854c3a6d70a46fb8610b7d19d67af3672215d0b4c8192723c8519577d4b8"
     },
     {
+      "id": "2026-10-profile-read-state",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": null,
+      "variations": null,
+      "treatments": null,
+      "variationCount": 0,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "a5dc7c12d7d4bca42b02afb773e33e4652a9ace5e19e47a7181ec9a4799db478"
+    },
+    {
       "id": "2026-10-purchase-history",
       "kind": "user",
       "type": "user",
@@ -11228,6 +11197,47 @@
         "value": null
       },
       "fingerprint": "cbd890b50110a65cd5d717602ba98efdcdc7450e748cd84d1f7f764b9d0ca2af"
+    },
+    {
+      "id": "2026-10-sfp-bloons-orb-split-tender",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "discountPercent": null,
+        "offerSkuId": null
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1,
+          "percentage": 10
+        },
+        "2": {
+          "id": 2,
+          "percentage": 15
+        },
+        "3": {
+          "id": 3,
+          "percentage": 20
+        }
+      },
+      "treatments": null,
+      "variationCount": 4,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "5833a15f3bdbbfb4aa86a1530be1f208f65473e3401898cfaa49854b9f4f1833"
     },
     {
       "id": "2026-10-shop-marketing-fatigue",

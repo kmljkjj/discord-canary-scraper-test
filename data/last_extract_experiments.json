@@ -1,7 +1,7 @@
 {
-  "runId": "2026-10-27T17-57-33-866Z_652652_5p52md",
-  "buildNumber": "652652",
-  "updatedAt": "2026-10-27T17:57:33.866Z",
+  "runId": "2026-10-27T22-05-50-376Z_653109_7rrmu4",
+  "buildNumber": "653109",
+  "updatedAt": "2026-10-27T22:05:50.376Z",
   "count": 383,
   "data": {
     "2021-02_staff_qc_debugging": {
@@ -3047,22 +3047,6 @@
       },
       "fp": "a80296903cc2e06ce785d5ee"
     },
-    "2026-07-powerups-coachmark-scroll-close": {
-      "id": "2026-07-powerups-coachmark-scroll-close",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 2,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "4eb58677fe4d82185914eef5"
-    },
     "2026-07-premium-group-expansion-announcement": {
       "id": "2026-07-premium-group-expansion-announcement",
       "type": "user",
@@ -3577,15 +3561,6 @@
         }
       },
       "fp": "f168eaf07e491e0688f2b8f8"
-    },
-    "2026-08-profile-read-state-v1": {
-      "id": "2026-08-profile-read-state-v1",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 0,
-      "variations": null,
-      "fp": "a352318c557a1ae211733b52"
     },
     "2026-08-rive-web-perf": {
       "id": "2026-08-rive-web-perf",
@@ -5555,6 +5530,15 @@
       "variations": null,
       "fp": "a352318c557a1ae211733b52"
     },
+    "2026-10-profile-read-state": {
+      "id": "2026-10-profile-read-state",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 0,
+      "variations": null,
+      "fp": "a352318c557a1ae211733b52"
+    },
     "2026-10-purchase-history": {
       "id": "2026-10-purchase-history",
       "type": "user",
@@ -5641,6 +5625,31 @@
         }
       },
       "fp": "f44d6f0eb6e4563019d5aa79"
+    },
+    "2026-10-sfp-bloons-orb-split-tender": {
+      "id": "2026-10-sfp-bloons-orb-split-tender",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 4,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1,
+          "percentage": 10
+        },
+        "2": {
+          "id": 2,
+          "percentage": 15
+        },
+        "3": {
+          "id": 3,
+          "percentage": 20
+        }
+      },
+      "fp": "c26808079f51b18037dbec80"
     },
     "2026-10-shop-marketing-fatigue": {
       "id": "2026-10-shop-marketing-fatigue",

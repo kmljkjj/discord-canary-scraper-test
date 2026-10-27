@@ -3052,22 +3052,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-07-powerups-coachmark-scroll-close",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-07-premium-group-expansion-announcement",
     "defaultConfig": null,
     "variations": {
@@ -3572,13 +3556,6 @@
         "id": 1
       }
     },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-08-profile-read-state-v1",
-    "defaultConfig": null,
-    "variations": null,
     "label": null
   },
   {
@@ -5539,6 +5516,13 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-profile-read-state",
+    "defaultConfig": null,
+    "variations": null,
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-purchase-history",
     "defaultConfig": {
       "enabled": false
@@ -5622,6 +5606,32 @@
       },
       "2": {
         "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-sfp-bloons-orb-split-tender",
+    "defaultConfig": {
+      "discountPercent": null,
+      "offerSkuId": null
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1,
+        "percentage": 10
+      },
+      "2": {
+        "id": 2,
+        "percentage": 15
+      },
+      "3": {
+        "id": 3,
+        "percentage": 20
       }
     },
     "label": null
