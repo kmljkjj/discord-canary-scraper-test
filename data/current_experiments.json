@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-27T12-05-42-621Z_652219_phr47v",
-  "buildNumber": "652219",
-  "updatedAt": "2026-10-27T12:05:42.621Z",
-  "count": 379,
+  "runId": "2026-10-27T17-57-33-866Z_652652_5p52md",
+  "buildNumber": "652652",
+  "updatedAt": "2026-10-27T17:57:33.866Z",
+  "count": 383,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -6938,37 +6938,6 @@
       "fingerprint": "c94cca6defb377a3ece2036f7bc2c332abd6482f44230d1fa824ea546a6a96fb"
     },
     {
-      "id": "2026-08-hide-gift-shop-upsell",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "isHidden": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "4233f957c577b3bb505c6df4bd9068ffa3f9bb0e7f200b30f86cfce9bfd9344d"
-    },
-    {
       "id": "2026-08-ios-objc-composed-image-cache",
       "kind": "user",
       "type": "user",
@@ -8995,6 +8964,34 @@
       "fingerprint": "9d07ae215d6a8467ced8cedf384a6a1d129de7b44fbff6a8cde4d0d28710f1c8"
     },
     {
+      "id": "2026-09-registration-email-opt-in-copy",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "trackingCopy": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "8e139cab627ec1b0ce298d190e611a4eee615de7108102a468bdb83121538335"
+    },
+    {
       "id": "2026-09-request-to-stream-go-live-modal",
       "kind": "user",
       "type": "user",
@@ -9393,38 +9390,6 @@
       "fingerprint": "657c9a9a554798f4cc86131857e5b89bb8599e3a81188f60e4d2c850f1a7e87d"
     },
     {
-      "id": "2026-09-soundboard-favorites",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "sortOrder": "creation-date",
-        "allowReordering": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "212c31b8823e65c8db548130c20d7dbbd8d99f12614a37eb01e7f3e3b6059b55"
-    },
-    {
       "id": "2026-09-soundboard-quick-action",
       "kind": "user",
       "type": "user",
@@ -9545,6 +9510,34 @@
         "value": null
       },
       "fingerprint": "902db01da59a39a63cc891a8c3d5c9f046fe22478236c125afa9c85e7fcda714"
+    },
+    {
+      "id": "2026-09-update-email-settings-copy-subtext",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "c7d3567c1702ce2a2eb878b84da44855817a5d095101ba7aa7157fb426972250"
     },
     {
       "id": "2026-09-video-background-profile-fetch",
@@ -10849,6 +10842,37 @@
       "fingerprint": "18393cee2dd16904cb44fd48b404a04e99ec4969802717ed431f8a2689c9d0a9"
     },
     {
+      "id": "2026-10-native-markdown-setting",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "1e37b9c4ced490e0a20aff12ccc3417087bbb2488811ab17b5a811cff30b7fc0"
+    },
+    {
       "id": "2026-10-nitro-tab-remove-account-age-restriction",
       "kind": "user",
       "type": "user",
@@ -10910,6 +10934,99 @@
         "value": null
       },
       "fingerprint": "4503897b212dce9e4c1de05ad92eae5dbfbcd3536644390821940c4d4bab726c"
+    },
+    {
+      "id": "2026-10-pinot-admin",
+      "kind": "guild",
+      "type": "guild",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "cf4d43e2e92c8c2881cbdd9bacda8ed2064710080b018756f9b7895304e0107d"
+    },
+    {
+      "id": "2026-10-pinot-member",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "b2671a47e27a291c86458c7d574921b7b65cb9da59b549974358f5539d06219f"
+    },
+    {
+      "id": "2026-10-pinot-member-notice",
+      "kind": "guild",
+      "type": "guild",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "fb843e36bbaff8bcde096e4779f41a079e8e26d9f5b6734ad4e677dc3943dc21"
     },
     {
       "id": "2026-10-profile-default-tab-with-content",

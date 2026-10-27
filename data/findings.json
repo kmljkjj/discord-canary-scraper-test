@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-27T12-05-42-621Z_652219_phr47v",
-  "buildNumber": "652219",
-  "scrapedAt": "2026-10-27T12:05:42.621Z",
+  "runId": "2026-10-27T17-57-33-866Z_652652_5p52md",
+  "buildNumber": "652652",
+  "scrapedAt": "2026-10-27T17:57:33.866Z",
   "totals": {
-    "all": 379
+    "all": 383
   },
   "experiments": [
     {
@@ -4396,26 +4396,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-08-hide-gift-shop-upsell",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "isHidden": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2026-08-ios-objc-composed-image-cache",
       "type": "user",
       "kind": "user",
@@ -5694,6 +5674,23 @@
       "source": "discord"
     },
     {
+      "id": "2026-09-registration-email-opt-in-copy",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "trackingCopy": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
       "id": "2026-09-request-to-stream-go-live-modal",
       "type": "user",
       "kind": "user",
@@ -5960,27 +5957,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-09-soundboard-favorites",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "sortOrder": "creation-date",
-        "allowReordering": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2026-09-soundboard-quick-action",
       "type": "user",
       "kind": "user",
@@ -6056,6 +6032,23 @@
         }
       },
       "variationCount": 3,
+      "source": "discord"
+    },
+    {
+      "id": "2026-09-update-email-settings-copy-subtext",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
       "source": "discord"
     },
     {
@@ -6888,6 +6881,26 @@
       "source": "discord"
     },
     {
+      "id": "2026-10-native-markdown-setting",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
       "id": "2026-10-nitro-tab-remove-account-age-restriction",
       "type": "user",
       "kind": "user",
@@ -6923,6 +6936,66 @@
         },
         "2": {
           "id": 2
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-pinot-admin",
+      "type": "guild",
+      "kind": "guild",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-pinot-member",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-pinot-member-notice",
+      "type": "guild",
+      "kind": "guild",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
         }
       },
       "variationCount": 2,
