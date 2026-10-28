@@ -32054,7 +32054,6 @@
   "4hoFk3": "Must have watched at least metadataHook",
   "puprVb": "Must have watched at least countone$b",
   "kAfbEN": "Published",
-  "+VqXVO": "Anyone you share with can use this app once published.",
   "esTM8y": "Shared with",
   "d8lNBq": "A service we rely on is busy right now.",
   "yreXyD": "A service we rely on failed.",
@@ -32166,5 +32165,7 @@
   "FYI3qr": "Pin",
   "gKe6Lw": "Pinned to channelName",
   "+kpQ3v": "Skipped. You can pin it later from a voice channel\\'s settings.",
-  "UGAfl9": "Pin to a voice channel?"
+  "UGAfl9": "Pin to a voice channel?",
+  "Hy0OLY": "What do you want to conjure?",
+  "Lyx6pW": "Who is this for? name"
 }
