@@ -2511,19 +2511,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-06-mobile-server-tag",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-06-nitro-gdm-cap-increase",
     "defaultConfig": {
       "enabled": false
@@ -3673,19 +3660,6 @@
   {
     "kind": "user",
     "name": "2026-08-virtual-backgrounds-ios",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-08-voice-server-update-immediate",
     "defaultConfig": {
       "enabled": false
     },
@@ -4936,6 +4910,19 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-camp-in-dm",
+    "defaultConfig": {
+      "disableIdleDisconnect": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-clickable-hero-banner",
     "defaultConfig": {
       "enabled": false
@@ -5245,16 +5232,27 @@
   },
   {
     "kind": "user",
-    "name": "2026-10-express-checkout",
+    "name": "2026-10-embedded-app-storage-access",
     "defaultConfig": {
       "enabled": false
     },
     "variations": {
       "1": {
         "id": 1
-      },
-      "2": {
-        "id": 2
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-express-checkout",
+    "defaultConfig": {
+      "enabled": false,
+      "variation": 0
+    },
+    "variations": {
+      "1": {
+        "id": 1
       }
     },
     "label": null

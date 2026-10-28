@@ -1,7 +1,7 @@
 {
-  "runId": "2026-10-27T22-05-50-376Z_653109_7rrmu4",
-  "buildNumber": "653109",
-  "updatedAt": "2026-10-27T22:05:50.376Z",
+  "runId": "2026-10-28T01-18-19-297Z_653665_pqikt2",
+  "buildNumber": "653665",
+  "updatedAt": "2026-10-28T01:18:19.297Z",
   "count": 383,
   "experiments": [
     {
@@ -5066,34 +5066,6 @@
       "fingerprint": "167d779da4286259f060705d683a86c7d225e3194933544f65887dc517dbfe8b"
     },
     {
-      "id": "2026-06-mobile-server-tag",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "0d14fb6dc1f07bc1b3b7da52b1a98a0143f2dccabda05b763797dbcb78d9f2da"
-    },
-    {
       "id": "2026-06-nitro-gdm-cap-increase",
       "kind": "user",
       "type": "user",
@@ -7395,34 +7367,6 @@
         "value": null
       },
       "fingerprint": "0ef2c282fa1b7f9709f5462e7d1548892954d6c70e72ba2a44f60ef40aad9aab"
-    },
-    {
-      "id": "2026-08-voice-server-update-immediate",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "74eda8b1bfd89a80fb6839e7e454d6c01c1830eb7f7e26aa6835ea488412aee8"
     },
     {
       "id": "2026-08-vq-remaining-time-truncation",
@@ -9863,6 +9807,34 @@
       "fingerprint": "025618bc7522bdd6f871d67c210d0675a3afe4e1e0d01a6f1950232c1f094333"
     },
     {
+      "id": "2026-10-camp-in-dm",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "disableIdleDisconnect": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "96284496cb4b100aa895ba1b9e7d137647260bc13b357cf61e258b49ea603e24"
+    },
+    {
       "id": "2026-10-clickable-hero-banner",
       "kind": "user",
       "type": "user",
@@ -10457,7 +10429,7 @@
       "fingerprint": "ea224c233b2d291c8f21856902be5af8f65e40389910cf63c8b9f05cbcdf1813"
     },
     {
-      "id": "2026-10-express-checkout",
+      "id": "2026-10-embedded-app-storage-access",
       "kind": "user",
       "type": "user",
       "system": "apex",
@@ -10470,13 +10442,10 @@
       "variations": {
         "1": {
           "id": 1
-        },
-        "2": {
-          "id": 2
         }
       },
       "treatments": null,
-      "variationCount": 2,
+      "variationCount": 1,
       "guildPercentage": {
         "status": "unknown",
         "value": null
@@ -10485,7 +10454,36 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "7f42b6f8b249c7397b7a14b361d516240d2be52a2c2da459af0a942f5b511061"
+      "fingerprint": "31514f5e06d22a6b9db4ae7d1868d93fb58a7cbccde83494b8fc8737935a9253"
+    },
+    {
+      "id": "2026-10-express-checkout",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false,
+        "variation": 0
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "ba91ee6bd50be2ba33dd6c596afd451631e56be779f12b11244bf70dd163adb6"
     },
     {
       "id": "2026-10-fix-soundboard-muting-iconography",
