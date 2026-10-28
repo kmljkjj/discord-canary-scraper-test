@@ -1336,19 +1336,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-03-friend-request-message",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-03-icymi-desktop",
     "defaultConfig": {
       "icymiDesktopEnabled": false
@@ -5517,19 +5504,6 @@
     "name": "2026-10-profile-read-state",
     "defaultConfig": null,
     "variations": null,
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-10-purchase-history",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
     "label": null
   },
   {

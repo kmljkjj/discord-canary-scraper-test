@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-28T13-55-31-306Z_654142_un0fvr",
-  "buildNumber": "654142",
-  "updatedAt": "2026-10-28T13:55:31.306Z",
-  "count": 679,
+  "runId": "2026-10-28T19-24-10-737Z_654449_lt1i7e",
+  "buildNumber": "654449",
+  "updatedAt": "2026-10-28T19:24:10.737Z",
+  "count": 678,
   "data": {
     "USER_BULK_RELATIONSHIPS": "/users/@me/relationships/bulk",
     "USER_BADGE_SETTINGS": "/users/@me/badges/settings",
@@ -181,7 +181,6 @@
     "BILLING_ADYEN_PAYMENT_METHODS": "/users/@me/billing/adyen/payment-methods",
     "BILLING_PAYMENT_SOURCES": "/users/@me/billing/payment-sources",
     "BILLING_PAYMENT_SOURCES_VALIDATE_BILLING_ADDRESS": "/users/@me/billing/payment-sources/validate-billing-address",
-    "BILLING_PAYMENTS": "/billing/payments",
     "BILLING_HISTORY": "/users/@me/billing/history",
     "BILLING_INVOICE_PDF": "/users/@me/billing/invoice",
     "BILLING_INVOICE_BREAKDOWN": "/users/@me/billing/invoice/breakdown",

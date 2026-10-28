@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-28T13-55-31-306Z_654142_un0fvr",
-  "buildNumber": "654142",
-  "scrapedAt": "2026-10-28T13:55:31.306Z",
+  "runId": "2026-10-28T19-24-10-737Z_654449_lt1i7e",
+  "buildNumber": "654449",
+  "scrapedAt": "2026-10-28T19:24:10.737Z",
   "totals": {
-    "all": 383
+    "all": 381
   },
   "experiments": [
     {
@@ -1699,23 +1699,6 @@
         }
       },
       "variationCount": 3,
-      "source": "discord"
-    },
-    {
-      "id": "2026-03-friend-request-message",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
       "source": "discord"
     },
     {
@@ -6988,23 +6971,6 @@
       "defaultConfig": null,
       "variations": null,
       "variationCount": 0,
-      "source": "discord"
-    },
-    {
-      "id": "2026-10-purchase-history",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
       "source": "discord"
     },
     {

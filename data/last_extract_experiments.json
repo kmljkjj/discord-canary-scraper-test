@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-28T13-55-31-306Z_654142_un0fvr",
-  "buildNumber": "654142",
-  "updatedAt": "2026-10-28T13:55:31.306Z",
-  "count": 383,
+  "runId": "2026-10-28T19-24-10-737Z_654449_lt1i7e",
+  "buildNumber": "654449",
+  "updatedAt": "2026-10-28T19:24:10.737Z",
+  "count": 381,
   "data": {
     "2021-02_staff_qc_debugging": {
       "id": "2021-02_staff_qc_debugging",
@@ -1337,19 +1337,6 @@
         }
       },
       "fp": "a80296903cc2e06ce785d5ee"
-    },
-    "2026-03-friend-request-message": {
-      "id": "2026-03-friend-request-message",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 1,
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "f168eaf07e491e0688f2b8f8"
     },
     "2026-03-icymi-desktop": {
       "id": "2026-03-icymi-desktop",
@@ -5535,19 +5522,6 @@
       "variationCount": 0,
       "variations": null,
       "fp": "a352318c557a1ae211733b52"
-    },
-    "2026-10-purchase-history": {
-      "id": "2026-10-purchase-history",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 1,
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "f168eaf07e491e0688f2b8f8"
     },
     "2026-10-referral-refresh-notification": {
       "id": "2026-10-referral-refresh-notification",

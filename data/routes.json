@@ -169,7 +169,6 @@
   "BILLING_ADYEN_PAYMENT_METHODS": "/users/@me/billing/adyen/payment-methods",
   "BILLING_PAYMENT_SOURCES": "/users/@me/billing/payment-sources",
   "BILLING_PAYMENT_SOURCES_VALIDATE_BILLING_ADDRESS": "/users/@me/billing/payment-sources/validate-billing-address",
-  "BILLING_PAYMENTS": "/billing/payments",
   "BILLING_INVOICE_PDF": "/users/@me/billing/invoice",
   "BILLING_INVOICE_BREAKDOWN": "/users/@me/billing/invoice/breakdown",
   "BILLING_PAYPAL_BILLING_AGREEMENT_TOKENS": "/users/@me/billing/paypal/billing-agreement-tokens",
