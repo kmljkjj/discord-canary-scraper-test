@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-28T19:35:22.441Z",
-  "count": 32,
+  "scrapedAt": "2026-10-28T23:32:12.919Z",
+  "count": 34,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -491,7 +491,9 @@
     "1562169044583448737",
     "1561852480378249308",
     "1557974434269364336",
-    "1549143645842841640"
+    "1549143645842841640",
+    "1564651257845780511",
+    "1552869482471358576"
   ],
   "quests": [
     {
@@ -748,6 +750,22 @@
       "expiresAt": "2026-11-03T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1549143645842841640/1555282580264190002.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1549143645842841640/1549144005206351953.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1564651257845780511",
+      "name": "99 Nights in the Forest",
+      "expiresAt": "2026-11-07T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1564651257845780511/1564653233157177385_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1564651257845780511/1564653179495514183.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552869482471358576",
+      "name": "World of Warcraft: Forever Video",
+      "expiresAt": "2026-11-04T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552869482471358576/1564405001558950059_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1552869482471358576/1555025732714111087.jpg",
       "rewardCount": 1
     }
   ]
