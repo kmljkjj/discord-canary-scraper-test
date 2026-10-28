@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-27T18:07:42.370Z",
+  "scrapedAt": "2026-10-28T01:27:49.875Z",
   "count": 32,
   "ids": [
     "1509675158363963444",
@@ -490,7 +490,8 @@
     "1562174323802898584",
     "1562169044583448737",
     "1561852480378249308",
-    "1557974434269364336"
+    "1557974434269364336",
+    "1549143645842841640"
   ],
   "quests": [
     {
@@ -587,14 +588,6 @@
       "expiresAt": "2026-11-09T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1555669093204500591/1560045513359884439_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1555669093204500591/1560045804025286737.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1560389333956034571",
-      "name": "Play Nekome Demo",
-      "expiresAt": "2026-10-28T00:00:00+00:00",
-      "videoUrl": null,
-      "heroImage": "https://cdn.discordapp.com/quests/1560389333956034571/1561822710416408616.jpg",
       "rewardCount": 1
     },
     {
@@ -747,6 +740,14 @@
       "expiresAt": "2026-11-09T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1557974434269364336/1563269971155484782_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1557974434269364336/1563239403139371089.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1549143645842841640",
+      "name": "VALORANT HUSH",
+      "expiresAt": "2026-11-03T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1549143645842841640/1555282580264190002.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1549143645842841640/1549144005206351953.jpg",
       "rewardCount": 1
     }
   ]
