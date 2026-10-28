@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-28T19-24-10-737Z_654449_lt1i7e",
-  "buildNumber": "654449",
-  "updatedAt": "2026-10-28T19:24:10.737Z",
-  "count": 102,
+  "runId": "2026-10-28T23-24-20-095Z_654809_cr9lii",
+  "buildNumber": "654809",
+  "updatedAt": "2026-10-28T23:24:20.095Z",
+  "count": 103,
   "experiments": [
     {
       "id": "2026-02-mute-tutorial",
@@ -717,6 +717,13 @@
       "label": null,
       "removedAt": "2026-10-28T19:24:10.750Z",
       "lastBuild": "654449"
+    },
+    {
+      "id": "2026-09-server-onboarding-setup-progress",
+      "kind": "user",
+      "label": null,
+      "removedAt": "2026-10-28T23:24:20.105Z",
+      "lastBuild": "654809"
     }
   ]
 }

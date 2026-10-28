@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-28T19-24-10-737Z_654449_lt1i7e",
-  "buildNumber": "654449",
-  "updatedAt": "2026-10-28T19:24:10.737Z",
-  "count": 381,
+  "runId": "2026-10-28T23-24-20-095Z_654809_cr9lii",
+  "buildNumber": "654809",
+  "updatedAt": "2026-10-28T23:24:20.095Z",
+  "count": 380,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -8993,38 +8993,6 @@
         "value": null
       },
       "fingerprint": "0512cf01b46368bf7c4a7eea8e2ceba65c18b4ce0f4effe864cb3fac32ccf8c3"
-    },
-    {
-      "id": "2026-09-server-onboarding-setup-progress",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "showSetupProgressRow": false,
-        "boostBeforeAddApp": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "9d0e7b9d0be65120ea132ee658c1d65c9544b6ab751ce2bdd9b1de88afe489e7"
     },
     {
       "id": "2026-09-server-tooltip-notification-context",

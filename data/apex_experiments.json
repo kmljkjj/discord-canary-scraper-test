@@ -4503,23 +4503,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-09-server-onboarding-setup-progress",
-    "defaultConfig": {
-      "showSetupProgressRow": false,
-      "boostBeforeAddApp": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-09-server-tooltip-notification-context",
     "defaultConfig": {
       "mode": "disabled"
