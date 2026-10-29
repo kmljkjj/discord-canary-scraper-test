@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-28T23-24-20-095Z_654809_cr9lii",
-  "buildNumber": "654809",
-  "updatedAt": "2026-10-28T23:24:20.095Z",
-  "count": 380,
+  "runId": "2026-10-29T02-39-56-678Z_655171_5a5g5a",
+  "buildNumber": "655171",
+  "updatedAt": "2026-10-29T02:39:56.678Z",
+  "count": 383,
   "data": {
     "2021-02_staff_qc_debugging": {
       "id": "2021-02_staff_qc_debugging",
@@ -2481,22 +2481,6 @@
       },
       "fp": "f168eaf07e491e0688f2b8f8"
     },
-    "2026-06-improved-shop-loading": {
-      "id": "2026-06-improved-shop-loading",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 2,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "4eb58677fe4d82185914eef5"
-    },
     "2026-06-nitro-gdm-cap-increase": {
       "id": "2026-06-nitro-gdm-cap-increase",
       "type": "user",
@@ -4838,6 +4822,22 @@
       "variations": null,
       "fp": "a352318c557a1ae211733b52"
     },
+    "2026-10-animated-shop-bundle-previews": {
+      "id": "2026-10-animated-shop-bundle-previews",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "4eb58677fe4d82185914eef5"
+    },
     "2026-10-avx512-entropy-histogram": {
       "id": "2026-10-avx512-entropy-histogram",
       "type": "user",
@@ -5409,6 +5409,22 @@
       },
       "fp": "4eb58677fe4d82185914eef5"
     },
+    "2026-10-nitro-home-badge-directory": {
+      "id": "2026-10-nitro-home-badge-directory",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "4eb58677fe4d82185914eef5"
+    },
     "2026-10-nitro-tab-remove-account-age-restriction": {
       "id": "2026-10-nitro-tab-remove-account-age-restriction",
       "type": "user",
@@ -5618,6 +5634,38 @@
         }
       },
       "fp": "f168eaf07e491e0688f2b8f8"
+    },
+    "2026-10-shop-sku-nitro-upsell-refresh": {
+      "id": "2026-10-shop-sku-nitro-upsell-refresh",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "4eb58677fe4d82185914eef5"
+    },
+    "2026-10-slayer-storefront-single-sku-wide-header": {
+      "id": "2026-10-slayer-storefront-single-sku-wide-header",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "4eb58677fe4d82185914eef5"
     },
     "2026-10-soundboard-mute-indicator": {
       "id": "2026-10-soundboard-mute-indicator",

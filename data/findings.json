@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-28T23-24-20-095Z_654809_cr9lii",
-  "buildNumber": "654809",
-  "scrapedAt": "2026-10-28T23:24:20.095Z",
+  "runId": "2026-10-29T02-39-56-678Z_655171_5a5g5a",
+  "buildNumber": "655171",
+  "scrapedAt": "2026-10-29T02:39:56.678Z",
   "totals": {
-    "all": 380
+    "all": 383
   },
   "experiments": [
     {
@@ -3160,26 +3160,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-06-improved-shop-loading",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2026-06-nitro-gdm-cap-increase",
       "type": "user",
       "kind": "user",
@@ -6104,6 +6084,26 @@
       "source": "discord"
     },
     {
+      "id": "2026-10-animated-shop-bundle-previews",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
       "id": "2026-10-avx512-entropy-histogram",
       "type": "user",
       "kind": "user",
@@ -6830,6 +6830,26 @@
       "source": "discord"
     },
     {
+      "id": "2026-10-nitro-home-badge-directory",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
       "id": "2026-10-nitro-tab-remove-account-age-restriction",
       "type": "user",
       "kind": "user",
@@ -7093,6 +7113,46 @@
         }
       },
       "variationCount": 1,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-shop-sku-nitro-upsell-refresh",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-slayer-storefront-single-sku-wide-header",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
       "source": "discord"
     },
     {

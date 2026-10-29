@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-28T23-24-20-095Z_654809_cr9lii",
-  "buildNumber": "654809",
-  "updatedAt": "2026-10-28T23:24:20.095Z",
-  "count": 380,
+  "runId": "2026-10-29T02-39-56-678Z_655171_5a5g5a",
+  "buildNumber": "655171",
+  "updatedAt": "2026-10-29T02:39:56.678Z",
+  "count": 383,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -5007,37 +5007,6 @@
       "fingerprint": "550bf6b58051cf7cdae3e0ba7c0f8c94adfb02dd2b3048b55d72e8899effe3ad"
     },
     {
-      "id": "2026-06-improved-shop-loading",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "167d779da4286259f060705d683a86c7d225e3194933544f65887dc517dbfe8b"
-    },
-    {
       "id": "2026-06-nitro-gdm-cap-increase",
       "kind": "user",
       "type": "user",
@@ -9625,6 +9594,37 @@
       "fingerprint": "1c74d8717e44607c5b8c998bc9802edd5d1240ff1dad4cb063b42ac5834cc5e4"
     },
     {
+      "id": "2026-10-animated-shop-bundle-previews",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "452e553b9bf8ef8d7ffa7fa0b6b1a3f04e5618487bce524c7bd2a48fc6dd4ec8"
+    },
+    {
       "id": "2026-10-avx512-entropy-histogram",
       "kind": "user",
       "type": "user",
@@ -10758,6 +10758,37 @@
       "fingerprint": "1e37b9c4ced490e0a20aff12ccc3417087bbb2488811ab17b5a811cff30b7fc0"
     },
     {
+      "id": "2026-10-nitro-home-badge-directory",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "aaf642110a5a501773cf839bb858229106f0eed77d3277ecd54eb305955b3cab"
+    },
+    {
       "id": "2026-10-nitro-tab-remove-account-age-restriction",
       "kind": "user",
       "type": "user",
@@ -11176,6 +11207,68 @@
         "value": null
       },
       "fingerprint": "57f1b60a18ae3e49408d5d47e92df175c7224fa0a5a390c12d8410c3dffc5263"
+    },
+    {
+      "id": "2026-10-shop-sku-nitro-upsell-refresh",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "c6803619a968ba196c5dcd36cd4802032c4fc2f70f0c871c2449c8911f10d2b2"
+    },
+    {
+      "id": "2026-10-slayer-storefront-single-sku-wide-header",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "5cd1bf5bd63e21f2b82c3a5cf4fcd10bf13872170ac76ee54710cac610393e33"
     },
     {
       "id": "2026-10-soundboard-mute-indicator",

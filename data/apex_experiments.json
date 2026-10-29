@@ -2482,22 +2482,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-06-improved-shop-loading",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-06-nitro-gdm-cap-increase",
     "defaultConfig": {
       "enabled": false
@@ -4818,6 +4802,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-animated-shop-bundle-previews",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-avx512-entropy-histogram",
     "defaultConfig": {
       "enabled": false
@@ -5396,6 +5396,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-nitro-home-badge-directory",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-nitro-tab-remove-account-age-restriction",
     "defaultConfig": {
       "enabled": false
@@ -5598,6 +5614,38 @@
       "enforceFatigue": false
     },
     "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-shop-sku-nitro-upsell-refresh",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-slayer-storefront-single-sku-wide-header",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
       "1": {
         "id": 1
       }
