@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-28T23:32:12.919Z",
-  "count": 34,
+  "scrapedAt": "2026-10-29T02:49:00.654Z",
+  "count": 33,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -534,14 +534,6 @@
       "expiresAt": "2026-11-01T06:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1547370886645026876/1547372029488009306_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1547370886645026876/1547373049173639258.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1553154139435835392",
-      "name": "Firefox Browser",
-      "expiresAt": "2026-10-29T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1553154139435835392/1557493183628185660_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1553154139435835392/1557503614157725716.jpg",
       "rewardCount": 1
     },
     {
