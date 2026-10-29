@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-29T02:49:00.654Z",
-  "count": 33,
+  "scrapedAt": "2026-10-29T09:03:00.186Z",
+  "count": 32,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -534,14 +534,6 @@
       "expiresAt": "2026-11-01T06:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1547370886645026876/1547372029488009306_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1547370886645026876/1547373049173639258.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1555080843502813245",
-      "name": "Version Update: Si",
-      "expiresAt": "2026-10-29T04:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1555080843502813245/1559503491662356520_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1555080843502813245/1557966706343944203.jpg",
       "rewardCount": 1
     },
     {
