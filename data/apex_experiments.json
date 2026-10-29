@@ -2622,19 +2622,6 @@
     "label": null
   },
   {
-    "kind": "user",
-    "name": "2026-06-systemwide-echo-cancellation-for-people-who-refuse-to-wear-headphones",
-    "defaultConfig": {
-      "echoReferenceMode": "mix"
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
     "kind": "guild",
     "name": "2026-06-topical-navigation-guild",
     "defaultConfig": {
@@ -5027,6 +5014,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-collectibles-upgraded-search",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-conjure-mcp-ui",
     "defaultConfig": {
       "enabled": false
@@ -5234,6 +5237,23 @@
     "variations": {
       "1": {
         "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-fractional-nitro-pricing",
+    "defaultConfig": null,
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
       }
     },
     "label": null

@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-29T02-39-56-678Z_655171_5a5g5a",
-  "buildNumber": "655171",
-  "scrapedAt": "2026-10-29T02:39:56.678Z",
+  "runId": "2026-10-29T08-56-04-454Z_655782_2poxlz",
+  "buildNumber": "655782",
+  "scrapedAt": "2026-10-29T08:56:04.454Z",
   "totals": {
-    "all": 383
+    "all": 384
   },
   "experiments": [
     {
@@ -3333,23 +3333,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-06-systemwide-echo-cancellation-for-people-who-refuse-to-wear-headphones",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "echoReferenceMode": "mix"
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
       "id": "2026-06-topical-navigation-guild",
       "type": "guild",
       "kind": "guild",
@@ -6365,6 +6348,26 @@
       "source": "discord"
     },
     {
+      "id": "2026-10-collectibles-upgraded-search",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
       "id": "2026-10-conjure-mcp-ui",
       "type": "user",
       "kind": "user",
@@ -6631,6 +6634,27 @@
         }
       },
       "variationCount": 1,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-fractional-nitro-pricing",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": null,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "variationCount": 3,
       "source": "discord"
     },
     {
