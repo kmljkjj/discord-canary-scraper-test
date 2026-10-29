@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-29T15-57-46-494Z_656031_17ppzw",
-  "buildNumber": "656031",
-  "scrapedAt": "2026-10-29T15:57:46.494Z",
+  "runId": "2026-10-29T21-00-03-120Z_656718_0czc2x",
+  "buildNumber": "656718",
+  "scrapedAt": "2026-10-29T21:00:03.120Z",
   "totals": {
-    "all": 385,
+    "all": 384,
     "legacy": 0,
-    "apex": 385
+    "apex": 384
   },
   "experiments": [
     {
@@ -793,23 +793,6 @@
         }
       },
       "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2025-12-mana-multistep-community-enabled",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
       "source": "discord"
     },
     {
@@ -3499,13 +3482,13 @@
       "source": "discord"
     },
     {
-      "id": "2026-07-autoclipping-marketing",
+      "id": "2026-07-autoclipping-default-override",
       "type": "user",
       "kind": "user",
       "label": null,
       "system": "apex",
       "defaultConfig": {
-        "enableMarketing": false
+        "enabled": false
       },
       "variations": {
         "1": {

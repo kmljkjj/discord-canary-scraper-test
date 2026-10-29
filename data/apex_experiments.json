@@ -624,19 +624,6 @@
   },
   {
     "kind": "user",
-    "name": "2025-12-mana-multistep-community-enabled",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2025-12-orb-redemption-thru-orders",
     "defaultConfig": {
       "enabled": false
@@ -2751,9 +2738,9 @@
   },
   {
     "kind": "user",
-    "name": "2026-07-autoclipping-marketing",
+    "name": "2026-07-autoclipping-default-override",
     "defaultConfig": {
-      "enableMarketing": false
+      "enabled": false
     },
     "variations": {
       "1": {

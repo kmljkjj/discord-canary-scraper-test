@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-29T15-57-46-494Z_656031_17ppzw",
-  "buildNumber": "656031",
-  "updatedAt": "2026-10-29T15:57:46.494Z",
-  "count": 385,
+  "runId": "2026-10-29T21-00-03-120Z_656718_0czc2x",
+  "buildNumber": "656718",
+  "updatedAt": "2026-10-29T21:00:03.120Z",
+  "count": 384,
   "data": {
     "2021-02_staff_qc_debugging": {
       "id": "2021-02_staff_qc_debugging",
@@ -622,19 +622,6 @@
         }
       },
       "fp": "4eb58677fe4d82185914eef5"
-    },
-    "2025-12-mana-multistep-community-enabled": {
-      "id": "2025-12-mana-multistep-community-enabled",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 1,
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "f168eaf07e491e0688f2b8f8"
     },
     "2025-12-orb-redemption-thru-orders": {
       "id": "2025-12-orb-redemption-thru-orders",
@@ -2747,8 +2734,8 @@
       },
       "fp": "4eb58677fe4d82185914eef5"
     },
-    "2026-07-autoclipping-marketing": {
-      "id": "2026-07-autoclipping-marketing",
+    "2026-07-autoclipping-default-override": {
+      "id": "2026-07-autoclipping-default-override",
       "type": "user",
       "kind": "user",
       "label": null,

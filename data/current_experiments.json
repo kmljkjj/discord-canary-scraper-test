@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-29T15-57-46-494Z_656031_17ppzw",
-  "buildNumber": "656031",
-  "updatedAt": "2026-10-29T15:57:46.494Z",
-  "count": 385,
+  "runId": "2026-10-29T21-00-03-120Z_656718_0czc2x",
+  "buildNumber": "656718",
+  "updatedAt": "2026-10-29T21:00:03.120Z",
+  "count": 384,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -1241,34 +1241,6 @@
         "value": null
       },
       "fingerprint": "0902507f85f45ef6e8fbd0e1371aa24d838c1a0c54eabc5c1aa9f9734d03ea3a"
-    },
-    {
-      "id": "2025-12-mana-multistep-community-enabled",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "e2e615f7671bd79febac193c1bf0f525cff65c46039b4a8cc4b0212d983a6643"
     },
     {
       "id": "2025-12-orb-redemption-thru-orders",
@@ -5533,7 +5505,7 @@
       "fingerprint": "a12f7b58ced0a284301e5f10bc6ff540a6b65f4cff6fa0271e04a24b317a0277"
     },
     {
-      "id": "2026-07-autoclipping-marketing",
+      "id": "2026-07-autoclipping-default-override",
       "kind": "user",
       "type": "user",
       "system": "apex",
@@ -5541,7 +5513,7 @@
       "title": null,
       "description": null,
       "defaultConfig": {
-        "enableMarketing": false
+        "enabled": false
       },
       "variations": {
         "1": {
@@ -5558,7 +5530,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "8592c9c86b29493ca08625376ebf5ee5e02d43c71adbe7f9911f886718d52d5f"
+      "fingerprint": "5e274d09027dd3cdcd0b360bb27355fb41e0a5507a4a063c60a0a3b2cca4b322"
     },
     {
       "id": "2026-07-call-of-duty-3pp-expired",
