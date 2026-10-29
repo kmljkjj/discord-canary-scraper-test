@@ -5686,6 +5686,19 @@
     "label": null
   },
   {
+    "kind": "user",
+    "name": "2026-10-soundboard-new-sounds-badge",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
     "kind": "guild",
     "name": "2026-10-stage-unified-call",
     "defaultConfig": {

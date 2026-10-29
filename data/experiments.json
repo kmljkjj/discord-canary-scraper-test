@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-29T08-56-04-454Z_655782_2poxlz",
-  "buildNumber": "655782",
-  "scrapedAt": "2026-10-29T08:56:04.454Z",
+  "runId": "2026-10-29T15-57-46-494Z_656031_17ppzw",
+  "buildNumber": "656031",
+  "scrapedAt": "2026-10-29T15:57:46.494Z",
   "totals": {
-    "all": 384,
+    "all": 385,
     "legacy": 0,
-    "apex": 384
+    "apex": 385
   },
   "experiments": [
     {
@@ -7183,6 +7183,23 @@
     },
     {
       "id": "2026-10-soundboard-mute-indicator",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 1,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-soundboard-new-sounds-badge",
       "type": "user",
       "kind": "user",
       "label": null,

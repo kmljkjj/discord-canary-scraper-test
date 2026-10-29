@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-29T08-56-04-454Z_655782_2poxlz",
-  "buildNumber": "655782",
-  "updatedAt": "2026-10-29T08:56:04.454Z",
-  "count": 384,
+  "runId": "2026-10-29T15-57-46-494Z_656031_17ppzw",
+  "buildNumber": "656031",
+  "updatedAt": "2026-10-29T15:57:46.494Z",
+  "count": 385,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -11332,6 +11332,34 @@
         "value": null
       },
       "fingerprint": "cb48906c949d4030905bbd55bee69e71393ecb9c2ea46d4baaaa6672559494a8"
+    },
+    {
+      "id": "2026-10-soundboard-new-sounds-badge",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 1,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "204b3714798ac6e44205c860d2561581acc21f3823de89db231ade732c5d909f"
     },
     {
       "id": "2026-10-stage-unified-call",

@@ -6,8 +6,8 @@
   "camera": "cameraphotoselfiesnaptbttripvideo",
   "return": "enter",
   "reduce": "no-preference",
-  "active": "primary",
-  "before": "after",
+  "active": "secondary",
+  "before": "::after",
   "insert": "remove_text",
   "center": "space-between",
   "manual": "auto",
@@ -29304,7 +29304,7 @@
   "hodinu": "hodinou",
   "hodiny": "hodin",
   "zstmkn": "Render Markdown",
-  "strong": "span",
+  "strong": "em",
   "P5sLUo": "Take 20% off your next 6 months, whether you\\'re new to YouTube Premium or already in. $linkTerms apply",
   "VwLXyT": "Unlock Offer",
   "1ADi0d": "Snag a sweet 6-month discount",
@@ -32163,5 +32163,8 @@
   "g6TP7T": "Remix name",
   "8LfMqp": "My projects",
   "MmWif0": "Other projects",
-  "BMn2lY": "Server Projects"
+  "BMn2lY": "Server Projects",
+  "D923q4": "Open Soundboard, new sounds available",
+  "BFc4lY": "BFc4lY",
+  "8hclXY": "8hclXY"
 }
