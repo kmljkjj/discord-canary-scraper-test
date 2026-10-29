@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-29T16:02:21.268Z",
+  "scrapedAt": "2026-10-29T21:03:16.968Z",
   "count": 33,
   "ids": [
     "1509675158363963444",
@@ -494,7 +494,8 @@
     "1549143645842841640",
     "1564651257845780511",
     "1552869482471358576",
-    "1560126630003740672"
+    "1560126630003740672",
+    "1557996162189893723"
   ],
   "quests": [
     {
@@ -567,14 +568,6 @@
       "expiresAt": "2026-11-02T07:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1556747190242779347/1559691764065894512_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1556747190242779347/1560352067707474100.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1555669093204500591",
-      "name": "Save 50% on Topaz Studio",
-      "expiresAt": "2026-11-09T01:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1555669093204500591/1560045513359884439_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1555669093204500591/1560045804025286737.jpg",
       "rewardCount": 1
     },
     {
@@ -759,6 +752,14 @@
       "expiresAt": "2026-12-05T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1560126630003740672/1564466841177559102_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1560126630003740672/1564830147469774918.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1557996162189893723",
+      "name": "Wild Horse Nine",
+      "expiresAt": "2026-11-09T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1557996162189893723/1565144354702758158_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1557996162189893723/1565140375390134323.jpg",
       "rewardCount": 1
     }
   ]
