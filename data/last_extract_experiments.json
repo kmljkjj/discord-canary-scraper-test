@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-30T13-32-06-764Z_657968_z1dsrq",
-  "buildNumber": "657968",
-  "updatedAt": "2026-10-30T13:32:06.764Z",
-  "count": 383,
+  "runId": "2026-10-30T18-49-44-361Z_658483_ri6rg9",
+  "buildNumber": "658483",
+  "updatedAt": "2026-10-30T18:49:44.361Z",
+  "count": 379,
   "data": {
     "2021-02_staff_qc_debugging": {
       "id": "2021-02_staff_qc_debugging",
@@ -1229,22 +1229,6 @@
       },
       "fp": "f168eaf07e491e0688f2b8f8"
     },
-    "2026-03-clips-experiment": {
-      "id": "2026-03-clips-experiment",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 2,
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "fp": "f44d6f0eb6e4563019d5aa79"
-    },
     "2026-03-content-inventory-memberlist-and-ranker": {
       "id": "2026-03-content-inventory-memberlist-and-ranker",
       "type": "user",
@@ -1643,22 +1627,6 @@
       },
       "fp": "045c4a9a0a0ce29900b579a2"
     },
-    "2026-04-clips-v3-runtime": {
-      "id": "2026-04-clips-v3-runtime",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 2,
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "fp": "f44d6f0eb6e4563019d5aa79"
-    },
     "2026-04-composed-quest-player": {
       "id": "2026-04-composed-quest-player",
       "type": "user",
@@ -2005,19 +1973,6 @@
       },
       "fp": "f168eaf07e491e0688f2b8f8"
     },
-    "2026-05-auto-clips-review": {
-      "id": "2026-05-auto-clips-review",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 1,
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "f168eaf07e491e0688f2b8f8"
-    },
     "2026-05-av1-bitrate-tuning": {
       "id": "2026-05-av1-bitrate-tuning",
       "type": "user",
@@ -2331,19 +2286,6 @@
     },
     "2026-06-clickstream-analytics": {
       "id": "2026-06-clickstream-analytics",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 1,
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "f168eaf07e491e0688f2b8f8"
-    },
-    "2026-06-clips-league-events": {
-      "id": "2026-06-clips-league-events",
       "type": "user",
       "kind": "user",
       "label": null,
@@ -2852,19 +2794,6 @@
         }
       },
       "fp": "f44d6f0eb6e4563019d5aa79"
-    },
-    "2026-07-gsimagic": {
-      "id": "2026-07-gsimagic",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 1,
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "f168eaf07e491e0688f2b8f8"
     },
     "2026-07-ios-attribution": {
       "id": "2026-07-ios-attribution",
@@ -3494,19 +3423,6 @@
       },
       "fp": "f168eaf07e491e0688f2b8f8"
     },
-    "2026-08-rocketleague-events": {
-      "id": "2026-08-rocketleague-events",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 1,
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "f168eaf07e491e0688f2b8f8"
-    },
     "2026-08-scheduled-messages": {
       "id": "2026-08-scheduled-messages",
       "type": "user",
@@ -3692,6 +3608,22 @@
         }
       },
       "fp": "5c77e86646335e1936a55a3a"
+    },
+    "2026-09-autoclips": {
+      "id": "2026-09-autoclips",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "fp": "f44d6f0eb6e4563019d5aa79"
     },
     "2026-09-automod-application-rules": {
       "id": "2026-09-automod-application-rules",
@@ -3913,19 +3845,6 @@
     },
     "2026-09-gifting-badge-coachmark-audience": {
       "id": "2026-09-gifting-badge-coachmark-audience",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 1,
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "f168eaf07e491e0688f2b8f8"
-    },
-    "2026-09-gsimagic2": {
-      "id": "2026-09-gsimagic2",
       "type": "user",
       "kind": "user",
       "label": null,
@@ -4192,22 +4111,6 @@
         }
       },
       "fp": "f168eaf07e491e0688f2b8f8"
-    },
-    "2026-09-new-horizontal-scroll-shared": {
-      "id": "2026-09-new-horizontal-scroll-shared",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 2,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "4eb58677fe4d82185914eef5"
     },
     "2026-09-new-orb-reward-visuals": {
       "id": "2026-09-new-orb-reward-visuals",
@@ -4804,19 +4707,16 @@
       "type": "user",
       "kind": "user",
       "label": null,
-      "variationCount": 3,
+      "variationCount": 2,
       "variations": {
         "0": {
           "id": 0
         },
         "1": {
           "id": 1
-        },
-        "2": {
-          "id": 2
         }
       },
-      "fp": "a80296903cc2e06ce785d5ee"
+      "fp": "4eb58677fe4d82185914eef5"
     },
     "2026-10-bounties-desktop-quest-bar": {
       "id": "2026-10-bounties-desktop-quest-bar",
@@ -4830,6 +4730,22 @@
         }
       },
       "fp": "f168eaf07e491e0688f2b8f8"
+    },
+    "2026-10-build-a-bear-qa": {
+      "id": "2026-10-build-a-bear-qa",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "4eb58677fe4d82185914eef5"
     },
     "2026-10-bulk-nitro-gifting-discounts": {
       "id": "2026-10-bulk-nitro-gifting-discounts",
@@ -4990,6 +4906,22 @@
         }
       },
       "fp": "d8f6dc7d902a390baa71ede3"
+    },
+    "2026-10-collectibles-storefront-pricing-integration": {
+      "id": "2026-10-collectibles-storefront-pricing-integration",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "4eb58677fe4d82185914eef5"
     },
     "2026-10-collectibles-upgraded-search": {
       "id": "2026-10-collectibles-upgraded-search",
@@ -5633,6 +5565,22 @@
     },
     "2026-10-shop-sku-nitro-upsell-refresh": {
       "id": "2026-10-shop-sku-nitro-upsell-refresh",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "4eb58677fe4d82185914eef5"
+    },
+    "2026-10-shop-twelve-days-promo": {
+      "id": "2026-10-shop-twelve-days-promo",
       "type": "user",
       "kind": "user",
       "label": null,

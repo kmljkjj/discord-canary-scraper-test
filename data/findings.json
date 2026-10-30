@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-30T13-32-06-764Z_657968_z1dsrq",
-  "buildNumber": "657968",
-  "scrapedAt": "2026-10-30T13:32:06.764Z",
+  "runId": "2026-10-30T18-49-44-361Z_658483_ri6rg9",
+  "buildNumber": "658483",
+  "scrapedAt": "2026-10-30T18:49:44.361Z",
   "totals": {
-    "all": 383
+    "all": 379
   },
   "experiments": [
     {
@@ -1567,27 +1567,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-03-clips-experiment",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enableClips": false,
-        "ignorePlatformRestriction": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2026-03-content-inventory-memberlist-and-ranker",
       "type": "user",
       "kind": "user",
@@ -2090,26 +2069,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-04-clips-v3-runtime",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enableClipsV3ML": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2026-04-composed-quest-player",
       "type": "user",
       "kind": "user",
@@ -2550,23 +2509,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-05-auto-clips-review",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enableAutoClipsReview": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
       "id": "2026-05-av1-bitrate-tuning",
       "type": "user",
       "kind": "user",
@@ -2970,23 +2912,6 @@
       "system": "apex",
       "defaultConfig": {
         "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2026-06-clips-league-events",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enableLeagueEvents": false
       },
       "variations": {
         "1": {
@@ -3628,23 +3553,6 @@
         }
       },
       "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2026-07-gsimagic",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enableCs2Gsi": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
       "source": "discord"
     },
     {
@@ -4430,23 +4338,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-08-rocketleague-events",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enableRocketLeagueEvents": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
       "id": "2026-08-scheduled-messages",
       "type": "user",
       "kind": "user",
@@ -4676,6 +4567,26 @@
         }
       },
       "variationCount": 4,
+      "source": "discord"
+    },
+    {
+      "id": "2026-09-autoclips",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "variationCount": 2,
       "source": "discord"
     },
     {
@@ -4957,23 +4868,6 @@
       "system": "apex",
       "defaultConfig": {
         "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2026-09-gsimagic2",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enableDotaGsi": false
       },
       "variations": {
         "1": {
@@ -5304,26 +5198,6 @@
         }
       },
       "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2026-09-new-horizontal-scroll-shared",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "useNewHScroll": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
       "source": "discord"
     },
     {
@@ -6061,8 +5935,7 @@
       "label": null,
       "system": "apex",
       "defaultConfig": {
-        "enabled": false,
-        "swipeBetweenBadges": false
+        "enabled": false
       },
       "variations": {
         "0": {
@@ -6070,12 +5943,9 @@
         },
         "1": {
           "id": 1
-        },
-        "2": {
-          "id": 2
         }
       },
-      "variationCount": 3,
+      "variationCount": 2,
       "source": "discord"
     },
     {
@@ -6093,6 +5963,26 @@
         }
       },
       "variationCount": 1,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-build-a-bear-qa",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
       "source": "discord"
     },
     {
@@ -6293,6 +6183,26 @@
         }
       },
       "variationCount": 5,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-collectibles-storefront-pricing-integration",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
       "source": "discord"
     },
     {
@@ -7116,6 +7026,24 @@
       "defaultConfig": {
         "enabled": false
       },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-shop-twelve-days-promo",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": null,
       "variations": {
         "0": {
           "id": 0

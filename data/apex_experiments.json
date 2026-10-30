@@ -1229,23 +1229,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-03-clips-experiment",
-    "defaultConfig": {
-      "enableClips": false,
-      "ignorePlatformRestriction": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-03-content-inventory-memberlist-and-ranker",
     "defaultConfig": {
       "enabled": true,
@@ -1640,22 +1623,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-04-clips-v3-runtime",
-    "defaultConfig": {
-      "enableClipsV3ML": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      },
-      "2": {
-        "id": 2
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-04-composed-quest-player",
     "defaultConfig": {
       "enabled": false
@@ -2000,19 +1967,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-05-auto-clips-review",
-    "defaultConfig": {
-      "enableAutoClipsReview": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-05-av1-bitrate-tuning",
     "defaultConfig": {
       "bitrate": 35
@@ -2332,19 +2286,6 @@
     "name": "2026-06-clickstream-analytics",
     "defaultConfig": {
       "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-06-clips-league-events",
-    "defaultConfig": {
-      "enableLeagueEvents": false
     },
     "variations": {
       "1": {
@@ -2851,19 +2792,6 @@
       },
       "2": {
         "id": 2
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-07-gsimagic",
-    "defaultConfig": {
-      "enableCs2Gsi": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
       }
     },
     "label": null
@@ -3492,19 +3420,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-08-rocketleague-events",
-    "defaultConfig": {
-      "enableRocketLeagueEvents": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-08-scheduled-messages",
     "defaultConfig": null,
     "variations": {
@@ -3683,6 +3598,22 @@
       },
       "4": {
         "id": 4
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-09-autoclips",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      },
+      "2": {
+        "id": 2
       }
     },
     "label": null
@@ -3907,19 +3838,6 @@
     "name": "2026-09-gifting-badge-coachmark-audience",
     "defaultConfig": {
       "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-09-gsimagic2",
-    "defaultConfig": {
-      "enableDotaGsi": false
     },
     "variations": {
       "1": {
@@ -4177,22 +4095,6 @@
       "preload": "auto"
     },
     "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-09-new-horizontal-scroll-shared",
-    "defaultConfig": {
-      "useNewHScroll": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
       "1": {
         "id": 1
       }
@@ -4783,8 +4685,7 @@
     "kind": "user",
     "name": "2026-10-badge-directory-updates",
     "defaultConfig": {
-      "enabled": false,
-      "swipeBetweenBadges": false
+      "enabled": false
     },
     "variations": {
       "0": {
@@ -4792,9 +4693,6 @@
       },
       "1": {
         "id": 1
-      },
-      "2": {
-        "id": 2
       }
     },
     "label": null
@@ -4806,6 +4704,22 @@
       "enabled": false
     },
     "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-build-a-bear-qa",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
       "1": {
         "id": 1
       }
@@ -4968,6 +4882,22 @@
       },
       "4": {
         "id": 4
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-collectibles-storefront-pricing-integration",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
       }
     },
     "label": null
@@ -5622,6 +5552,20 @@
     "defaultConfig": {
       "enabled": false
     },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-shop-twelve-days-promo",
+    "defaultConfig": null,
     "variations": {
       "0": {
         "id": 0

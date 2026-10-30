@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-30T13-32-06-764Z_657968_z1dsrq",
-  "buildNumber": "657968",
-  "updatedAt": "2026-10-30T13:32:06.764Z",
-  "count": 383,
+  "runId": "2026-10-30T18-49-44-361Z_658483_ri6rg9",
+  "buildNumber": "658483",
+  "updatedAt": "2026-10-30T18:49:44.361Z",
+  "count": 379,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -2478,38 +2478,6 @@
       "fingerprint": "9bfd3725cd44adcd4eda4d6e3ef4e65035875ce0ef31c3426b5b803e1ea922aa"
     },
     {
-      "id": "2026-03-clips-experiment",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enableClips": false,
-        "ignorePlatformRestriction": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "1aab45639e5fc2ecf9a991a48ca23532b413b003f28ff45b9956e2b378fd2ec0"
-    },
-    {
       "id": "2026-03-content-inventory-memberlist-and-ranker",
       "kind": "user",
       "type": "user",
@@ -3309,37 +3277,6 @@
       "fingerprint": "945fa8bc2ca25746beb651216279617d26fd100aec8d95961d4ce3cf741cc7f0"
     },
     {
-      "id": "2026-04-clips-v3-runtime",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enableClipsV3ML": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        },
-        "2": {
-          "id": 2
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "dbbf54b4125cfd4546ae2fb077437979bf4fcf985552fe688cd82c69d77de7c3"
-    },
-    {
       "id": "2026-04-composed-quest-player",
       "kind": "user",
       "type": "user",
@@ -4045,34 +3982,6 @@
       "fingerprint": "921ea14caca900a5ae35cb50e14fbf83ebc0c4220516d8d1858fe46b110bd846"
     },
     {
-      "id": "2026-05-auto-clips-review",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enableAutoClipsReview": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "ea8d7b9538965e8db73ff54cca57f84f122b1f1409c66d9cde1371581a8271a6"
-    },
-    {
       "id": "2026-05-av1-bitrate-tuning",
       "kind": "user",
       "type": "user",
@@ -4715,34 +4624,6 @@
         "value": null
       },
       "fingerprint": "3b20c81069d6233cc7a31ea72bdea285778183f9e31eebad17c527aff464570c"
-    },
-    {
-      "id": "2026-06-clips-league-events",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enableLeagueEvents": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "ce71c286dd70c1c40e4f9a0041ee77de3092135737c98d2decec9e920a274eb7"
     },
     {
       "id": "2026-06-clips-secondary-entrypoints",
@@ -5742,34 +5623,6 @@
         "value": null
       },
       "fingerprint": "74299528d5d76a80cd2da60ce483ecd33a7908486172f6de1a1b8e4a632094a6"
-    },
-    {
-      "id": "2026-07-gsimagic",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enableCs2Gsi": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "6a1f8cc8e33f8a36b9d031f22cfce49e82259035e9ca7766a15c3f71db1b6a98"
     },
     {
       "id": "2026-07-ios-attribution",
@@ -6994,34 +6847,6 @@
       "fingerprint": "6130c8ec191fd600d3b84c0627ae004e9a1939a68dcd6f40b78764fa18bf5745"
     },
     {
-      "id": "2026-08-rocketleague-events",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enableRocketLeagueEvents": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "e764eea8f2410929e822cf6268f7643890fa6dd9c37a6c6edfe9c30d384ac022"
-    },
-    {
       "id": "2026-08-scheduled-messages",
       "kind": "user",
       "type": "user",
@@ -7384,6 +7209,37 @@
         "value": null
       },
       "fingerprint": "349d822cf34cd9f41a5accab2046d1d574cbeefeb0f32b673ea9bf1cd1334d5e"
+    },
+    {
+      "id": "2026-09-autoclips",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "1": {
+          "id": 1
+        },
+        "2": {
+          "id": 2
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "f1790a3d5b67cc3d29c62f0c38c6b2393a73cc807e4d20c64efa8ea049961ca1"
     },
     {
       "id": "2026-09-automod-application-rules",
@@ -7837,34 +7693,6 @@
         "value": null
       },
       "fingerprint": "21d95d39a1fcb703de325fa7a5bbe855109b4613a0298d011a5480a11d95194c"
-    },
-    {
-      "id": "2026-09-gsimagic2",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enableDotaGsi": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "7d93c9b66cddc095062a72e1b6b0fc874c4260c321f6639ebb95d5dad38b0c06"
     },
     {
       "id": "2026-09-guild-sidebar-stream-preview",
@@ -8375,37 +8203,6 @@
         "value": null
       },
       "fingerprint": "6603c525d59713ef5a60c98aa58a1de3a2668cca77457399c042b6aa1af1f770"
-    },
-    {
-      "id": "2026-09-new-horizontal-scroll-shared",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "useNewHScroll": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "3155b47abf2b3211e817804d3da3a92a9454d34bd0088ca019a0d1a5e6b69b8b"
     },
     {
       "id": "2026-09-new-orb-reward-visuals",
@@ -9551,8 +9348,7 @@
       "title": null,
       "description": null,
       "defaultConfig": {
-        "enabled": false,
-        "swipeBetweenBadges": false
+        "enabled": false
       },
       "variations": {
         "0": {
@@ -9560,13 +9356,10 @@
         },
         "1": {
           "id": 1
-        },
-        "2": {
-          "id": 2
         }
       },
       "treatments": null,
-      "variationCount": 3,
+      "variationCount": 2,
       "guildPercentage": {
         "status": "unknown",
         "value": null
@@ -9575,7 +9368,7 @@
         "status": "unknown",
         "value": null
       },
-      "fingerprint": "1a0c1e9bbc5f02049748ce9e19d782d1a5f0b5b85df0b1da2544a6b664ca2747"
+      "fingerprint": "5dfeea91f4ad9284d054d9fe3317cea9f089ec9f07bd00b2e1f5a0702533dcff"
     },
     {
       "id": "2026-10-bounties-desktop-quest-bar",
@@ -9604,6 +9397,37 @@
         "value": null
       },
       "fingerprint": "b9722cb7336bee7040ee15936ed2a13a6faf77b52aeca76e1fc6f29e5e48f299"
+    },
+    {
+      "id": "2026-10-build-a-bear-qa",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "fd859b298bcfe84d0d02e8d6f17342569c7883381ab3f5050feb891bddecd9cb"
     },
     {
       "id": "2026-10-bulk-nitro-gifting-discounts",
@@ -9914,6 +9738,37 @@
         "value": null
       },
       "fingerprint": "16a5732e60ae8db8b6b053477af69482e57d62d4324d6982ebcfb381ad4e79f9"
+    },
+    {
+      "id": "2026-10-collectibles-storefront-pricing-integration",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "a132e671ec769bff1c0098dc735f2baeb0913da871b7e467cc1f00da2edebd70"
     },
     {
       "id": "2026-10-collectibles-upgraded-search",
@@ -11219,6 +11074,35 @@
         "value": null
       },
       "fingerprint": "c6803619a968ba196c5dcd36cd4802032c4fc2f70f0c871c2449c8911f10d2b2"
+    },
+    {
+      "id": "2026-10-shop-twelve-days-promo",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": null,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "4dd14b571a44f563689092c7f9b64fba992cedfb442169ffe39cd1dc688c9447"
     },
     {
       "id": "2026-10-slayer-storefront-single-sku-wide-header",
