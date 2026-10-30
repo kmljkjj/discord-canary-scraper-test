@@ -1,9 +1,9 @@
 {
-  "runId": "2026-10-29T21-00-03-120Z_656718_0czc2x",
-  "buildNumber": "656718",
-  "scrapedAt": "2026-10-29T21:00:03.120Z",
+  "runId": "2026-10-30T00-49-33-413Z_657444_nf41u4",
+  "buildNumber": "657444",
+  "scrapedAt": "2026-10-30T00:49:33.414Z",
   "totals": {
-    "all": 384
+    "all": 383
   },
   "experiments": [
     {
@@ -3109,23 +3109,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-06-gummy-bears",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
       "id": "2026-06-hero-shelf-ad-tile",
       "type": "user",
       "kind": "user",
@@ -5520,24 +5503,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-09-referral-trial-cta",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": null,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
       "id": "2026-09-registration-email-opt-in-copy",
       "type": "user",
       "kind": "user",
@@ -6966,6 +6931,26 @@
       "defaultConfig": null,
       "variations": null,
       "variationCount": 0,
+      "source": "discord"
+    },
+    {
+      "id": "2026-10-profile-nitro-upsell-refresh",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
       "source": "discord"
     },
     {

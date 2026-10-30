@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-29T21-00-03-120Z_656718_0czc2x",
-  "buildNumber": "656718",
-  "updatedAt": "2026-10-29T21:00:03.120Z",
-  "count": 384,
+  "runId": "2026-10-30T00-49-33-413Z_657444_nf41u4",
+  "buildNumber": "657444",
+  "updatedAt": "2026-10-30T00:49:33.414Z",
+  "count": 383,
   "data": {
     "2021-02_staff_qc_debugging": {
       "id": "2021-02_staff_qc_debugging",
@@ -2442,19 +2442,6 @@
       },
       "fp": "f168eaf07e491e0688f2b8f8"
     },
-    "2026-06-gummy-bears": {
-      "id": "2026-06-gummy-bears",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 1,
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "f168eaf07e491e0688f2b8f8"
-    },
     "2026-06-hero-shelf-ad-tile": {
       "id": "2026-06-hero-shelf-ad-tile",
       "type": "user",
@@ -4363,22 +4350,6 @@
       },
       "fp": "4eb58677fe4d82185914eef5"
     },
-    "2026-09-referral-trial-cta": {
-      "id": "2026-09-referral-trial-cta",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "variationCount": 2,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "fp": "4eb58677fe4d82185914eef5"
-    },
     "2026-09-registration-email-opt-in-copy": {
       "id": "2026-09-registration-email-opt-in-copy",
       "type": "user",
@@ -5522,6 +5493,22 @@
       "variationCount": 0,
       "variations": null,
       "fp": "a352318c557a1ae211733b52"
+    },
+    "2026-10-profile-nitro-upsell-refresh": {
+      "id": "2026-10-profile-nitro-upsell-refresh",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "4eb58677fe4d82185914eef5"
     },
     "2026-10-profile-read-state": {
       "id": "2026-10-profile-read-state",

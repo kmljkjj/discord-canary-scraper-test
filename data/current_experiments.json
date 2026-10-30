@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-29T21-00-03-120Z_656718_0czc2x",
-  "buildNumber": "656718",
-  "updatedAt": "2026-10-29T21:00:03.120Z",
-  "count": 384,
+  "runId": "2026-10-30T00-49-33-413Z_657444_nf41u4",
+  "buildNumber": "657444",
+  "updatedAt": "2026-10-30T00:49:33.414Z",
+  "count": 383,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -4923,34 +4923,6 @@
       "fingerprint": "e8db162571223da157b51ead0d00c255b5e2fd6a6ec5a6fa316637e4224f3229"
     },
     {
-      "id": "2026-06-gummy-bears",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "d1d3298190d009e2658b7b2e7a79a24962a2bc53fca7760f372806a0682740c5"
-    },
-    {
       "id": "2026-06-hero-shelf-ad-tile",
       "kind": "user",
       "type": "user",
@@ -8711,35 +8683,6 @@
       "fingerprint": "61fdc04ebe1b35c6fc6f8aeea1ee050e27687f2fc5d3b6a4a9e051463af4cc96"
     },
     {
-      "id": "2026-09-referral-trial-cta",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": null,
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "9d07ae215d6a8467ced8cedf384a6a1d129de7b44fbff6a8cde4d0d28710f1c8"
-    },
-    {
       "id": "2026-09-registration-email-opt-in-copy",
       "kind": "user",
       "type": "user",
@@ -10972,6 +10915,37 @@
         "value": null
       },
       "fingerprint": "e7e9854c3a6d70a46fb8610b7d19d67af3672215d0b4c8192723c8519577d4b8"
+    },
+    {
+      "id": "2026-10-profile-nitro-upsell-refresh",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "3580e29485a35d9e3918db45c73b9413da4e4764b064ec002acc79117b79fc56"
     },
     {
       "id": "2026-10-profile-read-state",

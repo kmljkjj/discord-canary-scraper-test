@@ -2443,19 +2443,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-06-gummy-bears",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-06-hero-shelf-ad-tile",
     "defaultConfig": {
       "enabled": false
@@ -4354,20 +4341,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-09-referral-trial-cta",
-    "defaultConfig": null,
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-09-registration-email-opt-in-copy",
     "defaultConfig": {
       "trackingCopy": false
@@ -5503,6 +5476,22 @@
     "name": "2026-10-profile-default-tab-with-content",
     "defaultConfig": null,
     "variations": null,
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-profile-nitro-upsell-refresh",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
     "label": null
   },
   {
