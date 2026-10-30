@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-30T00:53:48.119Z",
-  "count": 32,
+  "scrapedAt": "2026-10-30T06:51:50.735Z",
+  "count": 34,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -495,7 +495,9 @@
     "1564651257845780511",
     "1552869482471358576",
     "1560126630003740672",
-    "1557996162189893723"
+    "1557996162189893723",
+    "1557935197906010122",
+    "1507498167833460806"
   ],
   "quests": [
     {
@@ -752,6 +754,22 @@
       "expiresAt": "2026-11-09T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1557996162189893723/1565144354702758158_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1557996162189893723/1565140375390134323.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1557935197906010122",
+      "name": "Rust Zombie Wumpus",
+      "expiresAt": "2026-11-06T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1557935197906010122/1562976769286340710_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1557935197906010122/1562976463391690774.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1507498167833460806",
+      "name": "The Rings of Power",
+      "expiresAt": "2026-11-16T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1507498167833460806/1564812916442533918_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1507498167833460806/1564443308267143210.jpg",
       "rewardCount": 1
     }
   ]
