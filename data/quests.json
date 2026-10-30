@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-29T21:03:16.968Z",
-  "count": 33,
+  "scrapedAt": "2026-10-30T00:53:48.119Z",
+  "count": 32,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -568,14 +568,6 @@
       "expiresAt": "2026-11-02T07:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1556747190242779347/1559691764065894512_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1556747190242779347/1560352067707474100.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552735480024531076",
-      "name": "Magic: The Gathering | Star Trek",
-      "expiresAt": "2026-10-30T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552735480024531076/1561796312687575161_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1552735480024531076/1560073085888241714.jpg",
       "rewardCount": 1
     },
     {
