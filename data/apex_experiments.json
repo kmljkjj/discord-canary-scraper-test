@@ -3999,6 +3999,19 @@
     "label": null
   },
   {
+    "kind": "guild",
+    "name": "2026-09-linked-guilds",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
     "kind": "user",
     "name": "2026-09-linux-gpu-decode",
     "defaultConfig": {
@@ -4767,6 +4780,19 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-clips-default-on-geo",
+    "defaultConfig": {
+      "allowDefaultOn": false
+    },
+    "variations": {
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-cod-relink",
     "defaultConfig": {
       "enabled": false
@@ -5150,6 +5176,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-game-discovery",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-game-exit-promo-rust",
     "defaultConfig": {
       "enabled": false
@@ -5322,6 +5364,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-nitro-settings-marketing-page-refresh",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-nitro-tab-remove-account-age-restriction",
     "defaultConfig": {
       "enabled": false
@@ -5330,6 +5388,19 @@
       "0": {
         "id": 0
       },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-orbchievements-mobile",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
       "1": {
         "id": 1
       }
@@ -5356,6 +5427,22 @@
   {
     "kind": "guild",
     "name": "2026-10-pinot-admin",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "guild",
+    "name": "2026-10-pinot-channel-discoverable",
     "defaultConfig": {
       "enabled": false
     },
@@ -5729,6 +5816,22 @@
       },
       "6": {
         "id": 6
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-11-nitro-upload-badge",
+    "defaultConfig": {
+      "showNitroUploadBadge": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
       }
     },
     "label": null

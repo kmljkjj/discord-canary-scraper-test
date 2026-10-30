@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-30T18-49-44-361Z_658483_ri6rg9",
-  "buildNumber": "658483",
-  "updatedAt": "2026-10-30T18:49:44.361Z",
-  "count": 379,
+  "runId": "2026-10-30T22-42-22-744Z_659166_r3issu",
+  "buildNumber": "659166",
+  "updatedAt": "2026-10-30T22:42:22.744Z",
+  "count": 386,
   "data": {
     "2021-02_staff_qc_debugging": {
       "id": "2021-02_staff_qc_debugging",
@@ -4009,6 +4009,19 @@
       },
       "fp": "f168eaf07e491e0688f2b8f8"
     },
+    "2026-09-linked-guilds": {
+      "id": "2026-09-linked-guilds",
+      "type": "guild",
+      "kind": "guild",
+      "label": null,
+      "variationCount": 1,
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "21e8485f60217160d4c2e2f4"
+    },
     "2026-09-linux-gpu-decode": {
       "id": "2026-09-linux-gpu-decode",
       "type": "user",
@@ -4786,6 +4799,19 @@
       },
       "fp": "f168eaf07e491e0688f2b8f8"
     },
+    "2026-10-clips-default-on-geo": {
+      "id": "2026-10-clips-default-on-geo",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 1,
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "f168eaf07e491e0688f2b8f8"
+    },
     "2026-10-cod-relink": {
       "id": "2026-10-cod-relink",
       "type": "user",
@@ -5164,6 +5190,22 @@
       },
       "fp": "a80296903cc2e06ce785d5ee"
     },
+    "2026-10-game-discovery": {
+      "id": "2026-10-game-discovery",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "4eb58677fe4d82185914eef5"
+    },
     "2026-10-game-exit-promo-rust": {
       "id": "2026-10-game-exit-promo-rust",
       "type": "user",
@@ -5337,6 +5379,22 @@
       },
       "fp": "4eb58677fe4d82185914eef5"
     },
+    "2026-10-nitro-settings-marketing-page-refresh": {
+      "id": "2026-10-nitro-settings-marketing-page-refresh",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "4eb58677fe4d82185914eef5"
+    },
     "2026-10-nitro-tab-remove-account-age-restriction": {
       "id": "2026-10-nitro-tab-remove-account-age-restriction",
       "type": "user",
@@ -5352,6 +5410,19 @@
         }
       },
       "fp": "4eb58677fe4d82185914eef5"
+    },
+    "2026-10-orbchievements-mobile": {
+      "id": "2026-10-orbchievements-mobile",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 1,
+      "variations": {
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "f168eaf07e491e0688f2b8f8"
     },
     "2026-10-overlay-native-window-rendering": {
       "id": "2026-10-overlay-native-window-rendering",
@@ -5371,6 +5442,22 @@
     },
     "2026-10-pinot-admin": {
       "id": "2026-10-pinot-admin",
+      "type": "guild",
+      "kind": "guild",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "74fc9d0ff39d614ade8bdadc"
+    },
+    "2026-10-pinot-channel-discoverable": {
+      "id": "2026-10-pinot-channel-discoverable",
       "type": "guild",
       "kind": "guild",
       "label": null,
@@ -5753,6 +5840,22 @@
         }
       },
       "fp": "14abe73c4e316a56058731fd"
+    },
+    "2026-11-nitro-upload-badge": {
+      "id": "2026-11-nitro-upload-badge",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "variationCount": 2,
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "fp": "4eb58677fe4d82185914eef5"
     }
   }
 }

@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-30T18-49-44-361Z_658483_ri6rg9",
-  "buildNumber": "658483",
-  "updatedAt": "2026-10-30T18:49:44.361Z",
-  "count": 572,
+  "runId": "2026-10-30T22-42-22-744Z_659166_r3issu",
+  "buildNumber": "659166",
+  "updatedAt": "2026-10-30T22:42:22.744Z",
+  "count": 579,
   "ids": [
     "2021-02_staff_qc_debugging",
     "2021-10_runtime_accessibility_system",
@@ -451,6 +451,7 @@
     "2026-09-ios-callkit-connected-on-rtc",
     "2026-09-jxr-upload-conversion",
     "2026-09-linked-game-org-invites-dev",
+    "2026-09-linked-guilds",
     "2026-09-linux-gpu-decode",
     "2026-09-manual-review-inconclusive-copy",
     "2026-09-markdown-file-preview",
@@ -509,6 +510,7 @@
     "2026-10-bulk-nitro-gifting-discounts",
     "2026-10-camp-in-dm",
     "2026-10-clickable-hero-banner",
+    "2026-10-clips-default-on-geo",
     "2026-10-cod-relink",
     "2026-10-code-blurple",
     "2026-10-code-blurple-marketing-holdout",
@@ -534,6 +536,7 @@
     "2026-10-express-checkout",
     "2026-10-fix-soundboard-muting-iconography",
     "2026-10-fractional-nitro-pricing",
+    "2026-10-game-discovery",
     "2026-10-game-exit-promo-rust",
     "2026-10-game-profile-mobile-reviews",
     "2026-10-gdm-duration-timer",
@@ -546,9 +549,12 @@
     "2026-10-mana-badge-refresh",
     "2026-10-native-markdown-setting",
     "2026-10-nitro-home-badge-directory",
+    "2026-10-nitro-settings-marketing-page-refresh",
     "2026-10-nitro-tab-remove-account-age-restriction",
+    "2026-10-orbchievements-mobile",
     "2026-10-overlay-native-window-rendering",
     "2026-10-pinot-admin",
+    "2026-10-pinot-channel-discoverable",
     "2026-10-pinot-member",
     "2026-10-pinot-member-notice",
     "2026-10-profile-default-tab-with-content",
@@ -575,6 +581,7 @@
     "2026-10-video-player-playback-speed",
     "2026-10-wasm-precompressed-brotli",
     "2026-10-web-screen-share-audio",
-    "2026-10-web-streaming-optimizations"
+    "2026-10-web-streaming-optimizations",
+    "2026-11-nitro-upload-badge"
   ]
 }
