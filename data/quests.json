@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-31T08:18:32.325Z",
-  "count": 34,
+  "scrapedAt": "2026-10-31T14:37:15.809Z",
+  "count": 39,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -497,7 +497,11 @@
     "1560126630003740672",
     "1557996162189893723",
     "1557935197906010122",
-    "1507498167833460806"
+    "1507498167833460806",
+    "1565598409891651604",
+    "1562305244216430702",
+    "1565590271301779568",
+    "1565032458741612545"
   ],
   "quests": [
     {
@@ -541,6 +545,14 @@
       "rewardCount": 1
     },
     {
+      "id": "1555158122522349568",
+      "name": "Melon Sandbox",
+      "expiresAt": "2026-11-04T06:15:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1555158122522349568/1555508071843889232_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1555158122522349568/1565391486550544455.jpg",
+      "rewardCount": 1
+    },
+    {
       "id": "1552202240339611688",
       "name": "The Co-op Survival RPG You Can't Miss",
       "expiresAt": "2026-11-01T00:00:00+00:00",
@@ -568,7 +580,7 @@
       "id": "1556747190242779347",
       "name": "The Mosquito Bowl",
       "expiresAt": "2026-11-02T07:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1556747190242779347/1559691764065894512_1080.mp4",
+      "videoUrl": "https://cdn.discordapp.com/quests/1556747190242779347/1565100076303515811_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1556747190242779347/1560352067707474100.jpg",
       "rewardCount": 1
     },
@@ -576,8 +588,8 @@
       "id": "1554696065704529930",
       "name": "Once Human Free Expansion",
       "expiresAt": "2026-11-08T01:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1554696065704529930/1561577087075229696_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1554696065704529930/1561581743771754556.jpg",
+      "videoUrl": "https://cdn.discordapp.com/quests/1554696065704529930/1565737717067812884_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1554696065704529930/1565737636289585295.jpg",
       "rewardCount": 1
     },
     {
@@ -770,6 +782,38 @@
       "expiresAt": "2026-11-16T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1507498167833460806/1564812916442533918_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1507498167833460806/1564443308267143210.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1565598409891651604",
+      "name": "ENDFIELD IS NOW ON STEAM",
+      "expiresAt": "2026-11-12T04:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1565598409891651604/1565602089965588540_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1565598409891651604/1565729880216440983.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1562305244216430702",
+      "name": "Godzilla Minus Zero",
+      "expiresAt": "2026-11-09T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1562305244216430702/1562305877845876807_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1562305244216430702/1562305876713545728.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1565590271301779568",
+      "name": "ENDFIELD IS NOW ON STEAM",
+      "expiresAt": "2026-11-12T04:00:00+00:00",
+      "videoUrl": null,
+      "heroImage": "https://cdn.discordapp.com/quests/1565590271301779568/1565596757994377256.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1565032458741612545",
+      "name": "EA SPORTS FC™ 27",
+      "expiresAt": "2026-11-06T07:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1565032458741612545/1565734164550918225_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1565032458741612545/1565734112290021407.jpg",
       "rewardCount": 1
     }
   ]
