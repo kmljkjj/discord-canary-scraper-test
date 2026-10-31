@@ -1,8 +1,8 @@
 {
-  "runId": "2026-10-30T22-42-22-744Z_659166_r3issu",
-  "buildNumber": "659166",
-  "updatedAt": "2026-10-30T22:42:22.744Z",
-  "count": 386,
+  "runId": "2026-10-31T01-52-28-322Z_659508_khjetx",
+  "buildNumber": "659508",
+  "updatedAt": "2026-10-31T01:52:28.322Z",
+  "count": 387,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -8674,6 +8674,37 @@
         "value": null
       },
       "fingerprint": "0512cf01b46368bf7c4a7eea8e2ceba65c18b4ce0f4effe864cb3fac32ccf8c3"
+    },
+    {
+      "id": "2026-09-safety-warning-age-text",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "cd6b5f551c46d0e431c32308fa4036b2b444fe64d4fdecef53c51644efe6f64c"
     },
     {
       "id": "2026-09-server-tooltip-notification-context",
