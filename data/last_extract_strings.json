@@ -1,7 +1,7 @@
 {
-  "runId": "2026-10-31T18-42-12-307Z_659728_eqkiem",
-  "buildNumber": "659728",
-  "updatedAt": "2026-10-31T18:42:12.307Z",
+  "runId": "2026-10-31T21-54-15-857Z_659760_ieqtiv",
+  "buildNumber": "659760",
+  "updatedAt": "2026-10-31T21:54:15.857Z",
   "count": 28628,
   "data": {
     "bottom": "top",
@@ -28585,7 +28585,6 @@
     "enable": "disable",
     "reload": "starting",
     "burst-": "normal-",
-    "preset": "custom",
     "Active": "Inactive",
     "stream": "filter",
     "server": "failed",
@@ -28629,6 +28628,7 @@
     "status": "none",
     "minuta": "minutę",
     "minuty": "minut",
+    "preset": "custom",
     "minutu": "minutou",
     "hodinu": "hodinou",
     "hodiny": "hodin"
