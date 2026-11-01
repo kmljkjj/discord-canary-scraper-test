@@ -28866,7 +28866,7 @@
   "meters": "Unknown",
   "denied": "idle",
   "Images": "NoImages",
-  "mobile": "tablet",
+  "mobile": "desktop",
   "minuta": "minutę",
   "minuty": "minut",
   "Aacute": "\\xc1",
@@ -30345,7 +30345,6 @@
   "9m86fn": "Couldn’t start that one. Try again.",
   "lh+h/p": "You’ve hit the max number of projects.",
   "zBENJU": "Did you cast Haste? Wait a moment, then try again.",
-  "JQpNkh": "Projects are private until you publish them",
   "SKsrzl": "A natural conversation bot",
   "ab1sMf": "Describe the thing you want to exist…",
   "9w+Chc": "A calendar to plan raid days",
@@ -30808,8 +30807,6 @@
   "Rs3qc9": "Model",
   "W0eQfN": "Project",
   "I2XSKe": "Settings",
-  "wFi8+o": "Your shared projects",
-  "dQ3U1J": "Projects shared with you in this server",
   "mD4GBH": "Let anyone who can see this app make a copy of it.",
   "gchQFO": "Allow Remixing",
   "gY3L8p": "Answering on the side",
@@ -30939,7 +30936,6 @@
   "PSdo+w": "I couldn’t restore that version. Try again in a moment.",
   "qqlUiW": "Restoring your previous version…",
   "M4KI5F": "Loading…",
-  "dWgSAa": "Projects",
   "WAvmdq": "A profile widget",
   "DoNdjA": "Landscape",
   "tunI2l": "Portrait",
@@ -32240,5 +32236,8 @@
   "cAExE8": "Server Project",
   "r8rVq1": "Made to be used in a server and can be shared with others.",
   "15Y/Yz": "Personal Project",
-  "IZMyda": "Available only to you."
+  "IZMyda": "Available only to you.",
+  "/I2lbz": "No projects in this server yet",
+  "2XiyUP": "guildName",
+  "vnoMFE": "See all projects (count"
 }
