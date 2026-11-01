@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-31T21:56:39.067Z",
-  "count": 40,
+  "scrapedAt": "2026-11-01T00:56:36.702Z",
+  "count": 37,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -522,14 +522,6 @@
       "rewardCount": 2
     },
     {
-      "id": "1542927566568956095",
-      "name": "Kit Kat Halloween",
-      "expiresAt": "2026-11-01T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1542927566568956095/1542953391867822100_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1542927566568956095/1555274010663592128.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1554258925073993850",
       "name": "FanDuel Everywhere",
       "expiresAt": "2026-11-01T06:59:00+00:00",
@@ -551,14 +543,6 @@
       "expiresAt": "2026-11-04T06:15:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1555158122522349568/1555508071843889232_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1555158122522349568/1565391486550544455.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552202240339611688",
-      "name": "The Co-op Survival RPG You Can't Miss",
-      "expiresAt": "2026-11-01T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552202240339611688/1556703387146391664_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1552202240339611688/1554165076234080368.jpg",
       "rewardCount": 1
     },
     {
@@ -607,14 +591,6 @@
       "expiresAt": "2026-11-05T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1552381063475499109/1562119313962573855_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1552381063475499109/1560450190991826955.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1560042382072742050",
-      "name": "Resident Evil Season Is Here",
-      "expiresAt": "2026-11-01T00:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1560042382072742050/1560060155129761802_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1560042382072742050/1560046697827012758.jpg",
       "rewardCount": 1
     },
     {
