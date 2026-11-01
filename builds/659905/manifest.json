@@ -1,14 +1,14 @@
 {
-  "buildNumber": "659166",
-  "versionHash": "8ea92de972067a0d987eabdda727930ed5a8d091",
+  "buildNumber": "659905",
+  "versionHash": "704db725d445b7f76bb9b3e3ce2a3398a1d993c7",
   "releaseChannel": "canary",
-  "scrapedAt": "2026-10-30T22:42:06.642Z",
-  "archivedAt": "2026-10-30T22:42:21.578Z",
-  "fileCount": 6025,
-  "totalBytes": 169016642,
+  "scrapedAt": "2026-11-01T18:53:47.020Z",
+  "archivedAt": "2026-11-01T18:53:59.429Z",
+  "fileCount": 6023,
+  "totalBytes": 169020940,
   "totalMB": 161.19,
   "web": [
-    "web.f84db08c602fe35b.js"
+    "web.80255c7dffeb63a3.js"
   ],
   "files": [
     {
@@ -285,13 +285,6 @@
       "archived": true
     },
     {
-      "name": "01f718aad7fc9a38.js",
-      "size": 105691,
-      "url": "https://canary.discord.com/assets/01f718aad7fc9a38.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "022794ee5fcf9ab1.js",
       "size": 9055,
       "url": "https://canary.discord.com/assets/022794ee5fcf9ab1.js",
@@ -306,23 +299,9 @@
       "archived": true
     },
     {
-      "name": "022dab99b97ed581.js",
-      "size": 3043,
-      "url": "https://canary.discord.com/assets/022dab99b97ed581.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "0230cd4b62441287.js",
       "size": 11496,
       "url": "https://canary.discord.com/assets/0230cd4b62441287.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "0238c499a1841777.js",
-      "size": 227,
-      "url": "https://canary.discord.com/assets/0238c499a1841777.js",
       "kind": "chunk",
       "archived": true
     },
@@ -575,6 +554,13 @@
       "name": "04123ef798345f0a.js",
       "size": 448,
       "url": "https://canary.discord.com/assets/04123ef798345f0a.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "04290a988fa1efd8.js",
+      "size": 6501,
+      "url": "https://canary.discord.com/assets/04290a988fa1efd8.js",
       "kind": "chunk",
       "archived": true
     },
@@ -1069,6 +1055,13 @@
       "archived": true
     },
     {
+      "name": "076ae0188e5cebfb.js",
+      "size": 4995,
+      "url": "https://canary.discord.com/assets/076ae0188e5cebfb.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "076f61875fd27ddc.js",
       "size": 2347,
       "url": "https://canary.discord.com/assets/076f61875fd27ddc.js",
@@ -1384,16 +1377,16 @@
       "archived": true
     },
     {
-      "name": "09bbda13affc9fb2.js",
-      "size": 450434,
-      "url": "https://canary.discord.com/assets/09bbda13affc9fb2.js",
+      "name": "09c6fbaa90b6a389.js",
+      "size": 148,
+      "url": "https://canary.discord.com/assets/09c6fbaa90b6a389.js",
       "kind": "chunk",
       "archived": true
     },
     {
-      "name": "09c6fbaa90b6a389.js",
-      "size": 148,
-      "url": "https://canary.discord.com/assets/09c6fbaa90b6a389.js",
+      "name": "09e94716d19ae69d.js",
+      "size": 1436749,
+      "url": "https://canary.discord.com/assets/09e94716d19ae69d.js",
       "kind": "chunk",
       "archived": true
     },
@@ -1709,13 +1702,6 @@
       "name": "0c90aa31ea438c40.js",
       "size": 600,
       "url": "https://canary.discord.com/assets/0c90aa31ea438c40.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "0c94886695847b86.js",
-      "size": 16883,
-      "url": "https://canary.discord.com/assets/0c94886695847b86.js",
       "kind": "chunk",
       "archived": true
     },
@@ -2126,6 +2112,13 @@
       "archived": true
     },
     {
+      "name": "0f1db9701159887d.js",
+      "size": 54350,
+      "url": "https://canary.discord.com/assets/0f1db9701159887d.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "0f297314d69fb479.js",
       "size": 142,
       "url": "https://canary.discord.com/assets/0f297314d69fb479.js",
@@ -2164,13 +2157,6 @@
       "name": "0fa36e16760c003d.js",
       "size": 4491,
       "url": "https://canary.discord.com/assets/0fa36e16760c003d.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "0fa9a3126e7c9791.js",
-      "size": 2157,
-      "url": "https://canary.discord.com/assets/0fa9a3126e7c9791.js",
       "kind": "chunk",
       "archived": true
     },
@@ -3344,13 +3330,6 @@
       "archived": true
     },
     {
-      "name": "15b9c8e5f2bf2a22.js",
-      "size": 92670,
-      "url": "https://canary.discord.com/assets/15b9c8e5f2bf2a22.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "15c28a4a894bd770.js",
       "size": 596,
       "url": "https://canary.discord.com/assets/15c28a4a894bd770.js",
@@ -3540,6 +3519,13 @@
       "archived": true
     },
     {
+      "name": "16a0ec459eb10f1e.js",
+      "size": 105691,
+      "url": "https://canary.discord.com/assets/16a0ec459eb10f1e.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "16a57b54127311ff.js",
       "size": 294,
       "url": "https://canary.discord.com/assets/16a57b54127311ff.js",
@@ -3599,13 +3585,6 @@
       "name": "16ddf6addcd1627e.js",
       "size": 4895,
       "url": "https://canary.discord.com/assets/16ddf6addcd1627e.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "16de03171a7fbf22.js",
-      "size": 13689,
-      "url": "https://canary.discord.com/assets/16de03171a7fbf22.js",
       "kind": "chunk",
       "archived": true
     },
@@ -4149,6 +4128,13 @@
       "archived": true
     },
     {
+      "name": "1a67dbb31957115e.js",
+      "size": 59660,
+      "url": "https://canary.discord.com/assets/1a67dbb31957115e.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "1a749cf8e2625999.js",
       "size": 5421,
       "url": "https://canary.discord.com/assets/1a749cf8e2625999.js",
@@ -4632,13 +4618,6 @@
       "archived": true
     },
     {
-      "name": "1d94681f36ab0e14.js",
-      "size": 47239,
-      "url": "https://canary.discord.com/assets/1d94681f36ab0e14.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "1d968d3da5c2b2cc.js",
       "size": 12825,
       "url": "https://canary.discord.com/assets/1d968d3da5c2b2cc.js",
@@ -4726,6 +4705,13 @@
       "name": "1df6c99d691b164b.js",
       "size": 2157,
       "url": "https://canary.discord.com/assets/1df6c99d691b164b.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "1dfd86eb4bb94015.js",
+      "size": 7639,
+      "url": "https://canary.discord.com/assets/1dfd86eb4bb94015.js",
       "kind": "chunk",
       "archived": true
     },
@@ -5444,6 +5430,13 @@
       "archived": true
     },
     {
+      "name": "21c7654dbb24d10a.js",
+      "size": 6501,
+      "url": "https://canary.discord.com/assets/21c7654dbb24d10a.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "21d2b970c0d20b6f.js",
       "size": 111433,
       "url": "https://canary.discord.com/assets/21d2b970c0d20b6f.js",
@@ -5538,6 +5531,13 @@
       "name": "224892abc1a13c49.js",
       "size": 14420,
       "url": "https://canary.discord.com/assets/224892abc1a13c49.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "225e819947597987.js",
+      "size": 1171,
+      "url": "https://canary.discord.com/assets/225e819947597987.js",
       "kind": "chunk",
       "archived": true
     },
@@ -5871,9 +5871,9 @@
       "archived": true
     },
     {
-      "name": "245420.1d04545ff0f31517.js",
-      "size": 2850,
-      "url": "https://canary.discord.com/assets/245420.1d04545ff0f31517.js",
+      "name": "245420.b7b9d3ec25351dfa.js",
+      "size": 2887,
+      "url": "https://canary.discord.com/assets/245420.b7b9d3ec25351dfa.js",
       "kind": "chunk",
       "archived": true
     },
@@ -6459,6 +6459,13 @@
       "archived": true
     },
     {
+      "name": "272df3652994cc7a.js",
+      "size": 20431,
+      "url": "https://canary.discord.com/assets/272df3652994cc7a.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "2732d09462032b03.js",
       "size": 960,
       "url": "https://canary.discord.com/assets/2732d09462032b03.js",
@@ -6823,13 +6830,6 @@
       "archived": true
     },
     {
-      "name": "29342045a191f6e1.js",
-      "size": 7599,
-      "url": "https://canary.discord.com/assets/29342045a191f6e1.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "2949648e1967c495.js",
       "size": 1179,
       "url": "https://canary.discord.com/assets/2949648e1967c495.js",
@@ -6900,13 +6900,6 @@
       "archived": true
     },
     {
-      "name": "297f42ce2b2add17.js",
-      "size": 1091,
-      "url": "https://canary.discord.com/assets/297f42ce2b2add17.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "298b3d96a869d792.js",
       "size": 1058,
       "url": "https://canary.discord.com/assets/298b3d96a869d792.js",
@@ -6945,6 +6938,13 @@
       "name": "29b2e0d99216c022.js",
       "size": 3849,
       "url": "https://canary.discord.com/assets/29b2e0d99216c022.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "29b52f451ca71031.js",
+      "size": 22902,
+      "url": "https://canary.discord.com/assets/29b52f451ca71031.js",
       "kind": "chunk",
       "archived": true
     },
@@ -7236,6 +7236,13 @@
       "archived": true
     },
     {
+      "name": "2bb8e762e089bce6.js",
+      "size": 22992,
+      "url": "https://canary.discord.com/assets/2bb8e762e089bce6.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "2bbb4e7354e5abf2.js",
       "size": 9766,
       "url": "https://canary.discord.com/assets/2bbb4e7354e5abf2.js",
@@ -7288,6 +7295,13 @@
       "name": "2bed1267f63a2250.js",
       "size": 1319,
       "url": "https://canary.discord.com/assets/2bed1267f63a2250.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "2befa7623f06ed60.js",
+      "size": 60741,
+      "url": "https://canary.discord.com/assets/2befa7623f06ed60.js",
       "kind": "chunk",
       "archived": true
     },
@@ -7817,6 +7831,13 @@
       "archived": true
     },
     {
+      "name": "2f2f175c5d527b80.js",
+      "size": 8573,
+      "url": "https://canary.discord.com/assets/2f2f175c5d527b80.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "2f468ee15474bf91.js",
       "size": 773,
       "url": "https://canary.discord.com/assets/2f468ee15474bf91.js",
@@ -8125,13 +8146,6 @@
       "archived": true
     },
     {
-      "name": "315713d036d4afae.js",
-      "size": 2174,
-      "url": "https://canary.discord.com/assets/315713d036d4afae.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "315771.946b1d007fa25515.js",
       "size": 2609,
       "url": "https://canary.discord.com/assets/315771.946b1d007fa25515.js",
@@ -8345,6 +8359,13 @@
       "name": "327545.c8e353ddb74619f7.js",
       "size": 422,
       "url": "https://canary.discord.com/assets/327545.c8e353ddb74619f7.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "327b1cb1cf7fec51.js",
+      "size": 72533,
+      "url": "https://canary.discord.com/assets/327b1cb1cf7fec51.js",
       "kind": "chunk",
       "archived": true
     },
@@ -8895,13 +8916,6 @@
       "archived": true
     },
     {
-      "name": "352c3ddbd087dbcf.js",
-      "size": 25181,
-      "url": "https://canary.discord.com/assets/352c3ddbd087dbcf.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "354320.72a456c462279fbd.js",
       "size": 1070,
       "url": "https://canary.discord.com/assets/354320.72a456c462279fbd.js",
@@ -8975,6 +8989,13 @@
       "name": "359bd70b64f4c809.js",
       "size": 4124,
       "url": "https://canary.discord.com/assets/359bd70b64f4c809.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "35aaab5a44345c70.js",
+      "size": 50914,
+      "url": "https://canary.discord.com/assets/35aaab5a44345c70.js",
       "kind": "chunk",
       "archived": true
     },
@@ -9238,6 +9259,13 @@
       "archived": true
     },
     {
+      "name": "372508d8b3bb41c5.js",
+      "size": 27649,
+      "url": "https://canary.discord.com/assets/372508d8b3bb41c5.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "37285f79af5d07e0.js",
       "size": 731,
       "url": "https://canary.discord.com/assets/37285f79af5d07e0.js",
@@ -9304,13 +9332,6 @@
       "name": "378675d275c07f51.js",
       "size": 2262,
       "url": "https://canary.discord.com/assets/378675d275c07f51.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "3786db7c82ae5c2b.js",
-      "size": 96121,
-      "url": "https://canary.discord.com/assets/3786db7c82ae5c2b.js",
       "kind": "chunk",
       "archived": true
     },
@@ -9735,6 +9756,13 @@
       "archived": true
     },
     {
+      "name": "3a08afa0558a9a20.js",
+      "size": 1151,
+      "url": "https://canary.discord.com/assets/3a08afa0558a9a20.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "3a0b7a081d8e8311.js",
       "size": 8649,
       "url": "https://canary.discord.com/assets/3a0b7a081d8e8311.js",
@@ -9791,6 +9819,13 @@
       "archived": true
     },
     {
+      "name": "3a404201944db65d.js",
+      "size": 19324,
+      "url": "https://canary.discord.com/assets/3a404201944db65d.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "3a4793e2fe47e8df.js",
       "size": 17911,
       "url": "https://canary.discord.com/assets/3a4793e2fe47e8df.js",
@@ -9801,13 +9836,6 @@
       "name": "3a49c2ef285c2e96.js",
       "size": 33405,
       "url": "https://canary.discord.com/assets/3a49c2ef285c2e96.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "3a4e2c3281c3d618.js",
-      "size": 2370,
-      "url": "https://canary.discord.com/assets/3a4e2c3281c3d618.js",
       "kind": "chunk",
       "archived": true
     },
@@ -10232,6 +10260,13 @@
       "archived": true
     },
     {
+      "name": "3cb0222c72c0e366.js",
+      "size": 53912,
+      "url": "https://canary.discord.com/assets/3cb0222c72c0e366.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "3cb09ed160ae0889.js",
       "size": 788,
       "url": "https://canary.discord.com/assets/3cb09ed160ae0889.js",
@@ -10501,6 +10536,13 @@
       "name": "3e585dcd4af6e8fe.js",
       "size": 7983,
       "url": "https://canary.discord.com/assets/3e585dcd4af6e8fe.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "3e6f13ef3e1cefc9.js",
+      "size": 2370,
+      "url": "https://canary.discord.com/assets/3e6f13ef3e1cefc9.js",
       "kind": "chunk",
       "archived": true
     },
@@ -10834,6 +10876,13 @@
       "archived": true
     },
     {
+      "name": "4006b7d8dcbdb62d.js",
+      "size": 4668,
+      "url": "https://canary.discord.com/assets/4006b7d8dcbdb62d.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "400efe16c214d93a.js",
       "size": 910,
       "url": "https://canary.discord.com/assets/400efe16c214d93a.js",
@@ -11037,6 +11086,13 @@
       "archived": true
     },
     {
+      "name": "40e393c807b57942.js",
+      "size": 22155,
+      "url": "https://canary.discord.com/assets/40e393c807b57942.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "40f2acd2e786607f.js",
       "size": 169,
       "url": "https://canary.discord.com/assets/40f2acd2e786607f.js",
@@ -11156,9 +11212,23 @@
       "archived": true
     },
     {
+      "name": "4161ff63137bce26.js",
+      "size": 1176,
+      "url": "https://canary.discord.com/assets/4161ff63137bce26.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "4168fc4fbe363124.js",
       "size": 681,
       "url": "https://canary.discord.com/assets/4168fc4fbe363124.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "41705e0c91578635.js",
+      "size": 26160,
+      "url": "https://canary.discord.com/assets/41705e0c91578635.js",
       "kind": "chunk",
       "archived": true
     },
@@ -11292,13 +11362,6 @@
       "name": "4225ed8695a873b4.js",
       "size": 645,
       "url": "https://canary.discord.com/assets/4225ed8695a873b4.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "422ad1c30abac26c.js",
-      "size": 10331,
-      "url": "https://canary.discord.com/assets/422ad1c30abac26c.js",
       "kind": "chunk",
       "archived": true
     },
@@ -11775,13 +11838,6 @@
       "name": "44c73502e12dbb52.js",
       "size": 613,
       "url": "https://canary.discord.com/assets/44c73502e12dbb52.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "44cf935478bb624e.js",
-      "size": 51183,
-      "url": "https://canary.discord.com/assets/44cf935478bb624e.js",
       "kind": "chunk",
       "archived": true
     },
@@ -12423,13 +12479,6 @@
       "archived": true
     },
     {
-      "name": "4847f5774aee4772.js",
-      "size": 56244,
-      "url": "https://canary.discord.com/assets/4847f5774aee4772.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "484da3374c63d2e1.js",
       "size": 10499,
       "url": "https://canary.discord.com/assets/484da3374c63d2e1.js",
@@ -12468,6 +12517,13 @@
       "name": "487834.3ae4dbcb163ed94e.js",
       "size": 1037,
       "url": "https://canary.discord.com/assets/487834.3ae4dbcb163ed94e.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "4881ff5c94dcce4d.js",
+      "size": 24623,
+      "url": "https://canary.discord.com/assets/4881ff5c94dcce4d.js",
       "kind": "chunk",
       "archived": true
     },
@@ -12517,13 +12573,6 @@
       "name": "48c33f986258c14e.js",
       "size": 11916,
       "url": "https://canary.discord.com/assets/48c33f986258c14e.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "48cdc6f8718941bc.js",
-      "size": 11366,
-      "url": "https://canary.discord.com/assets/48cdc6f8718941bc.js",
       "kind": "chunk",
       "archived": true
     },
@@ -12636,6 +12685,13 @@
       "name": "4985fa99384b5cc2.js",
       "size": 37825,
       "url": "https://canary.discord.com/assets/4985fa99384b5cc2.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "499e77cad3154139.js",
+      "size": 72198,
+      "url": "https://canary.discord.com/assets/499e77cad3154139.js",
       "kind": "chunk",
       "archived": true
     },
@@ -12941,13 +12997,6 @@
       "archived": true
     },
     {
-      "name": "4b34a1e9216353c0.js",
-      "size": 54263,
-      "url": "https://canary.discord.com/assets/4b34a1e9216353c0.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "4b4186c3c1e57ed1.js",
       "size": 5764,
       "url": "https://canary.discord.com/assets/4b4186c3c1e57ed1.js",
@@ -12972,13 +13021,6 @@
       "name": "4b757fea51e69c1a.js",
       "size": 2707,
       "url": "https://canary.discord.com/assets/4b757fea51e69c1a.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "4b7ac5ab8147b0eb.js",
-      "size": 6884,
-      "url": "https://canary.discord.com/assets/4b7ac5ab8147b0eb.js",
       "kind": "chunk",
       "archived": true
     },
@@ -13242,13 +13284,6 @@
       "archived": true
     },
     {
-      "name": "4d0e7da353a163a1.js",
-      "size": 256703,
-      "url": "https://canary.discord.com/assets/4d0e7da353a163a1.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "4d0ea1326321adfc.js",
       "size": 5760,
       "url": "https://canary.discord.com/assets/4d0ea1326321adfc.js",
@@ -13431,6 +13466,13 @@
       "archived": true
     },
     {
+      "name": "4e41906475f5d983.js",
+      "size": 47239,
+      "url": "https://canary.discord.com/assets/4e41906475f5d983.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "4e4a2a42139d41c3.js",
       "size": 823,
       "url": "https://canary.discord.com/assets/4e4a2a42139d41c3.js",
@@ -13455,13 +13497,6 @@
       "name": "4e5e7d3cde29b17e.js",
       "size": 886,
       "url": "https://canary.discord.com/assets/4e5e7d3cde29b17e.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "4e69a23277dce94b.js",
-      "size": 1178,
-      "url": "https://canary.discord.com/assets/4e69a23277dce94b.js",
       "kind": "chunk",
       "archived": true
     },
@@ -14285,13 +14320,6 @@
       "archived": true
     },
     {
-      "name": "5396a4336116cada.js",
-      "size": 57308,
-      "url": "https://canary.discord.com/assets/5396a4336116cada.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "53a504d884bb40d4.js",
       "size": 1408,
       "url": "https://canary.discord.com/assets/53a504d884bb40d4.js",
@@ -14456,6 +14484,13 @@
       "name": "548c1fe8a40b8cef.js",
       "size": 5570,
       "url": "https://canary.discord.com/assets/548c1fe8a40b8cef.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "54a702aabd9b933c.js",
+      "size": 6957,
+      "url": "https://canary.discord.com/assets/54a702aabd9b933c.js",
       "kind": "chunk",
       "archived": true
     },
@@ -14663,6 +14698,13 @@
       "archived": true
     },
     {
+      "name": "55b99ab65e542633.js",
+      "size": 610,
+      "url": "https://canary.discord.com/assets/55b99ab65e542633.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "55bb758e6777a797.js",
       "size": 2312,
       "url": "https://canary.discord.com/assets/55bb758e6777a797.js",
@@ -14750,13 +14792,6 @@
       "name": "5609a16f3210f99d.js",
       "size": 2216,
       "url": "https://canary.discord.com/assets/5609a16f3210f99d.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "560f37333a97dd2f.js",
-      "size": 5151,
-      "url": "https://canary.discord.com/assets/560f37333a97dd2f.js",
       "kind": "chunk",
       "archived": true
     },
@@ -14876,13 +14911,6 @@
       "name": "56a6e80d5884fc62.js",
       "size": 12579,
       "url": "https://canary.discord.com/assets/56a6e80d5884fc62.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "56aa6dbc93f86528.js",
-      "size": 26018,
-      "url": "https://canary.discord.com/assets/56aa6dbc93f86528.js",
       "kind": "chunk",
       "archived": true
     },
@@ -15055,6 +15083,13 @@
       "archived": true
     },
     {
+      "name": "578a32979e043bd6.js",
+      "size": 9025,
+      "url": "https://canary.discord.com/assets/578a32979e043bd6.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "57985e3cc2812e10.js",
       "size": 1331,
       "url": "https://canary.discord.com/assets/57985e3cc2812e10.js",
@@ -15191,13 +15226,6 @@
       "name": "5838087bf8486db4.js",
       "size": 5658,
       "url": "https://canary.discord.com/assets/5838087bf8486db4.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "583a1c8fc901eba8.js",
-      "size": 24641,
-      "url": "https://canary.discord.com/assets/583a1c8fc901eba8.js",
       "kind": "chunk",
       "archived": true
     },
@@ -15387,6 +15415,13 @@
       "name": "594c6ac12f456e16.js",
       "size": 1622,
       "url": "https://canary.discord.com/assets/594c6ac12f456e16.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "595e8ec95ae24744.js",
+      "size": 257039,
+      "url": "https://canary.discord.com/assets/595e8ec95ae24744.js",
       "kind": "chunk",
       "archived": true
     },
@@ -15678,13 +15713,6 @@
       "archived": true
     },
     {
-      "name": "5af4576e2a36cc95.js",
-      "size": 133431,
-      "url": "https://canary.discord.com/assets/5af4576e2a36cc95.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "5b070ea8913eb5e2.js",
       "size": 529,
       "url": "https://canary.discord.com/assets/5b070ea8913eb5e2.js",
@@ -15716,13 +15744,6 @@
       "name": "5b72d8425efa30ff.js",
       "size": 1844,
       "url": "https://canary.discord.com/assets/5b72d8425efa30ff.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "5b8a7f29d6ecdd36.js",
-      "size": 2177,
-      "url": "https://canary.discord.com/assets/5b8a7f29d6ecdd36.js",
       "kind": "chunk",
       "archived": true
     },
@@ -15856,13 +15877,6 @@
       "name": "5c6969e8d3ec0440.js",
       "size": 300,
       "url": "https://canary.discord.com/assets/5c6969e8d3ec0440.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "5c6deed79c0fd7fc.js",
-      "size": 569452,
-      "url": "https://canary.discord.com/assets/5c6deed79c0fd7fc.js",
       "kind": "chunk",
       "archived": true
     },
@@ -16140,13 +16154,6 @@
       "archived": true
     },
     {
-      "name": "5e13b8d91fa3140f.js",
-      "size": 47474,
-      "url": "https://canary.discord.com/assets/5e13b8d91fa3140f.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "5e1d29129cc19329.js",
       "size": 3047,
       "url": "https://canary.discord.com/assets/5e1d29129cc19329.js",
@@ -16290,6 +16297,13 @@
       "name": "5efb446dd643acc9.js",
       "size": 8103,
       "url": "https://canary.discord.com/assets/5efb446dd643acc9.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "5f1a3c11dd697bb6.js",
+      "size": 1664,
+      "url": "https://canary.discord.com/assets/5f1a3c11dd697bb6.js",
       "kind": "chunk",
       "archived": true
     },
@@ -16756,13 +16770,6 @@
       "archived": true
     },
     {
-      "name": "617ddee8283e9f02.js",
-      "size": 25435,
-      "url": "https://canary.discord.com/assets/617ddee8283e9f02.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "618113734c556dce.js",
       "size": 3434,
       "url": "https://canary.discord.com/assets/618113734c556dce.js",
@@ -16871,6 +16878,13 @@
       "name": "623d2dd03cae5373.js",
       "size": 6710,
       "url": "https://canary.discord.com/assets/623d2dd03cae5373.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "623dfca2e28a9503.js",
+      "size": 38939,
+      "url": "https://canary.discord.com/assets/623dfca2e28a9503.js",
       "kind": "chunk",
       "archived": true
     },
@@ -17004,6 +17018,13 @@
       "name": "63246fd65dbc6706.js",
       "size": 3473,
       "url": "https://canary.discord.com/assets/63246fd65dbc6706.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "632ead99a7d4cc19.js",
+      "size": 20077,
+      "url": "https://canary.discord.com/assets/632ead99a7d4cc19.js",
       "kind": "chunk",
       "archived": true
     },
@@ -17421,13 +17442,6 @@
       "archived": true
     },
     {
-      "name": "656fee640cde6943.js",
-      "size": 20106,
-      "url": "https://canary.discord.com/assets/656fee640cde6943.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "6570e64840736778.js",
       "size": 18588,
       "url": "https://canary.discord.com/assets/6570e64840736778.js",
@@ -17739,13 +17753,6 @@
       "name": "676294.c3ee1ea5d2304509.js",
       "size": 132719,
       "url": "https://canary.discord.com/assets/676294.c3ee1ea5d2304509.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "67684f3481419b12.js",
-      "size": 1092,
-      "url": "https://canary.discord.com/assets/67684f3481419b12.js",
       "kind": "chunk",
       "archived": true
     },
@@ -18093,13 +18100,6 @@
       "archived": true
     },
     {
-      "name": "694737ea95298165.js",
-      "size": 8226,
-      "url": "https://canary.discord.com/assets/694737ea95298165.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "6953c4b0bf78ada1.js",
       "size": 720,
       "url": "https://canary.discord.com/assets/6953c4b0bf78ada1.js",
@@ -18422,13 +18422,6 @@
       "archived": true
     },
     {
-      "name": "6af184cd788662b2.js",
-      "size": 11954,
-      "url": "https://canary.discord.com/assets/6af184cd788662b2.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "6afcebb1ad31b317.js",
       "size": 1274,
       "url": "https://canary.discord.com/assets/6afcebb1ad31b317.js",
@@ -18702,13 +18695,6 @@
       "archived": true
     },
     {
-      "name": "6c58bc9ac02919f6.js",
-      "size": 11466,
-      "url": "https://canary.discord.com/assets/6c58bc9ac02919f6.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "6c5f6d294dda3f85.js",
       "size": 1549,
       "url": "https://canary.discord.com/assets/6c5f6d294dda3f85.js",
@@ -18828,13 +18814,6 @@
       "archived": true
     },
     {
-      "name": "6d25f273bdbc8500.js",
-      "size": 7640,
-      "url": "https://canary.discord.com/assets/6d25f273bdbc8500.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "6d43974f6871bdd7.js",
       "size": 1338,
       "url": "https://canary.discord.com/assets/6d43974f6871bdd7.js",
@@ -18943,6 +18922,13 @@
       "name": "6dd06b138a764886.js",
       "size": 12420,
       "url": "https://canary.discord.com/assets/6dd06b138a764886.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "6dd0cf28fbcf0a55.js",
+      "size": 38912,
+      "url": "https://canary.discord.com/assets/6dd0cf28fbcf0a55.js",
       "kind": "chunk",
       "archived": true
     },
@@ -19192,6 +19178,13 @@
       "archived": true
     },
     {
+      "name": "6f365d9866082b85.js",
+      "size": 133397,
+      "url": "https://canary.discord.com/assets/6f365d9866082b85.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "6f3937c74e05c1d1.js",
       "size": 404,
       "url": "https://canary.discord.com/assets/6f3937c74e05c1d1.js",
@@ -19230,6 +19223,13 @@
       "name": "6f67b082de66da42.js",
       "size": 4966,
       "url": "https://canary.discord.com/assets/6f67b082de66da42.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "6f7d825c57c078d4.js",
+      "size": 56241,
+      "url": "https://canary.discord.com/assets/6f7d825c57c078d4.js",
       "kind": "chunk",
       "archived": true
     },
@@ -19444,13 +19444,6 @@
       "archived": true
     },
     {
-      "name": "70ec9af6a2fd41aa.js",
-      "size": 15758,
-      "url": "https://canary.discord.com/assets/70ec9af6a2fd41aa.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "70f206add2796fda.js",
       "size": 1012,
       "url": "https://canary.discord.com/assets/70f206add2796fda.js",
@@ -19461,6 +19454,13 @@
       "name": "7105c9e62d17ea99.js",
       "size": 1843,
       "url": "https://canary.discord.com/assets/7105c9e62d17ea99.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "711a4590ba4fe0de.js",
+      "size": 7494,
+      "url": "https://canary.discord.com/assets/711a4590ba4fe0de.js",
       "kind": "chunk",
       "archived": true
     },
@@ -19545,6 +19545,13 @@
       "name": "718878.bf120849a6c0091d.js",
       "size": 1553,
       "url": "https://canary.discord.com/assets/718878.bf120849a6c0091d.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "7189c6a534c68be0.js",
+      "size": 5574,
+      "url": "https://canary.discord.com/assets/7189c6a534c68be0.js",
       "kind": "chunk",
       "archived": true
     },
@@ -20025,13 +20032,6 @@
       "archived": true
     },
     {
-      "name": "743795b679289271.js",
-      "size": 24651,
-      "url": "https://canary.discord.com/assets/743795b679289271.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "743950fd9b57eb88.js",
       "size": 453,
       "url": "https://canary.discord.com/assets/743950fd9b57eb88.js",
@@ -20487,13 +20487,6 @@
       "archived": true
     },
     {
-      "name": "766b7c2f282242a5.js",
-      "size": 1095,
-      "url": "https://canary.discord.com/assets/766b7c2f282242a5.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "76870e97b50770ec.js",
       "size": 1420,
       "url": "https://canary.discord.com/assets/76870e97b50770ec.js",
@@ -20585,13 +20578,6 @@
       "archived": true
     },
     {
-      "name": "76cd8c936f30edc3.js",
-      "size": 58502,
-      "url": "https://canary.discord.com/assets/76cd8c936f30edc3.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "76dc71f7e514ec19.js",
       "size": 2903,
       "url": "https://canary.discord.com/assets/76dc71f7e514ec19.js",
@@ -20609,13 +20595,6 @@
       "name": "76f886704b80c0ed.js",
       "size": 624,
       "url": "https://canary.discord.com/assets/76f886704b80c0ed.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "76f8c8bb981ae739.js",
-      "size": 38051,
-      "url": "https://canary.discord.com/assets/76f8c8bb981ae739.js",
       "kind": "chunk",
       "archived": true
     },
@@ -20788,13 +20767,6 @@
       "archived": true
     },
     {
-      "name": "77e6dc86b3fced90.js",
-      "size": 15649,
-      "url": "https://canary.discord.com/assets/77e6dc86b3fced90.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "77ecd02e657f3e09.js",
       "size": 21119,
       "url": "https://canary.discord.com/assets/77ecd02e657f3e09.js",
@@ -20889,6 +20861,13 @@
       "name": "7861bb53cc856202.js",
       "size": 1307,
       "url": "https://canary.discord.com/assets/7861bb53cc856202.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "78687bf7173d2eb2.js",
+      "size": 11366,
+      "url": "https://canary.discord.com/assets/78687bf7173d2eb2.js",
       "kind": "chunk",
       "archived": true
     },
@@ -21397,6 +21376,13 @@
       "archived": true
     },
     {
+      "name": "7b6d120b8dce0e21.js",
+      "size": 1091,
+      "url": "https://canary.discord.com/assets/7b6d120b8dce0e21.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "7b71ea42186fa25f.js",
       "size": 779,
       "url": "https://canary.discord.com/assets/7b71ea42186fa25f.js",
@@ -21572,13 +21558,6 @@
       "archived": true
     },
     {
-      "name": "7ccec6d0700c7539.js",
-      "size": 444,
-      "url": "https://canary.discord.com/assets/7ccec6d0700c7539.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "7cd57a01996c7a93.js",
       "size": 1153,
       "url": "https://canary.discord.com/assets/7cd57a01996c7a93.js",
@@ -21708,6 +21687,13 @@
       "name": "7d6e69a467a59bdf.js",
       "size": 385,
       "url": "https://canary.discord.com/assets/7d6e69a467a59bdf.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "7d702bb3e8d6102d.js",
+      "size": 119401,
+      "url": "https://canary.discord.com/assets/7d702bb3e8d6102d.js",
       "kind": "chunk",
       "archived": true
     },
@@ -22426,6 +22412,13 @@
       "archived": true
     },
     {
+      "name": "81ebbb5bc27b9036.js",
+      "size": 13658,
+      "url": "https://canary.discord.com/assets/81ebbb5bc27b9036.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "81ef1534d3f0ec7d.js",
       "size": 18655,
       "url": "https://canary.discord.com/assets/81ef1534d3f0ec7d.js",
@@ -22601,9 +22594,9 @@
       "archived": true
     },
     {
-      "name": "82aabcb69ec145cf.js",
-      "size": 53663,
-      "url": "https://canary.discord.com/assets/82aabcb69ec145cf.js",
+      "name": "82adda30e81d4473.js",
+      "size": 4368,
+      "url": "https://canary.discord.com/assets/82adda30e81d4473.js",
       "kind": "chunk",
       "archived": true
     },
@@ -22898,13 +22891,6 @@
       "name": "8438b696dbb8489c.js",
       "size": 150,
       "url": "https://canary.discord.com/assets/8438b696dbb8489c.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "8447e235a5ea3337.js",
-      "size": 4553,
-      "url": "https://canary.discord.com/assets/8447e235a5ea3337.js",
       "kind": "chunk",
       "archived": true
     },
@@ -23476,13 +23462,6 @@
       "archived": true
     },
     {
-      "name": "874c39f8684f6bd9.js",
-      "size": 19311,
-      "url": "https://canary.discord.com/assets/874c39f8684f6bd9.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "875762.b9e57c5787edeebc.js",
       "size": 208,
       "url": "https://canary.discord.com/assets/875762.b9e57c5787edeebc.js",
@@ -23595,6 +23574,13 @@
       "archived": true
     },
     {
+      "name": "87fe2d152b2b02fa.js",
+      "size": 92683,
+      "url": "https://canary.discord.com/assets/87fe2d152b2b02fa.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "880150.473d0ef23a7e4b20.js",
       "size": 723,
       "url": "https://canary.discord.com/assets/880150.473d0ef23a7e4b20.js",
@@ -23654,13 +23640,6 @@
       "name": "882e599dc29036fa.js",
       "size": 6698,
       "url": "https://canary.discord.com/assets/882e599dc29036fa.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "8833fa97b1087a72.js",
-      "size": 38913,
-      "url": "https://canary.discord.com/assets/8833fa97b1087a72.js",
       "kind": "chunk",
       "archived": true
     },
@@ -23959,6 +23938,13 @@
       "archived": true
     },
     {
+      "name": "89bde6f8208402a7.js",
+      "size": 1619,
+      "url": "https://canary.discord.com/assets/89bde6f8208402a7.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "89bec2f52373c152.js",
       "size": 998,
       "url": "https://canary.discord.com/assets/89bec2f52373c152.js",
@@ -24123,13 +24109,6 @@
       "name": "8b1164920e67eeeb.js",
       "size": 721,
       "url": "https://canary.discord.com/assets/8b1164920e67eeeb.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "8b11b739bcbd2c59.js",
-      "size": 38939,
-      "url": "https://canary.discord.com/assets/8b11b739bcbd2c59.js",
       "kind": "chunk",
       "archived": true
     },
@@ -24368,13 +24347,6 @@
       "name": "8cc492851df3e1c8.js",
       "size": 13872,
       "url": "https://canary.discord.com/assets/8cc492851df3e1c8.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "8cc532a8cceece97.js",
-      "size": 30830,
-      "url": "https://canary.discord.com/assets/8cc532a8cceece97.js",
       "kind": "chunk",
       "archived": true
     },
@@ -24680,23 +24652,9 @@
       "archived": true
     },
     {
-      "name": "8e775b47dafbbc48.js",
-      "size": 1632,
-      "url": "https://canary.discord.com/assets/8e775b47dafbbc48.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "8e7c6c343c77b6ff.js",
       "size": 655,
       "url": "https://canary.discord.com/assets/8e7c6c343c77b6ff.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "8e7f4056207cd184.js",
-      "size": 11512,
-      "url": "https://canary.discord.com/assets/8e7f4056207cd184.js",
       "kind": "chunk",
       "archived": true
     },
@@ -25023,13 +24981,6 @@
       "archived": true
     },
     {
-      "name": "90e2e81e996eefbc.js",
-      "size": 6501,
-      "url": "https://canary.discord.com/assets/90e2e81e996eefbc.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "90efd03fd8ad5e2a.js",
       "size": 1155,
       "url": "https://canary.discord.com/assets/90efd03fd8ad5e2a.js",
@@ -25282,6 +25233,13 @@
       "archived": true
     },
     {
+      "name": "92898ba6cce49dca.js",
+      "size": 450439,
+      "url": "https://canary.discord.com/assets/92898ba6cce49dca.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "92a79be0b3e29197.js",
       "size": 2455,
       "url": "https://canary.discord.com/assets/92a79be0b3e29197.js",
@@ -25383,13 +25341,6 @@
       "name": "932935e2fb867df5.js",
       "size": 17089,
       "url": "https://canary.discord.com/assets/932935e2fb867df5.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "932f2f6e206f6a8b.js",
-      "size": 4981,
-      "url": "https://canary.discord.com/assets/932f2f6e206f6a8b.js",
       "kind": "chunk",
       "archived": true
     },
@@ -25688,6 +25639,13 @@
       "archived": true
     },
     {
+      "name": "948599a07b9669c1.js",
+      "size": 181429,
+      "url": "https://canary.discord.com/assets/948599a07b9669c1.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "9488b9b40f2da84e.js",
       "size": 414,
       "url": "https://canary.discord.com/assets/9488b9b40f2da84e.js",
@@ -25758,6 +25716,13 @@
       "archived": true
     },
     {
+      "name": "953acde6e5074d39.js",
+      "size": 5074,
+      "url": "https://canary.discord.com/assets/953acde6e5074d39.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "953ed47511fa595b.js",
       "size": 325,
       "url": "https://canary.discord.com/assets/953ed47511fa595b.js",
@@ -25824,6 +25789,13 @@
       "name": "9598dd287016d770.js",
       "size": 1670,
       "url": "https://canary.discord.com/assets/9598dd287016d770.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "95aa5e1740c65613.js",
+      "size": 8268,
+      "url": "https://canary.discord.com/assets/95aa5e1740c65613.js",
       "kind": "chunk",
       "archived": true
     },
@@ -25905,13 +25877,6 @@
       "archived": true
     },
     {
-      "name": "960ed381acc6139f.js",
-      "size": 53722,
-      "url": "https://canary.discord.com/assets/960ed381acc6139f.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "96102f8a8d7f011a.js",
       "size": 62706,
       "url": "https://canary.discord.com/assets/96102f8a8d7f011a.js",
@@ -25989,6 +25954,13 @@
       "archived": true
     },
     {
+      "name": "969ba539616c5e48.js",
+      "size": 60363,
+      "url": "https://canary.discord.com/assets/969ba539616c5e48.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "96a4777d7c5202ce.js",
       "size": 4704,
       "url": "https://canary.discord.com/assets/96a4777d7c5202ce.js",
@@ -26041,6 +26013,13 @@
       "name": "96daf3ddfdf1e5ac.js",
       "size": 9423,
       "url": "https://canary.discord.com/assets/96daf3ddfdf1e5ac.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "96efb63c4892ced2.js",
+      "size": 362391,
+      "url": "https://canary.discord.com/assets/96efb63c4892ced2.js",
       "kind": "chunk",
       "archived": true
     },
@@ -26104,13 +26083,6 @@
       "name": "974268ead65b5e88.js",
       "size": 2195,
       "url": "https://canary.discord.com/assets/974268ead65b5e88.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "9748aadb9310f36f.js",
-      "size": 1182,
-      "url": "https://canary.discord.com/assets/9748aadb9310f36f.js",
       "kind": "chunk",
       "archived": true
     },
@@ -26223,13 +26195,6 @@
       "name": "97cd9686f388103b.js",
       "size": 2902,
       "url": "https://canary.discord.com/assets/97cd9686f388103b.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "97ce2aff87ad1907.js",
-      "size": 4368,
-      "url": "https://canary.discord.com/assets/97ce2aff87ad1907.js",
       "kind": "chunk",
       "archived": true
     },
@@ -26395,9 +26360,9 @@
       "archived": true
     },
     {
-      "name": "9878736fa2af2405.js",
-      "size": 119373,
-      "url": "https://canary.discord.com/assets/9878736fa2af2405.js",
+      "name": "987a94e6d94d9819.js",
+      "size": 758,
+      "url": "https://canary.discord.com/assets/987a94e6d94d9819.js",
       "kind": "chunk",
       "archived": true
     },
@@ -26440,13 +26405,6 @@
       "name": "98a71bccb6f9466e.js",
       "size": 1138,
       "url": "https://canary.discord.com/assets/98a71bccb6f9466e.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "98c156f01a5e2e11.js",
-      "size": 342266,
-      "url": "https://canary.discord.com/assets/98c156f01a5e2e11.js",
       "kind": "chunk",
       "archived": true
     },
@@ -26780,6 +26738,13 @@
       "archived": true
     },
     {
+      "name": "9ab38b77eaffedc1.js",
+      "size": 8226,
+      "url": "https://canary.discord.com/assets/9ab38b77eaffedc1.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "9ac0ff47c46d532a.js",
       "size": 174,
       "url": "https://canary.discord.com/assets/9ac0ff47c46d532a.js",
@@ -26853,6 +26818,13 @@
       "name": "9b3d8ce11139148b.js",
       "size": 1017,
       "url": "https://canary.discord.com/assets/9b3d8ce11139148b.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "9b45feb9b4696781.js",
+      "size": 246,
+      "url": "https://canary.discord.com/assets/9b45feb9b4696781.js",
       "kind": "chunk",
       "archived": true
     },
@@ -27060,6 +27032,13 @@
       "archived": true
     },
     {
+      "name": "9ca00591efe36c47.js",
+      "size": 47474,
+      "url": "https://canary.discord.com/assets/9ca00591efe36c47.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "9cb8cbbe8a45506b.js",
       "size": 7129,
       "url": "https://canary.discord.com/assets/9cb8cbbe8a45506b.js",
@@ -27151,13 +27130,6 @@
       "archived": true
     },
     {
-      "name": "9d82724f755976b8.js",
-      "size": 72216,
-      "url": "https://canary.discord.com/assets/9d82724f755976b8.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "9d83fa6e60fcf44d.js",
       "size": 17127,
       "url": "https://canary.discord.com/assets/9d83fa6e60fcf44d.js",
@@ -27182,13 +27154,6 @@
       "name": "9dab9776df057b20.js",
       "size": 22060,
       "url": "https://canary.discord.com/assets/9dab9776df057b20.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "9db32eafa55f376c.js",
-      "size": 3789,
-      "url": "https://canary.discord.com/assets/9db32eafa55f376c.js",
       "kind": "chunk",
       "archived": true
     },
@@ -27557,13 +27522,6 @@
       "archived": true
     },
     {
-      "name": "9fc5df0b0f459794.js",
-      "size": 7481,
-      "url": "https://canary.discord.com/assets/9fc5df0b0f459794.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "9fd3d7bbba3e1f43.js",
       "size": 5649,
       "url": "https://canary.discord.com/assets/9fd3d7bbba3e1f43.js",
@@ -27655,13 +27613,6 @@
       "archived": true
     },
     {
-      "name": "a0b26b342d50662f.js",
-      "size": 1436251,
-      "url": "https://canary.discord.com/assets/a0b26b342d50662f.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "a0d390c3ec23a25b.js",
       "size": 4736,
       "url": "https://canary.discord.com/assets/a0d390c3ec23a25b.js",
@@ -27672,6 +27623,13 @@
       "name": "a0db0fdc22dcd17b.js",
       "size": 400,
       "url": "https://canary.discord.com/assets/a0db0fdc22dcd17b.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "a0f430e3c22718a1.js",
+      "size": 16896,
+      "url": "https://canary.discord.com/assets/a0f430e3c22718a1.js",
       "kind": "chunk",
       "archived": true
     },
@@ -27753,16 +27711,16 @@
       "archived": true
     },
     {
-      "name": "a18f5c095543e4e3.js",
-      "size": 3130,
-      "url": "https://canary.discord.com/assets/a18f5c095543e4e3.js",
+      "name": "a1ab354f2bf9561f.js",
+      "size": 1847,
+      "url": "https://canary.discord.com/assets/a1ab354f2bf9561f.js",
       "kind": "chunk",
       "archived": true
     },
     {
-      "name": "a1ab354f2bf9561f.js",
-      "size": 1847,
-      "url": "https://canary.discord.com/assets/a1ab354f2bf9561f.js",
+      "name": "a1c493be4b2a4ffe.js",
+      "size": 8114,
+      "url": "https://canary.discord.com/assets/a1c493be4b2a4ffe.js",
       "kind": "chunk",
       "archived": true
     },
@@ -27777,13 +27735,6 @@
       "name": "a1d05d52deb48873.js",
       "size": 6508,
       "url": "https://canary.discord.com/assets/a1d05d52deb48873.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "a1d06dfbe69e351b.js",
-      "size": 55284,
-      "url": "https://canary.discord.com/assets/a1d06dfbe69e351b.js",
       "kind": "chunk",
       "archived": true
     },
@@ -28299,6 +28250,13 @@
       "archived": true
     },
     {
+      "name": "a535eac2ffa1d0ff.js",
+      "size": 7599,
+      "url": "https://canary.discord.com/assets/a535eac2ffa1d0ff.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "a543a314e5d5f763.js",
       "size": 960,
       "url": "https://canary.discord.com/assets/a543a314e5d5f763.js",
@@ -28502,13 +28460,6 @@
       "archived": true
     },
     {
-      "name": "a68ec04acba39556.js",
-      "size": 654,
-      "url": "https://canary.discord.com/assets/a68ec04acba39556.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "a6a86766f2f37ef9.js",
       "size": 322,
       "url": "https://canary.discord.com/assets/a6a86766f2f37ef9.js",
@@ -28533,13 +28484,6 @@
       "name": "a6c1d072ab95b7f8.js",
       "size": 2290,
       "url": "https://canary.discord.com/assets/a6c1d072ab95b7f8.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "a6d29ef057eabb58.js",
-      "size": 59676,
-      "url": "https://canary.discord.com/assets/a6d29ef057eabb58.js",
       "kind": "chunk",
       "archived": true
     },
@@ -28733,13 +28677,6 @@
       "archived": true
     },
     {
-      "name": "a87b4fc13f03af66.js",
-      "size": 505,
-      "url": "https://canary.discord.com/assets/a87b4fc13f03af66.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "a87cf97e4c36328e.js",
       "size": 21943,
       "url": "https://canary.discord.com/assets/a87cf97e4c36328e.js",
@@ -28883,13 +28820,6 @@
       "name": "a9452d6682c2ad19.js",
       "size": 4811,
       "url": "https://canary.discord.com/assets/a9452d6682c2ad19.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "a96a7983c696621d.js",
-      "size": 8591,
-      "url": "https://canary.discord.com/assets/a96a7983c696621d.js",
       "kind": "chunk",
       "archived": true
     },
@@ -29118,6 +29048,13 @@
       "archived": true
     },
     {
+      "name": "aa9be34d8450cf7a.js",
+      "size": 3114,
+      "url": "https://canary.discord.com/assets/aa9be34d8450cf7a.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "aaab632cf5cf9480.js",
       "size": 576,
       "url": "https://canary.discord.com/assets/aaab632cf5cf9480.js",
@@ -29300,6 +29237,13 @@
       "archived": true
     },
     {
+      "name": "ac421639c74b29be.js",
+      "size": 2968,
+      "url": "https://canary.discord.com/assets/ac421639c74b29be.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "ac46af5bf3d9f727.js",
       "size": 541,
       "url": "https://canary.discord.com/assets/ac46af5bf3d9f727.js",
@@ -29345,13 +29289,6 @@
       "name": "ac8679b6ff2b1eb1.js",
       "size": 3418,
       "url": "https://canary.discord.com/assets/ac8679b6ff2b1eb1.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "ac89fd465fac7d0d.js",
-      "size": 16697,
-      "url": "https://canary.discord.com/assets/ac89fd465fac7d0d.js",
       "kind": "chunk",
       "archived": true
     },
@@ -29464,6 +29401,13 @@
       "name": "ad31ca4c811b10fd.js",
       "size": 495,
       "url": "https://canary.discord.com/assets/ad31ca4c811b10fd.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "ad4c8b0c4f1c4755.js",
+      "size": 11448,
+      "url": "https://canary.discord.com/assets/ad4c8b0c4f1c4755.js",
       "kind": "chunk",
       "archived": true
     },
@@ -30413,6 +30357,13 @@
       "archived": true
     },
     {
+      "name": "b336959cf5f28d9c.js",
+      "size": 11512,
+      "url": "https://canary.discord.com/assets/b336959cf5f28d9c.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "b341cb883a5863d2.js",
       "size": 17777,
       "url": "https://canary.discord.com/assets/b341cb883a5863d2.js",
@@ -30861,6 +30812,13 @@
       "archived": true
     },
     {
+      "name": "b650288726a34d38.js",
+      "size": 342723,
+      "url": "https://canary.discord.com/assets/b650288726a34d38.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "b65f5bb3af943d65.js",
       "size": 1274,
       "url": "https://canary.discord.com/assets/b65f5bb3af943d65.js",
@@ -30878,6 +30836,13 @@
       "name": "b66b7d4c13811849.js",
       "size": 728,
       "url": "https://canary.discord.com/assets/b66b7d4c13811849.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "b66bc2963709cd6b.js",
+      "size": 51137,
+      "url": "https://canary.discord.com/assets/b66bc2963709cd6b.js",
       "kind": "chunk",
       "archived": true
     },
@@ -30969,6 +30934,13 @@
       "name": "b6dca47532498e62.js",
       "size": 7855,
       "url": "https://canary.discord.com/assets/b6dca47532498e62.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "b6e94d5594cbefd2.js",
+      "size": 30830,
+      "url": "https://canary.discord.com/assets/b6e94d5594cbefd2.js",
       "kind": "chunk",
       "archived": true
     },
@@ -31519,6 +31491,13 @@
       "archived": true
     },
     {
+      "name": "ba1bc75388c90c32.js",
+      "size": 763,
+      "url": "https://canary.discord.com/assets/ba1bc75388c90c32.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "ba1e8c786229866c.js",
       "size": 1838,
       "url": "https://canary.discord.com/assets/ba1e8c786229866c.js",
@@ -31743,23 +31722,9 @@
       "archived": true
     },
     {
-      "name": "bbc411b7eb7315d9.js",
-      "size": 181471,
-      "url": "https://canary.discord.com/assets/bbc411b7eb7315d9.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "bbc86a3741e86540.js",
       "size": 1842,
       "url": "https://canary.discord.com/assets/bbc86a3741e86540.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "bbc945b5f98ba0ae.js",
-      "size": 40554,
-      "url": "https://canary.discord.com/assets/bbc945b5f98ba0ae.js",
       "kind": "chunk",
       "archived": true
     },
@@ -32026,13 +31991,6 @@
       "name": "bd444eb9e0a97411.js",
       "size": 3860,
       "url": "https://canary.discord.com/assets/bd444eb9e0a97411.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "bd57d321dcecb731.js",
-      "size": 8354,
-      "url": "https://canary.discord.com/assets/bd57d321dcecb731.js",
       "kind": "chunk",
       "archived": true
     },
@@ -32758,6 +32716,13 @@
       "archived": true
     },
     {
+      "name": "c1bcb459fc2ad49e.js",
+      "size": 468,
+      "url": "https://canary.discord.com/assets/c1bcb459fc2ad49e.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "c1be0ce229cf5deb.js",
       "size": 9953,
       "url": "https://canary.discord.com/assets/c1be0ce229cf5deb.js",
@@ -32870,6 +32835,13 @@
       "archived": true
     },
     {
+      "name": "c252fce6fa2a3fac.js",
+      "size": 2373,
+      "url": "https://canary.discord.com/assets/c252fce6fa2a3fac.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "c2873c18b479821c.js",
       "size": 11869,
       "url": "https://canary.discord.com/assets/c2873c18b479821c.js",
@@ -32975,13 +32947,6 @@
       "archived": true
     },
     {
-      "name": "c34f3039c77a2aca.js",
-      "size": 60889,
-      "url": "https://canary.discord.com/assets/c34f3039c77a2aca.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "c3549c2602e0a5eb.js",
       "size": 661,
       "url": "https://canary.discord.com/assets/c3549c2602e0a5eb.js",
@@ -32999,6 +32964,13 @@
       "name": "c3710d367b5da422.js",
       "size": 645,
       "url": "https://canary.discord.com/assets/c3710d367b5da422.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "c3917c3af0fc97e8.js",
+      "size": 10318,
+      "url": "https://canary.discord.com/assets/c3917c3af0fc97e8.js",
       "kind": "chunk",
       "archived": true
     },
@@ -33626,13 +33598,6 @@
       "archived": true
     },
     {
-      "name": "c7e6ce19f9a9d60d.js",
-      "size": 7581,
-      "url": "https://canary.discord.com/assets/c7e6ce19f9a9d60d.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "c80672290adba70b.js",
       "size": 4049,
       "url": "https://canary.discord.com/assets/c80672290adba70b.js",
@@ -33920,13 +33885,6 @@
       "archived": true
     },
     {
-      "name": "ca26218ba716d3a2.js",
-      "size": 362427,
-      "url": "https://canary.discord.com/assets/ca26218ba716d3a2.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "ca277615a3c45e96.js",
       "size": 3178,
       "url": "https://canary.discord.com/assets/ca277615a3c45e96.js",
@@ -33962,23 +33920,9 @@
       "archived": true
     },
     {
-      "name": "ca73c05b250f3f3f.js",
-      "size": 3424,
-      "url": "https://canary.discord.com/assets/ca73c05b250f3f3f.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "ca74ed3fcaea4e3b.js",
       "size": 2567,
       "url": "https://canary.discord.com/assets/ca74ed3fcaea4e3b.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "ca8354eab82cce05.js",
-      "size": 2373,
-      "url": "https://canary.discord.com/assets/ca8354eab82cce05.js",
       "kind": "chunk",
       "archived": true
     },
@@ -34021,6 +33965,13 @@
       "name": "cad86f0b0b91d81a.js",
       "size": 1534,
       "url": "https://canary.discord.com/assets/cad86f0b0b91d81a.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "cade681c2ba148ed.js",
+      "size": 40593,
+      "url": "https://canary.discord.com/assets/cade681c2ba148ed.js",
       "kind": "chunk",
       "archived": true
     },
@@ -34084,13 +34035,6 @@
       "name": "cb2c7622196e92b1.js",
       "size": 1779,
       "url": "https://canary.discord.com/assets/cb2c7622196e92b1.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "cb3f5e8e4f58b513.js",
-      "size": 20418,
-      "url": "https://canary.discord.com/assets/cb3f5e8e4f58b513.js",
       "kind": "chunk",
       "archived": true
     },
@@ -34326,6 +34270,13 @@
       "archived": true
     },
     {
+      "name": "cd439296594c6912.js",
+      "size": 40518,
+      "url": "https://canary.discord.com/assets/cd439296594c6912.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "cd4f4a8285f2ebde.js",
       "size": 3800,
       "url": "https://canary.discord.com/assets/cd4f4a8285f2ebde.js",
@@ -34403,13 +34354,6 @@
       "archived": true
     },
     {
-      "name": "cdaaff0c10133b3f.js",
-      "size": 9611,
-      "url": "https://canary.discord.com/assets/cdaaff0c10133b3f.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "cdb3b8cf73866ef0.js",
       "size": 5939,
       "url": "https://canary.discord.com/assets/cdb3b8cf73866ef0.js",
@@ -34483,6 +34427,13 @@
       "name": "ce11409337d33246.js",
       "size": 2213,
       "url": "https://canary.discord.com/assets/ce11409337d33246.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "ce114b6bbc579e0f.js",
+      "size": 9611,
+      "url": "https://canary.discord.com/assets/ce114b6bbc579e0f.js",
       "kind": "chunk",
       "archived": true
     },
@@ -35271,13 +35222,6 @@
       "archived": true
     },
     {
-      "name": "d298521b1a707f56.js",
-      "size": 1673,
-      "url": "https://canary.discord.com/assets/d298521b1a707f56.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "d2b13b83996883ec.js",
       "size": 3997,
       "url": "https://canary.discord.com/assets/d2b13b83996883ec.js",
@@ -35712,6 +35656,13 @@
       "archived": true
     },
     {
+      "name": "d5862d7ca82460f0.js",
+      "size": 53721,
+      "url": "https://canary.discord.com/assets/d5862d7ca82460f0.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "d592c11f01a72933.js",
       "size": 1317,
       "url": "https://canary.discord.com/assets/d592c11f01a72933.js",
@@ -35820,6 +35771,13 @@
       "name": "d62f8672e410b82d.js",
       "size": 1209,
       "url": "https://canary.discord.com/assets/d62f8672e410b82d.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "d643705b1a51547e.js",
+      "size": 16721,
+      "url": "https://canary.discord.com/assets/d643705b1a51547e.js",
       "kind": "chunk",
       "archived": true
     },
@@ -36069,6 +36027,13 @@
       "archived": true
     },
     {
+      "name": "d7e5b538f11e5807.js",
+      "size": 3432,
+      "url": "https://canary.discord.com/assets/d7e5b538f11e5807.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "d7e7be277ff35925.js",
       "size": 2019,
       "url": "https://canary.discord.com/assets/d7e7be277ff35925.js",
@@ -36223,13 +36188,6 @@
       "archived": true
     },
     {
-      "name": "d8a86d8d6d793a1f.js",
-      "size": 764,
-      "url": "https://canary.discord.com/assets/d8a86d8d6d793a1f.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "d8b1a85110b6d6b6.js",
       "size": 4987,
       "url": "https://canary.discord.com/assets/d8b1a85110b6d6b6.js",
@@ -36380,6 +36338,13 @@
       "name": "d965c097760bb02e.js",
       "size": 1842,
       "url": "https://canary.discord.com/assets/d965c097760bb02e.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "d97f637cc37f60e0.js",
+      "size": 8354,
+      "url": "https://canary.discord.com/assets/d97f637cc37f60e0.js",
       "kind": "chunk",
       "archived": true
     },
@@ -36846,13 +36811,6 @@
       "archived": true
     },
     {
-      "name": "dcadadc4439f7ddb.js",
-      "size": 9056,
-      "url": "https://canary.discord.com/assets/dcadadc4439f7ddb.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "dcbcf78a1040b52c.js",
       "size": 1467,
       "url": "https://canary.discord.com/assets/dcbcf78a1040b52c.js",
@@ -36944,6 +36902,13 @@
       "archived": true
     },
     {
+      "name": "dd5e9f06878d623d.js",
+      "size": 569426,
+      "url": "https://canary.discord.com/assets/dd5e9f06878d623d.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "dd6667b2626ed6f2.js",
       "size": 6309,
       "url": "https://canary.discord.com/assets/dd6667b2626ed6f2.js",
@@ -36989,13 +36954,6 @@
       "name": "ddb00fdf49d5c78e.js",
       "size": 7862,
       "url": "https://canary.discord.com/assets/ddb00fdf49d5c78e.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "ddc9e12f963804bc.js",
-      "size": 443405,
-      "url": "https://canary.discord.com/assets/ddc9e12f963804bc.js",
       "kind": "chunk",
       "archived": true
     },
@@ -37182,13 +37140,6 @@
       "archived": true
     },
     {
-      "name": "df312b18a493ee52.js",
-      "size": 21945,
-      "url": "https://canary.discord.com/assets/df312b18a493ee52.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "df32e29cf31333e5.js",
       "size": 1787,
       "url": "https://canary.discord.com/assets/df32e29cf31333e5.js",
@@ -37318,13 +37269,6 @@
       "name": "e00345d6698a6c3e.js",
       "size": 67058,
       "url": "https://canary.discord.com/assets/e00345d6698a6c3e.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "e00c4dc880aa9377.js",
-      "size": 27295,
-      "url": "https://canary.discord.com/assets/e00c4dc880aa9377.js",
       "kind": "chunk",
       "archived": true
     },
@@ -38071,13 +38015,6 @@
       "archived": true
     },
     {
-      "name": "e57f2139cecbf100.js",
-      "size": 5952,
-      "url": "https://canary.discord.com/assets/e57f2139cecbf100.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "e5895287a21bdacb.js",
       "size": 938,
       "url": "https://canary.discord.com/assets/e5895287a21bdacb.js",
@@ -38218,9 +38155,9 @@
       "archived": true
     },
     {
-      "name": "e62bc967dbdf3341.js",
-      "size": 10295,
-      "url": "https://canary.discord.com/assets/e62bc967dbdf3341.js",
+      "name": "e62d48b03b2935e0.js",
+      "size": 25435,
+      "url": "https://canary.discord.com/assets/e62d48b03b2935e0.js",
       "kind": "chunk",
       "archived": true
     },
@@ -38291,6 +38228,13 @@
       "name": "e6cab5523d165950.js",
       "size": 192,
       "url": "https://canary.discord.com/assets/e6cab5523d165950.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "e6d57e8a647a9b11.js",
+      "size": 10295,
+      "url": "https://canary.discord.com/assets/e6d57e8a647a9b11.js",
       "kind": "chunk",
       "archived": true
     },
@@ -38841,13 +38785,6 @@
       "archived": true
     },
     {
-      "name": "e9b6c24be2b476a8.js",
-      "size": 6501,
-      "url": "https://canary.discord.com/assets/e9b6c24be2b476a8.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "e9b7165b0eb545e7.js",
       "size": 1219,
       "url": "https://canary.discord.com/assets/e9b7165b0eb545e7.js",
@@ -39005,6 +38942,13 @@
       "name": "eae1e2fff2fbbad1.js",
       "size": 1834,
       "url": "https://canary.discord.com/assets/eae1e2fff2fbbad1.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "eaf42505ba5ce054.js",
+      "size": 39285,
+      "url": "https://canary.discord.com/assets/eaf42505ba5ce054.js",
       "kind": "chunk",
       "archived": true
     },
@@ -39338,6 +39282,13 @@
       "archived": true
     },
     {
+      "name": "ed1535cff2a8cc4b.js",
+      "size": 5120,
+      "url": "https://canary.discord.com/assets/ed1535cff2a8cc4b.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "ed32e4b63e41551f.js",
       "size": 827,
       "url": "https://canary.discord.com/assets/ed32e4b63e41551f.js",
@@ -39646,13 +39597,6 @@
       "archived": true
     },
     {
-      "name": "eeffaf3bf6089cc2.js",
-      "size": 178509,
-      "url": "https://canary.discord.com/assets/eeffaf3bf6089cc2.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "ef0b19dbd319e7c5.js",
       "size": 1090,
       "url": "https://canary.discord.com/assets/ef0b19dbd319e7c5.js",
@@ -39667,6 +39611,13 @@
       "archived": true
     },
     {
+      "name": "ef19502f756ec420.js",
+      "size": 27279,
+      "url": "https://canary.discord.com/assets/ef19502f756ec420.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "ef1d61f8ae474b8d.js",
       "size": 2348,
       "url": "https://canary.discord.com/assets/ef1d61f8ae474b8d.js",
@@ -39677,6 +39628,13 @@
       "name": "ef200ab10aba01e6.js",
       "size": 4127,
       "url": "https://canary.discord.com/assets/ef200ab10aba01e6.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "ef26b8d06eb068b7.js",
+      "size": 57309,
+      "url": "https://canary.discord.com/assets/ef26b8d06eb068b7.js",
       "kind": "chunk",
       "archived": true
     },
@@ -39884,6 +39842,13 @@
       "archived": true
     },
     {
+      "name": "f070af7bcef8ff3a.js",
+      "size": 443117,
+      "url": "https://canary.discord.com/assets/f070af7bcef8ff3a.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "f09153c522f22ab5.js",
       "size": 2134,
       "url": "https://canary.discord.com/assets/f09153c522f22ab5.js",
@@ -39894,6 +39859,13 @@
       "name": "f09d9792085d61ec.js",
       "size": 3352,
       "url": "https://canary.discord.com/assets/f09d9792085d61ec.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "f0b8a8598fed123b.js",
+      "size": 19197,
+      "url": "https://canary.discord.com/assets/f0b8a8598fed123b.js",
       "kind": "chunk",
       "archived": true
     },
@@ -39985,6 +39957,13 @@
       "name": "f141a6b4056d6fe3.js",
       "size": 1697,
       "url": "https://canary.discord.com/assets/f141a6b4056d6fe3.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "f147ad4d24a661b6.js",
+      "size": 1227,
+      "url": "https://canary.discord.com/assets/f147ad4d24a661b6.js",
       "kind": "chunk",
       "archived": true
     },
@@ -40255,9 +40234,9 @@
       "archived": true
     },
     {
-      "name": "f2fa3e008e83a353.js",
-      "size": 22915,
-      "url": "https://canary.discord.com/assets/f2fa3e008e83a353.js",
+      "name": "f3095b7b1e9c75e1.js",
+      "size": 15740,
+      "url": "https://canary.discord.com/assets/f3095b7b1e9c75e1.js",
       "kind": "chunk",
       "archived": true
     },
@@ -40293,13 +40272,6 @@
       "name": "f34809fa98fbed82.js",
       "size": 664,
       "url": "https://canary.discord.com/assets/f34809fa98fbed82.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "f3539b7be4cb165f.js",
-      "size": 1840,
-      "url": "https://canary.discord.com/assets/f3539b7be4cb165f.js",
       "kind": "chunk",
       "archived": true
     },
@@ -40927,6 +40899,13 @@
       "archived": true
     },
     {
+      "name": "f7859f33ac14fdfb.js",
+      "size": 96238,
+      "url": "https://canary.discord.com/assets/f7859f33ac14fdfb.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "f79bd7520a3519e5.js",
       "size": 1633,
       "url": "https://canary.discord.com/assets/f79bd7520a3519e5.js",
@@ -41032,6 +41011,13 @@
       "archived": true
     },
     {
+      "name": "f8520c557c52d9f2.js",
+      "size": 11954,
+      "url": "https://canary.discord.com/assets/f8520c557c52d9f2.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "f869e5cfe043aff4.js",
       "size": 5643,
       "url": "https://canary.discord.com/assets/f869e5cfe043aff4.js",
@@ -41133,13 +41119,6 @@
       "name": "f936981e8c2f16f8.js",
       "size": 1263,
       "url": "https://canary.discord.com/assets/f936981e8c2f16f8.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "f9423bd81bf25c80.js",
-      "size": 8268,
-      "url": "https://canary.discord.com/assets/f9423bd81bf25c80.js",
       "kind": "chunk",
       "archived": true
     },
@@ -41256,13 +41235,6 @@
       "archived": true
     },
     {
-      "name": "f9d33346cc028e27.js",
-      "size": 26191,
-      "url": "https://canary.discord.com/assets/f9d33346cc028e27.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
       "name": "f9e782eec8d1bc2e.js",
       "size": 1251,
       "url": "https://canary.discord.com/assets/f9e782eec8d1bc2e.js",
@@ -41287,6 +41259,13 @@
       "name": "f9ff6ba2a4a95e82.js",
       "size": 311363,
       "url": "https://canary.discord.com/assets/f9ff6ba2a4a95e82.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "fa0eeb14a5664e66.js",
+      "size": 15649,
+      "url": "https://canary.discord.com/assets/fa0eeb14a5664e66.js",
       "kind": "chunk",
       "archived": true
     },
@@ -41410,9 +41389,9 @@
       "archived": true
     },
     {
-      "name": "fast-connect.4d5650ee3dcbff46.js",
+      "name": "fast-connect.00be0d6fccbf172b.js",
       "size": 33487,
-      "url": "https://canary.discord.com/assets/fast-connect.4d5650ee3dcbff46.js",
+      "url": "https://canary.discord.com/assets/fast-connect.00be0d6fccbf172b.js",
       "kind": "chunk",
       "archived": true
     },
@@ -41420,13 +41399,6 @@
       "name": "fb05d7135e644133.js",
       "size": 1736,
       "url": "https://canary.discord.com/assets/fb05d7135e644133.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "fb09d5f79766c3d6.js",
-      "size": 39180,
-      "url": "https://canary.discord.com/assets/fb09d5f79766c3d6.js",
       "kind": "chunk",
       "archived": true
     },
@@ -41574,13 +41546,6 @@
       "name": "fc115e9ba54a5af5.js",
       "size": 252,
       "url": "https://canary.discord.com/assets/fc115e9ba54a5af5.js",
-      "kind": "chunk",
-      "archived": true
-    },
-    {
-      "name": "fc36a11feb671475.js",
-      "size": 72533,
-      "url": "https://canary.discord.com/assets/fc36a11feb671475.js",
       "kind": "chunk",
       "archived": true
     },
@@ -41760,6 +41725,13 @@
       "archived": true
     },
     {
+      "name": "fd13184dcd529fb5.js",
+      "size": 178459,
+      "url": "https://canary.discord.com/assets/fd13184dcd529fb5.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "fd1f4b1fb14341ee.js",
       "size": 1492,
       "url": "https://canary.discord.com/assets/fd1f4b1fb14341ee.js",
@@ -41879,9 +41851,23 @@
       "archived": true
     },
     {
+      "name": "fe2bf4cfd6bb4837.js",
+      "size": 1716,
+      "url": "https://canary.discord.com/assets/fe2bf4cfd6bb4837.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
       "name": "fe35ca53c563e883.js",
       "size": 3058,
       "url": "https://canary.discord.com/assets/fe35ca53c563e883.js",
+      "kind": "chunk",
+      "archived": true
+    },
+    {
+      "name": "fe4a446c1fee8333.js",
+      "size": 1727,
+      "url": "https://canary.discord.com/assets/fe4a446c1fee8333.js",
       "kind": "chunk",
       "archived": true
     },
@@ -42166,9 +42152,9 @@
       "archived": true
     },
     {
-      "name": "sentry.b21b13580b60da87.js",
+      "name": "sentry.c805923cfc8cd14f.js",
       "size": 4224,
-      "url": "https://canary.discord.com/assets/sentry.b21b13580b60da87.js",
+      "url": "https://canary.discord.com/assets/sentry.c805923cfc8cd14f.js",
       "kind": "chunk",
       "archived": true
     },
@@ -42180,9 +42166,9 @@
       "archived": true
     },
     {
-      "name": "web.f84db08c602fe35b.js",
-      "size": 12787371,
-      "url": "https://canary.discord.com/assets/web.f84db08c602fe35b.js",
+      "name": "web.80255c7dffeb63a3.js",
+      "size": 12799381,
+      "url": "https://canary.discord.com/assets/web.80255c7dffeb63a3.js",
       "kind": "web",
       "archived": true
     }
