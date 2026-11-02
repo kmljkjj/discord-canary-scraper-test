@@ -28866,7 +28866,7 @@
   "meters": "Unknown",
   "denied": "idle",
   "Images": "NoImages",
-  "mobile": "tablet",
+  "mobile": "desktop",
   "minuta": "minutę",
   "minuty": "minut",
   "Aacute": "\\xc1",
@@ -32244,5 +32244,13 @@
   "QOFD3F": "Other servers",
   "poYQxw": "No server",
   "IF7qLs": "Projects",
-  "ygVWuJ": "Shared with me"
+  "ygVWuJ": "Shared with me",
+  "zxSq2q": "I don’t have one",
+  "dkzChE": "Here’s what I found. Is one of these right? If not, upload your own.",
+  "ZZ641e": "Upload a screenshot of it.",
+  "140n5k": "name",
+  "3FvcrY": "Next game capture",
+  "wVJL0P": "Background image",
+  "Gl3XtE": "Previous game capture",
+  "skjf5I": "Voice Channel"
 }

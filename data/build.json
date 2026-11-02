@@ -1,9 +1,9 @@
 {
-  "runId": "2026-11-02T01-48-39-133Z_659996_flygjc",
-  "buildNumber": "659996",
-  "versionHash": "91439b9ad0b6371b929045b35ff95a628a8466af",
+  "runId": "2026-11-02T08-26-46-585Z_660098_xxjmks",
+  "buildNumber": "660098",
+  "versionHash": "20eb99420f79d4b26ec90649c3187bdf7a61ec74",
   "releaseChannel": "canary",
-  "scrapedAt": "2026-11-02T01:48:24.410Z",
+  "scrapedAt": "2026-11-02T08:26:33.409Z",
   "assetCount": 337,
   "cssCount": 302
 }
