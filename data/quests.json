@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-11-02T01:54:52.397Z",
-  "count": 37,
+  "scrapedAt": "2026-11-02T09:06:29.497Z",
+  "count": 36,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -545,14 +545,6 @@
       "expiresAt": "2026-11-07T07:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1554689886835966094/1559383960960639086_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1554689886835966094/1559383761463017592.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1556747190242779347",
-      "name": "The Mosquito Bowl",
-      "expiresAt": "2026-11-02T07:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1556747190242779347/1565100076303515811_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1556747190242779347/1560352067707474100.jpg",
       "rewardCount": 1
     },
     {
