@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-11-02T09:41:43.092Z",
-  "count": 5,
+  "scrapedAt": "2026-11-02T20:11:32.855Z",
+  "count": 4,
   "experiments": [
     {
       "id": "2022-07_voice_in_threads",
@@ -41,25 +41,6 @@
       "revision": 0,
       "recent": false,
       "hash": 2462216785,
-      "source": "discord",
-      "hasGlobalPct": true,
-      "quality": "exact"
-    },
-    {
-      "id": "2022-12_mention_raid_limit",
-      "type": "guild",
-      "title": "2022-12_mention_raid_limit",
-      "fingerprint": "1:100.0",
-      "treatments": [
-        {
-          "bucket": 1,
-          "label": "Variant 1",
-          "pct": 100
-        }
-      ],
-      "revision": 3,
-      "recent": false,
-      "hash": 1318029053,
       "source": "discord",
       "hasGlobalPct": true,
       "quality": "exact"
@@ -127,7 +108,7 @@
     "hash:304990790": "1:50.0",
     "hash:2453702596": "-1:100.0",
     "2023-02_guest_voice_invites": "-1:100.0|1:100.0",
-    "2022-12_mention_raid_limit": "1:100.0",
+    "2022-12_mention_raid_limit": "REMOVED",
     "2022-11_default_disable_mass_mention": "-1:100.0|1:100.0",
     "2022-07_voice_in_threads": "1:100.0",
     "2026-06_guild_spaces": "-1:100.0",
