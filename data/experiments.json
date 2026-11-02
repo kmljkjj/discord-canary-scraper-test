@@ -1,11 +1,11 @@
 {
-  "runId": "2026-11-02T08-26-46-585Z_660098_xxjmks",
-  "buildNumber": "660098",
-  "scrapedAt": "2026-11-02T08:26:46.585Z",
+  "runId": "2026-11-02T18-45-59-296Z_660447_zrxaxa",
+  "buildNumber": "660447",
+  "scrapedAt": "2026-11-02T18:45:59.296Z",
   "totals": {
-    "all": 387,
+    "all": 385,
     "legacy": 0,
-    "apex": 387
+    "apex": 385
   },
   "experiments": [
     {
@@ -4216,46 +4216,6 @@
       "system": "apex",
       "defaultConfig": {
         "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2026-08-nitro-tenure-badge-total-progress",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "measureFromStreakStart": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2026-08-nitro-tenure-badge-withheld-state",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "showWithheldBadge": false
       },
       "variations": {
         "0": {

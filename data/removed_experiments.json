@@ -1,8 +1,8 @@
 {
-  "runId": "2026-11-02T08-26-46-585Z_660098_xxjmks",
-  "buildNumber": "660098",
-  "updatedAt": "2026-11-02T08:26:46.585Z",
-  "count": 116,
+  "runId": "2026-11-02T18-45-59-296Z_660447_zrxaxa",
+  "buildNumber": "660447",
+  "updatedAt": "2026-11-02T18:45:59.296Z",
+  "count": 118,
   "experiments": [
     {
       "id": "2026-02-mute-tutorial",
@@ -815,6 +815,20 @@
       "label": null,
       "removedAt": "2026-10-30T18:49:44.369Z",
       "lastBuild": "658483"
+    },
+    {
+      "id": "2026-08-nitro-tenure-badge-total-progress",
+      "kind": "user",
+      "label": null,
+      "removedAt": "2026-11-02T18:45:59.305Z",
+      "lastBuild": "660447"
+    },
+    {
+      "id": "2026-08-nitro-tenure-badge-withheld-state",
+      "kind": "user",
+      "label": null,
+      "removedAt": "2026-11-02T18:45:59.305Z",
+      "lastBuild": "660447"
     }
   ]
 }

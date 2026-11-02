@@ -1,8 +1,8 @@
 {
-  "runId": "2026-11-02T08-26-46-585Z_660098_xxjmks",
-  "buildNumber": "660098",
-  "updatedAt": "2026-11-02T08:26:46.585Z",
-  "count": 387,
+  "runId": "2026-11-02T18-45-59-296Z_660447_zrxaxa",
+  "buildNumber": "660447",
+  "updatedAt": "2026-11-02T18:45:59.296Z",
+  "count": 385,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -6668,68 +6668,6 @@
         "value": null
       },
       "fingerprint": "a009d46c682b2dc48f46f33d9aa28517ad03e3bb42f252a2a8289e19bfdd082e"
-    },
-    {
-      "id": "2026-08-nitro-tenure-badge-total-progress",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "measureFromStreakStart": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "8777675c65d231255d1c9c62e2de58661ba4de7338267f1169a6474f3276db92"
-    },
-    {
-      "id": "2026-08-nitro-tenure-badge-withheld-state",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "showWithheldBadge": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 2,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "e03c89d0fa731d4172ab3e84d2fd48989d4614f8b06f22f64eafa133fe4cac92"
     },
     {
       "id": "2026-08-no-fill-logging",

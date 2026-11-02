@@ -3333,38 +3333,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-08-nitro-tenure-badge-total-progress",
-    "defaultConfig": {
-      "measureFromStreakStart": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-08-nitro-tenure-badge-withheld-state",
-    "defaultConfig": {
-      "showWithheldBadge": false
-    },
-    "variations": {
-      "0": {
-        "id": 0
-      },
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-08-no-fill-logging",
     "defaultConfig": {
       "enableNoFill": false
