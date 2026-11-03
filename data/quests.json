@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-11-02T19:28:20.790Z",
-  "count": 36,
+  "scrapedAt": "2026-11-03T01:45:12.459Z",
+  "count": 35,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -504,7 +504,8 @@
     "1565032458741612545",
     "1557605191304609863",
     "1555626480397066361",
-    "1555627291764330547"
+    "1555627291764330547",
+    "1562169814540353659"
   ],
   "quests": [
     {
@@ -612,14 +613,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1563322864659202169",
-      "name": "EA SPORTS FC™ 27",
-      "expiresAt": "2026-11-03T01:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1560392603877249036/1560732939531198504_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1551969525602451497/1551981581118345357.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1562915304299044884",
       "name": "Scary Shawarma Kiosk: the ANOMALY",
       "expiresAt": "2026-11-04T01:00:00+00:00",
@@ -681,14 +674,6 @@
       "expiresAt": "2026-11-09T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1557974434269364336/1563269971155484782_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1557974434269364336/1563239403139371089.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1549143645842841640",
-      "name": "VALORANT HUSH",
-      "expiresAt": "2026-11-03T01:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1549143645842841640/1555282580264190002.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1549143645842841640/1549144005206351953.jpg",
       "rewardCount": 1
     },
     {
@@ -793,6 +778,14 @@
       "expiresAt": "2026-12-01T07:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1547370886645026876/1547372029488009306_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1547370886645026876/1547373049173639258.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1562169814540353659",
+      "name": "12 12 12",
+      "expiresAt": "2026-11-12T23:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1562169814540353659/1564353299669581994_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1562169814540353659/1564352773909389403.jpg",
       "rewardCount": 1
     }
   ]
