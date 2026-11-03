@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-11-03T01:45:12.459Z",
-  "count": 35,
+  "scrapedAt": "2026-11-03T08:39:57.330Z",
+  "count": 42,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -505,7 +505,14 @@
     "1557605191304609863",
     "1555626480397066361",
     "1555627291764330547",
-    "1562169814540353659"
+    "1562169814540353659",
+    "1554270219080568932",
+    "1562333156105789580",
+    "1555328744665911297",
+    "1565142128504602665",
+    "1565135226299097159",
+    "1565095257710927944",
+    "1565104104387117178"
   ],
   "quests": [
     {
@@ -672,7 +679,7 @@
       "id": "1557974434269364336",
       "name": "Wild Horse Nine",
       "expiresAt": "2026-11-09T01:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1557974434269364336/1563269971155484782_1080.mp4",
+      "videoUrl": "https://cdn.discordapp.com/quests/1557974434269364336/1563269971419730060_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1557974434269364336/1563239403139371089.jpg",
       "rewardCount": 1
     },
@@ -786,6 +793,62 @@
       "expiresAt": "2026-11-12T23:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1562169814540353659/1564353299669581994_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1562169814540353659/1564352773909389403.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1554270219080568932",
+      "name": "How To Rob A Bank",
+      "expiresAt": "2026-11-16T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1554270219080568932/1564843392616103967_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1554270219080568932/1564843132321792041.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1562333156105789580",
+      "name": "Victorian Psycho",
+      "expiresAt": "2026-11-16T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1562333156105789580/1562333444829085706_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1562333156105789580/1562333586055626812.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1555328744665911297",
+      "name": " A Screen Come True",
+      "expiresAt": "2026-11-17T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1555328744665911297/1565736184133718026_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1555328744665911297/1565118521648742410.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1565142128504602665",
+      "name": "How To Rob A Bank",
+      "expiresAt": "2026-11-16T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1554270219080568932/1564843392616103967_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1554270219080568932/1564843132321792041.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1565135226299097159",
+      "name": "How To Rob A Bank",
+      "expiresAt": "2026-11-16T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1565135226299097159/1565675331149369344.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1565135226299097159/1565675331224998008.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1565095257710927944",
+      "name": "Jak obrabować bank",
+      "expiresAt": "2026-11-16T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1565095257710927944/1565660829712519288_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1565095257710927944/1565660599487307886.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1565104104387117178",
+      "name": "Cómo Robar un Banco",
+      "expiresAt": "2026-11-16T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1565104104387117178/1565670655431549129.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1565104104387117178/1565670655846916106.jpg",
       "rewardCount": 1
     }
   ]
