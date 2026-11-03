@@ -1,6 +1,6 @@
 {
   "578719": "Help players find sessions that match their vibe by selecting from pre-defined tags",
-  "bottom": "left",
+  "bottom": "top",
   "hidden": "visible",
   "deafen": "undeafen",
   "camera": "cameraphotoselfiesnaptbttripvideo",
@@ -32300,5 +32300,7 @@
   "Cei1w4": "Eligible users get discountPercentage",
   "cCl3+a": "Eligible users get discountPercentage",
   "7b+4f6": "Eligible users get discountPercentage",
-  "dueYf1": "Offers vary by eligibility. Redeem with a single-use code. $linkTerms apply"
+  "dueYf1": "Offers vary by eligibility. Redeem with a single-use code. $linkTerms apply",
+  "SHvAer": "Password is hidden.",
+  "agstwg": "Password is visible."
 }
