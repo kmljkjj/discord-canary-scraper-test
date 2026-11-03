@@ -1623,19 +1623,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-04-composed-quest-player",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-04-desktop-notification-center",
     "defaultConfig": {
       "notificationCenterVariant": null,
@@ -2129,19 +2116,6 @@
       },
       "2": {
         "id": 2
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-05-mana-type-consolidation",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
       }
     },
     "label": null

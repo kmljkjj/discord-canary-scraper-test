@@ -1,9 +1,9 @@
 {
-  "runId": "2026-11-03T01-21-10-090Z_661299_nywjkx",
-  "buildNumber": "661299",
-  "scrapedAt": "2026-11-03T01:21:10.091Z",
+  "runId": "2026-11-03T08-11-04-874Z_661845_7w28o4",
+  "buildNumber": "661845",
+  "scrapedAt": "2026-11-03T08:11:04.874Z",
   "totals": {
-    "all": 386
+    "all": 384
   },
   "experiments": [
     {
@@ -2069,23 +2069,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-04-composed-quest-player",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
-      "source": "discord"
-    },
-    {
       "id": "2026-04-desktop-notification-center",
       "type": "user",
       "kind": "user",
@@ -2718,23 +2701,6 @@
         }
       },
       "variationCount": 2,
-      "source": "discord"
-    },
-    {
-      "id": "2026-05-mana-type-consolidation",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 1,
       "source": "discord"
     },
     {

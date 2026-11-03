@@ -1,8 +1,8 @@
 {
-  "runId": "2026-11-03T01-21-10-090Z_661299_nywjkx",
-  "buildNumber": "661299",
-  "updatedAt": "2026-11-03T01:21:10.091Z",
-  "count": 386,
+  "runId": "2026-11-03T08-11-04-874Z_661845_7w28o4",
+  "buildNumber": "661845",
+  "updatedAt": "2026-11-03T08:11:04.874Z",
+  "count": 384,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -3277,34 +3277,6 @@
       "fingerprint": "945fa8bc2ca25746beb651216279617d26fd100aec8d95961d4ce3cf741cc7f0"
     },
     {
-      "id": "2026-04-composed-quest-player",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "2d2b98eac48d158fc17529211ff8c338b9d8c96210b711686dfd4c27ea49c71c"
-    },
-    {
       "id": "2026-04-desktop-notification-center",
       "kind": "user",
       "type": "user",
@@ -4313,34 +4285,6 @@
         "value": null
       },
       "fingerprint": "dc2f0e8afc1a71d31d371aa8cf44bdba09c14bff2f00e2ac0844210c032956f3"
-    },
-    {
-      "id": "2026-05-mana-type-consolidation",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "1": {
-          "id": 1
-        }
-      },
-      "treatments": null,
-      "variationCount": 1,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "a77dbc4846cc9be478cfa16b10b92f9071df1f7c0feed88565cdcad9806a797c"
     },
     {
       "id": "2026-05-quest-home-tile-redesign",
