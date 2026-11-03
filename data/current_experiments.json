@@ -1,8 +1,8 @@
 {
-  "runId": "2026-11-02T18-45-59-296Z_660447_zrxaxa",
-  "buildNumber": "660447",
-  "updatedAt": "2026-11-02T18:45:59.296Z",
-  "count": 385,
+  "runId": "2026-11-03T01-21-10-090Z_661299_nywjkx",
+  "buildNumber": "661299",
+  "updatedAt": "2026-11-03T01:21:10.091Z",
+  "count": 386,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -6254,6 +6254,28 @@
       "fingerprint": "95be977092a6e020f6a53c39333c7619181f93e1bb0bee36668acac7ed39ce42"
     },
     {
+      "id": "2026-08-android-rn-reparenting-flag",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": null,
+      "variations": null,
+      "treatments": null,
+      "variationCount": 0,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "09504c642c2411a625f73c4e5f4f7409b0b1d7b193278b78906d353b096c1915"
+    },
+    {
       "id": "2026-08-audio-fidelity",
       "kind": "user",
       "type": "user",
@@ -11478,28 +11500,6 @@
       "fingerprint": "e41f7f44fefa63d3af45d16e087c5aca14d24d2e2b8c81180949ef998a1fe004"
     },
     {
-      "id": "2026-10-wasm-precompressed-brotli",
-      "kind": "user",
-      "type": "user",
-      "system": "apex",
-      "label": null,
-      "title": null,
-      "description": null,
-      "defaultConfig": null,
-      "variations": null,
-      "treatments": null,
-      "variationCount": 0,
-      "guildPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "userPercentage": {
-        "status": "unknown",
-        "value": null
-      },
-      "fingerprint": "47c47dba77cab369fd565877c6da5a66d5f92c844cbabc5898a443ef1ab2b4c0"
-    },
-    {
       "id": "2026-10-web-screen-share-audio",
       "kind": "user",
       "type": "user",
@@ -11602,6 +11602,37 @@
         "value": null
       },
       "fingerprint": "4044f1c914f6acbf4075b2042253fd889b021374a9e00685ec48d6769c4bcd10"
+    },
+    {
+      "id": "2026-11-waterwheels-discover",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "d2d00091b9969d5225c20043484772b79a883deecc12d90f717474e8b9dd2029"
     }
   ]
 }

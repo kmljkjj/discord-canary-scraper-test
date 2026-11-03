@@ -3112,6 +3112,13 @@
   },
   {
     "kind": "user",
+    "name": "2026-08-android-rn-reparenting-flag",
+    "defaultConfig": null,
+    "variations": null,
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-08-audio-fidelity",
     "defaultConfig": {
       "capSampleRate": false,
@@ -5756,13 +5763,6 @@
   },
   {
     "kind": "user",
-    "name": "2026-10-wasm-precompressed-brotli",
-    "defaultConfig": null,
-    "variations": null,
-    "label": null
-  },
-  {
-    "kind": "user",
     "name": "2026-10-web-screen-share-audio",
     "defaultConfig": {
       "enabled": false
@@ -5809,6 +5809,22 @@
     "name": "2026-11-nitro-upload-badge",
     "defaultConfig": {
       "showNitroUploadBadge": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-11-waterwheels-discover",
+    "defaultConfig": {
+      "enabled": false
     },
     "variations": {
       "0": {

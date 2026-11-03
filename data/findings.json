@@ -1,9 +1,9 @@
 {
-  "runId": "2026-11-02T18-45-59-296Z_660447_zrxaxa",
-  "buildNumber": "660447",
-  "scrapedAt": "2026-11-02T18:45:59.296Z",
+  "runId": "2026-11-03T01-21-10-090Z_661299_nywjkx",
+  "buildNumber": "661299",
+  "scrapedAt": "2026-11-03T01:21:10.091Z",
   "totals": {
-    "all": 385
+    "all": 386
   },
   "experiments": [
     {
@@ -3954,6 +3954,17 @@
       "source": "discord"
     },
     {
+      "id": "2026-08-android-rn-reparenting-flag",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": null,
+      "variations": null,
+      "variationCount": 0,
+      "source": "discord"
+    },
+    {
       "id": "2026-08-audio-fidelity",
       "type": "user",
       "kind": "user",
@@ -7286,17 +7297,6 @@
       "source": "discord"
     },
     {
-      "id": "2026-10-wasm-precompressed-brotli",
-      "type": "user",
-      "kind": "user",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": null,
-      "variations": null,
-      "variationCount": 0,
-      "source": "discord"
-    },
-    {
       "id": "2026-10-web-screen-share-audio",
       "type": "user",
       "kind": "user",
@@ -7355,6 +7355,26 @@
       "system": "apex",
       "defaultConfig": {
         "showNitroUploadBadge": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "variationCount": 2,
+      "source": "discord"
+    },
+    {
+      "id": "2026-11-waterwheels-discover",
+      "type": "user",
+      "kind": "user",
+      "label": null,
+      "system": "apex",
+      "defaultConfig": {
+        "enabled": false
       },
       "variations": {
         "0": {
