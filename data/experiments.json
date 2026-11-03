@@ -1,11 +1,11 @@
 {
-  "runId": "2026-11-03T16-16-54-303Z_662106_8fz6c0",
-  "buildNumber": "662106",
-  "scrapedAt": "2026-11-03T16:16:54.304Z",
+  "runId": "2026-11-03T21-51-31-444Z_662823_63xe8f",
+  "buildNumber": "662823",
+  "scrapedAt": "2026-11-03T21:51:31.444Z",
   "totals": {
-    "all": 384,
+    "all": 383,
     "legacy": 0,
-    "apex": 384
+    "apex": 383
   },
   "experiments": [
     {
@@ -4814,26 +4814,6 @@
         }
       },
       "variationCount": 1,
-      "source": "discord"
-    },
-    {
-      "id": "2026-09-guild-sidebar-stream-preview",
-      "type": "guild",
-      "kind": "guild",
-      "label": null,
-      "system": "apex",
-      "defaultConfig": {
-        "enabled": false
-      },
-      "variations": {
-        "0": {
-          "id": 0
-        },
-        "1": {
-          "id": 1
-        }
-      },
-      "variationCount": 2,
       "source": "discord"
     },
     {
