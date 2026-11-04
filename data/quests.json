@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-11-03T22:02:05.162Z",
-  "count": 42,
+  "scrapedAt": "2026-11-04T02:14:29.263Z",
+  "count": 35,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -620,54 +620,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1562915304299044884",
-      "name": "Scary Shawarma Kiosk: the ANOMALY",
-      "expiresAt": "2026-11-04T01:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1562915304299044884/1562916714637820107_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1562915304299044884/1562916626670817380.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1555736600657395752",
-      "name": "Scary Shawarma Kiosk: the ANOMALY",
-      "expiresAt": "2026-11-04T01:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1555736600657395752/1562928000738263281_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1555736600657395752/1562927897835077732.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1555737927445782598",
-      "name": "Scary Shawarma Kiosk: the ANOMALY",
-      "expiresAt": "2026-11-04T01:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1555737927445782598/1562932141443121152_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1555737927445782598/1562932040834490518.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1562173737434882150",
-      "name": "Scary Shawarma Kiosk: the ANOMALY",
-      "expiresAt": "2026-11-04T01:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1562173737434882150/1562930766260863027_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1562173737434882150/1562930686921285642.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1562174323802898584",
-      "name": "Scary Shawarma Kiosk: the ANOMALY",
-      "expiresAt": "2026-11-04T01:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1562174323802898584/1562928630521139282_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1562174323802898584/1562928517337981018.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1562169044583448737",
-      "name": "Scary Shawarma Kiosk: the ANOMALY",
-      "expiresAt": "2026-11-04T01:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1558179570098765887/1559969023855304744_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1562169044583448737/1562933458987257917.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1561852480378249308",
       "name": "Stick Season 2",
       "expiresAt": "2026-11-04T04:59:00+00:00",
@@ -689,14 +641,6 @@
       "expiresAt": "2026-11-07T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1564651257845780511/1564653233157177385_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1564651257845780511/1564653179495514183.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552869482471358576",
-      "name": "World of Warcraft: Forever Video",
-      "expiresAt": "2026-11-04T01:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552869482471358576/1564405001558950059_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1552869482471358576/1555025732714111087.jpg",
       "rewardCount": 1
     },
     {
