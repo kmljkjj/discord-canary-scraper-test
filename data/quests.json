@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-11-04T17:27:35.306Z",
-  "count": 33,
+  "scrapedAt": "2026-11-04T22:49:18.407Z",
+  "count": 38,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -512,7 +512,12 @@
     "1565142128504602665",
     "1565135226299097159",
     "1565095257710927944",
-    "1565104104387117178"
+    "1565104104387117178",
+    "1560129865536241664",
+    "1552381793074675762",
+    "1552038438684074094",
+    "1562135550385852551",
+    "1565214355706875945"
   ],
   "quests": [
     {
@@ -777,6 +782,46 @@
       "expiresAt": "2026-11-16T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1565104104387117178/1565670655431549129.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1565104104387117178/1565670655846916106.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1560129865536241664",
+      "name": "KOF: Legend",
+      "expiresAt": "2026-11-17T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1560129865536241664/1562002757475373077_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1560129865536241664/1562308922831015977.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552381793074675762",
+      "name": "MapleStory Classic World",
+      "expiresAt": "2026-11-19T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552381793074675762/1565075987052494900_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1552381793074675762/1565076247112061089.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552038438684074094",
+      "name": "Beat The Kobayashi Maru",
+      "expiresAt": "2026-11-16T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552038438684074094/1566882725074305094_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1552038438684074094/1566882807555432582.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1562135550385852551",
+      "name": "Stick Season 2",
+      "expiresAt": "2026-11-09T04:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1562135550385852551/1564742679018082506_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1562135550385852551/1564741946122178681.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1565214355706875945",
+      "name": "Resident Evil",
+      "expiresAt": "2026-11-10T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1565214355706875945/1565215148623400980_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1565214355706875945/1565216913330675712.jpg",
       "rewardCount": 1
     }
   ]
