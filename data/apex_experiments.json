@@ -3620,6 +3620,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-09-declarative-notification-settings-redesign",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-09-default-emojis",
     "defaultConfig": {
       "enabled": false

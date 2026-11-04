@@ -1,8 +1,8 @@
 {
-  "runId": "2026-11-04T08-10-32-112Z_663787_io342w",
-  "buildNumber": "663787",
-  "updatedAt": "2026-11-04T08:10:32.112Z",
-  "count": 382,
+  "runId": "2026-11-04T16-21-19-887Z_664027_dy7dxg",
+  "buildNumber": "664027",
+  "updatedAt": "2026-11-04T16:21:19.887Z",
+  "count": 383,
   "experiments": [
     {
       "id": "2021-02_staff_qc_debugging",
@@ -7240,6 +7240,37 @@
         "value": null
       },
       "fingerprint": "b9edfe3e7151d9835a92361504669cdd870df6dd25747e28d4eb6cff8eb34d2b"
+    },
+    {
+      "id": "2026-09-declarative-notification-settings-redesign",
+      "kind": "user",
+      "type": "user",
+      "system": "apex",
+      "label": null,
+      "title": null,
+      "description": null,
+      "defaultConfig": {
+        "enabled": false
+      },
+      "variations": {
+        "0": {
+          "id": 0
+        },
+        "1": {
+          "id": 1
+        }
+      },
+      "treatments": null,
+      "variationCount": 2,
+      "guildPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "userPercentage": {
+        "status": "unknown",
+        "value": null
+      },
+      "fingerprint": "b84b1d1460bbe59ef15e6a24215005169dde66c22238b6589e253e25fae0dd16"
     },
     {
       "id": "2026-09-default-emojis",
