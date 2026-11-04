@@ -1,6 +1,6 @@
 {
   "578719": "Help players find sessions that match their vibe by selecting from pre-defined tags",
-  "bottom": "left",
+  "bottom": "top",
   "hidden": "visible",
   "deafen": "undeafen",
   "camera": "cameraphotoselfiesnaptbttripvideo",
@@ -792,7 +792,6 @@
   "ePk/Cf": "Your feedback helps us improve your experience.",
   "ppfH9+": "How was your experience with ICYMI?",
   "Ay8iwx": "Too much content",
-  "3wDyfQ": "Filter content from employee servers",
   "HT2IlL": "Forward",
   "xIUfJS": "Forward Message",
   "yNWCsH": "posted something you might like",
@@ -801,7 +800,6 @@
   "BZJcGj": "Shared",
   "UyvklE": "Go to Channel",
   "AgG8c6": "Go to Chat",
-  "YplSn2": "Hard Refresh",
   "6+JeWa": "Shared Highlight",
   "2ih63V": "posted an announcement.",
   "E0MW8I": "posted an announcement that mentioned everyone.",
@@ -32358,5 +32356,8 @@
   "t8GlRz": "Your app is still on hold: reason",
   "HsOGKK": "Reviewing your app. This can take a minute.",
   "nmwy0/": "Request review",
-  "FxilA2": "The review couldn’t run right now. Try again in a bit."
+  "FxilA2": "The review couldn’t run right now. Try again in a bit.",
+  "GDbtb6": "Reload widget",
+  "Hvyhm9": "New version available. Reload widget",
+  "yizhZK": "Your gift is on its way to"
 }
