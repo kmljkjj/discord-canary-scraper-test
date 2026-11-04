@@ -3396,6 +3396,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-08-social-layer-storefront-mobile-embed",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-08-split-payments",
     "defaultConfig": {
       "enabled": false
@@ -4431,19 +4447,6 @@
       },
       "2": {
         "id": 2
-      }
-    },
-    "label": null
-  },
-  {
-    "kind": "user",
-    "name": "2026-09-stream-zero-vad-leading",
-    "defaultConfig": {
-      "enabled": false
-    },
-    "variations": {
-      "1": {
-        "id": 1
       }
     },
     "label": null
@@ -5630,6 +5633,22 @@
   },
   {
     "kind": "user",
+    "name": "2026-10-social-layer-storefront-mobile-multi-sku-embed",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "id": 0
+      },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
     "name": "2026-10-soundboard-mute-indicator",
     "defaultConfig": {
       "enabled": false
@@ -5713,6 +5732,19 @@
       "0": {
         "id": 0
       },
+      "1": {
+        "id": 1
+      }
+    },
+    "label": null
+  },
+  {
+    "kind": "user",
+    "name": "2026-10-voice-quality-scoring",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
       "1": {
         "id": 1
       }
