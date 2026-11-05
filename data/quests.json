@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-11-05T02:56:49.588Z",
-  "count": 49,
+  "scrapedAt": "2026-11-05T10:41:23.735Z",
+  "count": 48,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -572,14 +572,6 @@
       "expiresAt": "2026-11-08T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1554696065704529930/1565737717067812884_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1554696065704529930/1565737636289585295.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552381063475499109",
-      "name": "MapleStory Classic World Trailer",
-      "expiresAt": "2026-11-05T07:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552381063475499109/1562119313962573855_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1552381063475499109/1560450190991826955.jpg",
       "rewardCount": 1
     },
     {
