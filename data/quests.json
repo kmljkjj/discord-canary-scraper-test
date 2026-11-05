@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-11-05T18:18:27.886Z",
-  "count": 48,
+  "scrapedAt": "2026-11-05T23:44:11.900Z",
+  "count": 60,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -531,7 +531,19 @@
     "1567213028401750107",
     "1567229882713378928",
     "1567044620804825209",
-    "1567211003173937273"
+    "1567211003173937273",
+    "1567288099795374120",
+    "1567431461559078952",
+    "1564479754147594341",
+    "1565688209650884639",
+    "1565686679119855649",
+    "1565685505352409129",
+    "1565686352622784553",
+    "1565684623369838673",
+    "1565687563925196883",
+    "1565684908595355741",
+    "1565687137360416899",
+    "1565688527361020035"
   ],
   "quests": [
     {
@@ -688,7 +700,7 @@
     },
     {
       "id": "1557605191304609863",
-      "name": "eスポーツ高等学院",
+      "name": "𝖾スポーツ高等学院",
       "expiresAt": "2026-11-28T14:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1557605191304609863/1560142808881438750_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1557605191304609863/1557606224013430804.jpg",
@@ -916,6 +928,102 @@
       "expiresAt": "2026-11-19T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1567211003173937273/1567425632173035601_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1567211003173937273/1567425717590036610.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1567288099795374120",
+      "name": "Anno 117 | 40% Off",
+      "expiresAt": "2026-11-19T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567288099795374120/1567318702414626867_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567288099795374120/1567318201258348676.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1567431461559078952",
+      "name": "KARŌSHI Trailer",
+      "expiresAt": "2026-11-10T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567431461559078952/1567433759479955536_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567431461559078952/1567433714617557023.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1564479754147594341",
+      "name": "Audible Exoplanet",
+      "expiresAt": "2026-11-13T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1564479754147594341/1564484000930725898_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1564479754147594341/1564484000674873436.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1565688209650884639",
+      "name": "Apocalipsis Z",
+      "expiresAt": "2026-11-13T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1565688209650884639/1567582623952543865_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1565688209650884639/1567455062014296115.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1565686679119855649",
+      "name": "Apocalipsis Z",
+      "expiresAt": "2026-11-13T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1565686679119855649/1567582794736078848_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1565686679119855649/1567460274145992755.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1565685505352409129",
+      "name": "Apocalipsis Z",
+      "expiresAt": "2026-11-13T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1565685505352409129/1567458888075448370_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1565685505352409129/1567458887974649866.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1565686352622784553",
+      "name": "Apocalipsis Z",
+      "expiresAt": "2026-11-13T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1565686352622784553/1567582836825923614_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1565686352622784553/1567458127069061231.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1565684623369838673",
+      "name": "Apocalipsis Z",
+      "expiresAt": "2026-11-13T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1565684623369838673/1567582955344363722_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1565684623369838673/1567457485714100274.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1565687563925196883",
+      "name": "Apocalipsis Z",
+      "expiresAt": "2026-11-13T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1565687563925196883/1567582704109625495_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1565687563925196883/1567456163916947528.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1565684908595355741",
+      "name": "Apocalipsis Z",
+      "expiresAt": "2026-11-13T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1565684908595355741/1567582904115142776_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1565684908595355741/1567453851773308978.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1565687137360416899",
+      "name": "Apocalipsis Z",
+      "expiresAt": "2026-11-13T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1565687137360416899/1567582750180122805_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1565687137360416899/1567454439025934466.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1565688527361020035",
+      "name": "Apocalipsis Z",
+      "expiresAt": "2026-11-13T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1565688527361020035/1567580609981980743_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1565688527361020035/1567297272570576997.jpg",
       "rewardCount": 1
     }
   ]
