@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-11-04T22:49:18.407Z",
-  "count": 38,
+  "scrapedAt": "2026-11-05T02:56:49.588Z",
+  "count": 49,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -517,7 +517,21 @@
     "1552381793074675762",
     "1552038438684074094",
     "1562135550385852551",
-    "1565214355706875945"
+    "1565214355706875945",
+    "1562249301252645008",
+    "1552876032875560980",
+    "1552815635506008175",
+    "1567032464046559233",
+    "1567230969730179103",
+    "1567066771570032681",
+    "1567218676527140916",
+    "1567236419095892040",
+    "1567041162999504977",
+    "1567238277797384276",
+    "1567213028401750107",
+    "1567229882713378928",
+    "1567044620804825209",
+    "1567211003173937273"
   ],
   "quests": [
     {
@@ -561,17 +575,9 @@
       "rewardCount": 1
     },
     {
-      "id": "1560042472560787507",
-      "name": "Resident Evil Sale",
-      "expiresAt": "2026-11-05T01:00:00+00:00",
-      "videoUrl": null,
-      "heroImage": "https://cdn.discordapp.com/quests/1560042472560787507/1560046579577262140.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1552381063475499109",
       "name": "MapleStory Classic World Trailer",
-      "expiresAt": "2026-11-05T01:00:00+00:00",
+      "expiresAt": "2026-11-05T07:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1552381063475499109/1562119313962573855_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1552381063475499109/1560450190991826955.jpg",
       "rewardCount": 1
@@ -606,14 +612,6 @@
       "expiresAt": "2026-11-10T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1549087389715013632/1557060836776869971_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1549087389715013632/1557062659436839012.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1562882129065410582",
-      "name": "Resident Evil Sale",
-      "expiresAt": "2026-11-05T01:00:00+00:00",
-      "videoUrl": null,
-      "heroImage": "https://cdn.discordapp.com/quests/1560042472560787507/1560046579577262140.jpg",
       "rewardCount": 1
     },
     {
@@ -721,14 +719,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1562169814540353659",
-      "name": "12 12 12",
-      "expiresAt": "2026-11-12T23:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1562169814540353659/1564353299669581994_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1562169814540353659/1564352773909389403.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1554270219080568932",
       "name": "How To Rob A Bank",
       "expiresAt": "2026-11-16T01:00:00+00:00",
@@ -795,9 +785,17 @@
     {
       "id": "1552381793074675762",
       "name": "MapleStory Classic World",
-      "expiresAt": "2026-11-19T01:00:00+00:00",
+      "expiresAt": "2026-11-19T07:59:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1552381793074675762/1565075987052494900_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1552381793074675762/1565076247112061089.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1562249301252645008",
+      "name": "FINAL FANTASY XIV: Evercold",
+      "expiresAt": "2026-11-12T07:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1562249301252645008/1567686748882997288_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1562249301252645008/1566918347931521064.jpg",
       "rewardCount": 1
     },
     {
@@ -822,6 +820,110 @@
       "expiresAt": "2026-11-10T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1565214355706875945/1565215148623400980_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1565214355706875945/1565216913330675712.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552876032875560980",
+      "name": "World of Warcraft: Forever Play",
+      "expiresAt": "2026-11-19T01:00:00+00:00",
+      "videoUrl": null,
+      "heroImage": "https://cdn.discordapp.com/quests/1552876032875560980/1563326884849127464.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552815635506008175",
+      "name": "Forge The Ring",
+      "expiresAt": "2026-11-19T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552815635506008175/1567420191145594940_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1552815635506008175/1567420269931532298.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1567032464046559233",
+      "name": "Forge The Ring",
+      "expiresAt": "2026-11-19T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567032464046559233/1567428264040075316_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567032464046559233/1567428335905013790.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1567230969730179103",
+      "name": "Smeed de Ring",
+      "expiresAt": "2026-11-19T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567230969730179103/1567421098931257374_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567230969730179103/1567421173682147338.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1567066771570032681",
+      "name": "Forge The Ring",
+      "expiresAt": "2026-11-19T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567066771570032681/1567426167856697415_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567066771570032681/1567426237884928050.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1567218676527140916",
+      "name": "Forger l’Anneau",
+      "expiresAt": "2026-11-19T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567218676527140916/1567423987187720332_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567218676527140916/1567424110592790619.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1567236419095892040",
+      "name": "Smid Ringen",
+      "expiresAt": "2026-11-19T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567236419095892040/1567420503470243990_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567236419095892040/1567420581643681852.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1567041162999504977",
+      "name": "Forjar el Anillo",
+      "expiresAt": "2026-11-19T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567041162999504977/1567428014197837824_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567041162999504977/1567428089410097302.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1567238277797384276",
+      "name": "Wykuj Pierścień",
+      "expiresAt": "2026-11-19T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567238277797384276/1567419656900317286_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567211003173937273/1567212555280064605.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1567213028401750107",
+      "name": "Den Ring schmieden",
+      "expiresAt": "2026-11-19T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567213028401750107/1567424320907776030_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567213028401750107/1567424398934409237.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1567229882713378928",
+      "name": "Forjar el Anillo",
+      "expiresAt": "2026-11-19T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567229882713378928/1567421387319021618_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567229882713378928/1567421918963961856.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1567044620804825209",
+      "name": "Forjar el Anillo",
+      "expiresAt": "2026-11-19T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567044620804825209/1567427335748325457_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567044620804825209/1567427407433048114.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1567211003173937273",
+      "name": "Forgia l’Anello",
+      "expiresAt": "2026-11-19T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567211003173937273/1567425632173035601_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567211003173937273/1567425717590036610.jpg",
       "rewardCount": 1
     }
   ]
