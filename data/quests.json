@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-11-05T23:44:11.900Z",
-  "count": 60,
+  "scrapedAt": "2026-11-06T03:43:01.113Z",
+  "count": 59,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -648,14 +648,6 @@
       "expiresAt": "2026-11-09T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1557996162189893723/1565144354702758158_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1557996162189893723/1565140375390134323.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1557935197906010122",
-      "name": "Rust Zombie Wumpus",
-      "expiresAt": "2026-11-06T01:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1557935197906010122/1562976769286340710_1080.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1557935197906010122/1562976463391690774.jpg",
       "rewardCount": 1
     },
     {
