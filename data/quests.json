@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-11-06T03:43:01.113Z",
-  "count": 59,
+  "scrapedAt": "2026-11-06T11:36:31.867Z",
+  "count": 58,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -622,7 +622,7 @@
       "id": "1557974434269364336",
       "name": "Wild Horse Nine",
       "expiresAt": "2026-11-09T01:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1557974434269364336/1563269971419730060_1080.mp4",
+      "videoUrl": "https://cdn.discordapp.com/quests/1557974434269364336/1563269971621187644_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1557974434269364336/1563239403139371089.jpg",
       "rewardCount": 1
     },
@@ -683,14 +683,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1565032458741612545",
-      "name": "EA SPORTS FC™ 27",
-      "expiresAt": "2026-11-06T07:59:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1565032458741612545/1565734164550918225_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1565032458741612545/1565734112290021407.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1557605191304609863",
       "name": "𝖾スポーツ高等学院",
       "expiresAt": "2026-11-28T14:59:00+00:00",
@@ -701,7 +693,7 @@
     {
       "id": "1555626480397066361",
       "name": "FanDuel Everywhere",
-      "expiresAt": "2026-12-01T07:59:00+00:00",
+      "expiresAt": "2026-11-30T21:45:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1547370886645026876/1547372029488009306_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1547370886645026876/1547373049173639258.jpg",
       "rewardCount": 1
@@ -709,7 +701,7 @@
     {
       "id": "1555627291764330547",
       "name": "FanDuel Everywhere",
-      "expiresAt": "2026-12-01T07:59:00+00:00",
+      "expiresAt": "2026-11-30T21:40:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1547370886645026876/1547372029488009306_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1547370886645026876/1547373049173639258.jpg",
       "rewardCount": 1
