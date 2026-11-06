@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-11-06T18:28:12.844Z",
-  "count": 58,
+  "scrapedAt": "2026-11-06T23:27:39.227Z",
+  "count": 64,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -543,7 +543,13 @@
     "1565687563925196883",
     "1565684908595355741",
     "1565687137360416899",
-    "1565688527361020035"
+    "1565688527361020035",
+    "1565824572396277880",
+    "1567679380166156430",
+    "1567609063297130518",
+    "1568037471114240091",
+    "1568038338764611705",
+    "1567608287904669847"
   ],
   "quests": [
     {
@@ -1008,6 +1014,54 @@
       "expiresAt": "2026-11-13T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1565688527361020035/1567580609981980743_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1565688527361020035/1567297272570576997.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1565824572396277880",
+      "name": "Call of Duty: Modern Warfare 4",
+      "expiresAt": "2026-11-21T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1565824572396277880/1565842237160689674_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1565824572396277880/1565841949166932089.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1567679380166156430",
+      "name": "Basketball Zero",
+      "expiresAt": "2026-11-16T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567679380166156430/1567680322848694384_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567679380166156430/1567680260659748964.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1567609063297130518",
+      "name": "Basketball Zero",
+      "expiresAt": "2026-11-16T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567609063297130518/1567681696114016276_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567609063297130518/1567681467486576732.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1568037471114240091",
+      "name": "Bola Basket: Nol",
+      "expiresAt": "2026-11-16T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567609063297130518/1567681696114016276_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567609063297130518/1567681467486576732.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1568038338764611705",
+      "name": "Koszykówka: Zero",
+      "expiresAt": "2026-11-16T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567609063297130518/1567681696114016276_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567609063297130518/1567681467486576732.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1567608287904669847",
+      "name": "Basketball Null",
+      "expiresAt": "2026-11-16T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567608287904669847/1567685011677646899_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567608287904669847/1567684941083447398.jpg",
       "rewardCount": 1
     }
   ]
