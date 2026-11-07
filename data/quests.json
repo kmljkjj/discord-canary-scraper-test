@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-11-06T23:27:39.227Z",
-  "count": 64,
+  "scrapedAt": "2026-11-07T03:07:39.614Z",
+  "count": 66,
   "ids": [
     "1509675158363963444",
     "1532531590243287131",
@@ -549,7 +549,13 @@
     "1567609063297130518",
     "1568037471114240091",
     "1568038338764611705",
-    "1567608287904669847"
+    "1567608287904669847",
+    "1552904206590156840",
+    "1553084092290171081",
+    "1556758186453770271",
+    "1568036992837484636",
+    "1568015615690678364",
+    "1568037813402730617"
   ],
   "quests": [
     {
@@ -567,14 +573,6 @@
       "videoUrl": null,
       "heroImage": "https://cdn.discordapp.com/quests/1223393873447878656/hero.png",
       "rewardCount": 2
-    },
-    {
-      "id": "1552893313500184617",
-      "name": "Call of Duty: Modern Warfare 4",
-      "expiresAt": "2026-11-07T01:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552893313500184617/1559713399598751744_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1552893313500184617/1559713299635904542.jpg",
-      "rewardCount": 1
     },
     {
       "id": "1554689886835966094",
@@ -601,22 +599,6 @@
       "rewardCount": 1
     },
     {
-      "id": "1552895954753945620",
-      "name": "Call of Duty: Modern Warfare 4",
-      "expiresAt": "2026-11-07T01:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552895954753945620/1562259114036305920_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1552895954753945620/1562258909522300978.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1552895020724527125",
-      "name": "Call of Duty: Modern Warfare 4",
-      "expiresAt": "2026-11-07T01:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1552895020724527125/1562256423583350824_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1552895020724527125/1562256208717414440.jpg",
-      "rewardCount": 1
-    },
-    {
       "id": "1549087389715013632",
       "name": "Xfinity Imagine That",
       "expiresAt": "2026-11-10T01:00:00+00:00",
@@ -630,14 +612,6 @@
       "expiresAt": "2026-11-09T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1557974434269364336/1563269971621187644_1080.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1557974434269364336/1563239403139371089.jpg",
-      "rewardCount": 1
-    },
-    {
-      "id": "1564651257845780511",
-      "name": "99 Nights in the Forest",
-      "expiresAt": "2026-11-07T01:00:00+00:00",
-      "videoUrl": "https://cdn.discordapp.com/quests/1564651257845780511/1564653233157177385_720.mp4",
-      "heroImage": "https://cdn.discordapp.com/quests/1564651257845780511/1564653179495514183.jpg",
       "rewardCount": 1
     },
     {
@@ -1062,6 +1036,54 @@
       "expiresAt": "2026-11-16T01:00:00+00:00",
       "videoUrl": "https://cdn.discordapp.com/quests/1567608287904669847/1567685011677646899_720.mp4",
       "heroImage": "https://cdn.discordapp.com/quests/1567608287904669847/1567684941083447398.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1552904206590156840",
+      "name": "Greatness is Building",
+      "expiresAt": "2026-12-01T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1552904206590156840/1553159111250681916_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1552904206590156840/1553159954028953605.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1553084092290171081",
+      "name": "Grand Theft Auto VI",
+      "expiresAt": "2026-11-19T07:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1553084092290171081/1566871845167173784_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1553084092290171081/1566905963980652574.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1556758186453770271",
+      "name": "Grand Theft Auto VI",
+      "expiresAt": "2026-11-19T07:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1556758186453770271/1568006306500059297_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1556758186453770271/1568323494423437322.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1568036992837484636",
+      "name": "บาสเกตบอล: ศูนย์",
+      "expiresAt": "2026-11-16T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567609063297130518/1567681696114016276_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567609063297130518/1567681467486576732.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1568015615690678364",
+      "name": "Grand Theft Auto VI",
+      "expiresAt": "2026-11-19T07:59:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1556758186453770271/1568006306575425626_1080.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1568015615690678364/1568323444976914522.jpg",
+      "rewardCount": 1
+    },
+    {
+      "id": "1568037813402730617",
+      "name": "Baloncesto: Cero",
+      "expiresAt": "2026-11-16T01:00:00+00:00",
+      "videoUrl": "https://cdn.discordapp.com/quests/1567609063297130518/1567681696114016276_720.mp4",
+      "heroImage": "https://cdn.discordapp.com/quests/1567609063297130518/1567681467486576732.jpg",
       "rewardCount": 1
     }
   ]
